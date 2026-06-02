@@ -1,0 +1,429 @@
+{
+  "@context": {
+    "@vocab": "https://example.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://cir4fun.eu/data#information_model_0c7b5be5",
+      "@type": "http://www.w3id.org/pdto#InformationModel",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information model of OVO Legs Kit with ID 0c7b5be5",
+      "http://www.w3.org/2000/01/rdf-schema#label": "informationModel_OVO_Legs_Kit_0c7b5be5",
+      "http://www.w3id.org/pdto#modelAggregatedFrom": [
+        {
+          "@id": "https://cir4fun.eu/data#aspect_sm-fa6492f04735"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#aspect_sm-44612994e6a7"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Length"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_ga7RqZ",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Smooth",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Surface with ID ga7RqZ",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Surface_ga7RqZ",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_FwdxwU",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Diameter with ID FwdxwU",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Diameter_FwdxwU",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_sm-fa6492f04735",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Characteristics",
+      "http://schema.org/name": "Characteristics",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Characteristics with ID sm-fa6492f04735",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Characteristics_sm-fa6492f04735",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#info_A0fWdR"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_lV1jSx"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_cng0UR"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_FwdxwU"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_hoDqvy"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_21W142"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_wafsgz"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_ga7RqZ"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_J6GrE3"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_o0pImm"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Payload",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Payload"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Volumn"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Surface"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_hoDqvy",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Weight with ID hoDqvy",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Weight_hoDqvy",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#hasInformation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_ZancbV",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "OVO Legs Kit",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductDesignation with ID ZancbV",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductDesignation_ZancbV",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Weight"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Diameter"
+    },
+    {
+      "@id": "Email_contact_Tw7j7c",
+      "@type": "http://www.w3.org/2006/vcard/ns#Email",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Email information with ID Tw7j7c",
+      "http://www.w3.org/2000/01/rdf-schema#label": "email__Tw7j7c",
+      "http://www.w3id.org/pdto#emailAddress": "export@mincuna.com",
+      "http://www.w3id.org/pdto#typeOfEmail": "Customer Service"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Height"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digital_product_0c7b5be5",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID 0c7b5be5",
+      "http://www.w3.org/2000/01/rdf-schema#label": "sphereDigital_0c7b5be5",
+      "https://w3id.org/def/dtw#hasModel": {
+        "@id": "https://cir4fun.eu/data#information_model_0c7b5be5"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#",
+      "@type": "http://www.w3.org/2002/07/owl#Ontology",
+      "http://www.w3.org/2002/07/owl#imports": {
+        "@id": "https://dpp4fun.pkgi40.codelib.re/dpp4fun.owl"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_8Cggod",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Micuna S.A.",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerName with ID 8Cggod",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerName_8Cggod",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_sm-44612994e6a7",
+      "@type": "http://www.w3id.org/pdto#Nameplate",
+      "http://schema.org/name": "Nameplate",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Nameplate with ID sm-44612994e6a7",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Nameplate_sm-44612994e6a7",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#info_8Cggod"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_korLv9"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_ZancbV"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#Contact_36qQNa"
+        }
+      ]
+    },
+    {
+      "@id": "https://cir4fun.eu/data#dpp_0c7b5be5",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#DigitalProductPassport",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product Passport instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID 0c7b5be5",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalProductPassport_0c7b5be5",
+      "https://w3id.org/def/dtw#hasDigitalEntity": {
+        "@id": "https://cir4fun.eu/data#digital_product_0c7b5be5"
+      },
+      "https://w3id.org/def/dtw#hasPhysicalEntity": {
+        "@id": "https://cir4fun.eu/data#product_0c7b5be5"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_21W142",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volumn with ID 21W142",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volumn_21W142",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_korLv9",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "OVO Original City",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductFamily with ID korLv9",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductFamily_korLv9",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_A0fWdR",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": 32,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Length with ID A0fWdR",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Length_A0fWdR",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#clarifiedProperty",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#hasFeatureHaha",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#modelAggregatedFrom",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "Address_Contact_gps0Pj",
+      "@type": "http://www.w3.org/2006/vcard/ns#Address",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Address information with ID gps0Pj",
+      "http://www.w3.org/2000/01/rdf-schema#label": "address__gps0Pj",
+      "http://www.w3.org/2006/vcard/ns#country-name": "ES",
+      "http://www.w3.org/2006/vcard/ns#locality": "Sollana",
+      "http://www.w3.org/2006/vcard/ns#postal-code": 46430,
+      "http://www.w3.org/2006/vcard/ns#region": "Valencia",
+      "http://www.w3.org/2006/vcard/ns#street-address": "no. 7 Calle Suecia"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerName"
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#hasSimpleValue",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductFamily"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_J6GrE3",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Anthracite grey",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Color with ID J6GrE3",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Color_J6GrE3",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductDesignation"
+    },
+    {
+      "@id": "http://w3id.org/dppo/ontology/dpp-info/value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Color"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Composition",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Composition"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_lV1jSx",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "http://qudt.org/vocab/unit/CentiM"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Width with ID lV1jSx",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Width_lV1jSx",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#thumbnail_qR3ZEi",
+      "@type": "http://schema.org/ImageObject",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Reduced image of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID qR3ZEi",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thumbnail_0c7b5be5_qR3ZEi",
+      "http://www.w3id.org/pdto#hasIRI": {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://www.lesenfantsdudesign.com/media/cache/photos/Visuels/Micuna/s/e/set-pieds-chaise-ovo-city-micuna-4_1264x1234.jpg"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Width"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#product_0c7b5be5",
+      "@type": "http://purl.org/goodrelations/v1#ProductOrServiceModel",
+      "http://purl.org/goodrelations/v1#description": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 0c7b5be5",
+      "http://purl.org/goodrelations/v1#name": "0c7b5be5",
+      "http://schema.org/productID": "0c7b5be5",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Product instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID 0c7b5be5",
+      "http://www.w3.org/2000/01/rdf-schema#label": "spherePhysical_0c7b5be5",
+      "http://www.w3id.org/pdto#hasThumbnail": {
+        "@id": "https://cir4fun.eu/data#thumbnail_qR3ZEi"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_cng0UR",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "http://qudt.org/vocab/unit/CentiM"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Height with ID cng0UR",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Height_cng0UR",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "http://w3id.org/dppo/ontology/dpp-info/unit",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "Phone_Contact_a0jiSu",
+      "@type": "http://www.w3.org/2006/vcard/ns#Phone",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Phone information with ID a0jiSu",
+      "http://www.w3.org/2000/01/rdf-schema#label": "phone__a0jiSu",
+      "http://www.w3id.org/pdto#telephoneNumber": "+34 961 740 946",
+      "http://www.w3id.org/pdto#typeOfTelephone": "Customer Service"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#Contact_36qQNa",
+      "@type": "http://www.w3id.org/pdto#ContactInformation",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Contact information with ID 36qQNa",
+      "http://www.w3.org/2000/01/rdf-schema#label": "contactInformation__36qQNa",
+      "http://www.w3.org/2006/vcard/ns#hasAddress": {
+        "@id": "Address_Contact_gps0Pj"
+      },
+      "http://www.w3.org/2006/vcard/ns#hasEmail": {
+        "@id": "Email_contact_Tw7j7c"
+      },
+      "http://www.w3.org/2006/vcard/ns#hasTelephone": {
+        "@id": "Phone_Contact_a0jiSu"
+      },
+      "http://www.w3.org/2006/vcard/ns#organization-name": "Micuna S.A."
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_o0pImm",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Payload with ID o0pImm",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Payload_o0pImm",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Payload"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_wafsgz",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Beech, 4 feet",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Composition with ID wafsgz",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Composition_wafsgz",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Composition"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"
+      }
+    }
+  ]
+}

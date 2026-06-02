@@ -1,0 +1,70 @@
+{
+  "idShort": "Refurbishment",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Refurbishment",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about refurbishment aspect."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "RefurbishmentInstructionSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of refurbishment instructions."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "RefurbishmentInstruction_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a refurbishment instruction. Each instruction has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the title of the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Reference points to the instruction manual."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the instruction.  "
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

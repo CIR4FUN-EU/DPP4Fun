@@ -1,0 +1,81 @@
+{
+  "idShort": "Upgradability",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Upgradability",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about recyclability evaluation."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "UpgradeOptionsAvailable",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to repsent if upgrade options are available for the product."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "UpgradeInstructionSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of recycling instructions."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "UpgradeInstruction_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a recycling instruction. Each instruction has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the title of the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Reference points to the instruction manual."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the instruction.  "
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

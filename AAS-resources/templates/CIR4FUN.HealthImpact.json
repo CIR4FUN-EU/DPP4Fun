@@ -1,0 +1,103 @@
+{
+  "idShort": "HealthImpact",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/HealthImpact",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about health impact."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "IndicatorSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of indicators.  "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Indicator_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about an indicator. Each indicator has a labeled number between 0 and 99. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the indicator.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Value",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the score value following the indicator."
+                }
+              ],
+              "valueType": "xs:double"
+            },
+            {
+              "idShort": "Unit",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the unit of the value. "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "CalculationMethod",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the method to calculate the score. "
+                }
+              ]
+            },
+            {
+              "idShort": "HazardType",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the hazard type related to the indicator."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the description of the indicator.  "
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

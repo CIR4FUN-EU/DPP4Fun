@@ -1,0 +1,148 @@
+{
+  "idShort": "Reusability",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Reusability",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about reusability."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "SecondHand",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present if the product is secondhand."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "ScoringSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of certificates.  "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Scoring_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a certificate. Each certificate has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the scoring system."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the scoring system.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Value",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the value of the product regarding the scoring method."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the scoring method."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "ScoringInstructionSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of scoring instructions."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "ScoringInstruction_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a scoring instruction. Each instruction has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the title of the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Reference points to the instruction manual."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the instruction.  "
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

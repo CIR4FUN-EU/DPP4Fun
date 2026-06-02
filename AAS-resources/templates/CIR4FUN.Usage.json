@@ -1,0 +1,261 @@
+{
+  "idShort": "Usage",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Usage",
+  "description": [
+    {
+      "language": "en",
+      "text": "Usage information about how a product has been used during its lifetime"
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "OperatingHours",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "An integer number recording the duration which the product is used and/or in operation."
+        }
+      ],
+      "valueType": "xs:integer"
+    },
+    {
+      "idShort": "SecondaryFunctionSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of the secondary function of a product."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "SecondaryFunction_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about the secondary function. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the title of the function."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to describe the function."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Status",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the state of the function."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "PrimaryFunction",
+      "modelType": "SubmodelElementCollection",
+      "description": [
+        {
+          "language": "en",
+          "text": "A collection of information about the primary function. "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Name",
+          "modelType": "Property",
+          "description": [
+            {
+              "language": "en",
+              "text": "A string to present the title of the function."
+            }
+          ],
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "Description",
+          "modelType": "Property",
+          "description": [
+            {
+              "language": "en",
+              "text": "A string to describe the function."
+            }
+          ],
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "Status",
+          "modelType": "Property",
+          "description": [
+            {
+              "language": "en",
+              "text": "A string to present the state of the function."
+            }
+          ],
+          "valueType": "xs:string"
+        }
+      ]
+    },
+    {
+      "idShort": "AssemblyInstructionSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of assembly instructions."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "AssemblyInstruction_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about an assembly instruction. Each instruction has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the title of the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Reference points to the instruction manual."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the instruction.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "TargetAudience",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the intended audience for the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "DisassemblyInstructionSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of disassembly instructions."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "DiasssemblyInstruction_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a disassembly instruction. Each instruction has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the title of the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Reference points to the instruction manual."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the instruction.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "TargetAudience",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the intended audience for the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

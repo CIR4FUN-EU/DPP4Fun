@@ -1,0 +1,270 @@
+{
+  "idShort": "Recyclability",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Recyclability",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about recyclability evaluation."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "RecycledContent",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the recylable content fraction.   "
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "Recyclable",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to repsent if the product is recyclable."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "RecycledMaterialIncluded",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to repsent if the recycled material included in the product."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "CertificateSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of certificates.  "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Certificate_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a certificate. Each certificate has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the certificate."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "IssueDate",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A date time string to present the time the certificate is issued."
+                }
+              ],
+              "valueType": "xs:dateTime"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the certificate.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "ValidityPolicy",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the validity prolicy of the certificate."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the test report that gives the score."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "StandardSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of standards. "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Standard_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a standard. Each standard has a labeled number between 0 and 99.  "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the standard.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "ComplianceStatus",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present if the compliance of the product to the standard.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Version",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the version of the standard."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the test report that gives the score."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the standard."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Status",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the compliance status of the product regarding the standard."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "RecyclingInstructionSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of recycling instructions."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "RecyclingInstruction_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a recycling instruction. Each instruction has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the title of the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Reference points to the instruction manual."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the instruction.  "
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

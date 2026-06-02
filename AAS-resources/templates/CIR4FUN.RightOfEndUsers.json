@@ -1,0 +1,128 @@
+{
+  "idShort": "RightOfEndUsers",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/RightOfEndUsers",
+  "description": [
+    {
+      "language": "en",
+      "text": "Dimension describing the policies that define the rights, permissions and prohibitions governing how users may interact with a product and its related services."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "PostSaleServiceSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of collection member to a product."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "PostSaleService_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a post-sale service. Each has a labeled number between 0 and 99. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present name of the post-sale service."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to describe the post-sale service."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the post-sale service. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "Policies",
+      "modelType": "SubmodelElementCollection",
+      "description": [
+        {
+          "language": "en",
+          "text": "Policies related to the product."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "ProhibitionSet",
+          "modelType": "SubmodelElementList",
+          "description": [
+            {
+              "language": "en",
+              "text": "List of prohibitions."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Prohibition_00",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string describes a prohibition."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        },
+        {
+          "idShort": "PermissionSet",
+          "modelType": "SubmodelElementList",
+          "description": [
+            {
+              "language": "en",
+              "text": "List of permissions."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Permission_00",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string describes a permission."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

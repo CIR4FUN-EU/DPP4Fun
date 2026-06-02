@@ -1,0 +1,284 @@
+{
+  "assetAdministrationShells": [
+    {
+      "modelType": "AssetAdministrationShell",
+      "id": "0c7b5be5",
+      "idShort": "OVO Legs Kit",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "http://www.w3id.org/pdto#InformationModel"
+          }
+        ]
+      },
+      "assetInformation": {
+        "assetKind": "Instance",
+        "assetType": "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01",
+        "globalAssetId": "0c7b5be5",
+        "defaultThumbnail": {
+          "path": "https://www.lesenfantsdudesign.com/media/cache/photos/Visuels/Micuna/s/e/set-pieds-chaise-ovo-city-micuna-4_1264x1234.jpg",
+          "contentType": "image/jpeg"
+        }
+      },
+      "submodels": [
+        {
+          "type": "Submodel",
+          "value": "Characteristics"
+        },
+        {
+          "type": "Submodel",
+          "value": "Nameplate"
+        }
+      ]
+    }
+  ],
+  "submodels": [
+    {
+      "modelType": "Submodel",
+      "id": "sm-fa6492f04735",
+      "idShort": "Characteristics",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#Characteristics"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "Property",
+          "idShort": "Length",
+          "valueType": "integer",
+          "value": 32
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Width",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "WidthUnit",
+          "valueType": "string",
+          "value": "cm"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Height",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "HeightUnit",
+          "valueType": "string",
+          "value": "cm"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Diameter",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "DiameterUnit",
+          "valueType": "string",
+          "value": "null"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Weight",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "WeightUnit",
+          "valueType": "string",
+          "value": "null"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Volumn",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "VolumnUnit",
+          "valueType": "string",
+          "value": "null"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Composition",
+          "valueType": "string",
+          "value": "Beech, 4 feet"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Surface",
+          "valueType": "string",
+          "value": "Smooth"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Color",
+          "valueType": "string",
+          "value": "Anthracite grey"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Payload",
+          "valueType": "string",
+          "value": null
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "sm-44612994e6a7",
+      "idShort": "Nameplate",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "http://www.w3id.org/pdto#Nameplate"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerName",
+          "valueType": "string",
+          "value": "Micuna S.A."
+        },
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerProductFamily",
+          "valueType": "string",
+          "value": "OVO Original City"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerProductDesignation",
+          "valueType": "string",
+          "value": "OVO Legs Kit"
+        },
+        {
+          "modelType": "SubmodelElementCollection",
+          "idShort": "Contact",
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "http://www.w3id.org/pdto#ContactInformation"
+              }
+            ]
+          },
+          "value": [
+            {
+              "modelType": "Property",
+              "idShort": "Organization",
+              "valueType": "string",
+              "value": "Micuna S.A."
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Address",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Country",
+                  "valueType": "string",
+                  "value": "ES"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ZipCode",
+                  "valueType": "integer",
+                  "value": 46430
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Region",
+                  "valueType": "string",
+                  "value": "Valencia"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Town",
+                  "valueType": "string",
+                  "value": "Sollana"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Street",
+                  "valueType": "string",
+                  "value": "no. 7 Calle Suecia"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Telephone",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "TelephoneNumber",
+                  "valueType": "string",
+                  "value": "+34 961 740 946"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "TypeOfTelephone",
+                  "valueType": "string",
+                  "value": "Customer Service"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Email",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "EmailAddress",
+                  "valueType": "string",
+                  "value": "export@mincuna.com"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "TypeOfEmail",
+                  "valueType": "string",
+                  "value": "Customer Service"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

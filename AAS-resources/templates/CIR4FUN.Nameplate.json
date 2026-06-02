@@ -1,0 +1,447 @@
+{
+  "idShort": "Nameplate",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Nameplate",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about a nameplate."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "GTINCode",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Global Trade Item Number (GTIN), formerly EAN Article code"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "ManufacturerName",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "InternalArticleNumber",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Internal article number"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "ManufacturerProductDescription",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "Description of the product, it's technical features and implementation if needed (long text)"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "AddressOfAdditionalLink",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Web site address where information about the product or contact is given"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "URIOfManufacturer",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Fully qualified domain name of the manufacturer of a product using a universal resource identifier (URI)"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "SupplierProductDesignation",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "Short description of the product (short text)"
+        }
+      ]
+    },
+    {
+      "idShort": "ProductArticleNumberOfSupplier",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Unique product order identifier of the supplier"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "NameOfSupplier",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Name of supplier which provides the customer with a product or a service"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "Brand",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Manufacturer brand name"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "ManufacturerProductOrderSuffix",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "By the manufacturer awarded string for the identification of additional attributes, not by a structured manufacturer item number may be expressed"
+        }
+      ]
+    },
+    {
+      "idShort": "ManufacturerProductRoot",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "Top level of a 3 level manufacturer specific product hierarchy"
+        }
+      ]
+    },
+    {
+      "idShort": "ManufacturerProductFamily",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "2nd level of a 3 level manufacturer specific product hierarchy"
+        }
+      ]
+    },
+    {
+      "idShort": "ManufacturerProductDesignation",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "Short description of the product (short text)"
+        }
+      ]
+    },
+    {
+      "idShort": "ProductType",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "Characteristic to differentiate between different products of a product family or special variants"
+        }
+      ]
+    },
+    {
+      "idShort": "URIOfTheProduct",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Unique global identification of the product using an universal resource identifier (URI)"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "GLNOfManufacturer",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Internationally unique identification number for the manufacturer of the device or the product and for the physical location"
+        }
+      ],
+      "valueType": "xs:integer"
+    },
+    {
+      "idShort": "HSCodeOfTheWCO",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Internationally applied 4 to 6-digit coding of classes of goods as defined by the Harmonized System (HS) of the World Customs Organization (WCO)"
+        }
+      ],
+      "valueType": "xs:integer"
+    },
+    {
+      "idShort": "CustomsTariffNumber",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Nomenclature of goods in accordance with a regulation relating to customs tariff and statistical purposes for application to a specific country and / or region. The structure of the customs tariff number is defined by the type otherwise indicated"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "SupplierProductDescription",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "Description of the product, it's technical features and implementation if needed (long text)"
+        }
+      ]
+    },
+    {
+      "idShort": "SupplierProductFamily",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "2nd level of a 3 level supplier specific product hierarchy"
+        }
+      ]
+    },
+    {
+      "idShort": "SupplierProductRoot",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "Top level of a 3 level supplier specific product hierarchy"
+        }
+      ]
+    },
+    {
+      "idShort": "SupplierProductOrderSuffix",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "By the supplier awarded string for the identification of additional attributes, not by a structured supplier item number may be expressed"
+        }
+      ]
+    },
+    {
+      "idShort": "SupplierProductType",
+      "modelType": "MultiLanguageProperty",
+      "description": [
+        {
+          "language": "en",
+          "text": "Characteristic to differentiate between different products of a product family or special variants"
+        }
+      ]
+    },
+    {
+      "idShort": "GLNOfSupplier",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Internationally unique identification number for the supplier of the device or the product and for the physical location"
+        }
+      ],
+      "valueType": "xs:integer"
+    },
+    {
+      "idShort": "BatchNumber",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "Identification of the batch or lot including the product."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "Contact",
+      "modelType": "SubmodelElementCollection",
+      "description": [
+        {
+          "language": "en",
+          "text": "A collection of information about a repair instruction. Each instruction has a labeled number between 0 and 99."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Organization",
+          "modelType": "Property",
+          "description": [
+            {
+              "language": "en",
+              "text": "A string to present the title of the organization of the contact."
+            }
+          ],
+          "valueType": "xs:string"
+        },
+        {
+          "idShort": "Address",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about the address of manufacturer."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Country",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the country of the address."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "ZipCode",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the zipcode of the address."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Region",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the region of the address."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Town",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the town/city of the address."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Street",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the street of the address."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        },
+        {
+          "idShort": "Telephone",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about the address of manufacturer."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "TelephoneNumber",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the telephone number."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "TypeOfTelephone",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the type of telephone."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        },
+        {
+          "idShort": "Email",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about the email of manufacturer."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "EmailAddress",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the email address."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "TypeOfEmail",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the type of email."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

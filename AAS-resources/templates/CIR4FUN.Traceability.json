@@ -1,0 +1,359 @@
+{
+  "idShort": "Traceability",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Traceability",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about product traceability"
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "CurrentPhase",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the current phase of a product.\u00a0"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "Location",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the current location of a product.\u00a0"
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "DesignRecordSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "A list of design records."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "DesignRecord_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information of a design record. Each record has a labeled number between 0 to 99.\u00a0"
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Version",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the version of the design record.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Time",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A date time to present the time that the design version is released."
+                }
+              ],
+              "valueType": "xs:dateTime"
+            },
+            {
+              "idShort": "Operator",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the name of the designer."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identifier of the design record."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Status",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the status of the design record."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the description of design."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "DesignFile",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the design file."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "TrackingRecordSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "A list of tracking records. "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "TrackingRecord_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information to present the tracking record. Each record has a labeled number between 0 to 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Status",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the status of the tracking record."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Time",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A date time string to present the time of the tracking record."
+                }
+              ],
+              "valueType": "xs:dateTime"
+            },
+            {
+              "idShort": "Location",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the location related to the tracking record. "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Operator",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the name or identifier of the operator."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the description of the tracking record."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identifier of the tracking record."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Origin",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the origin location related to the delivery. "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Destination",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the destination location related to the delivery. "
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "ManufacturingRecordSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "A list of product state records in phase Manufacturing. "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "ManufacturingStateRecord_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information of a manufacturing state record. Each record has a labeled number between 0 to 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the the operation."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "StartTime",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the start time of the operation. "
+                }
+              ],
+              "valueType": "xs:dateTime"
+            },
+            {
+              "idShort": "EndTime",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the end time of the operation."
+                }
+              ],
+              "valueType": "xs:dateTime"
+            },
+            {
+              "idShort": "PositionInProcessRouting",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the relative position of the operation in the operation routing. "
+                }
+              ]
+            },
+            {
+              "idShort": "Station",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the station that the operation occurs."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Operator",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the name or identifier of the operator at the station. "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Status",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the status of the product in phase Manufacturing. "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the description of the tracking record."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

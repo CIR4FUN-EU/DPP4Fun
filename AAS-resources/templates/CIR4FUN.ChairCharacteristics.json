@@ -1,0 +1,465 @@
+{
+  "idShort": "Characteristics",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Characteristics",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about characteristics of a product."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "Length",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s length. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Width",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s length. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Height",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s height. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Diameter",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s diameter."
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Weight",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s weight."
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Volume",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s volume."
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Surface",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the product\u2019s surface type."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "Color",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the product\u2019s color."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "LengthUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of length."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "WidthUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of width."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "HeightUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of Height."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "DiameterUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of diameter."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "WeightUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of weight."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "VolumeUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of volume."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "SeatHeight",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s seat height. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "SeatWidth",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s seat width. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "SeatLength",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s seat length. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "ArmrestHeight",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s armrest height. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "ArmrestWidth",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s armrest width. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "BackrestHeight",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s backrest height. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "LegHeight",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s leg height. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "FoamHardnessLevel",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the level of foam hardness."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "SeatingCapacity",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A integer to present the seating capacity."
+        }
+      ],
+      "valueType": "xs:integer"
+    },
+    {
+      "idShort": "IndoorUse",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the use in the indoor environment."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "OutdoorUse",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the use in the outdoor environment."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "Reclining",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the possibility to reclining."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "SeatSliding",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the possibility to sliding."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "Swivel",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the possibility to swivel."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "WaterRepellent",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the water repellent possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "StainResistant",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the stain resistant possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "EasyToClean",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the easy clean possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "FireResistant",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the fire resistant possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "SeatRemovableCover",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the seat removable cover possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "BackrestRemovableCover",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the backrest removable cover possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "AdjustableFeet",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the adjustable feet possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "ArmrestIncluded",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the armrest included."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "ArmrestRemovableCover",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the armrest removable cover possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "Stackable",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present if the chair is stackable."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "HeightAdjustable",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the height adjustable possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "Padded",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present the padded possibility."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "Payload",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the maximal payload."
+        }
+      ],
+      "valueType": "xs:double"
+    }
+  ]
+}

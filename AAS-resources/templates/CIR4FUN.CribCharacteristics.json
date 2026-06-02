@@ -1,0 +1,212 @@
+{
+  "idShort": "Characteristics",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Characteristics",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about characteristics of a product."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "Length",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s length. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Width",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s length. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Height",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s height. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Diameter",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s diameter."
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Weight",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s weight."
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Volume",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s volume."
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "Surface",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the product\u2019s surface type."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "Color",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the product\u2019s color."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "LengthUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of length."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "WidthUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of width."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "HeightUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of Height."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "DiameterUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of diameter."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "WeightUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of weight."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "VolumeUnit",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A string to present the unit of volume."
+        }
+      ],
+      "valueType": "xs:string"
+    },
+    {
+      "idShort": "Payload",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the maximal payload."
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "InternalLength",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s internal length. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "InternalWidth",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A double to present the product\u2019s internal width. "
+        }
+      ],
+      "valueType": "xs:double"
+    },
+    {
+      "idShort": "MatelasIncluded",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to present if the matelas is included."
+        }
+      ],
+      "valueType": "xs:boolean"
+    }
+  ]
+}

@@ -1,0 +1,3695 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.cir4fun.eu/ontology/dpp4fun"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.cir4fun.eu/ontology/dpp4fun"
+     versionIRI="https://www.cir4fun.eu/ontology/dpp4fun/0.2.0">
+    <Prefix name="" IRI="https://www.cir4fun.eu/ontology/dpp4fun/"/>
+    <Prefix name="fso" IRI="http://aidimme.es/FurnitureSectorOntology.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="pdto" IRI="http://w3id.org/pdto#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.funstep.org/download/10/furniture-sector-ontology/298/furnituresectorontology-v3-0.owl</Import>
+    <Import>https://pdto.pkgi40.codelib.re/ontology.owl</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <IRI>https://orcid.org/0000-0002-0086-8067</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <IRI>https://orcid.org/0000-0002-3338-3509</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <IRI>https://orcid.org/0000-0003-1090-5607</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <IRI>https://orcid.org/0000-0003-2993-5734</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <IRI>https://orcid.org/0009-0000-0797-6100</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <IRI>https://orcid.org/0000-0002-0438-6831</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <IRI>https://orcid.org/0000-0002-3517-0945</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <IRI>https://orcid.org/0009-0004-0210-0029</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <Literal xml:lang="en">Digital Passport Product Ontology for Furniture (DPP4Fun) is an ontology for digital passport product dedicated to furniture. Its goal is to describe a furniture products.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <Literal xml:lang="en">Digital Product Passport for Furniture</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>0.2.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Accessory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillOfMaterials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarbonFootprint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollectionMember"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalProductPassport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Durability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalImpact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthImpact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Policies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductRelationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuantitativeProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recyclability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refurbishment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reliability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remanufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repairability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reusability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightOfEndUsers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondaryFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Upgradability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WasteManagement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCollection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPermission"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPolicyRule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProhibition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbrasionResistant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AdditionalCushionIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adherence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AdjustableHeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AntiBacterial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AntiMosquito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ApplicableToMaterial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArmrestCoverRemovable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArmrestHeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArmrestIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArmrestType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArmrestWidth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BackrestCoverRemovable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BackrestHeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BackrestIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BarIncrements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BioBased"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Breathable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C06044BF59"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C06061BF12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CARB2-EPA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CastorsIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoatingType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ColorFastness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Composition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Convertiable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CosleepingConvertible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curved"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CushionCoverRemovable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CushionIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Density"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeskIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diameter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EasyToClean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EasyToMill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EasyToRepair"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electrical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ElectrophoreticCoatedBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FeetAdjustable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FireResistant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fireproof"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FixedTrayIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlameRetardant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoamHardnessLevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foldable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoldingDoors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoldingSide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FootrestIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FossilBased"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeadType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeadrestIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeightAdjustable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HorizontalSurface"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HygieneSealed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ImpactZone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IndoorUse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InternalLength"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InternalWidth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegHeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegsIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Length"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightFastness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LockIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LockModel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowEnergyConsumption"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCN-CBY-14070NW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCN-CUSH-CT01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCN-LEG-AG01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCN-TRAY-AG01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MDF_Board_M3247"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MachineWashable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magnetic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MatelasIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MaterialOfRenewableOrigin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MicroplasticRelease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MirrorFrameIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MirrorIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MoistureContent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NanoplasticRelease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfArmrests"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfBeds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfCastors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfConfigurations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfCushions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfDoors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfDrawers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfHandles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumberOfLegs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NutType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OutdoorUse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PF-FTZ-9041-TX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Padded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payload"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phosphorescent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pilling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PostDiameter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PushSystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RailDiameter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RecliningSystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recyclable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RecycledContent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RecycledMaterialIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RemovableCover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Resistivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reversible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rollable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S821_30_SE12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SR-LK4-W01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ScratchResistant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeamSlippage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeatBeltIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeatCoverRemovable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeatHeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeatIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeatLength"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeatSliding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeatWidth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeatingCapacity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SecondHand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkateIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SolventBased"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SparePartsAvailable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecialEffects"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stackable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StainResistant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StrapsIncluded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SubstanceBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surface"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swivel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Texture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thickness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnitsPerPack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UpholsteredIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UpholsteredType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValvePayload"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VerticalSurface"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viscosity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Volumn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WallThickness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WasherType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WaterBased"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WaterRepellent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Waterproof"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Width"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindowFrameIncluded"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Accessory"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://purl.org/goodrelations/v1#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Accessory"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://schema.org/description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Accessory"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.w3id.org/pdto#hasSimpleReference"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CollectionMember"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://purl.org/goodrelations/v1#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CollectionMember"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://schema.org/description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CollectionMember"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.w3id.org/pdto#hasSimpleReference"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CollectionMember"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasCollection"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Function"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://schema.org/description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Function"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://schema.org/name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Function"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://www.w3id.org/pdto#hasStatus"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Policies"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasPolicyRule"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Service"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://schema.org/description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Service"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://schema.org/name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Service"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://www.w3id.org/pdto#hasSimpleReference"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3id.org/pdto#clarifiedProperty"/>
+            <Class IRI="#QuantitativeProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3id.org/pdto#clarifiedProperty"/>
+            <Class IRI="#QualitativeProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#Product"/>
+        <Class IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessory"/>
+        <Class IRI="http://www.w3id.org/pdto#CompositeInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BillOfMaterials"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarbonFootprint"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Characteristics"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectionMember"/>
+        <Class IRI="http://www.w3id.org/pdto#CompositeInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalProductPassport"/>
+        <Class IRI="https://w3id.org/def/dtw#DigitalTwin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Durability"/>
+        <Class IRI="http://www.w3id.org/pdto#QualityModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalImpact"/>
+        <Class IRI="http://www.w3id.org/pdto#RegulationModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <Class IRI="http://www.w3id.org/pdto#CompositeInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthImpact"/>
+        <Class IRI="http://www.w3id.org/pdto#RegulationModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Policies"/>
+        <Class IRI="http://www.w3id.org/pdto#CompositeInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryFunction"/>
+        <Class IRI="#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductRelationship"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeProperty"/>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantitativeProperty"/>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recyclability"/>
+        <Class IRI="http://www.w3id.org/pdto#QualityModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refurbishment"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reliability"/>
+        <Class IRI="http://www.w3id.org/pdto#QualityModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remanufacturing"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repairability"/>
+        <Class IRI="http://www.w3id.org/pdto#QualityModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reusability"/>
+        <Class IRI="http://www.w3id.org/pdto#QualityModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightOfEndUsers"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safety"/>
+        <Class IRI="http://www.w3id.org/pdto#QualityModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondaryFunction"/>
+        <Class IRI="#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <Class IRI="http://www.w3id.org/pdto#CompositeInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Upgradability"/>
+        <Class IRI="http://www.w3id.org/pdto#QualityModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Usage"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WasteManagement"/>
+        <Class IRI="http://www.w3id.org/pdto#AspectModel"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#AbrasionResistant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#AdditionalCushionIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Adherence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#AdjustableHeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#AntiBacterial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#AntiMosquito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#ApplicableToMaterial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#ArmrestCoverRemovable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#ArmrestHeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#ArmrestIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#ArmrestType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#ArmrestWidth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#BackrestCoverRemovable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#BackrestHeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#BackrestIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#BarIncrements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#BioBased"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Breathable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#DomesticChair"/>
+        <NamedIndividual IRI="#C06044BF59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#DomesticChair"/>
+        <NamedIndividual IRI="#C06061BF12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#CARB2-EPA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#CastorsIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Coated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#CoatingType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#Color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#ColorFastness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Composition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Convertiable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#CosleepingConvertible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Curved"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#CushionCoverRemovable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#CushionIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Density"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#DeskIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Diameter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#EasyToClean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#EasyToMill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#EasyToRepair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Electrical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#ElectrophoreticCoatedBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#FeetAdjustable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#FireResistant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Fireproof"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#FixedTrayIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#FlameRetardant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Flap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#FoamHardnessLevel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Foldable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#FoldingDoors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#FoldingSide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#FootrestIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#FossilBased"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#HeadType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#HeadrestIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Height"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#HeightAdjustable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#HorizontalSurface"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#HygieneSealed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#ImpactZone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#IndoorUse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#InternalLength"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#InternalWidth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#LegHeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#LegsIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Length"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#LightFastness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#LockIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#LockModel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#LowEnergyConsumption"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#Crib"/>
+        <NamedIndividual IRI="#MCN-CBY-14070NW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#Cushion"/>
+        <NamedIndividual IRI="#MCN-CUSH-CT01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#Leg"/>
+        <NamedIndividual IRI="#MCN-LEG-AG01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#HorizontalSurface"/>
+        <NamedIndividual IRI="#MCN-TRAY-AG01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#MDFBoard"/>
+        <NamedIndividual IRI="#MDF_Board_M3247"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#MachineWashable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Magnetic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#MatelasIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#MaterialOfRenewableOrigin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#MicroplasticRelease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#MirrorFrameIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#MirrorIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#MoistureContent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#NanoplasticRelease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfArmrests"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfBeds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfCastors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfConfigurations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfCushions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfDoors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfDrawers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfHandles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#NumberOfLegs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#NutType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#OutdoorUse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#PolypropyleneFabric"/>
+        <NamedIndividual IRI="#PF-FTZ-9041-TX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Padded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Payload"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Phosphorescent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#Pilling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#PostDiameter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#PushSystem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#RailDiameter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#RecliningSystem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Recyclable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#RecycledContent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#RecycledMaterialIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#RemovableCover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Resistivity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Reversible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Rollable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#Canapé"/>
+        <NamedIndividual IRI="#S821_30_SE12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#Cabinet"/>
+        <NamedIndividual IRI="#SR-LK4-W01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#ScratchResistant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#SeamSlippage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SeatBeltIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SeatCoverRemovable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#SeatHeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SeatIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#SeatLength"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SeatSliding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#SeatWidth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#SeatingCapacity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SecondHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SkateIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SolventBased"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SparePartsAvailable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SpecialEffects"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Stackable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#StainResistant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#StrapsIncluded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#SubstanceBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Surface"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Swivel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#Texture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Thickness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#UnitsPerPack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#UpholsteredIn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#UpholsteredType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#ValvePayload"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Viscosity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Volumn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#WallThickness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeProperty"/>
+        <NamedIndividual IRI="#WasherType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#WaterBased"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#WaterRepellent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#Waterproof"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeProperty"/>
+        <NamedIndividual IRI="#Width"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <NamedIndividual IRI="#WindowFrameIncluded"/>
+    </ClassAssertion>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasPermission"/>
+        <DataProperty IRI="#hasPolicyRule"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasProhibition"/>
+        <DataProperty IRI="#hasPolicyRule"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCollection"/>
+        <Class IRI="#CollectionMember"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPolicyRule"/>
+        <Class IRI="#Policies"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCollection"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPolicyRule"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.w3id.org/pdto#Nameplate</IRI>
+        <Literal>Dimension representing the mandatory identification affixed to a product, including manufacturer details, model/type, and lot/batch numbers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.w3id.org/pdto#Traceability</IRI>
+        <Literal>Dimension related to “the ability to trace the history, application or location of an object” (ISO 9000:2015, 2015).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbrasionResistant</IRI>
+        <Literal>Abrasion Registion is an instance of property for the feature of interest related to funiture product, component, and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AbrasionResistant</IRI>
+        <Literal>Abrasion Resistant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Accessory</IRI>
+        <Literal>Information about an additional item or component that complements or enhances the product but is not essential for its core operation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Accessory</IRI>
+        <Literal>Accessory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AdditionalCushionIncluded</IRI>
+        <Literal>Additional Cushion Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AdditionalCushionIncluded</IRI>
+        <Literal>Additional Cushion Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Adherence</IRI>
+        <Literal>Adherence is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Adherence</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Adherence</IRI>
+        <Literal>Adherence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AdjustableHeight</IRI>
+        <Literal>Adjustable Height is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AdjustableHeight</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AdjustableHeight</IRI>
+        <Literal>Adjustable Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AntiBacterial</IRI>
+        <Literal>Anti Bacterial is an instance of property for the feature of interest related to funiture product, component, and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AntiBacterial</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AntiBacterial</IRI>
+        <Literal>Anti Bacterial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AntiMosquito</IRI>
+        <Literal>Anti Mosquito is an instance of property for the feature of interest related to funiture product, component, and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AntiMosquito</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AntiMosquito</IRI>
+        <Literal>Anti Mosquito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ApplicableToMaterial</IRI>
+        <Literal>Applicable To Material is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ApplicableToMaterial</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ApplicableToMaterial</IRI>
+        <Literal>Applicable To Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArmrestCoverRemovable</IRI>
+        <Literal>Armest Cover Removable is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ArmrestCoverRemovable</IRI>
+        <Literal>Armrest Cover Removable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArmrestHeight</IRI>
+        <Literal>Armest Height is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ArmrestHeight</IRI>
+        <Literal>Armrest Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArmrestIncluded</IRI>
+        <Literal>Armrest Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArmrestIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ArmrestIncluded</IRI>
+        <Literal>Armest Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArmrestType</IRI>
+        <Literal>Armrest Type is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ArmrestType</IRI>
+        <Literal>Armest Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArmrestWidth</IRI>
+        <Literal>Armest Width is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ArmrestWidth</IRI>
+        <Literal>Armest Width</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BackrestCoverRemovable</IRI>
+        <Literal>Backrest is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BackrestCoverRemovable</IRI>
+        <Literal>Backrest Cover Removable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BackrestHeight</IRI>
+        <Literal>Backrest Height is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BackrestHeight</IRI>
+        <Literal>Backrest Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BackrestIncluded</IRI>
+        <Literal>Backrest Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BackrestIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BackrestIncluded</IRI>
+        <Literal>Backrest Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BarIncrements</IRI>
+        <Literal>Bar Increments is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BarIncrements</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BarIncrements</IRI>
+        <Literal>Bar Increments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BillOfMaterials</IRI>
+        <Literal>Components constituted of a product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BillOfMaterials</IRI>
+        <Literal>Dimension representing “a listing of all subassemblies, intermediates, parts, and raw materials that go into a parent assembly as well as the quantity of each item required to make an assembly” (Association for Supply Chain Management, 2025).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BillOfMaterials</IRI>
+        <Literal>Bill Of Materials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BioBased</IRI>
+        <Literal>Bio Based is an instance of property for the feature of interest related to funiture  material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BioBased</IRI>
+        <Literal>Bio Based</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Breathable</IRI>
+        <Literal>Breathable is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Breathable</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Breathable</IRI>
+        <Literal>Breathable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#C06044BF59</IRI>
+        <Literal>Meli Brown Chair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#C06061BF12</IRI>
+        <Literal>Meli White Chair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CARB2-EPA</IRI>
+        <Literal>CARB2-EPA is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CARB2-EPA</IRI>
+        <Literal>CARB2-EPA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CarbonFootprint</IRI>
+        <Literal>Dimension related to the calculation “of greenhouse gas emissions and greenhouse gas removals in a product system, expressed as CO2 equivalents and based on a life cycle assessment using the single impact category of climate change” (Official Journal of the European Union, 2024)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CarbonFootprint</IRI>
+        <Literal>Carbon Footprint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CastorsIncluded</IRI>
+        <Literal>Bastors Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CastorsIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CastorsIncluded</IRI>
+        <Literal>Castors Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Characteristics</IRI>
+        <Literal>Collection of information related to characteristics of a product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Characteristics</IRI>
+        <Literal>Dimension representing the properties, attributes, features, and behaviors that define a product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Characteristics</IRI>
+        <Literal>Characteristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coated</IRI>
+        <Literal>Coated is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coated</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coated</IRI>
+        <Literal>Coated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoatingType</IRI>
+        <Literal>Coating Type is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoatingType</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CoatingType</IRI>
+        <Literal>Coating Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CollectionMember</IRI>
+        <Literal>Information about another product or item that belongs to a larger grouped set, bundle, catalog, or product family.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CollectionMember</IRI>
+        <Literal>Collection Member</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Color</IRI>
+        <Literal>Color is an instance of property for the feature of interest related to funiture product,  component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Color</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Color</IRI>
+        <Literal>Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ColorFastness</IRI>
+        <Literal>Color Fastness is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ColorFastness</IRI>
+        <Literal>Color Fastness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Composition</IRI>
+        <Literal>Composition is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Composition</IRI>
+        <Literal>Composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Convertiable</IRI>
+        <Literal>Convertiable is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Convertiable</IRI>
+        <Literal>Convertiable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CosleepingConvertible</IRI>
+        <Literal>Co-Sleeping Convertible is an instance of property for the feature of interest related to funiture product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CosleepingConvertible</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CosleepingConvertible</IRI>
+        <Literal>Co-Sleeping Convertible</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Curved</IRI>
+        <Literal>Curved is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Curved</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Curved</IRI>
+        <Literal>Curved</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CushionCoverRemovable</IRI>
+        <Literal>Cushion Cover Removable is an instance of property for the feature of interest related to funiture component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CushionCoverRemovable</IRI>
+        <Literal>Cushion Cover Removable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CushionIncluded</IRI>
+        <Literal>Cushion Included is an instance of property for the feature of interest related to funiture product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CushionIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CushionIncluded</IRI>
+        <Literal>Cushion Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Density</IRI>
+        <Literal>Density is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Density</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Density</IRI>
+        <Literal>Density</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeskIncluded</IRI>
+        <Literal>Desk Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeskIncluded</IRI>
+        <Literal>Desk Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeskIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Diameter</IRI>
+        <Literal>Diameter is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Diameter</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diameter</IRI>
+        <Literal>Diameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DigitalProductPassport</IRI>
+        <Literal>Collection of all product information relevant for circularity and authorities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DigitalProductPassport</IRI>
+        <Literal>Digital Product Passport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Durability</IRI>
+        <Literal>Collection of information related to the durability of a product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Durability</IRI>
+        <Literal>Dimension related to the “ability of a product to maintain over time its function and performance under specified conditions of use, maintenance and repair” (Official Journal of the European Union, 2024).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Durability</IRI>
+        <Literal>Durability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EasyToClean</IRI>
+        <Literal>Easy To Clean is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EasyToClean</IRI>
+        <Literal>Easy To Clean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EasyToMill</IRI>
+        <Literal>Easy To Mill is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EasyToMill</IRI>
+        <Literal>Easy To Mill</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EasyToRepair</IRI>
+        <Literal>Easy To Repair is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EasyToRepair</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EasyToRepair</IRI>
+        <Literal>Easy To Repair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Electrical</IRI>
+        <Literal>Electrical is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Electrical</IRI>
+        <Literal>Extracted from FSO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Electrical</IRI>
+        <Literal>Electrical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ElectrophoreticCoatedBase</IRI>
+        <Literal>Electrophoretic Coated Base is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ElectrophoreticCoatedBase</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ElectrophoreticCoatedBase</IRI>
+        <Literal>Electrophoretic Coated Base</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EnvironmentalImpact</IRI>
+        <Literal>Collection of informaiton related to the environmental impact of a product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EnvironmentalImpact</IRI>
+        <Literal>Dimension regarding the “changes to the environment, whether adverse or beneficial, that are wholly or partially caused by a product throughout its lifecycle” (Official Journal of the European Union, 2024).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EnvironmentalImpact</IRI>
+        <Literal>Environmental Impact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FeetAdjustable</IRI>
+        <Literal>Feet Adjustable is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FeetAdjustable</IRI>
+        <Literal>Feet Adjustable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FireResistant</IRI>
+        <Literal>Fire Resistant is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FireResistant</IRI>
+        <Literal>Fire Resistant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fireproof</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fireproof</IRI>
+        <Literal>Fireproof is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fireproof</IRI>
+        <Literal>Fireproof</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FixedTrayIncluded</IRI>
+        <Literal>Fixed Tray Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FixedTrayIncluded</IRI>
+        <Literal>Fixed Tray Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FlameRetardant</IRI>
+        <Literal>Frame Retardant is an instance of property for the feature of interest related to funiture product, component, and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FlameRetardant</IRI>
+        <Literal>Flame Retardant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flap</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flap</IRI>
+        <Literal>Flap is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flap</IRI>
+        <Literal>Flap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FoamHardnessLevel</IRI>
+        <Literal>Foam Hardness Level is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FoamHardnessLevel</IRI>
+        <Literal>Foam Hardness Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Foldable</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Foldable</IRI>
+        <Literal>Foldable is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Foldable</IRI>
+        <Literal>Foldable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FoldingDoors</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FoldingDoors</IRI>
+        <Literal>Folding Doors is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FoldingDoors</IRI>
+        <Literal>Folding Doors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FoldingSide</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FoldingSide</IRI>
+        <Literal>Folding Side is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FoldingSide</IRI>
+        <Literal>Folding Side</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FootrestIncluded</IRI>
+        <Literal>Footress Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FootrestIncluded</IRI>
+        <Literal>Footress Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FossilBased</IRI>
+        <Literal>Fossil Based is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FossilBased</IRI>
+        <Literal>Fossil Based</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Function</IRI>
+        <Literal>Information about what the product is designed to do — its operational capability, behavior, or intended purpose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Function</IRI>
+        <Literal>Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HeadType</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HeadType</IRI>
+        <Literal>Head Type is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HeadType</IRI>
+        <Literal>Head Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HeadrestIncluded</IRI>
+        <Literal>Headrest Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HeadrestIncluded</IRI>
+        <Literal>Headrest Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HealthImpact</IRI>
+        <Literal>Collection of informaiton related to the health impact of a product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HealthImpact</IRI>
+        <Literal>Dimension concerning the effects, whether adverse or beneficial, that a product may have on human health during normal or foreseeable use, including impacts arising from its materials, emissions, design, and interaction with users.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HealthImpact</IRI>
+        <Literal>Health Impact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Height</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Height</IRI>
+        <Literal>Height is an instance of property for the feature of interest related to funiture product, component, and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Height</IRI>
+        <Literal>Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HeightAdjustable</IRI>
+        <Literal>Height Adjustable is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HeightAdjustable</IRI>
+        <Literal>Height Adjustable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HorizontalSurface</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HorizontalSurface</IRI>
+        <Literal>Horizontal Surface is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HorizontalSurface</IRI>
+        <Literal>Horizontal Surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HygieneSealed</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HygieneSealed</IRI>
+        <Literal>Hygiene Sealed is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HygieneSealed</IRI>
+        <Literal>Hygiene Sealed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ImpactZone</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ImpactZone</IRI>
+        <Literal>Impact Zone is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ImpactZone</IRI>
+        <Literal>Impact Zone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IndoorUse</IRI>
+        <Literal>Indoor Use is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IndoorUse</IRI>
+        <Literal>Indoor Use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InternalLength</IRI>
+        <Literal>Internal Length is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InternalLength</IRI>
+        <Literal>Internal Length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InternalWidth</IRI>
+        <Literal>Internal Width is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InternalWidth</IRI>
+        <Literal>Internal Width</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LegHeight</IRI>
+        <Literal>Leg Heigth is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LegHeight</IRI>
+        <Literal>Leg Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LegsIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LegsIncluded</IRI>
+        <Literal>Legs Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LegsIncluded</IRI>
+        <Literal>LegsIncluded</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Length</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Length</IRI>
+        <Literal>Length is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Length</IRI>
+        <Literal>Length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LightFastness</IRI>
+        <Literal>Light Fastness is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LightFastness</IRI>
+        <Literal>Light Fastness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LockIncluded</IRI>
+        <Literal>Lock included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LockIncluded</IRI>
+        <Literal>Lock Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LockModel</IRI>
+        <Literal>Lock Model is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LockModel</IRI>
+        <Literal>Lock Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LowEnergyConsumption</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LowEnergyConsumption</IRI>
+        <Literal>Low Energy Consumption is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LowEnergyConsumption</IRI>
+        <Literal>Low Energy Consumption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MCN-CBY-14070NW</IRI>
+        <Literal>Micuna Converbaby Crib 90x50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MCN-CUSH-CT01</IRI>
+        <Literal>Micuna OVO Cushion Upsholstery City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MCN-LEG-AG01</IRI>
+        <Literal>Micuna OVO Legs Kit Athracite Grey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MCN-TRAY-AG01</IRI>
+        <Literal>Micuna OVO Fixed Tray Athracite Grey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MDF_Board_M3247</IRI>
+        <Literal>M3247 Woodland Beech</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MachineWashable</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MachineWashable</IRI>
+        <Literal>Machine Washable is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MachineWashable</IRI>
+        <Literal>Machine Washable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Magnetic</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Magnetic</IRI>
+        <Literal>Magnetic is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Magnetic</IRI>
+        <Literal>Magnetic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MatelasIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MatelasIncluded</IRI>
+        <Literal>Matelas Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MatelasIncluded</IRI>
+        <Literal>Matelas Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MaterialOfRenewableOrigin</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MaterialOfRenewableOrigin</IRI>
+        <Literal>Material Of Renewable Origin is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MaterialOfRenewableOrigin</IRI>
+        <Literal>Material Of Renewable Origin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MicroplasticRelease</IRI>
+        <Literal>Microplastic Release is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MicroplasticRelease</IRI>
+        <Literal>Microplastic Release</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MirrorFrameIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MirrorFrameIncluded</IRI>
+        <Literal>Mirror Frame Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MirrorFrameIncluded</IRI>
+        <Literal>Mirror Frame Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MirrorIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MirrorIncluded</IRI>
+        <Literal>Mirror Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MirrorIncluded</IRI>
+        <Literal>Mirror Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MoistureContent</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MoistureContent</IRI>
+        <Literal>Moisture Content is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MoistureContent</IRI>
+        <Literal>Moisture Content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NanoplasticRelease</IRI>
+        <Literal>Nanoplastic Release is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NanoplasticRelease</IRI>
+        <Literal>Nanoplastic Release</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfArmrests</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfArmrests</IRI>
+        <Literal>Number of Armrests is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfArmrests</IRI>
+        <Literal>Number Of Armrests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfBeds</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfBeds</IRI>
+        <Literal>Number of Beds is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfBeds</IRI>
+        <Literal>Number Of Beds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfCastors</IRI>
+        <Literal>Extrated from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfCastors</IRI>
+        <Literal>Number of Castors is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfCastors</IRI>
+        <Literal>Number Of Castors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfConfigurations</IRI>
+        <Literal>Number of Configurations is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfConfigurations</IRI>
+        <Literal>Number Of Configurations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfCushions</IRI>
+        <Literal>Number of Cushions is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfCushions</IRI>
+        <Literal>Number Of Cushions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfDoors</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfDoors</IRI>
+        <Literal>Number Of Doors is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfDoors</IRI>
+        <Literal>Number Of Doors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfDrawers</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfDrawers</IRI>
+        <Literal>Number of Drawers is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfDrawers</IRI>
+        <Literal>Number Of Drawers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfHandles</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfHandles</IRI>
+        <Literal>Extracted from Handles is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfHandles</IRI>
+        <Literal>Number Of Handles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfLegs</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfLegs</IRI>
+        <Literal>Number of Legs is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfLegs</IRI>
+        <Literal>Number Of Legs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NutType</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NutType</IRI>
+        <Literal>Nut Type is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NutType</IRI>
+        <Literal>Nut Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OutdoorUse</IRI>
+        <Literal>Outdoor Use is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OutdoorUse</IRI>
+        <Literal>Outdoor Use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PF-FTZ-9041-TX</IRI>
+        <Literal>Pozzi Fortezza 9041 Fabric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Padded</IRI>
+        <Literal>Padded is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Padded</IRI>
+        <Literal>Padded</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Payload</IRI>
+        <Literal>Payload is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Payload</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Payload</IRI>
+        <Literal>Payload</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Phosphorescent</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Phosphorescent</IRI>
+        <Literal>Phosphorescent is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Phosphorescent</IRI>
+        <Literal>Phosphorescent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pilling</IRI>
+        <Literal>Pilling is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pilling</IRI>
+        <Literal>Pilling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Policies</IRI>
+        <Literal>Information about the rules, constraints, permissions, or conditions governing the product’s usage, access, sharing, compliance, or lifecycle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Policies</IRI>
+        <Literal>Policies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PostDiameter</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PostDiameter</IRI>
+        <Literal>Post Diameter is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PostDiameter</IRI>
+        <Literal>Post Diameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Price</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Price</IRI>
+        <Literal>Price is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Price</IRI>
+        <Literal>Price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrimaryFunction</IRI>
+        <Literal>A primary function is the main purpose or core capability of the product — the reason the product exists.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PrimaryFunction</IRI>
+        <Literal>Primary Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProductRelationship</IRI>
+        <Literal>Dimension describing all related products that either extend the functionality of a product or combine with it to form a coherent collection.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProductRelationship</IRI>
+        <Literal>Product Relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PushSystem</IRI>
+        <Literal>Push System is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PushSystem</IRI>
+        <Literal>Push System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualitativeProperty</IRI>
+        <Literal>Property that is qualitative.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QualitativeProperty</IRI>
+        <Literal>Qualitative Property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QuantitativeProperty</IRI>
+        <Literal>Property that is quantitative.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QuantitativeProperty</IRI>
+        <Literal>Quantitative Property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RailDiameter</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RailDiameter</IRI>
+        <Literal>Rail Diameter is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RailDiameter</IRI>
+        <Literal>Rail Diameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RecliningSystem</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RecliningSystem</IRI>
+        <Literal>Reclining System is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RecliningSystem</IRI>
+        <Literal>Reclining System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recyclability</IRI>
+        <Literal>Collection of informaiton related to the recyclability of a product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recyclability</IRI>
+        <Literal>Dimension related to the ability and process “by which wasted materials are reprocessed into products, materials or substances whether for the original or other purposes excluding energy recovery” (CEN EN 45554:2020, 2020).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Recyclability</IRI>
+        <Literal>Recyclability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recyclable</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recyclable</IRI>
+        <Literal>Recyclable is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Recyclable</IRI>
+        <Literal>Recyclable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RecycledContent</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RecycledContent</IRI>
+        <Literal>Recycled Content is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RecycledContent</IRI>
+        <Literal>Recycled Content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RecycledMaterialIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RecycledMaterialIncluded</IRI>
+        <Literal>Recycled Material Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RecycledMaterialIncluded</IRI>
+        <Literal>Recycled Material Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Refurbishment</IRI>
+        <Literal>Dimension related to the ability and process “to prepare, clean, test, service and, where necessary, repair a product or a discarded product to restore its performance or functionality within the intended use and range of performance originally conceived at the design stage at the time of the placing of the product on the market” (Official Journal of the European Union, 2024).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Refurbishment</IRI>
+        <Literal>Refurbishment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reliability</IRI>
+        <Literal>Dimension related to “the probability that a product functions as required under given conditions for a given duration without an occurrence which results in a primary or secondary function of the product no longer being performed” (Official Journal of the European Union, 2024).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Reliability</IRI>
+        <Literal>Reliability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Remanufacturing</IRI>
+        <Literal>Dimension related to the ability and process “by which a new product is created from waste, used products, or components, with at least one modification that significantly affects the product’s safety, performance, function, or type” (Official Journal of the European Union, 2024).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Remanufacturing</IRI>
+        <Literal>Remanufacturing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RemovableCover</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RemovableCover</IRI>
+        <Literal>Removable Cover is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RemovableCover</IRI>
+        <Literal>Removable Cover</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Repairability</IRI>
+        <Literal>Dimension related to the ability and process “to return a defective product or waste to a condition where it is able to fulfil its intended purpose” (Official Journal of the European Union, 2024).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Repairability</IRI>
+        <Literal>Repairability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Resistivity</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Resistivity</IRI>
+        <Literal>Resistivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Resistivity</IRI>
+        <Literal>Resistivity is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reusability</IRI>
+        <Literal>Dimension related to the ability and process “by which a product or its parts, having reached the end of their first use, and used for the same purpose for which they were conceived” (CEN EN 45554:2020, 2020).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Reusability</IRI>
+        <Literal>Reusability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reversible</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reversible</IRI>
+        <Literal>Reversible is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Reversible</IRI>
+        <Literal>Reversible</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RightOfEndUsers</IRI>
+        <Literal>Dimension describing the policies that define the rights, permissions and prohibitions governing how users may interact with a product and its related services.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RightOfEndUsers</IRI>
+        <Literal>Right Of End Users</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rollable</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rollable</IRI>
+        <Literal>Rollable is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rollable</IRI>
+        <Literal>Rollable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#S821_30_SE12</IRI>
+        <Literal>KaveHome Gala 3-Seater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SR-LK4-W01</IRI>
+        <Literal>Sara Locker 4-elements White</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Safety</IRI>
+        <Literal>Collection of information related to the safety of using a product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Safety</IRI>
+        <Literal>Dimension related to materials concerns “with design and production of consumer goods that will not present mechanical, electrical, chemical, or other hazards in the course of any reasonable use of the product” (UNBIS Thesaurus, 2026).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Safety</IRI>
+        <Literal>Safety</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ScratchResistant</IRI>
+        <Literal>Scratch Resistant is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ScratchResistant</IRI>
+        <Literal>Scratch Resistant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeamSlippage</IRI>
+        <Literal>Seam Slippage is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeamSlippage</IRI>
+        <Literal>Seam Slippage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatBeltIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatBeltIncluded</IRI>
+        <Literal>Seat Belt Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeatBeltIncluded</IRI>
+        <Literal>Seat Belt Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatCoverRemovable</IRI>
+        <Literal>Seat Cover Removable is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeatCoverRemovable</IRI>
+        <Literal>Seat Cover Removable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatHeight</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatHeight</IRI>
+        <Literal>Seat Height is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeatHeight</IRI>
+        <Literal>Seat Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatIncluded</IRI>
+        <Literal>Seat Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeatIncluded</IRI>
+        <Literal>Seat Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatLength</IRI>
+        <Literal>Seat Length is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeatLength</IRI>
+        <Literal>Seat Length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatSliding</IRI>
+        <Literal>Seat Sliding is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeatSliding</IRI>
+        <Literal>Seat Sliding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatWidth</IRI>
+        <Literal>Seat Width is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeatWidth</IRI>
+        <Literal>Seat Width</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeatingCapacity</IRI>
+        <Literal>Seating Capacity is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeatingCapacity</IRI>
+        <Literal>Seating Capacity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SecondHand</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SecondHand</IRI>
+        <Literal>Second Hand is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecondHand</IRI>
+        <Literal>Second Hand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SecondaryFunction</IRI>
+        <Literal>A secondary function supports, enhances, or complements the primary function but is not the product’s main purpose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecondaryFunction</IRI>
+        <Literal>Secondary Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Service</IRI>
+        <Literal>Information about an activity or capability delivered together with or around the product, often providing support, operation, maintenance, or added value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Service</IRI>
+        <Literal>Service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SkateIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SkateIncluded</IRI>
+        <Literal>Skate Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SkateIncluded</IRI>
+        <Literal>Skate Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SolventBased</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SolventBased</IRI>
+        <Literal>Solvent-based is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SolventBased</IRI>
+        <Literal>Solvent-based</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SparePartsAvailable</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SparePartsAvailable</IRI>
+        <Literal>Spare Parts Available is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SparePartsAvailable</IRI>
+        <Literal>Spare Parts Available</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpecialEffects</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpecialEffects</IRI>
+        <Literal>Special Effects is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SpecialEffects</IRI>
+        <Literal>Special Effects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stackable</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stackable</IRI>
+        <Literal>Stackable is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stackable</IRI>
+        <Literal>Stackable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StainResistant</IRI>
+        <Literal>Stain Resistant is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StainResistant</IRI>
+        <Literal>Stain Resistant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StrapsIncluded</IRI>
+        <Literal>Straps Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SubstanceBase</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SubstanceBase</IRI>
+        <Literal>Substance Base is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SubstanceBase</IRI>
+        <Literal>Substance Base</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Surface</IRI>
+        <Literal>Surface is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Surface</IRI>
+        <Literal>Surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Swivel</IRI>
+        <Literal>Swivel is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Swivel</IRI>
+        <Literal>Swivel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Texture</IRI>
+        <Literal>Texture is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Texture</IRI>
+        <Literal>Texture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thickness</IRI>
+        <Literal>Thickness is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thickness</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thickness</IRI>
+        <Literal>Thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnitsPerPack</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnitsPerPack</IRI>
+        <Literal>Units Per Pack is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UnitsPerPack</IRI>
+        <Literal>Units Per Pack</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Upgradability</IRI>
+        <Literal>Dimension related to the ability and process “to enhance the functionality, performance, capacity, safety or aesthetics of a product” (Official Journal of the European Union, 2024).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Upgradability</IRI>
+        <Literal>Upgradability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UpholsteredIn</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UpholsteredIn</IRI>
+        <Literal>Upholstered In is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UpholsteredIn</IRI>
+        <Literal>Upholstered In</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UpholsteredType</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UpholsteredType</IRI>
+        <Literal>Upholstered Type is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UpholsteredType</IRI>
+        <Literal>Upholstered Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Usage</IRI>
+        <Literal>Dimension describing how a product performs its primary and secondary functions and how users operate, interact with, and experience the product under normal and reasonably foreseeable conditions of use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Usage</IRI>
+        <Literal>Usage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ValvePayload</IRI>
+        <Literal>Valve Payload is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ValvePayload</IRI>
+        <Literal>Valve Payload</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Viscosity</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Viscosity</IRI>
+        <Literal>Viscosity is an instance of property for the feature of interest related to funiture material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Viscosity</IRI>
+        <Literal>Viscosity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Volumn</IRI>
+        <Literal>Volumn is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Volumn</IRI>
+        <Literal>Volumn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WallThickness</IRI>
+        <Literal>Wall Thickness is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WallThickness</IRI>
+        <Literal>Wall Thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WasherType</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WasherType</IRI>
+        <Literal>Washer Type is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WasherType</IRI>
+        <Literal>Washer Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WasteManagement</IRI>
+        <Literal>Dimension describing the processes and capabilities for handling, treating, recycling, and disposing of the product and its components as waste at end‑of‑life.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WasteManagement</IRI>
+        <Literal>Waste Management</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WaterBased</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WaterBased</IRI>
+        <Literal>Water-based is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WaterBased</IRI>
+        <Literal>Water-based</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WaterRepellent</IRI>
+        <Literal>Water Repellent is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WaterRepellent</IRI>
+        <Literal>Water Repellent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Waterproof</IRI>
+        <Literal>Waterproof is an instance of property for the feature of interest related to funiture product, component, and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Waterproof</IRI>
+        <Literal>Waterproof</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weight</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weight</IRI>
+        <Literal>Weight is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Weight</IRI>
+        <Literal>Weigth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Width</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Width</IRI>
+        <Literal>Width is an instance of property for the feature of interest related to funiture product, component and material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Width</IRI>
+        <Literal>Width</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WindowFrameIncluded</IRI>
+        <Literal>Extracted from FSO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WindowFrameIncluded</IRI>
+        <Literal>Window Frame Included is an instance of property for the feature of interest related to funiture product and component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WindowFrameIncluded</IRI>
+        <Literal>Window Frame Included</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCollection</IRI>
+        <Literal>A product has collection, grouped set or product family.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCollection</IRI>
+        <Literal>has collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPermission</IRI>
+        <Literal>Indicates that a policy explicitly allows or authorizes a certain action, access, or behavior.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPermission</IRI>
+        <Literal>has permission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPolicyRule</IRI>
+        <Literal>Indicates that a product, service, or entity is governed by a specific rule, condition, or constraint that regulates its behavior, usage, or management.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPolicyRule</IRI>
+        <Literal>has policy rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasProhibition</IRI>
+        <Literal>Indicates that a policy explicitly forbids, restricts, or disallows a certain action or behavior.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasProhibition</IRI>
+        <Literal>has prohibition</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

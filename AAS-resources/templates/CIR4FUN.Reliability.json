@@ -1,0 +1,248 @@
+{
+  "idShort": "Reliability",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Reliability",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about durability evaluation."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "CertificateSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of certificates.  "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Certificate_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a certificate. Each certificate has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the certificate."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "IssueDate",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A date time string to present the time the certificate is issued."
+                }
+              ],
+              "valueType": "xs:dateTime"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the certificate.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "ValidityPolicy",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the validity prolicy of the certificate."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the test report that gives the score."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "StandardSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of standards. "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Standard_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a standard. Each standard has a labeled number between 0 and 99.  "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the standard.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "ComplianceStatus",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present if the compliance of the product to the standard.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Version",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the version of the standard."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the test report that gives the score."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the standard."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Status",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the compliance status of the product regarding the standard."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "ScoringSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of certificates.  "
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Scoring_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a certificate. Each certificate has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identification of the scoring system."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the scoring system.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Value",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the value of the product regarding the scoring method."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the scoring method."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "idShort": "ProductRelationship",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/ProductRelationship",
+  "description": [
+    {
+      "language": "en",
+      "text": "Dimension describing all related products that either extend the functionality of a product or combine with it to form a coherent collection. "
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "AccessorySet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of accessory."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Accessory_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about an accessory. Each substance has a labeled number between 0 and 99. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present name of the accessory."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the description of the accessory. "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the accessory. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "CollectionMemberSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of collection member to a product."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "CollectionMember_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a collection member. Each substance has a labeled number between 0 and 99. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present name of the collection member product."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the description of the collection member product."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to the collection member product. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dppo="http://w3id.org/dppo/ontology/dpp-info/"
+   xmlns:ns1="http://www.w3.org/2006/vcard/ns#"
+   xmlns:ns2="https://w3id.org/def/dtw#"
+   xmlns:ns3="http://schema.org/"
+   xmlns:ns4="http://purl.org/goodrelations/v1#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:pdto="http://www.w3id.org/pdto#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_sNY9br">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carcinogenic effects</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIA_Carcinogenic</ns3:name>
+    <rdfs:label>indicatorInformation_HIA_Carcinogenic_sNY9br</rdfs:label>
+    <rdfs:comment>Indicator information of HIA_Carcinogenic with ID sNY9br</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUh"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_hlBmdj"/>
+    <pdto:hasSimpleType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer</pdto:hasSimpleType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_8iOHUc">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toxic additive content</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ToxicAdditiveLevel</ns3:name>
+    <rdfs:label>indicatorInformation_ToxicAdditiveLevel_8iOHUc</rdfs:label>
+    <rdfs:comment>Indicator information of ToxicAdditiveLevel with ID 8iOHUc</rdfs:comment>
+    <dppo:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#mg/kg"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_dDd4vf"/>
+    <pdto:hasSimpleType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical Hazard</pdto:hasSimpleType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_t46T73">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eutrophication (terrestrial)</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_Eutrophication_Terrestrial</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_Eutrophication_Terrestrial_t46T73</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_Eutrophication_Terrestrial with ID t46T73</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#molN-eq"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_plXFot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_a08f08dfb459">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#EnvironmentalImpact"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EnvironmentalImpact</ns3:name>
+    <rdfs:label>submodel_EnvironmentalImpact_a08f08dfb459</rdfs:label>
+    <rdfs:comment>Submodel instance of EnvironmentalImpact with ID a08f08dfb459</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_x214zs"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_99Ige7"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_WqAJCx"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_ZqForO"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_p2Z1cK"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_IrX0aF"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_uKSClF"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_8niLTm"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_GxSmdy"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_t46T73"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_2N50Qw"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_YKhKTo"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_nWUKkb"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_L8eCxs"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_azImfq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_c4KCIb">
+    <rdfs:label>digitalDocument_c4KCIb</rdfs:label>
+    <rdfs:comment>Calculation method with ID c4KCIb</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_U6ybxw">
+    <rdfs:label>digitalDocument_U6ybxw</rdfs:label>
+    <rdfs:comment>Certificate document with ID U6ybxw</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_7irxQ1">
+    <rdfs:label>digitalDocument_7irxQ1</rdfs:label>
+    <rdfs:comment>Calculation method with ID 7irxQ1</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://www.lcacommons.org/hia</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_nWUKkb">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Use – Minerals/Metals</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_ResourceUse_MineralsMetals</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_ResourceUse_MineralsMetals_nWUKkb</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_ResourceUse_MineralsMetals with ID nWUKkb</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#kgSb-equivalent"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_wZWekB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_XPuRBm">
+    <rdfs:label>digitalDocument_XPuRBm</rdfs:label>
+    <rdfs:comment>Certificate document with ID XPuRBm</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_vW1pyL">
+    <rdfs:label>digitalDocument_vW1pyL</rdfs:label>
+    <rdfs:comment>Calculation method with ID vW1pyL</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://www.lcacommons.org/hia</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#trackingrecord_4VYsDJ">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#TrackingRecord"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Track-01</ns3:name>
+    <rdfs:label>trackingRecord_Track-01_4VYsDJ</rdfs:label>
+    <rdfs:comment>Tracking recordTrack-01 with ID 4VYsDJ</rdfs:comment>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N.A</ns3:description>
+    <pdto:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dispatched</pdto:hasStatus>
+    <dppo:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-01T08:00:00+00:00</dppo:endTime>
+    <pdto:hasOrigin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy</pdto:hasOrigin>
+    <pdto:hasDestination rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris, France</pdto:hasDestination>
+    <pdto:hasOperator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cargo Nord Operator</pdto:hasOperator>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_fbcacb6a3a34">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Characteristics"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics</ns3:name>
+    <rdfs:label>submodel_Characteristics_fbcacb6a3a34</rdfs:label>
+    <rdfs:comment>Submodel instance of Characteristics with ID fbcacb6a3a34</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_VSUj1D"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_uTU3J3"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_UXWu9Z"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_2rXVYg"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_gF15ms"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_aqGVva"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_l4pcSA"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_oAtMKT"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_8NIM8b"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_cXYblx"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_T9fk6V"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_WImgiQ"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_zfCG0l"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_9LE0o3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_8NIM8b">
+    <rdfs:label>info_LightFastness_8NIM8b</rdfs:label>
+    <rdfs:comment>Information of LightFastness with ID 8NIM8b</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>6-7 (Blue Scale)</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#LightFastness"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_pGscy1">
+    <rdfs:label>digitalDocument_pGscy1</rdfs:label>
+    <rdfs:comment>Certificate document with ID pGscy1</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_ELM27I">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standard methods of fire tests</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFPA260</ns3:name>
+    <rdfs:label>certificateInformation_NFPA260_ELM27I</rdfs:label>
+    <rdfs:comment>Certificate information of NFPA260 with ID ELM27I</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as per NFPA 260</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_5f3KtO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_SDdeRG">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reproductive toxicity</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIA_Reproductive</ns3:name>
+    <rdfs:label>indicatorInformation_HIA_Reproductive_SDdeRG</rdfs:label>
+    <rdfs:comment>Indicator information of HIA_Reproductive with ID SDdeRG</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUh"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_vW1pyL"/>
+    <pdto:hasSimpleType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reproductive</pdto:hasSimpleType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_Ty57CY">
+    <rdfs:label>info_ManufacturerProductFamily_Ty57CY</rdfs:label>
+    <rdfs:comment>Information of ManufacturerProductFamily with ID Ty57CY</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>Upholstery Fabrics</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#kgCFC-11-equivalent">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_239fd57bf264">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#Nameplate"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nameplate</ns3:name>
+    <rdfs:label>submodel_Nameplate_239fd57bf264</rdfs:label>
+    <rdfs:comment>Submodel instance of Nameplate with ID 239fd57bf264</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_Lg9ggP"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_Ty57CY"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_R2aoXj"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#Contact_h7ghZM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#designrecord_FmuThn">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#DesignRecord"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design-02</ns3:name>
+    <rdfs:label>designRecord_Design-02_FmuThn</rdfs:label>
+    <rdfs:comment>Design recordDesign-02 with ID FmuThn</rdfs:comment>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detailed design sent to client for evaluation</ns3:description>
+    <pdto:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</pdto:hasVersion>
+    <pdto:designFile rdf:resource="https://cir4fun.eu/data#digitaldocument_mKNlY7"/>
+    <dppo:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-20T11:00:00+00:00</dppo:endTime>
+    <pdto:hasOperator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering Team B</pdto:hasOperator>
+    <pdto:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta</pdto:hasStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#material_7Dd8ud">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#MaterialInformation"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polypropylene Yarn 013</ns3:name>
+    <rdfs:label>materialInformation_Polypropylene_Yarn_013_7Dd8ud</rdfs:label>
+    <rdfs:comment>Material information of Polypropylene Yarn 013 with ID 7Dd8ud</rdfs:comment>
+    <pdto:hasPortion rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</pdto:hasPortion>
+    <pdto:isMandatory rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</pdto:isMandatory>
+    <pdto:hasSimpleReference rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.stellinigroup.com/products/polypropylene-cordonnet-yarn</pdto:hasSimpleReference>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_uTU3J3">
+    <rdfs:label>info_Width_uTU3J3</rdfs:label>
+    <rdfs:comment>Information of Width with ID uTU3J3</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic"/>
+    <dppo:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">140</dppo:value>
+    <dppo:unit rdf:resource="http://qudt.org/vocab/unit/CentiM"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Width"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_div6v1">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensures responsible forest sourcing and recyclability</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FSC-C123456</ns3:name>
+    <rdfs:label>certificateInformation_FSC-C123456_div6v1</rdfs:label>
+    <rdfs:comment>Certificate information of FSC-C123456 with ID div6v1</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as long as FSC certification is maintained</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_XPuRBm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_5XcMMz">
+    <rdfs:label>digitalDocument_5XcMMz</rdfs:label>
+    <rdfs:comment>Calculation method with ID 5XcMMz</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_bT2zNm">
+    <rdfs:label>digitalDocument_bT2zNm</rdfs:label>
+    <rdfs:comment>Certificate document with ID bT2zNm</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_nJ0PsN">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sustainable textile production and eco-friendly processes</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OEKO-TEX-STeP</ns3:name>
+    <rdfs:label>certificateInformation_OEKO-TEX-STeP_nJ0PsN</rdfs:label>
+    <rdfs:comment>Certificate information of OEKO-TEX-STeP with ID nJ0PsN</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-10T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as long as STeP certification is maintained</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_ZGZdTO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily">
+    <rdfs:label>ManufacturerProductFamily</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="Address_Contact_pyLMxu">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>address__pyLMxu</rdfs:label>
+    <rdfs:comment>Address information with ID pyLMxu</rdfs:comment>
+    <ns1:country-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT</ns1:country-name>
+    <ns1:postal-code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23890</ns1:postal-code>
+    <ns1:region rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province de Lecco</ns1:region>
+    <ns1:locality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barzago</ns1:locality>
+    <ns1:street-address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Via Giuseppe Parini, 3/5</ns1:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_vswGsY">
+    <rdfs:label>digitalDocument_vswGsY</rdfs:label>
+    <rdfs:comment>Calculation method with ID vswGsY</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_uslVbb">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality management system certification</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO9001-QMS</ns3:name>
+    <rdfs:label>certificateInformation_ISO9001-QMS_uslVbb</rdfs:label>
+    <rdfs:comment>Certificate information of ISO9001-QMS with ID uslVbb</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as long as ISO 9001 compliance is maintained</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_5CpOPl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_9LE0o3">
+    <rdfs:label>info_Texture_9LE0o3</rdfs:label>
+    <rdfs:comment>Information of Texture with ID 9LE0o3</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>Plain</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Texture"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_hM38KY">
+    <rdfs:label>info_RecyclableFraction_hM38KY</rdfs:label>
+    <rdfs:comment>Information of RecyclableFraction with ID hM38KY</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#RecyclableFraction"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_GxSmdy">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eutrophication (marine)</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_Eutrophication_Marine</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_Eutrophication_Marine_GxSmdy</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_Eutrophication_Marine with ID GxSmdy</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#kgN-eq"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_c4KCIb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_aqGVva">
+    <rdfs:label>info_Volumn_aqGVva</rdfs:label>
+    <rdfs:comment>Information of Volumn with ID aqGVva</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>None</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volumn"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitaldocument_mKNlY7">
+    <rdfs:label>digitalDocument_mKNlY7</rdfs:label>
+    <rdfs:comment>Design file with ID mKNlY7</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>Fortezza_9041_CAD_v2.0.dwg</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_PexWMd">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine disruption</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIA_Endocrine</ns3:name>
+    <rdfs:label>indicatorInformation_HIA_Endocrine_PexWMd</rdfs:label>
+    <rdfs:comment>Indicator information of HIA_Endocrine with ID PexWMd</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUh"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_yF9Jj3"/>
+    <pdto:hasSimpleType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine</pdto:hasSimpleType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_VSUj1D">
+    <rdfs:label>info_Length_VSUj1D</rdfs:label>
+    <rdfs:comment>Information of Length with ID VSUj1D</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>None</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Length"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_cXYblx">
+    <rdfs:label>info_AbrasionResistance_cXYblx</rdfs:label>
+    <rdfs:comment>Information of AbrasionResistance with ID cXYblx</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>30000 Martindale cycles</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#AbrasionResistance"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#ManufacturingStateRecord_YIQkhn">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#ManufacturingRecord"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP-CUT-01</ns3:name>
+    <rdfs:label>manufacturingRecord_OP-CUT-01_YIQkhn</rdfs:label>
+    <rdfs:comment>Manufacturing recordOP-CUT-01 with ID YIQkhn</rdfs:comment>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cut and scale to standardized size</ns3:description>
+    <dppo:startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-28T08:00:00+00:00</dppo:startTime>
+    <dppo:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-28T10:00:00+00:00</dppo:endTime>
+    <pdto:hasPositionInProcessRouting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REF-PRPOS-01</pdto:hasPositionInProcessRouting>
+    <pdto:hasSimpleStation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-CUT-01</pdto:hasSimpleStation>
+    <pdto:hasOperator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operator A</pdto:hasOperator>
+    <pdto:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completed</pdto:hasStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3id.org/pdto#hasFeatureHaha">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_ZGZdTO">
+    <rdfs:label>digitalDocument_ZGZdTO</rdfs:label>
+    <rdfs:comment>Certificate document with ID ZGZdTO</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_8niLTm">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eutrophication (freshwater)</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_Eutrophication_Freshwater</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_Eutrophication_Freshwater_8niLTm</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_Eutrophication_Freshwater with ID 8niLTm</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#kgPO4³⁻-eq"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_vswGsY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_c645b712c118">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#HealthImpact"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HealthImpact</ns3:name>
+    <rdfs:label>submodel_HealthImpact_c645b712c118</rdfs:label>
+    <rdfs:comment>Submodel instance of HealthImpact with ID c645b712c118</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_sNY9br"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_qIfVqA"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_sgpIag"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_iFvcId"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_SDdeRG"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_PexWMd"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#indicator_8iOHUc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_WqAJCx">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Toxicity (cancer)</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_HumanToxicity_Cancer</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_HumanToxicity_Cancer_WqAJCx</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_HumanToxicity_Cancer with ID WqAJCx</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUh"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_5XcMMz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_qIfVqA">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-carcinogenic effects</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIA_NonCarcinogenic</ns3:name>
+    <rdfs:label>indicatorInformation_HIA_NonCarcinogenic_qIfVqA</rdfs:label>
+    <rdfs:comment>Indicator information of HIA_NonCarcinogenic with ID qIfVqA</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUh"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_mv77A1"/>
+    <pdto:hasSimpleType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Cancer</pdto:hasSimpleType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_hlBmdj">
+    <rdfs:label>digitalDocument_hlBmdj</rdfs:label>
+    <rdfs:comment>Calculation method with ID hlBmdj</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://www.lcacommons.org/hia</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_T9fk6V">
+    <rdfs:label>info_Pilling_T9fk6V</rdfs:label>
+    <rdfs:comment>Information of Pilling with ID T9fk6V</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>4/5</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Pilling"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_2N50Qw">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecotoxicity (freshwater)</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_Ecotoxicity_Freshwater</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_Ecotoxicity_Freshwater_2N50Qw</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_Ecotoxicity_Freshwater with ID 2N50Qw</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUe"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_ZHfcYK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_09f738745991">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Safety"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Safety</ns3:name>
+    <rdfs:label>submodel_Safety_09f738745991</rdfs:label>
+    <rdfs:comment>Submodel instance of Safety with ID 09f738745991</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_jd2PTr"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_mtvgpS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_370vln">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fire tests for textiles and films</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFPA701</ns3:name>
+    <rdfs:label>certificateInformation_NFPA701_370vln</rdfs:label>
+    <rdfs:comment>Certificate information of NFPA701 with ID 370vln</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as per NFPA 701</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_bT2zNm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_9BEqLD">
+    <rdfs:label>digitalDocument_9BEqLD</rdfs:label>
+    <rdfs:comment>Certificate document with ID 9BEqLD</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_avn6Wa">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fire behavior of building materials</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIN4102-B1</ns3:name>
+    <rdfs:label>certificateInformation_DIN4102-B1_avn6Wa</rdfs:label>
+    <rdfs:comment>Certificate information of DIN4102-B1 with ID avn6Wa</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as per DIN 4102</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_3zV3ho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_SAKyrB">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seating fire resistance</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN13773 Class 1</ns3:name>
+    <rdfs:label>certificateInformation_EN13773_Class_1_SAKyrB</rdfs:label>
+    <rdfs:comment>Certificate information of EN13773 Class 1 with ID SAKyrB</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as per EN 13773</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_j4KT2n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_uKSClF">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidification</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_Acidification</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_Acidification_uKSClF</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_Acidification with ID uKSClF</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#molH⁺-equivalent"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_mWEM0N"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_lzVEIt">
+    <rdfs:label>info_Recyclable_lzVEIt</rdfs:label>
+    <rdfs:comment>Information of Recyclable with ID lzVEIt</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Recyclable"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#designrecord_ObCsKq">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#DesignRecord"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design-02b</ns3:name>
+    <rdfs:label>designRecord_Design-02b_ObCsKq</rdfs:label>
+    <rdfs:comment>Design recordDesign-02b with ID ObCsKq</rdfs:comment>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Update from version 2.0</ns3:description>
+    <pdto:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.3</pdto:hasVersion>
+    <pdto:designFile rdf:resource="https://cir4fun.eu/data#digitaldocument_BsmZiZ"/>
+    <dppo:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-20T15:00:00+00:00</dppo:endTime>
+    <pdto:hasOperator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering Team C</pdto:hasOperator>
+    <pdto:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Released</pdto:hasStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_azImfq">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water Scarcity</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_WaterScarcity</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_WaterScarcity_azImfq</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_WaterScarcity with ID azImfq</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#m³water-equivalent"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_TemZrF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_ZqForO">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Toxicity (non-cancer)</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_HumanToxicity_NonCancer</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_HumanToxicity_NonCancer_ZqForO</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_HumanToxicity_NonCancer with ID ZqForO</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUh"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_jR3IrS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_mtvgpS">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Textile safety for productnot in direct contact with skin (e.g., furniture, home textiles)</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OEKO-TEX-STD100-CIV</ns3:name>
+    <rdfs:label>certificateInformation_OEKO-TEX-STD100-CIV_mtvgpS</rdfs:label>
+    <rdfs:comment>Certificate information of OEKO-TEX-STD100-CIV with ID mtvgpS</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as long as OEKO-TEX® STANDARD 100 Class IV certification is maintained</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_lRJdXG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_mv77A1">
+    <rdfs:label>digitalDocument_mv77A1</rdfs:label>
+    <rdfs:comment>Calculation method with ID mv77A1</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://www.lcacommons.org/hia</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_x214zs">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Climate Change</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_ClimateChange</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_ClimateChange_x214zs</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_ClimateChange with ID x214zs</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#kgCO2-equivalent"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_vvgig9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_TemZrF">
+    <rdfs:label>digitalDocument_TemZrF</rdfs:label>
+    <rdfs:comment>Calculation method with ID TemZrF</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_mWEM0N">
+    <rdfs:label>digitalDocument_mWEM0N</rdfs:label>
+    <rdfs:comment>Calculation method with ID mWEM0N</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Length">
+    <rdfs:label>Length</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#information_model_61f46bcd">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#InformationModel"/>
+    <rdfs:label>informationModel_Fortezza_9041_61f46bcd</rdfs:label>
+    <rdfs:comment>Information model of Fortezza 9041 with ID 61f46bcd</rdfs:comment>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_fbcacb6a3a34"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_72b7d8ee934b"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_e470ba3bdd9f"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_09f738745991"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_39e2e496a42b"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_c645b712c118"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_f823edb8fe84"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_239fd57bf264"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_a08f08dfb459"/>
+    <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_2fe37a50f2d4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_p2Z1cK">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photochemical Ozone Formation</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_PhotochemicalOzoneFormation</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_PhotochemicalOzoneFormation_p2Z1cK</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_PhotochemicalOzoneFormation with ID p2Z1cK</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#kgNMVOC-equivalent"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_34jyLI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_wiBTvD">
+    <rdfs:label>digitalDocument_wiBTvD</rdfs:label>
+    <rdfs:comment>Certificate document with ID wiBTvD</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_iTEneR">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental management system certification for sustainable operations</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO14001-EMS</ns3:name>
+    <rdfs:label>certificateInformation_ISO14001-EMS_iTEneR</rdfs:label>
+    <rdfs:comment>Certificate information of ISO14001-EMS with ID iTEneR</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-15T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as long as ISO 14001 compliance is maintained</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_hh6qL9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_t2RlSz">
+    <rdfs:label>info_RecycledMaterialIncluded_t2RlSz</rdfs:label>
+    <rdfs:comment>Information of RecycledMaterialIncluded with ID t2RlSz</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#RecycledMaterialIncluded"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_jd2PTr">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Textile safety for products in direct contact with skin</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OEKO-TEX-STD100-CII</ns3:name>
+    <rdfs:label>certificateInformation_OEKO-TEX-STD100-CII_jd2PTr</rdfs:label>
+    <rdfs:comment>Certificate information of OEKO-TEX-STD100-CII with ID jd2PTr</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as long as OEKO-TEX® STANDARD 100 Class II certification is maintained</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_wiBTvD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_e470ba3bdd9f">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Durability"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durability</ns3:name>
+    <rdfs:label>submodel_Durability_e470ba3bdd9f</rdfs:label>
+    <rdfs:comment>Submodel instance of Durability with ID e470ba3bdd9f</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_yBsZN9"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_EaA7Ic"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_nAdk9y"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_ELM27I"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_370vln"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_avn6Wa"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_SAKyrB"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_rGA4bo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_99Ige7">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ozone Depletion</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_OzoneDepletion</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_OzoneDepletion_99Ige7</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_OzoneDepletion with ID 99Ige7</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#kgCFC-11-equivalent"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_qbMVzg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_YKhKTo">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource Use – Fossils</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_ResourceUse_Fossils</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_ResourceUse_Fossils_YKhKTo</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_ResourceUse_Fossils with ID YKhKTo</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#MJ"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_h4kqao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_l4pcSA">
+    <rdfs:label>info_Surface_l4pcSA</rdfs:label>
+    <rdfs:comment>Information of Surface with ID l4pcSA</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>Woven matte</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Surface"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_5CpOPl">
+    <rdfs:label>digitalDocument_5CpOPl</rdfs:label>
+    <rdfs:comment>Certificate document with ID 5CpOPl</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_qR3QpF">
+    <rdfs:label>digitalDocument_qR3QpF</rdfs:label>
+    <rdfs:comment>Certificate document with ID qR3QpF</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_yBsZN9">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furniture testing standard</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNI8456 Class 1</ns3:name>
+    <rdfs:label>certificateInformation_UNI8456_Class_1_yBsZN9</rdfs:label>
+    <rdfs:comment>Certificate information of UNI8456 Class 1 with ID yBsZN9</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as per UNI 8456</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_U6ybxw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_rGA4bo">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marine furniture fire safety</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMO-Part8</ns3:name>
+    <rdfs:label>certificateInformation_IMO-Part8_rGA4bo</rdfs:label>
+    <rdfs:comment>Certificate information of IMO-Part8 with ID rGA4bo</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as per IMO Part 8</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_qR3QpF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitaldocument_VdhvUq">
+    <rdfs:label>digitalDocument_VdhvUq</rdfs:label>
+    <rdfs:comment>Design file with ID VdhvUq</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>Fortezza_9041_CAD_v1.0.dwg</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_plXFot">
+    <rdfs:label>digitalDocument_plXFot</rdfs:label>
+    <rdfs:comment>Calculation method with ID plXFot</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://dpp4fun.pkgi40.codelib.re/dpp4fun.owl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_IrX0aF">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Particulate Matter</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_ParticulateMatter</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_ParticulateMatter_IrX0aF</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_ParticulateMatter with ID IrX0aF</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#kgPM2.5-equivalent"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_YpwTfl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_oAtMKT">
+    <rdfs:label>info_Color_oAtMKT</rdfs:label>
+    <rdfs:comment>Information of Color with ID oAtMKT</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>Blue</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Color"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation">
+    <rdfs:label>ManufacturerProductDesignation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#designrecord_oROmli">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#DesignRecord"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design-01</ns3:name>
+    <rdfs:label>designRecord_Design-01_oROmli</rdfs:label>
+    <rdfs:comment>Design recordDesign-01 with ID oROmli</rdfs:comment>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw design and select material</ns3:description>
+    <pdto:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</pdto:hasVersion>
+    <pdto:designFile rdf:resource="https://cir4fun.eu/data#digitaldocument_VdhvUq"/>
+    <dppo:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-15T09:00:00+00:00</dppo:endTime>
+    <pdto:hasOperator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering Team A</pdto:hasOperator>
+    <pdto:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alpha</pdto:hasStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3id.org/pdto#hasInformation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_iFvcId">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurotoxicity</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIA_Neurotoxicity</ns3:name>
+    <rdfs:label>indicatorInformation_HIA_Neurotoxicity_iFvcId</rdfs:label>
+    <rdfs:comment>Indicator information of HIA_Neurotoxicity with ID iFvcId</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUh"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_7irxQ1"/>
+    <pdto:hasSimpleType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurological</pdto:hasSimpleType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#Contact_h7ghZM">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#ContactInformation"/>
+    <rdfs:label>contactInformation__h7ghZM</rdfs:label>
+    <rdfs:comment>Contact information with ID h7ghZM</rdfs:comment>
+    <ns1:hasAddress rdf:resource="Address_Contact_pyLMxu"/>
+    <ns1:hasTelephone rdf:resource="Phone_Contact_e1qTjO"/>
+    <ns1:hasEmail rdf:resource="Email_contact_kt4ueZ"/>
+    <ns1:organization-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pozzi Headquarters</ns1:organization-name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_UXWu9Z">
+    <rdfs:label>info_Height_UXWu9Z</rdfs:label>
+    <rdfs:comment>Information of Height with ID UXWu9Z</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic"/>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="http://qudt.org/vocab/unit/CentiM"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Height"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_2rXVYg">
+    <rdfs:label>info_Diameter_2rXVYg</rdfs:label>
+    <rdfs:comment>Information of Diameter with ID 2rXVYg</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>None</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Diameter"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#dpp_61f46bcd">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#DigitalProductPassport"/>
+    <ns2:hasPhysicalEntity rdf:resource="https://cir4fun.eu/data#product_61f46bcd"/>
+    <ns2:hasDigitalEntity rdf:resource="https://cir4fun.eu/data#digital_product_61f46bcd"/>
+    <rdfs:label>digitalProductPassport_61f46bcd</rdfs:label>
+    <rdfs:comment>Digital Product Passport instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_2fe37a50f2d4">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#Traceability"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Traceability</ns3:name>
+    <rdfs:label>submodel_Traceability_2fe37a50f2d4</rdfs:label>
+    <rdfs:comment>Submodel instance of Traceability with ID 2fe37a50f2d4</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#designrecord_oROmli"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#designrecord_FmuThn"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#designrecord_ObCsKq"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#ManufacturingStateRecord_YIQkhn"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#ManufacturingStateRecord_AgP7vY"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#trackingrecord_4VYsDJ"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#trackingrecord_tLgzBr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_zfCG0l">
+    <rdfs:label>info_ColorFastness_zfCG0l</rdfs:label>
+    <rdfs:comment>Information of ColorFastness with ID zfCG0l</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>None</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#ColorFastness"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_k6G5tr">
+    <rdfs:label>digitalDocument_k6G5tr</rdfs:label>
+    <rdfs:comment>Calculation method with ID k6G5tr</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://www.lcacommons.org/hia</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digital_product_61f46bcd">
+    <rdfs:label>sphereDigital_61f46bcd</rdfs:label>
+    <rdfs:comment>Digital Product instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd</rdfs:comment>
+    <ns2:hasModel rdf:resource="https://cir4fun.eu/data#information_model_61f46bcd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_vvgig9">
+    <rdfs:label>digitalDocument_vvgig9</rdfs:label>
+    <rdfs:comment>Calculation method with ID vvgig9</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_f823edb8fe84">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Recyclability"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recyclability</ns3:name>
+    <rdfs:label>submodel_Recyclability_f823edb8fe84</rdfs:label>
+    <rdfs:comment>Submodel instance of Recyclability with ID f823edb8fe84</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_hM38KY"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_lzVEIt"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#info_t2RlSz"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_div6v1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#trackingrecord_tLgzBr">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#TrackingRecord"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Track-02</ns3:name>
+    <rdfs:label>trackingRecord_Track-02_tLgzBr</rdfs:label>
+    <rdfs:comment>Tracking recordTrack-02 with ID tLgzBr</rdfs:comment>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N.A</ns3:description>
+    <pdto:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In Transit</pdto:hasStatus>
+    <dppo:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-02T12:00:00+00:00</dppo:endTime>
+    <pdto:hasOrigin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy</pdto:hasOrigin>
+    <pdto:hasDestination rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris, France</pdto:hasDestination>
+    <pdto:hasOperator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cargo Nord Operator</pdto:hasOperator>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_EaA7Ic">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furniture flammability test</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN1021-1&amp;2</ns3:name>
+    <rdfs:label>certificateInformation_EN1021-1&amp;2_EaA7Ic</rdfs:label>
+    <rdfs:comment>Certificate information of EN1021-1&amp;2 with ID EaA7Ic</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as per EN 1021</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_pGscy1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_sgpIag">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory effects</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIA_Respiratory</ns3:name>
+    <rdfs:label>indicatorInformation_HIA_Respiratory_sgpIag</rdfs:label>
+    <rdfs:comment>Indicator information of HIA_Respiratory with ID sgpIag</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#CTUh"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_k6G5tr"/>
+    <pdto:hasSimpleType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory</pdto:hasSimpleType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_hh6qL9">
+    <rdfs:label>digitalDocument_hh6qL9</rdfs:label>
+    <rdfs:comment>Certificate document with ID hh6qL9</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#molH⁺-equivalent">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#thumbnail_Hnwr0z">
+    <rdf:type rdf:resource="http://schema.org/ImageObject"/>
+    <pdto:hasIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pozziarturo.it/en/wp-content/uploads/sites/2/2016/07/JK81764.jpg</pdto:hasIRI>
+    <rdfs:label>thumbnail_61f46bcd_Hnwr0z</rdfs:label>
+    <rdfs:comment>Reduced image of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID Hnwr0z</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#AbrasionResistance">
+    <rdfs:label>AbrasionResistance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_jR3IrS">
+    <rdfs:label>digitalDocument_jR3IrS</rdfs:label>
+    <rdfs:comment>Calculation method with ID jR3IrS</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Recyclable">
+    <rdfs:label>Recyclable</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Height">
+    <rdfs:label>Height</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#MJ">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#CTUe">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_39e2e496a42b">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Durability"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durability</ns3:name>
+    <rdfs:label>submodel_Durability_39e2e496a42b</rdfs:label>
+    <rdfs:comment>Submodel instance of Durability with ID 39e2e496a42b</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_uslVbb"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_iTEneR"/>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#certificate_nJ0PsN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_j4KT2n">
+    <rdfs:label>digitalDocument_j4KT2n</rdfs:label>
+    <rdfs:comment>Certificate document with ID j4KT2n</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#ManufacturingStateRecord_AgP7vY">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#ManufacturingRecord"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP-SEW-02</ns3:name>
+    <rdfs:label>manufacturingRecord_OP-SEW-02_AgP7vY</rdfs:label>
+    <rdfs:comment>Manufacturing recordOP-SEW-02 with ID AgP7vY</rdfs:comment>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sew for the final version</ns3:description>
+    <dppo:startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-29T09:00:00+00:00</dppo:startTime>
+    <dppo:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-29T12:00:00+00:00</dppo:endTime>
+    <pdto:hasPositionInProcessRouting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REF-PRPOS-02</pdto:hasPositionInProcessRouting>
+    <pdto:hasSimpleStation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEW-02</pdto:hasSimpleStation>
+    <pdto:hasOperator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operator B</pdto:hasOperator>
+    <pdto:hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completed</pdto:hasStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_fTyVO5">
+    <rdfs:label>digitalDocument_fTyVO5</rdfs:label>
+    <rdfs:comment>Calculation method with ID fTyVO5</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_nAdk9y">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/CertificateInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furniture fire resistance standard</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TB117-CA</ns3:name>
+    <rdfs:label>certificateInformation_TB117-CA_nAdk9y</rdfs:label>
+    <rdfs:comment>Certificate information of TB117-CA with ID nAdk9y</rdfs:comment>
+    <pdto:hasIssuedDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-01T00:00:00</pdto:hasIssuedDate>
+    <pdto:hasValidityPolicy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valid as per TB117</pdto:hasValidityPolicy>
+    <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_9BEqLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#LightFastness">
+    <rdfs:label>LightFastness</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Pilling">
+    <rdfs:label>Pilling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitaldocument_BsmZiZ">
+    <rdfs:label>digitalDocument_BsmZiZ</rdfs:label>
+    <rdfs:comment>Design file with ID BsmZiZ</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>Fortezza_9041_CAD_v2.3.dwg</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_ZHfcYK">
+    <rdfs:label>digitalDocument_ZHfcYK</rdfs:label>
+    <rdfs:comment>Calculation method with ID ZHfcYK</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#mg/kg">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#product_61f46bcd">
+    <rdfs:label>spherePhysical_61f46bcd</rdfs:label>
+    <ns4:description>https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX 61f46bcd</ns4:description>
+    <rdfs:comment>Product instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#ProductOrServiceModel"/>
+    <ns4:name>61f46bcd</ns4:name>
+    <ns3:productID>61f46bcd</ns3:productID>
+    <pdto:hasThumbnail rdf:resource="https://cir4fun.eu/data#thumbnail_Hnwr0z"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_yF9Jj3">
+    <rdfs:label>digitalDocument_yF9Jj3</rdfs:label>
+    <rdfs:comment>Calculation method with ID yF9Jj3</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://www.lcacommons.org/hia</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_YpwTfl">
+    <rdfs:label>digitalDocument_YpwTfl</rdfs:label>
+    <rdfs:comment>Calculation method with ID YpwTfl</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3id.org/pdto#modelAggregatedFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_h4kqao">
+    <rdfs:label>digitalDocument_h4kqao</rdfs:label>
+    <rdfs:comment>Calculation method with ID h4kqao</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_lRJdXG">
+    <rdfs:label>digitalDocument_lRJdXG</rdfs:label>
+    <rdfs:comment>Certificate document with ID lRJdXG</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#aspect_72b7d8ee934b">
+    <rdf:type rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#BillOfMaterials"/>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BillOfMaterials</ns3:name>
+    <rdfs:label>submodel_BillOfMaterials_72b7d8ee934b</rdfs:label>
+    <rdfs:comment>Submodel instance of BillOfMaterials with ID 72b7d8ee934b</rdfs:comment>
+    <pdto:hasInformation rdf:resource="https://cir4fun.eu/data#material_7Dd8ud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_qbMVzg">
+    <rdfs:label>digitalDocument_qbMVzg</rdfs:label>
+    <rdfs:comment>Calculation method with ID qbMVzg</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="Email_contact_kt4ueZ">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+    <rdfs:label>email__kt4ueZ</rdfs:label>
+    <rdfs:comment>Email information with ID kt4ueZ</rdfs:comment>
+    <pdto:emailAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">info@pozziarturo.it</pdto:emailAddress>
+    <pdto:typeOfEmail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corporate</pdto:typeOfEmail>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_gF15ms">
+    <rdfs:label>info_Weight_gF15ms</rdfs:label>
+    <rdfs:comment>Information of Weight with ID gF15ms</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic"/>
+    <dppo:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">315</dppo:value>
+    <dppo:unit>g/m2</dppo:unit>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Weight"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#m³water-equivalent">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_L8eCxs">
+    <rdf:type rdf:resource="http://www.w3id.org/pdto#IndicatorInformation"/>
+    <ns3:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Land Use</ns3:description>
+    <ns3:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEF_LandUse</ns3:name>
+    <rdfs:label>indicatorInformation_PEF_LandUse_L8eCxs</rdfs:label>
+    <rdfs:comment>Indicator information of PEF_LandUse with ID L8eCxs</rdfs:comment>
+    <dppo:value>None</dppo:value>
+    <dppo:unit rdf:resource="https://cir4fun.eu/data#Soilqualityindex"/>
+    <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_fTyVO5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#Soilqualityindex">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_Lg9ggP">
+    <rdfs:label>info_ManufacturerName_Lg9ggP</rdfs:label>
+    <rdfs:comment>Information of ManufacturerName with ID Lg9ggP</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>Pozzi Arturo S.p.A.</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Texture">
+    <rdfs:label>Texture</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="Phone_Contact_e1qTjO">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Phone"/>
+    <rdfs:label>phone__e1qTjO</rdfs:label>
+    <rdfs:comment>Phone information with ID e1qTjO</rdfs:comment>
+    <pdto:telephoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+39 031 86231</pdto:telephoneNumber>
+    <pdto:typeOfTelephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer Service</pdto:typeOfTelephone>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#kgPM2.5-equivalent">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volumn">
+    <rdfs:label>Volumn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_WImgiQ">
+    <rdfs:label>info_SeamSlippage_WImgiQ</rdfs:label>
+    <rdfs:comment>Information of SeamSlippage with ID WImgiQ</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>Warp/Weft 3mm</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#SeamSlippage"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_dDd4vf">
+    <rdfs:label>digitalDocument_dDd4vf</rdfs:label>
+    <rdfs:comment>Calculation method with ID dDd4vf</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://www.example-lab.com/toxicity-testing-protocol</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#info_R2aoXj">
+    <rdfs:label>info_ManufacturerProductDesignation_R2aoXj</rdfs:label>
+    <rdfs:comment>Information of ManufacturerProductDesignation with ID R2aoXj</rdfs:comment>
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
+    <dppo:value>Fortezza 9041</dppo:value>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation"/>
+    <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#kgNMVOC-equivalent">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/dppo/ontology/dpp-info/unit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Width">
+    <rdfs:label>Width</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#kgPO4³⁻-eq">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_wZWekB">
+    <rdfs:label>digitalDocument_wZWekB</rdfs:label>
+    <rdfs:comment>Calculation method with ID wZWekB</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_5f3KtO">
+    <rdfs:label>digitalDocument_5f3KtO</rdfs:label>
+    <rdfs:comment>Certificate document with ID 5f3KtO</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#RecycledMaterialIncluded">
+    <rdfs:label>RecycledMaterialIncluded</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3id.org/pdto#clarifiedProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#CTUh">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/dppo/ontology/dpp-info/value">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Surface">
+    <rdfs:label>Surface</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_3zV3ho">
+    <rdfs:label>digitalDocument_3zV3ho</rdfs:label>
+    <rdfs:comment>Certificate document with ID 3zV3ho</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>N.A</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#RecyclableFraction">
+    <rdfs:label>RecyclableFraction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Weight">
+    <rdfs:label>Weight</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_34jyLI">
+    <rdfs:label>digitalDocument_34jyLI</rdfs:label>
+    <rdfs:comment>Calculation method with ID 34jyLI</rdfs:comment>
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3id.org/pdto#hasSimpleValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#SeamSlippage">
+    <rdfs:label>SeamSlippage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Color">
+    <rdfs:label>Color</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName">
+    <rdfs:label>ManufacturerName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#ColorFastness">
+    <rdfs:label>ColorFastness</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#kgSb-equivalent">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#molN-eq">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#kgN-eq">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cir4fun.eu/data#kgCO2-equivalent">
+    <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Diameter">
+    <rdfs:label>Diameter</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

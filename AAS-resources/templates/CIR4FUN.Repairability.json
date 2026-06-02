@@ -1,0 +1,182 @@
+{
+  "idShort": "Repairability",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/Repairability",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about repairability."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "SparePartsAvailable",
+      "modelType": "Property",
+      "description": [
+        {
+          "language": "en",
+          "text": "A boolean to repsent if the spare parts is available."
+        }
+      ],
+      "valueType": "xs:boolean"
+    },
+    {
+      "idShort": "RepairInstructionSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of repair instructions."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "RepairInstruction_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a repair instruction. Each instruction has a labeled number between 0 and 99."
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the title of the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Reference points to the instruction manual."
+                }
+              ]
+            },
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string for the description of the instruction.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "TargetAudience",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the intended audience for the instruction."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "RepairRecordSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "value": [
+        {
+          "idShort": "RepairRecord_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information of a repair record. Each record has a labeled number between 0 to 99.\u00a0"
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Description",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to describe the repair process.  "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Time",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the time that the repair record happens."
+                }
+              ],
+              "valueType": "xs:dateTime"
+            },
+            {
+              "idShort": "Operator",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the name of the operator."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Location",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the location or center where the repair happens."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Type",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the type of repair."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the identifier of the repair record."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

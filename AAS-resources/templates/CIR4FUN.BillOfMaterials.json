@@ -1,0 +1,182 @@
+{
+  "idShort": "BillOfMaterials",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/BillOfMaterials",
+  "description": [
+    {
+      "language": "en",
+      "text": "List of components and materials constituting a product."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "MaterialSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of parts"
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Material_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a substance. Each substance has a labeled number between 0 and 99. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present name of the material."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Mandatory",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The mandatory of a material."
+                }
+              ],
+              "valueType": "xs:boolean"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to a material. "
+                }
+              ]
+            },
+            {
+              "idShort": "Portion",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Portion of a material in a product"
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "ComponentSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of components."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Component_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a substance. Each substance has a labeled number between 0 and 99. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present name of the component."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to a component. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idShort": "PartSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of parts."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "Part_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a part. Each part has a labeled number between 0 and 99. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Name",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present name of the part."
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to a part."
+                }
+              ]
+            },
+            {
+              "idShort": "Mandatory",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A boolean to present whether the component is mandated or optional. "
+                }
+              ],
+              "valueType": "xs:boolean"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

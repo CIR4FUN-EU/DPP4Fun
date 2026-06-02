@@ -1,0 +1,92 @@
+{
+  "idShort": "CarbonFootprint",
+  "kind": "Template",
+  "modelType": "Submodel",
+  "id": "https://cea.fr/aas/submodels/CarbonFootprint",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel includes information about carbon footprint."
+    }
+  ],
+  "submodelElements": [
+    {
+      "idShort": "CarbonFootprintCalculationSet",
+      "modelType": "SubmodelElementList",
+      "description": [
+        {
+          "language": "en",
+          "text": "List of carbon footprint calculation."
+        }
+      ],
+      "value": [
+        {
+          "idShort": "CarbonFootprintCalculation_00",
+          "modelType": "SubmodelElementCollection",
+          "description": [
+            {
+              "language": "en",
+              "text": "A collection of information about a specific carbon footprint calculation. Each calculation has a labeled number between 0 and 99. "
+            }
+          ],
+          "value": [
+            {
+              "idShort": "Reference",
+              "modelType": "ReferenceElement",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A reference to a calculation method. "
+                }
+              ]
+            },
+            {
+              "idShort": "CO2eq",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A double to present the value of carbon footprint."
+                }
+              ],
+              "valueType": "xs:double"
+            },
+            {
+              "idShort": "Phase",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present lifecycle phase. "
+                }
+              ],
+              "valueType": "xs:string"
+            },
+            {
+              "idShort": "QuantityOfMeasurementForCalculation",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "An integer to present the number of measurement for calculation."
+                }
+              ],
+              "valueType": "xs:integer"
+            },
+            {
+              "idShort": "ImpactUnitForCalculation",
+              "modelType": "Property",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A string to present the impact unit for calculation."
+                }
+              ],
+              "valueType": "xs:string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

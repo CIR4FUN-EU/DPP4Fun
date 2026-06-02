@@ -1,0 +1,397 @@
+{
+  "assetAdministrationShells": [
+    {
+      "modelType": "AssetAdministrationShell",
+      "id": "50654c67",
+      "idShort": "M3247 Woodland Beech",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "http://www.w3id.org/pdto#InformationModel"
+          }
+        ]
+      },
+      "assetInformation": {
+        "assetKind": "Instance",
+        "assetType": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495",
+        "globalAssetId": "50654c67",
+        "defaultThumbnail": {
+          "path": "https://www.sonaearauco.com/media/w0kk3i0o/m3247_woodland_beech.jpg",
+          "contentType": "image/jpeg"
+        }
+      },
+      "submodels": [
+        {
+          "type": "Submodel",
+          "value": "Characteristics"
+        },
+        {
+          "type": "Submodel",
+          "value": "Nameplate"
+        },
+        {
+          "type": "Submodel",
+          "value": "Durability"
+        }
+      ]
+    }
+  ],
+  "submodels": [
+    {
+      "modelType": "Submodel",
+      "id": "sm-7414ce6d86a2",
+      "idShort": "Characteristics",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#Characteristics"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "Property",
+          "idShort": "Length",
+          "valueType": "integer",
+          "value": 2800
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Width",
+          "valueType": "integer",
+          "value": 2070
+        },
+        {
+          "modelType": "Property",
+          "idShort": "WidthUnit",
+          "valueType": "string",
+          "value": "mm"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Height",
+          "valueType": "integer",
+          "value": 10
+        },
+        {
+          "modelType": "Property",
+          "idShort": "HeightUnit",
+          "valueType": "string",
+          "value": "mm"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Diameter",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "DiameterUnit",
+          "valueType": "string",
+          "value": "null"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Weight",
+          "valueType": "integer",
+          "value": 315
+        },
+        {
+          "modelType": "Property",
+          "idShort": "WeightUnit",
+          "valueType": "string",
+          "value": "null"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Volumn",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "VolumnUnit",
+          "valueType": "string",
+          "value": "null"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Material",
+          "valueType": "string",
+          "value": "100% Particleboard"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Surface",
+          "valueType": "string",
+          "value": "Impregnated decor paper"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Color",
+          "valueType": "string",
+          "value": "Woodland beech"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Texture",
+          "valueType": "string",
+          "value": "Linear Pearl (LP)"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "EasyToClean",
+          "valueType": "boolean",
+          "value": true
+        },
+        {
+          "modelType": "Property",
+          "idShort": "EasyToMill",
+          "valueType": "boolean",
+          "value": true
+        },
+        {
+          "modelType": "Property",
+          "idShort": "StainResistant",
+          "valueType": "boolean",
+          "value": false
+        },
+        {
+          "modelType": "Property",
+          "idShort": "ScratchResistant",
+          "valueType": "boolean",
+          "value": false
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Antibacterial",
+          "valueType": "boolean",
+          "value": false
+        },
+        {
+          "modelType": "Property",
+          "idShort": "CARB2/EPA",
+          "valueType": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "sm-e2983281d26d",
+      "idShort": "Nameplate",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "http://www.w3id.org/pdto#Nameplate"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerName",
+          "valueType": "string",
+          "value": "Sonea Arauco S.A."
+        },
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerProductFamily",
+          "valueType": "string",
+          "value": "Woodland Beech"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerProductDesignation",
+          "valueType": "string",
+          "value": "Innovus DP"
+        },
+        {
+          "modelType": "SubmodelElementCollection",
+          "idShort": "Contact",
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "http://www.w3id.org/pdto#ContactInformation"
+              }
+            ]
+          },
+          "value": [
+            {
+              "modelType": "Property",
+              "idShort": "Organization",
+              "valueType": "string",
+              "value": "Micuna S.A."
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Address",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Country",
+                  "valueType": "string",
+                  "value": "ES"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ZipCode",
+                  "valueType": "integer",
+                  "value": 28043
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Region",
+                  "valueType": "string",
+                  "value": "Madrid"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Town",
+                  "valueType": "string",
+                  "value": "Madrid"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Street",
+                  "valueType": "string",
+                  "value": "Calle Ulises, 18"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Telephone",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "TelephoneNumber",
+                  "valueType": "string",
+                  "value": "+34 918 070 700"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "TypeOfTelephone",
+                  "valueType": "string",
+                  "value": "Corporate Office"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Email",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "EmailAddress",
+                  "valueType": "string",
+                  "value": "support@innovusdp.com"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "TypeOfEmail",
+                  "valueType": "string",
+                  "value": "Customer Service"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "sm-d3ed697e1150",
+      "idShort": "Durability",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#Durability"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "CertificateSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Environmental Product Declaration as per ISO 14025 and EN 15804+A2"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "EPD-SON-20230516-IBA2-EN"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2024-01-10"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid with Particleboard, coated per m2"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

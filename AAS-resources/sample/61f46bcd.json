@@ -1,0 +1,2700 @@
+{
+  "assetAdministrationShells": [
+    {
+      "modelType": "AssetAdministrationShell",
+      "id": "61f46bcd",
+      "idShort": "Fortezza 9041",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "http://www.w3id.org/pdto#InformationModel"
+          }
+        ]
+      },
+      "assetInformation": {
+        "assetKind": "Instance",
+        "assetType": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX",
+        "globalAssetId": "61f46bcd",
+        "defaultThumbnail": {
+          "path": "https://www.pozziarturo.it/en/wp-content/uploads/sites/2/2016/07/JK81764.jpg",
+          "contentType": "image/jpeg"
+        }
+      },
+      "submodels": [
+        {
+          "type": "Submodel",
+          "value": "Characteristics"
+        },
+        {
+          "type": "Submodel",
+          "value": "BillOfMaterials"
+        },
+        {
+          "type": "Submodel",
+          "value": "Durability"
+        },
+        {
+          "type": "Submodel",
+          "value": "Safety"
+        },
+        {
+          "type": "Submodel",
+          "value": "Durability"
+        },
+        {
+          "type": "Submodel",
+          "value": "HealthImpact"
+        },
+        {
+          "type": "Submodel",
+          "value": "Recyclability"
+        },
+        {
+          "type": "Submodel",
+          "value": "Nameplate"
+        },
+        {
+          "type": "Submodel",
+          "value": "EnvironmentalImpact"
+        },
+        {
+          "type": "Submodel",
+          "value": "Traceability"
+        }
+      ]
+    }
+  ],
+  "submodels": [
+    {
+      "modelType": "Submodel",
+      "id": "fbcacb6a3a34",
+      "idShort": "Characteristics",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#Characteristics"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "Property",
+          "idShort": "Length",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Width",
+          "valueType": "integer",
+          "value": 140
+        },
+        {
+          "modelType": "Property",
+          "idShort": "WidthUnit",
+          "valueType": "string",
+          "value": "cm"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Height",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "HeightUnit",
+          "valueType": "string",
+          "value": "cm"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Diameter",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "DiameterUnit",
+          "valueType": "string",
+          "value": "null"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Weight",
+          "valueType": "integer",
+          "value": 315
+        },
+        {
+          "modelType": "Property",
+          "idShort": "WeightUnit",
+          "valueType": "string",
+          "value": "g/m2"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Volumn",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "VolumnUnit",
+          "valueType": "string",
+          "value": "null"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Surface",
+          "valueType": "string",
+          "value": "Woven matte"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Color",
+          "valueType": "string",
+          "value": "Blue"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "LightFastness",
+          "valueType": "string",
+          "value": "6-7 (Blue Scale)"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "AbrasionResistance",
+          "valueType": "string",
+          "value": "30000 Martindale cycles"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Pilling",
+          "valueType": "string",
+          "value": "4/5"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "SeamSlippage",
+          "valueType": "string",
+          "value": "Warp/Weft 3mm"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "ColorFastness",
+          "valueType": "string",
+          "value": null
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Texture",
+          "valueType": "string",
+          "value": "Plain"
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "72b7d8ee934b",
+      "idShort": "BillOfMaterials",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#BillOfMaterials"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "MaterialSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Material",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#MaterialInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "Polypropylene Yarn 013"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Portion",
+                  "valueType": "double",
+                  "value": 1.0
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Mandatory",
+                  "valueType": "boolean",
+                  "value": true
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "MaterialReference",
+                  "valueType": "string",
+                  "value": "https://www.stellinigroup.com/products/polypropylene-cordonnet-yarn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "e470ba3bdd9f",
+      "idShort": "Durability",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#Durability"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "CertificateSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Furniture testing standard"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "UNI8456 Class 1"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2018-06-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as per UNI 8456"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Furniture flammability test"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "EN1021-1&2"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2019-03-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as per EN 1021"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Furniture fire resistance standard"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "TB117-CA"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2020-01-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as per TB117"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Standard methods of fire tests"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "NFPA260"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2021-05-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as per NFPA 260"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Fire tests for textiles and films"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "NFPA701"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2021-05-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as per NFPA 701"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Fire behavior of building materials"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "DIN4102-B1"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2019-10-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as per DIN 4102"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Seating fire resistance"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "EN13773 Class 1"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2017-08-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as per EN 13773"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Marine furniture fire safety"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "IMO-Part8"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2018-12-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as per IMO Part 8"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "09f738745991",
+      "idShort": "Safety",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#Safety"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "CertificateSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Textile safety for products in direct contact with skin"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "OEKO-TEX-STD100-CII"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2023-03-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as long as OEKO-TEX\u00ae STANDARD 100 Class II certification is maintained"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Textile safety for productnot in direct contact with skin (e.g., furniture, home textiles)"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "OEKO-TEX-STD100-CIV"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2023-03-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as long as OEKO-TEX\u00ae STANDARD 100 Class IV certification is maintained"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "39e2e496a42b",
+      "idShort": "Durability",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#Durability"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "CertificateSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Quality management system certification"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "ISO9001-QMS"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2022-05-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as long as ISO 9001 compliance is maintained"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Environmental management system certification for sustainable operations"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "ISO14001-EMS"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2022-06-15"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as long as ISO 14001 compliance is maintained"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Sustainable textile production and eco-friendly processes"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "OEKO-TEX-STeP"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2023-01-10"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as long as STeP certification is maintained"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "c645b712c118",
+      "idShort": "HealthImpact",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#HealthImpact"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "IndicatorSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Carcinogenic effects"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "HIA_Carcinogenic"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUh"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://www.lcacommons.org/hia"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "HazardType",
+                  "valueType": "string",
+                  "value": "Cancer"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Non-carcinogenic effects"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "HIA_NonCarcinogenic"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUh"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://www.lcacommons.org/hia"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "HazardType",
+                  "valueType": "string",
+                  "value": "Non-Cancer"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Respiratory effects"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "HIA_Respiratory"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUh"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://www.lcacommons.org/hia"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "HazardType",
+                  "valueType": "string",
+                  "value": "Respiratory"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Neurotoxicity"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "HIA_Neurotoxicity"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUh"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://www.lcacommons.org/hia"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "HazardType",
+                  "valueType": "string",
+                  "value": "Neurological"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Reproductive toxicity"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "HIA_Reproductive"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUh"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://www.lcacommons.org/hia"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "HazardType",
+                  "valueType": "string",
+                  "value": "Reproductive"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Endocrine disruption"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "HIA_Endocrine"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUh"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://www.lcacommons.org/hia"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "HazardType",
+                  "valueType": "string",
+                  "value": "Endocrine"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Toxic additive content"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "ToxicAdditiveLevel"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "integer",
+                  "value": 0
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "mg/kg"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://www.example-lab.com/toxicity-testing-protocol"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "HazardType",
+                  "valueType": "string",
+                  "value": "Chemical Hazard"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "f823edb8fe84",
+      "idShort": "Recyclability",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#Recyclability"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "Property",
+          "idShort": "RecyclableFraction",
+          "valueType": "double",
+          "value": 1.0
+        },
+        {
+          "modelType": "Property",
+          "idShort": "Recyclable",
+          "valueType": "boolean",
+          "value": true
+        },
+        {
+          "modelType": "Property",
+          "idShort": "RecycledMaterialIncluded",
+          "valueType": "boolean",
+          "value": true
+        },
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "CertificateSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Certificate",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#CertificateInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Ensures responsible forest sourcing and recyclability"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "FSC-C123456"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "IssueDate",
+                  "valueType": "string",
+                  "value": "2022-05-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ValidityPolicy",
+                  "valueType": "string",
+                  "value": "Valid as long as FSC certification is maintained"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Reference",
+                  "valueType": "string",
+                  "value": "N.A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "239fd57bf264",
+      "idShort": "Nameplate",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "http://www.w3id.org/pdto#Nameplate"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerName",
+          "valueType": "string",
+          "value": "Pozzi Arturo S.p.A."
+        },
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerProductFamily",
+          "valueType": "string",
+          "value": "Upholstery Fabrics"
+        },
+        {
+          "modelType": "Property",
+          "idShort": "ManufacturerProductDesignation",
+          "valueType": "string",
+          "value": "Fortezza 9041"
+        },
+        {
+          "modelType": "SubmodelElementCollection",
+          "idShort": "Contact",
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "http://www.w3id.org/pdto#ContactInformation"
+              }
+            ]
+          },
+          "value": [
+            {
+              "modelType": "Property",
+              "idShort": "Organization",
+              "valueType": "string",
+              "value": "Pozzi Headquarters"
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Address",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Country",
+                  "valueType": "string",
+                  "value": "IT"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "ZipCode",
+                  "valueType": "integer",
+                  "value": 23890
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Region",
+                  "valueType": "string",
+                  "value": "Province de Lecco"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Town",
+                  "valueType": "string",
+                  "value": "Barzago"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Street",
+                  "valueType": "string",
+                  "value": "Via Giuseppe Parini, 3/5"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Telephone",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "TelephoneNumber",
+                  "valueType": "string",
+                  "value": "+39 031 86231"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "TypeOfTelephone",
+                  "valueType": "string",
+                  "value": "Customer Service"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Email",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "EmailAddress",
+                  "valueType": "string",
+                  "value": "info@pozziarturo.it"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "TypeOfEmail",
+                  "valueType": "string",
+                  "value": "Corporate"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "a08f08dfb459",
+      "idShort": "EnvironmentalImpact",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://www.cir4fun.eu/ontology/dpp4fun#EnvironmentalImpact"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "IndicatorSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Climate Change"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_ClimateChange"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "kg CO2-equivalent"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Ozone Depletion"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_OzoneDepletion"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "kg CFC-11-equivalent"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Human Toxicity (cancer)"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_HumanToxicity_Cancer"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUh"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Human Toxicity (non-cancer)"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_HumanToxicity_NonCancer"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUh"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Photochemical Ozone Formation"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_PhotochemicalOzoneFormation"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "kg NMVOC-equivalent"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Particulate Matter"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_ParticulateMatter"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "kg PM2.5-equivalent"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Acidification"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_Acidification"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "mol H\u207a-equivalent"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Eutrophication (freshwater)"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_Eutrophication_Freshwater"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "kg PO4\u00b3\u207b-eq"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Eutrophication (marine)"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_Eutrophication_Marine"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "kg N-eq"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Eutrophication (terrestrial)"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_Eutrophication_Terrestrial"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "mol N-eq"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Ecotoxicity (freshwater)"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_Ecotoxicity_Freshwater"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "CTUe"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Resource Use \u2013 Fossils"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_ResourceUse_Fossils"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "MJ"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Resource Use \u2013 Minerals/Metals"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_ResourceUse_MineralsMetals"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "kg Sb-equivalent"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Land Use"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_LandUse"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "Soil quality index"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "Indicator",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#IndicatorInformation"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Water Scarcity"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "PEF_WaterScarcity"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Value",
+                  "valueType": "string",
+                  "value": null
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Unit",
+                  "valueType": "string",
+                  "value": "m\u00b3 water-equivalent"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "CalculationMethod",
+                  "valueType": "string",
+                  "value": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "Submodel",
+      "id": "2fe37a50f2d4",
+      "idShort": "Traceability",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "http://www.w3id.org/pdto#Traceability"
+          }
+        ]
+      },
+      "description": [
+        {
+          "language": "en",
+          "text": ""
+        }
+      ],
+      "submodelElements": [
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "DesignRecordSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "DesignRecord",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#DesignRecord"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "Design-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Raw design and select material"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Version",
+                  "valueType": "double",
+                  "value": 1.0
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "DesignFile",
+                  "valueType": "string",
+                  "value": "Fortezza_9041_CAD_v1.0.dwg"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Time",
+                  "valueType": "string",
+                  "value": "2024-06-15 09:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Operator",
+                  "valueType": "string",
+                  "value": "Engineering Team A"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Status",
+                  "valueType": "string",
+                  "value": "Alpha"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "DesignRecord",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#DesignRecord"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "Design-02"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Detailed design sent to client for evaluation"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Version",
+                  "valueType": "double",
+                  "value": 2.0
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "DesignFile",
+                  "valueType": "string",
+                  "value": "Fortezza_9041_CAD_v2.0.dwg"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Time",
+                  "valueType": "string",
+                  "value": "2024-09-20 11:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Operator",
+                  "valueType": "string",
+                  "value": "Engineering Team B"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Status",
+                  "valueType": "string",
+                  "value": "Beta"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "DesignRecord",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#DesignRecord"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "Design-02b"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Update from version 2.0"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Version",
+                  "valueType": "double",
+                  "value": 2.3
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "DesignFile",
+                  "valueType": "string",
+                  "value": "Fortezza_9041_CAD_v2.3.dwg"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Time",
+                  "valueType": "string",
+                  "value": "2024-11-20 15:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Operator",
+                  "valueType": "string",
+                  "value": "Engineering Team C"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Status",
+                  "valueType": "string",
+                  "value": "Released"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "ManufacturingStateRecordSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "ManufacturingStateRecord",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "OP-CUT-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Cut and scale to standardized size"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "StartTime",
+                  "valueType": "string",
+                  "value": "2024-11-28 08:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "EndTime",
+                  "valueType": "string",
+                  "value": "2024-11-28 10:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "PositionInProcessRouting",
+                  "valueType": "string",
+                  "value": "REF-PRPOS-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Station",
+                  "valueType": "string",
+                  "value": "ST-CUT-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Operator",
+                  "valueType": "string",
+                  "value": "Operator A"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Status",
+                  "valueType": "string",
+                  "value": "Completed"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "ManufacturingStateRecord",
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "OP-SEW-02"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "Sew for the final version"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "StartTime",
+                  "valueType": "string",
+                  "value": "2024-11-29 09:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "EndTime",
+                  "valueType": "string",
+                  "value": "2024-11-29 12:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "PositionInProcessRouting",
+                  "valueType": "string",
+                  "value": "REF-PRPOS-02"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Station",
+                  "valueType": "string",
+                  "value": "ST-SEW-02"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Operator",
+                  "valueType": "string",
+                  "value": "Operator B"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Status",
+                  "valueType": "string",
+                  "value": "Completed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelType": "SubmodelElementList",
+          "idShort": "TrackingRecordSet",
+          "value": [
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "TrackingRecord",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#TrackingRecord"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "Track-01"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "N.A"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Status",
+                  "valueType": "string",
+                  "value": "Dispatched"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Time",
+                  "valueType": "string",
+                  "value": "2024-12-01 08:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Location",
+                  "valueType": "string",
+                  "value": "Italy"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Origin",
+                  "valueType": "string",
+                  "value": "Italy"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Destination",
+                  "valueType": "string",
+                  "value": "Paris, France"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Operator",
+                  "valueType": "string",
+                  "value": "Cargo Nord Operator"
+                }
+              ]
+            },
+            {
+              "modelType": "SubmodelElementCollection",
+              "idShort": "TrackingRecord",
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "http://www.w3id.org/pdto#TrackingRecord"
+                  }
+                ]
+              },
+              "value": [
+                {
+                  "modelType": "Property",
+                  "idShort": "Name",
+                  "valueType": "string",
+                  "value": "Track-02"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Description",
+                  "valueType": "string",
+                  "value": "N.A"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Status",
+                  "valueType": "string",
+                  "value": "In Transit"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Time",
+                  "valueType": "string",
+                  "value": "2024-12-02 12:00:00+00:00"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Location",
+                  "valueType": "string",
+                  "value": "Lyon, France"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Origin",
+                  "valueType": "string",
+                  "value": "Italy"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Destination",
+                  "valueType": "string",
+                  "value": "Paris, France"
+                },
+                {
+                  "modelType": "Property",
+                  "idShort": "Operator",
+                  "valueType": "string",
+                  "value": "Cargo Nord Operator"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
