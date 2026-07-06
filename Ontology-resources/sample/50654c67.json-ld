@@ -5,45 +5,84 @@
   },
   "@graph": [
     {
-      "@id": "https://cir4fun.eu/data#info_bfeGl6",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": false,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ScratchResistant with ID bfeGl6",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_ScratchResistant_bfeGl6",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ScratchResistant"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_mPrI1u",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": true,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of EasyToClean with ID mPrI1u",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_EasyToClean_mPrI1u",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#EasyToClean"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Length"
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Diameter"
     },
     {
       "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Material",
       "http://www.w3.org/2000/01/rdf-schema#label": "Material"
     },
     {
-      "@id": "https://cir4fun.eu/data#info_7nQEph",
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ScratchResistant",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ScratchResistant"
+    },
+    {
+      "@id": "Email_contact_LniUXM",
+      "@type": "http://www.w3.org/2006/vcard/ns#Email",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Email information with ID LniUXM",
+      "http://www.w3.org/2000/01/rdf-schema#label": "email__LniUXM",
+      "http://www.w3id.org/pdto#emailAddress": "support@innovusdp.com",
+      "http://www.w3id.org/pdto#typeOfEmail": "Customer Service"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#StainResistant",
+      "http://www.w3.org/2000/01/rdf-schema#label": "StainResistant"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Height"
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#clarifiedProperty",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#product_50654c67",
+      "@type": "http://purl.org/goodrelations/v1#ProductOrServiceModel",
+      "http://purl.org/goodrelations/v1#description": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 50654c67",
+      "http://purl.org/goodrelations/v1#name": "50654c67",
+      "http://schema.org/productID": "50654c67",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Product instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67",
+      "http://www.w3.org/2000/01/rdf-schema#label": "spherePhysical_50654c67",
+      "http://www.w3id.org/pdto#hasThumbnail": {
+        "@id": "https://cir4fun.eu/data#thumbnail_n9rZeG"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digital_product_50654c67",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67",
+      "http://www.w3.org/2000/01/rdf-schema#label": "sphereDigital_50654c67",
+      "https://w3id.org/def/dtw#hasModel": {
+        "@id": "https://cir4fun.eu/data#information_model_50654c67"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_yOTX5R",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volumn with ID yOTX5R",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volumn_yOTX5R",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#CARB2/EPA",
+      "http://www.w3.org/2000/01/rdf-schema#label": "CARB2/EPA"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Width"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_uz914B",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
       "http://w3id.org/dppo/ontology/dpp-info/value": "Linear Pearl (LP)",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Texture with ID 7nQEph",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Texture_7nQEph",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Texture with ID uz914B",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Texture_uz914B",
       "http://www.w3id.org/pdto#clarifiedProperty": {
         "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Texture"
       },
@@ -52,192 +91,15 @@
       }
     },
     {
-      "@id": "https://cir4fun.eu/data#info_QYMJax",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Sonea Arauco S.A.",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerName with ID QYMJax",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerName_QYMJax",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_njd7ii",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Impregnated decor paper",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Surface with ID njd7ii",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Surface_njd7ii",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Volumn"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Surface"
-    },
-    {
       "@id": "http://www.w3id.org/pdto#hasInformation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
     },
     {
-      "@id": "https://cir4fun.eu/data#dpp_50654c67",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#DigitalProductPassport",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product Passport instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalProductPassport_50654c67",
-      "https://w3id.org/def/dtw#hasDigitalEntity": {
-        "@id": "https://cir4fun.eu/data#digital_product_50654c67"
-      },
-      "https://w3id.org/def/dtw#hasPhysicalEntity": {
-        "@id": "https://cir4fun.eu/data#product_50654c67"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Weight"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Diameter"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Height"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_LROO1I",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Woodland Beech",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductFamily with ID LROO1I",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductFamily_LROO1I",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#",
-      "@type": "http://www.w3.org/2002/07/owl#Ontology",
-      "http://www.w3.org/2002/07/owl#imports": {
-        "@id": "https://dpp4fun.pkgi40.codelib.re/dpp4fun.owl"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_oqGRYf",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "100% Particleboard",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Material with ID oqGRYf",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Material_oqGRYf",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Material"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#EasyToClean",
-      "http://www.w3.org/2000/01/rdf-schema#label": "EasyToClean"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_2If5WX",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Innovus DP",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductDesignation with ID 2If5WX",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductDesignation_2If5WX",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Texture",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Texture"
-    },
-    {
-      "@id": "Phone_Contact_0ywAJM",
-      "@type": "http://www.w3.org/2006/vcard/ns#Phone",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Phone information with ID 0ywAJM",
-      "http://www.w3.org/2000/01/rdf-schema#label": "phone__0ywAJM",
-      "http://www.w3id.org/pdto#telephoneNumber": "+34 918 070 700",
-      "http://www.w3id.org/pdto#typeOfTelephone": "Corporate Office"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_mcQvwM",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "http://qudt.org/vocab/unit/MilliM"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": {
-        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-        "@value": "10"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Height with ID mcQvwM",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Height_mcQvwM",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "http://www.w3id.org/pdto#clarifiedProperty",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
-    },
-    {
-      "@id": "http://www.w3id.org/pdto#hasFeatureHaha",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_uRVXO8",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Environmental Product Declaration as per ISO 14025 and EN 15804+A2",
-      "http://schema.org/name": "EPD-SON-20230516-IBA2-EN",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_hqqEu7"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of EPD-SON-20230516-IBA2-EN with ID uRVXO8",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_EPD-SON-20230516-IBA2-EN_uRVXO8",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-01-10T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid with Particleboard, coated per m2"
-    },
-    {
-      "@id": "http://www.w3id.org/pdto#modelAggregatedFrom",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName",
-      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerName"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_4UE896",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volumn with ID 4UE896",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volumn_4UE896",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
+      "@id": "https://cir4fun.eu/data#digitalDocument_gealIq",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID gealIq",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_gealIq",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
     },
     {
       "@id": "https://cir4fun.eu/data#aspect_sm-e2983281d26d",
@@ -247,87 +109,53 @@
       "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Nameplate_sm-e2983281d26d",
       "http://www.w3id.org/pdto#hasInformation": [
         {
-          "@id": "https://cir4fun.eu/data#info_QYMJax"
+          "@id": "https://cir4fun.eu/data#info_VtuaNE"
         },
         {
-          "@id": "https://cir4fun.eu/data#info_LROO1I"
+          "@id": "https://cir4fun.eu/data#info_fLppKA"
         },
         {
-          "@id": "https://cir4fun.eu/data#info_2If5WX"
+          "@id": "https://cir4fun.eu/data#info_Lshob8"
         },
         {
-          "@id": "https://cir4fun.eu/data#Contact_1Vy0WR"
+          "@id": "https://cir4fun.eu/data#Contact_Kf1nd7"
         }
       ]
     },
     {
-      "@id": "http://www.w3id.org/pdto#hasSimpleValue",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+      "@id": "http://w3id.org/dppo/ontology/dpp-info/unit",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
     },
     {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily",
-      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductFamily"
+      "@id": "https://cir4fun.eu/data#aspect_sm-d3ed697e1150",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Durability",
+      "http://schema.org/name": "Durability",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Durability with ID sm-d3ed697e1150",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Durability_sm-d3ed697e1150",
+      "http://www.w3id.org/pdto#hasInformation": {
+        "@id": "https://cir4fun.eu/data#certificate_yZM237"
+      }
     },
     {
       "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation",
       "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductDesignation"
     },
     {
-      "@id": "https://cir4fun.eu/data#info_dLl6FK",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "http://qudt.org/vocab/unit/MilliM"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": {
-        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-        "@value": "2070"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Width with ID dLl6FK",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Width_dLl6FK",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_KTtcz1",
+      "@id": "https://cir4fun.eu/data#info_yrMtYH",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": false,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Antibacterial with ID KTtcz1",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Antibacterial_KTtcz1",
+      "http://w3id.org/dppo/ontology/dpp-info/value": 315,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Weight with ID yrMtYH",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Weight_yrMtYH",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Antibacterial"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
       }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_aSpTPd",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": false,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of StainResistant with ID aSpTPd",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_StainResistant_aSpTPd",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#StainResistant"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "http://w3id.org/dppo/ontology/dpp-info/value",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
     },
     {
       "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Antibacterial",
       "http://www.w3.org/2000/01/rdf-schema#label": "Antibacterial"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Color"
     },
     {
       "@id": "https://cir4fun.eu/data#information_model_50654c67",
@@ -347,144 +175,29 @@
       ]
     },
     {
-      "@id": "Email_contact_mpymjc",
-      "@type": "http://www.w3.org/2006/vcard/ns#Email",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Email information with ID mpymjc",
-      "http://www.w3.org/2000/01/rdf-schema#label": "email__mpymjc",
-      "http://www.w3id.org/pdto#emailAddress": "support@innovusdp.com",
-      "http://www.w3id.org/pdto#typeOfEmail": "Customer Service"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_rOxaU3",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Woodland beech",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Color with ID rOxaU3",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Color_rOxaU3",
+      "@id": "https://cir4fun.eu/data#info_sN3XTi",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "http://qudt.org/vocab/unit/MilliM"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "2070"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Width with ID sN3XTi",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Width_sN3XTi",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
       }
     },
     {
-      "@id": "https://cir4fun.eu/data#product_50654c67",
-      "@type": "http://purl.org/goodrelations/v1#ProductOrServiceModel",
-      "http://purl.org/goodrelations/v1#description": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 50654c67",
-      "http://purl.org/goodrelations/v1#name": "50654c67",
-      "http://schema.org/productID": "50654c67",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Product instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67",
-      "http://www.w3.org/2000/01/rdf-schema#label": "spherePhysical_50654c67",
-      "http://www.w3id.org/pdto#hasThumbnail": {
-        "@id": "https://cir4fun.eu/data#thumbnail_Gx64i5"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Width"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_hqqEu7",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID hqqEu7",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_hqqEu7",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digital_product_50654c67",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67",
-      "http://www.w3.org/2000/01/rdf-schema#label": "sphereDigital_50654c67",
-      "https://w3id.org/def/dtw#hasModel": {
-        "@id": "https://cir4fun.eu/data#information_model_50654c67"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#StainResistant",
-      "http://www.w3.org/2000/01/rdf-schema#label": "StainResistant"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#CARB2/EPA",
-      "http://www.w3.org/2000/01/rdf-schema#label": "CARB2/EPA"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#aspect_sm-7414ce6d86a2",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Characteristics",
-      "http://schema.org/name": "Characteristics",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Characteristics with ID sm-7414ce6d86a2",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Characteristics_sm-7414ce6d86a2",
-      "http://www.w3id.org/pdto#hasInformation": [
-        {
-          "@id": "https://cir4fun.eu/data#info_GS759N"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_dLl6FK"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_mcQvwM"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_n8ZKyu"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_jedoB7"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_4UE896"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_oqGRYf"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_njd7ii"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_rOxaU3"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_7nQEph"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_mPrI1u"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_f18f71"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_aSpTPd"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_bfeGl6"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_KTtcz1"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_zMoyBo"
-        }
-      ]
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_f18f71",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": true,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of EasyToMill with ID f18f71",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_EasyToMill_f18f71",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#EasyToMill"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
-      }
-    },
-    {
-      "@id": "http://w3id.org/dppo/ontology/dpp-info/unit",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
-    },
-    {
-      "@id": "Address_Contact_sR9LPc",
+      "@id": "Address_Contact_uEXwYg",
       "@type": "http://www.w3.org/2006/vcard/ns#Address",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Address information with ID sR9LPc",
-      "http://www.w3.org/2000/01/rdf-schema#label": "address__sR9LPc",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Address information with ID uEXwYg",
+      "http://www.w3.org/2000/01/rdf-schema#label": "address__uEXwYg",
       "http://www.w3.org/2006/vcard/ns#country-name": "ES",
       "http://www.w3.org/2006/vcard/ns#locality": "Madrid",
       "http://www.w3.org/2006/vcard/ns#postal-code": 28043,
@@ -496,67 +209,156 @@
       "http://www.w3.org/2000/01/rdf-schema#label": "EasyToMill"
     },
     {
-      "@id": "https://cir4fun.eu/data#aspect_sm-d3ed697e1150",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Durability",
-      "http://schema.org/name": "Durability",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Durability with ID sm-d3ed697e1150",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Durability_sm-d3ed697e1150",
-      "http://www.w3id.org/pdto#hasInformation": {
-        "@id": "https://cir4fun.eu/data#certificate_uRVXO8"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_n8ZKyu",
+      "@id": "https://cir4fun.eu/data#info_rox5SO",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Diameter with ID n8ZKyu",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Diameter_n8ZKyu",
+      "http://w3id.org/dppo/ontology/dpp-info/value": false,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of StainResistant with ID rox5SO",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_StainResistant_rox5SO",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#StainResistant"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
       }
     },
     {
-      "@id": "https://cir4fun.eu/data#info_zMoyBo",
+      "@id": "https://cir4fun.eu/data#thumbnail_n9rZeG",
+      "@type": "http://schema.org/ImageObject",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Reduced image of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID n9rZeG",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thumbnail_50654c67_n9rZeG",
+      "http://www.w3id.org/pdto#hasIRI": {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://www.sonaearauco.com/media/w0kk3i0o/m3247_woodland_beech.jpg"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_K3LMRW",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": true,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of CARB2/EPA with ID zMoyBo",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_CARB2/EPA_zMoyBo",
+      "http://w3id.org/dppo/ontology/dpp-info/value": false,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ScratchResistant with ID K3LMRW",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ScratchResistant_K3LMRW",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#CARB2/EPA"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ScratchResistant"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
       }
     },
     {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ScratchResistant",
-      "http://www.w3.org/2000/01/rdf-schema#label": "ScratchResistant"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#Contact_1Vy0WR",
+      "@id": "https://cir4fun.eu/data#Contact_Kf1nd7",
       "@type": "http://www.w3id.org/pdto#ContactInformation",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Contact information with ID 1Vy0WR",
-      "http://www.w3.org/2000/01/rdf-schema#label": "contactInformation__1Vy0WR",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Contact information with ID Kf1nd7",
+      "http://www.w3.org/2000/01/rdf-schema#label": "contactInformation__Kf1nd7",
       "http://www.w3.org/2006/vcard/ns#hasAddress": {
-        "@id": "Address_Contact_sR9LPc"
+        "@id": "Address_Contact_uEXwYg"
       },
       "http://www.w3.org/2006/vcard/ns#hasEmail": {
-        "@id": "Email_contact_mpymjc"
+        "@id": "Email_contact_LniUXM"
       },
       "http://www.w3.org/2006/vcard/ns#hasTelephone": {
-        "@id": "Phone_Contact_0ywAJM"
+        "@id": "Phone_Contact_TpUFGM"
       },
       "http://www.w3.org/2006/vcard/ns#organization-name": "Micuna S.A."
     },
     {
-      "@id": "https://cir4fun.eu/data#info_GS759N",
+      "@id": "http://www.w3id.org/pdto#hasFeatureHaha",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#dpp_50654c67",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#DigitalProductPassport",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product Passport instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalProductPassport_50654c67",
+      "https://w3id.org/def/dtw#hasDigitalEntity": {
+        "@id": "https://cir4fun.eu/data#digital_product_50654c67"
+      },
+      "https://w3id.org/def/dtw#hasPhysicalEntity": {
+        "@id": "https://cir4fun.eu/data#product_50654c67"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_44Xlw0",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": true,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of EasyToClean with ID 44Xlw0",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_EasyToClean_44Xlw0",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#EasyToClean"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_VtuaNE",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Sonea Arauco S.A.",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerName with ID VtuaNE",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerName_VtuaNE",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#",
+      "@type": "http://www.w3.org/2002/07/owl#Ontology",
+      "http://www.w3.org/2002/07/owl#imports": {
+        "@id": "https://dpp4fun.pkgi40.codelib.re/dpp4fun.owl"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Length"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_I6dHk0",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Woodland beech",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Color with ID I6dHk0",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Color_I6dHk0",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Weight"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_CMftOT",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "http://qudt.org/vocab/unit/MilliM"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "10"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Height with ID CMftOT",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Height_CMftOT",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "http://w3id.org/dppo/ontology/dpp-info/value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_0yLRF2",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
       "http://w3id.org/dppo/ontology/dpp-info/value": 2800,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Length with ID GS759N",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Length_GS759N",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Length with ID 0yLRF2",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Length_0yLRF2",
       "http://www.w3id.org/pdto#clarifiedProperty": {
         "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length"
       },
@@ -565,27 +367,225 @@
       }
     },
     {
-      "@id": "https://cir4fun.eu/data#thumbnail_Gx64i5",
-      "@type": "http://schema.org/ImageObject",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Reduced image of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID Gx64i5",
-      "http://www.w3.org/2000/01/rdf-schema#label": "thumbnail_50654c67_Gx64i5",
-      "http://www.w3id.org/pdto#hasIRI": {
-        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "https://www.sonaearauco.com/media/w0kk3i0o/m3247_woodland_beech.jpg"
-      }
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerName"
     },
     {
-      "@id": "https://cir4fun.eu/data#info_jedoB7",
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Texture",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Texture"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_fLppKA",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": 315,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Weight with ID jedoB7",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Weight_jedoB7",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Woodland Beech",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductFamily with ID fLppKA",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductFamily_fLppKA",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
       }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Volumn"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_1OVkYf",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "100% Particleboard",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Material with ID 1OVkYf",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Material_1OVkYf",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Material"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_Lshob8",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Innovus DP",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductDesignation with ID Lshob8",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductDesignation_Lshob8",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_6nbH0r",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": true,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of CARB2/EPA with ID 6nbH0r",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_CARB2/EPA_6nbH0r",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#CARB2/EPA"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#modelAggregatedFrom",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_5lo1aW",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": true,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of EasyToMill with ID 5lo1aW",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_EasyToMill_5lo1aW",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#EasyToMill"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_OCYNqX",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": false,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Antibacterial with ID OCYNqX",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Antibacterial_OCYNqX",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Antibacterial"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_sm-7414ce6d86a2",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Characteristics",
+      "http://schema.org/name": "Characteristics",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Characteristics with ID sm-7414ce6d86a2",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Characteristics_sm-7414ce6d86a2",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#info_0yLRF2"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_sN3XTi"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_CMftOT"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_DWir7s"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_yrMtYH"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_yOTX5R"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_1OVkYf"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_YZqqd0"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_I6dHk0"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_uz914B"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_44Xlw0"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_5lo1aW"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_rox5SO"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_K3LMRW"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_OCYNqX"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_6nbH0r"
+        }
+      ]
+    },
+    {
+      "@id": "Phone_Contact_TpUFGM",
+      "@type": "http://www.w3.org/2006/vcard/ns#Phone",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Phone information with ID TpUFGM",
+      "http://www.w3.org/2000/01/rdf-schema#label": "phone__TpUFGM",
+      "http://www.w3id.org/pdto#telephoneNumber": "+34 918 070 700",
+      "http://www.w3id.org/pdto#typeOfTelephone": "Corporate Office"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Color"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_YZqqd0",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Impregnated decor paper",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Surface with ID YZqqd0",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Surface_YZqqd0",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_DWir7s",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Diameter with ID DWir7s",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Diameter_DWir7s",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_yZM237",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Environmental Product Declaration as per ISO 14025 and EN 15804+A2",
+      "http://schema.org/name": "EPD-SON-20230516-IBA2-EN",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_gealIq"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of EPD-SON-20230516-IBA2-EN with ID yZM237",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_EPD-SON-20230516-IBA2-EN_yZM237",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-01-10T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid with Particleboard, coated per m2"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Surface"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductFamily"
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#hasSimpleValue",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#EasyToClean",
+      "http://www.w3.org/2000/01/rdf-schema#label": "EasyToClean"
     }
   ]
 }

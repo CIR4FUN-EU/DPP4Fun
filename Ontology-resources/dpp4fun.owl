@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://www.cir4fun.eu/ontology/dpp4fun"
-     versionIRI="https://www.cir4fun.eu/ontology/dpp4fun/0.2.0">
+     versionIRI="https://www.cir4fun.eu/ontology/dpp4fun/0.2.1">
     <Prefix name="" IRI="https://www.cir4fun.eu/ontology/dpp4fun/"/>
     <Prefix name="fso" IRI="http://aidimme.es/FurnitureSectorOntology.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -59,7 +59,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>0.2.0</Literal>
+        <Literal>0.2.1</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Accessory"/>
@@ -492,6 +492,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#S821_30_SE12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SR-CDB-S04"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SR-LK4-W01"/>
@@ -1285,6 +1288,10 @@
     <ClassAssertion>
         <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#Canapé"/>
         <NamedIndividual IRI="#S821_30_SE12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#FilingCabinet"/>
+        <NamedIndividual IRI="#SR-CDB-S04"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.aidimme.es/FurnitureSectorOntology.owl#Cabinet"/>
@@ -3111,6 +3118,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#S821_30_SE12</IRI>
         <Literal>KaveHome Gala 3-Seater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SR-CDB-S04</IRI>
+        <Literal>Sara Caddy Basic Aluminium Blanc</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

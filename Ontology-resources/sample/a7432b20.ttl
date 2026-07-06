@@ -1,8 +1,8 @@
 @prefix dpp4fun: <https://www.cir4fun.eu/ontology/dpp4fun#> .
 @prefix dppo: <http://w3id.org/dppo/ontology/dpp-info/> .
 @prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns2: <https://w3id.org/def/dtw#> .
-@prefix ns3: <http://schema.org/> .
+@prefix ns2: <http://schema.org/> .
+@prefix ns3: <https://w3id.org/def/dtw#> .
 @prefix ns4: <http://purl.org/goodrelations/v1#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pdto: <http://www.w3id.org/pdto#> .
@@ -30,157 +30,157 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
 <https://cir4fun.eu/data#dpp_a7432b20> a dpp4fun:DigitalProductPassport ;
     rdfs:label "digitalProductPassport_a7432b20" ;
     rdfs:comment "Digital Product Passport instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01 with ID a7432b20" ;
-    ns2:hasDigitalEntity <https://cir4fun.eu/data#digital_product_a7432b20> ;
-    ns2:hasPhysicalEntity <https://cir4fun.eu/data#product_a7432b20> .
+    ns3:hasDigitalEntity <https://cir4fun.eu/data#digital_product_a7432b20> ;
+    ns3:hasPhysicalEntity <https://cir4fun.eu/data#product_a7432b20> .
 
-<Address_Contact_QgsrH5> a ns1:Address ;
-    rdfs:label "address__QgsrH5" ;
-    rdfs:comment "Address information with ID QgsrH5" ;
+<Address_Contact_23X5Al> a ns1:Address ;
+    rdfs:label "address__23X5Al" ;
+    rdfs:comment "Address information with ID 23X5Al" ;
     ns1:country-name "ES"^^xsd:string ;
     ns1:locality "Sollana"^^xsd:string ;
     ns1:postal-code "46430"^^xsd:string ;
     ns1:region "Valencia"^^xsd:string ;
     ns1:street-address "no. 7 Calle Suecia"^^xsd:string .
 
-<Email_contact_wgo1DB> a ns1:Email ;
-    rdfs:label "email__wgo1DB" ;
-    rdfs:comment "Email information with ID wgo1DB" ;
+<Email_contact_kg0GGU> a ns1:Email ;
+    rdfs:label "email__kg0GGU" ;
+    rdfs:comment "Email information with ID kg0GGU" ;
     pdto:emailAddress "export@mincuna.com"^^xsd:string ;
     pdto:typeOfEmail "Customer Service"^^xsd:string .
 
-<Phone_Contact_tCte7j> a ns1:Phone ;
-    rdfs:label "phone__tCte7j" ;
-    rdfs:comment "Phone information with ID tCte7j" ;
+<Phone_Contact_g65sjT> a ns1:Phone ;
+    rdfs:label "phone__g65sjT" ;
+    rdfs:comment "Phone information with ID g65sjT" ;
     pdto:telephoneNumber "+34 961 740 946"^^xsd:string ;
     pdto:typeOfTelephone "Customer Service"^^xsd:string .
 
-<https://cir4fun.eu/data#Contact_uIg00y> a pdto:ContactInformation ;
-    rdfs:label "contactInformation__uIg00y" ;
-    rdfs:comment "Contact information with ID uIg00y" ;
-    ns1:hasAddress <Address_Contact_QgsrH5> ;
-    ns1:hasEmail <Email_contact_wgo1DB> ;
-    ns1:hasTelephone <Phone_Contact_tCte7j> ;
+<https://cir4fun.eu/data#Contact_ZMLqsJ> a pdto:ContactInformation ;
+    rdfs:label "contactInformation__ZMLqsJ" ;
+    rdfs:comment "Contact information with ID ZMLqsJ" ;
+    ns1:hasAddress <Address_Contact_23X5Al> ;
+    ns1:hasEmail <Email_contact_kg0GGU> ;
+    ns1:hasTelephone <Phone_Contact_g65sjT> ;
     ns1:organization-name "Micuna S.A."^^xsd:string .
 
 <https://cir4fun.eu/data#aspect_sm-02d75d89e37a> a pdto:Nameplate ;
     rdfs:label "submodel_Nameplate_sm-02d75d89e37a" ;
-    ns3:name "Nameplate"^^xsd:string ;
+    ns2:name "Nameplate"^^xsd:string ;
     rdfs:comment "Submodel instance of Nameplate with ID sm-02d75d89e37a" ;
-    pdto:hasInformation <https://cir4fun.eu/data#Contact_uIg00y>,
-        <https://cir4fun.eu/data#info_6isCxg>,
-        <https://cir4fun.eu/data#info_QsiqkJ>,
-        <https://cir4fun.eu/data#info_XskEgF> .
+    pdto:hasInformation <https://cir4fun.eu/data#Contact_ZMLqsJ>,
+        <https://cir4fun.eu/data#info_78nTw2>,
+        <https://cir4fun.eu/data#info_aJTtkj>,
+        <https://cir4fun.eu/data#info_nl2doz> .
 
 <https://cir4fun.eu/data#aspect_sm-0c036a42bea4> a dpp4fun:Characteristics ;
     rdfs:label "submodel_Characteristics_sm-0c036a42bea4" ;
-    ns3:name "Characteristics"^^xsd:string ;
+    ns2:name "Characteristics"^^xsd:string ;
     rdfs:comment "Submodel instance of Characteristics with ID sm-0c036a42bea4" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_CJFC8Y>,
-        <https://cir4fun.eu/data#info_Ep3ubl>,
-        <https://cir4fun.eu/data#info_I91Ltk>,
-        <https://cir4fun.eu/data#info_U2og1G>,
-        <https://cir4fun.eu/data#info_Zm9Mhc>,
-        <https://cir4fun.eu/data#info_cTqNCq>,
-        <https://cir4fun.eu/data#info_hDCEpW>,
-        <https://cir4fun.eu/data#info_hLGjq2>,
-        <https://cir4fun.eu/data#info_uEvUL6>,
-        <https://cir4fun.eu/data#info_zuvS0p> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_4MBhGs>,
+        <https://cir4fun.eu/data#info_4XBrp9>,
+        <https://cir4fun.eu/data#info_5SGqsO>,
+        <https://cir4fun.eu/data#info_7KNlkU>,
+        <https://cir4fun.eu/data#info_7xCCFb>,
+        <https://cir4fun.eu/data#info_FMMZ5a>,
+        <https://cir4fun.eu/data#info_GKQaJT>,
+        <https://cir4fun.eu/data#info_fZvMLz>,
+        <https://cir4fun.eu/data#info_mOaspt>,
+        <https://cir4fun.eu/data#info_shJvlU> .
 
 <https://cir4fun.eu/data#digital_product_a7432b20> rdfs:label "sphereDigital_a7432b20" ;
     rdfs:comment "Digital Product instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01 with ID a7432b20" ;
-    ns2:hasModel <https://cir4fun.eu/data#information_model_a7432b20> .
+    ns3:hasModel <https://cir4fun.eu/data#information_model_a7432b20> .
 
-<https://cir4fun.eu/data#info_6isCxg> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerName_6isCxg" ;
-    dppo:value "Micuna S.A." ;
-    rdfs:comment "Information of ManufacturerName with ID 6isCxg" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerName ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_CJFC8Y> a dppo:ProductQuality ;
-    rdfs:label "info_Weight_CJFC8Y" ;
+<https://cir4fun.eu/data#info_4MBhGs> a dppo:ProductQuality ;
+    rdfs:label "info_Weight_4MBhGs" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Weight with ID CJFC8Y" ;
+    rdfs:comment "Information of Weight with ID 4MBhGs" ;
     pdto:clarifiedProperty dpp4fun:Weight ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
 
-<https://cir4fun.eu/data#info_Ep3ubl> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Width_Ep3ubl" ;
-    dppo:unit qudt:CentiM ;
-    dppo:value 42.0 ;
-    rdfs:comment "Information of Width with ID Ep3ubl" ;
-    pdto:clarifiedProperty dpp4fun:Width ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_I91Ltk> a dppo:ProductQuality ;
-    rdfs:label "info_Diameter_I91Ltk" ;
+<https://cir4fun.eu/data#info_4XBrp9> a dppo:ProductQuality ;
+    rdfs:label "info_Payload_4XBrp9" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Diameter with ID I91Ltk" ;
-    pdto:clarifiedProperty dpp4fun:Diameter ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_QsiqkJ> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductFamily_QsiqkJ" ;
-    dppo:value "OVO Original City" ;
-    rdfs:comment "Information of ManufacturerProductFamily with ID QsiqkJ" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_U2og1G> a dppo:ProductQuality ;
-    rdfs:label "info_Composition_U2og1G" ;
-    dppo:value "Lacquered medium-density fibreboard (MDF)" ;
-    rdfs:comment "Information of Composition with ID U2og1G" ;
-    pdto:clarifiedProperty dpp4fun:Composition ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_XskEgF> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductDesignation_XskEgF" ;
-    dppo:value "OVO Fixed Tray" ;
-    rdfs:comment "Information of ManufacturerProductDesignation with ID XskEgF" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerProductDesignation ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_Zm9Mhc> a dppo:ProductQuality ;
-    rdfs:label "info_Surface_Zm9Mhc" ;
-    dppo:value "Smooth" ;
-    rdfs:comment "Information of Surface with ID Zm9Mhc" ;
-    pdto:clarifiedProperty dpp4fun:Surface ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_cTqNCq> a dppo:ProductQuality ;
-    rdfs:label "info_Color_cTqNCq" ;
-    dppo:value "Athracite grey" ;
-    rdfs:comment "Information of Color with ID cTqNCq" ;
-    pdto:clarifiedProperty dpp4fun:Color ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_hDCEpW> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_hDCEpW" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID hDCEpW" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
-
-<https://cir4fun.eu/data#info_hLGjq2> a dppo:ProductQuality ;
-    rdfs:label "info_Payload_hLGjq2" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Payload with ID hLGjq2" ;
+    rdfs:comment "Information of Payload with ID 4XBrp9" ;
     pdto:clarifiedProperty dpp4fun:Payload ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
 
-<https://cir4fun.eu/data#info_uEvUL6> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Height_uEvUL6" ;
+<https://cir4fun.eu/data#info_5SGqsO> a dppo:ProductQuality ;
+    rdfs:label "info_Length_5SGqsO" ;
+    dppo:value 24 ;
+    rdfs:comment "Information of Length with ID 5SGqsO" ;
+    pdto:clarifiedProperty dpp4fun:Length ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_78nTw2> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerName_78nTw2" ;
+    dppo:value "Micuna S.A." ;
+    rdfs:comment "Information of ManufacturerName with ID 78nTw2" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerName ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_7KNlkU> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Width_7KNlkU" ;
+    dppo:unit qudt:CentiM ;
+    dppo:value 42.0 ;
+    rdfs:comment "Information of Width with ID 7KNlkU" ;
+    pdto:clarifiedProperty dpp4fun:Width ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_7xCCFb> a dppo:ProductQuality ;
+    rdfs:label "info_Volumn_7xCCFb" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Volumn with ID 7xCCFb" ;
+    pdto:clarifiedProperty dpp4fun:Volumn ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_FMMZ5a> a dppo:ProductQuality ;
+    rdfs:label "info_Composition_FMMZ5a" ;
+    dppo:value "Lacquered medium-density fibreboard (MDF)" ;
+    rdfs:comment "Information of Composition with ID FMMZ5a" ;
+    pdto:clarifiedProperty dpp4fun:Composition ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_GKQaJT> a dppo:ProductQuality ;
+    rdfs:label "info_Color_GKQaJT" ;
+    dppo:value "Athracite grey" ;
+    rdfs:comment "Information of Color with ID GKQaJT" ;
+    pdto:clarifiedProperty dpp4fun:Color ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_aJTtkj> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductFamily_aJTtkj" ;
+    dppo:value "OVO Original City" ;
+    rdfs:comment "Information of ManufacturerProductFamily with ID aJTtkj" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_fZvMLz> a dppo:ProductQuality ;
+    rdfs:label "info_Surface_fZvMLz" ;
+    dppo:value "Smooth" ;
+    rdfs:comment "Information of Surface with ID fZvMLz" ;
+    pdto:clarifiedProperty dpp4fun:Surface ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_mOaspt> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Height_mOaspt" ;
     dppo:unit qudt:CentiM ;
     dppo:value 1.2 ;
-    rdfs:comment "Information of Height with ID uEvUL6" ;
+    rdfs:comment "Information of Height with ID mOaspt" ;
     pdto:clarifiedProperty dpp4fun:Height ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
 
-<https://cir4fun.eu/data#info_zuvS0p> a dppo:ProductQuality ;
-    rdfs:label "info_Length_zuvS0p" ;
-    dppo:value 24 ;
-    rdfs:comment "Information of Length with ID zuvS0p" ;
-    pdto:clarifiedProperty dpp4fun:Length ;
+<https://cir4fun.eu/data#info_nl2doz> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductDesignation_nl2doz" ;
+    dppo:value "OVO Fixed Tray" ;
+    rdfs:comment "Information of ManufacturerProductDesignation with ID nl2doz" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerProductDesignation ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
+
+<https://cir4fun.eu/data#info_shJvlU> a dppo:ProductQuality ;
+    rdfs:label "info_Diameter_shJvlU" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Diameter with ID shJvlU" ;
+    pdto:clarifiedProperty dpp4fun:Diameter ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
 
 <https://cir4fun.eu/data#information_model_a7432b20> a pdto:InformationModel ;
@@ -193,13 +193,13 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     rdfs:label "spherePhysical_a7432b20" ;
     ns4:description "http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01 a7432b20" ;
     ns4:name "a7432b20" ;
-    ns3:productID "a7432b20" ;
+    ns2:productID "a7432b20" ;
     rdfs:comment "Product instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01 with ID a7432b20" ;
-    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_9g8EPe> .
+    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_CvLcgV> .
 
-<https://cir4fun.eu/data#thumbnail_9g8EPe> a ns3:ImageObject ;
-    rdfs:label "thumbnail_a7432b20_9g8EPe" ;
-    rdfs:comment "Reduced image of http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01 with ID 9g8EPe" ;
+<https://cir4fun.eu/data#thumbnail_CvLcgV> a ns2:ImageObject ;
+    rdfs:label "thumbnail_a7432b20_CvLcgV" ;
+    rdfs:comment "Reduced image of http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01 with ID CvLcgV" ;
     pdto:hasIRI "https://www.natureetdecouvertes.com/fstrz/r/s/cache.natureetdecouvertes.com/Medias/Images/Articles/98491220/794?frz-v=876"^^xsd:anyURI .
 
 dpp4fun:Color rdfs:label "Color" .

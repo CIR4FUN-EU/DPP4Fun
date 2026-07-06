@@ -1,8 +1,8 @@
 @prefix dpp4fun: <https://www.cir4fun.eu/ontology/dpp4fun#> .
 @prefix dppo: <http://w3id.org/dppo/ontology/dpp-info/> .
-@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns2: <http://schema.org/> .
-@prefix ns3: <https://w3id.org/def/dtw#> .
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <https://w3id.org/def/dtw#> .
+@prefix ns3: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns4: <http://purl.org/goodrelations/v1#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pdto: <http://www.w3id.org/pdto#> .
@@ -30,225 +30,225 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
 <https://cir4fun.eu/data#dpp_50654c67> a dpp4fun:DigitalProductPassport ;
     rdfs:label "digitalProductPassport_50654c67" ;
     rdfs:comment "Digital Product Passport instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67" ;
-    ns3:hasDigitalEntity <https://cir4fun.eu/data#digital_product_50654c67> ;
-    ns3:hasPhysicalEntity <https://cir4fun.eu/data#product_50654c67> .
+    ns2:hasDigitalEntity <https://cir4fun.eu/data#digital_product_50654c67> ;
+    ns2:hasPhysicalEntity <https://cir4fun.eu/data#product_50654c67> .
 
-<Address_Contact_LU14aA> a ns1:Address ;
-    rdfs:label "address__LU14aA" ;
-    rdfs:comment "Address information with ID LU14aA" ;
-    ns1:country-name "ES"^^xsd:string ;
-    ns1:locality "Madrid"^^xsd:string ;
-    ns1:postal-code "28043"^^xsd:string ;
-    ns1:region "Madrid"^^xsd:string ;
-    ns1:street-address "Calle Ulises, 18"^^xsd:string .
+<Address_Contact_fUQnQo> a ns3:Address ;
+    rdfs:label "address__fUQnQo" ;
+    rdfs:comment "Address information with ID fUQnQo" ;
+    ns3:country-name "ES"^^xsd:string ;
+    ns3:locality "Madrid"^^xsd:string ;
+    ns3:postal-code "28043"^^xsd:string ;
+    ns3:region "Madrid"^^xsd:string ;
+    ns3:street-address "Calle Ulises, 18"^^xsd:string .
 
-<Email_contact_Ea8cn0> a ns1:Email ;
-    rdfs:label "email__Ea8cn0" ;
-    rdfs:comment "Email information with ID Ea8cn0" ;
+<Email_contact_r7d057> a ns3:Email ;
+    rdfs:label "email__r7d057" ;
+    rdfs:comment "Email information with ID r7d057" ;
     pdto:emailAddress "support@innovusdp.com"^^xsd:string ;
     pdto:typeOfEmail "Customer Service"^^xsd:string .
 
-<Phone_Contact_hpoKSx> a ns1:Phone ;
-    rdfs:label "phone__hpoKSx" ;
-    rdfs:comment "Phone information with ID hpoKSx" ;
+<Phone_Contact_eVGiUc> a ns3:Phone ;
+    rdfs:label "phone__eVGiUc" ;
+    rdfs:comment "Phone information with ID eVGiUc" ;
     pdto:telephoneNumber "+34 918 070 700"^^xsd:string ;
     pdto:typeOfTelephone "Corporate Office"^^xsd:string .
 
-<https://cir4fun.eu/data#Contact_Bq4IlH> a pdto:ContactInformation ;
-    rdfs:label "contactInformation__Bq4IlH" ;
-    rdfs:comment "Contact information with ID Bq4IlH" ;
-    ns1:hasAddress <Address_Contact_LU14aA> ;
-    ns1:hasEmail <Email_contact_Ea8cn0> ;
-    ns1:hasTelephone <Phone_Contact_hpoKSx> ;
-    ns1:organization-name "Micuna S.A."^^xsd:string .
+<https://cir4fun.eu/data#Contact_NYkrSF> a pdto:ContactInformation ;
+    rdfs:label "contactInformation__NYkrSF" ;
+    rdfs:comment "Contact information with ID NYkrSF" ;
+    ns3:hasAddress <Address_Contact_fUQnQo> ;
+    ns3:hasEmail <Email_contact_r7d057> ;
+    ns3:hasTelephone <Phone_Contact_eVGiUc> ;
+    ns3:organization-name "Micuna S.A."^^xsd:string .
 
 <https://cir4fun.eu/data#aspect_sm-7414ce6d86a2> a dpp4fun:Characteristics ;
     rdfs:label "submodel_Characteristics_sm-7414ce6d86a2" ;
-    ns2:name "Characteristics"^^xsd:string ;
+    ns1:name "Characteristics"^^xsd:string ;
     rdfs:comment "Submodel instance of Characteristics with ID sm-7414ce6d86a2" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_05cU5o>,
-        <https://cir4fun.eu/data#info_1mDDHi>,
-        <https://cir4fun.eu/data#info_8IswXn>,
-        <https://cir4fun.eu/data#info_Ao4E6M>,
-        <https://cir4fun.eu/data#info_HIqMZO>,
-        <https://cir4fun.eu/data#info_PTZWaG>,
-        <https://cir4fun.eu/data#info_RcpTUD>,
-        <https://cir4fun.eu/data#info_W3sv1l>,
-        <https://cir4fun.eu/data#info_WpBr9N>,
-        <https://cir4fun.eu/data#info_YB8xhU>,
-        <https://cir4fun.eu/data#info_Yd4dXD>,
-        <https://cir4fun.eu/data#info_Zt3Xqe>,
-        <https://cir4fun.eu/data#info_hwXjQd>,
-        <https://cir4fun.eu/data#info_iq6IrZ>,
-        <https://cir4fun.eu/data#info_mquYJo>,
-        <https://cir4fun.eu/data#info_ydPynY> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_0vkP0r>,
+        <https://cir4fun.eu/data#info_1SdNYg>,
+        <https://cir4fun.eu/data#info_6PXxLy>,
+        <https://cir4fun.eu/data#info_6p2qMD>,
+        <https://cir4fun.eu/data#info_6qBm03>,
+        <https://cir4fun.eu/data#info_BCNXTt>,
+        <https://cir4fun.eu/data#info_BGLuxe>,
+        <https://cir4fun.eu/data#info_ErMqnx>,
+        <https://cir4fun.eu/data#info_GlPU8t>,
+        <https://cir4fun.eu/data#info_MNjmnU>,
+        <https://cir4fun.eu/data#info_SNrtbO>,
+        <https://cir4fun.eu/data#info_gAd9wy>,
+        <https://cir4fun.eu/data#info_jOmJOT>,
+        <https://cir4fun.eu/data#info_kC664W>,
+        <https://cir4fun.eu/data#info_mt8bxv>,
+        <https://cir4fun.eu/data#info_npAzCu> .
 
 <https://cir4fun.eu/data#aspect_sm-d3ed697e1150> a dpp4fun:Durability ;
     rdfs:label "submodel_Durability_sm-d3ed697e1150" ;
-    ns2:name "Durability"^^xsd:string ;
+    ns1:name "Durability"^^xsd:string ;
     rdfs:comment "Submodel instance of Durability with ID sm-d3ed697e1150" ;
-    pdto:hasInformation <https://cir4fun.eu/data#certificate_LZ5uAy> .
+    pdto:hasInformation <https://cir4fun.eu/data#certificate_RSovkC> .
 
 <https://cir4fun.eu/data#aspect_sm-e2983281d26d> a pdto:Nameplate ;
     rdfs:label "submodel_Nameplate_sm-e2983281d26d" ;
-    ns2:name "Nameplate"^^xsd:string ;
+    ns1:name "Nameplate"^^xsd:string ;
     rdfs:comment "Submodel instance of Nameplate with ID sm-e2983281d26d" ;
-    pdto:hasInformation <https://cir4fun.eu/data#Contact_Bq4IlH>,
-        <https://cir4fun.eu/data#info_gMIW72>,
-        <https://cir4fun.eu/data#info_mBZeCq>,
-        <https://cir4fun.eu/data#info_pkWolk> .
+    pdto:hasInformation <https://cir4fun.eu/data#Contact_NYkrSF>,
+        <https://cir4fun.eu/data#info_Ba8GNn>,
+        <https://cir4fun.eu/data#info_nJzp66>,
+        <https://cir4fun.eu/data#info_zze4yc> .
 
-<https://cir4fun.eu/data#certificate_LZ5uAy> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_EPD-SON-20230516-IBA2-EN_LZ5uAy" ;
-    ns2:description "Environmental Product Declaration as per ISO 14025 and EN 15804+A2"^^xsd:string ;
-    ns2:name "EPD-SON-20230516-IBA2-EN"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_KNfPVZ> ;
-    rdfs:comment "Certificate information of EPD-SON-20230516-IBA2-EN with ID LZ5uAy" ;
+<https://cir4fun.eu/data#certificate_RSovkC> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_EPD-SON-20230516-IBA2-EN_RSovkC" ;
+    ns1:description "Environmental Product Declaration as per ISO 14025 and EN 15804+A2"^^xsd:string ;
+    ns1:name "EPD-SON-20230516-IBA2-EN"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_yeYodR> ;
+    rdfs:comment "Certificate information of EPD-SON-20230516-IBA2-EN with ID RSovkC" ;
     pdto:hasIssuedDate "2024-01-10T00:00:00"^^xsd:dateTime ;
     pdto:hasValidityPolicy "Valid with Particleboard, coated per m2"^^xsd:string .
 
-<https://cir4fun.eu/data#digitalDocument_KNfPVZ> a ns2:DigitalDocument ;
-    rdfs:label "digitalDocument_KNfPVZ" ;
-    rdfs:comment "Certificate document with ID KNfPVZ" ;
+<https://cir4fun.eu/data#digitalDocument_yeYodR> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_yeYodR" ;
+    rdfs:comment "Certificate document with ID yeYodR" ;
     pdto:hasIRI "N.A" .
 
 <https://cir4fun.eu/data#digital_product_50654c67> rdfs:label "sphereDigital_50654c67" ;
     rdfs:comment "Digital Product instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67" ;
-    ns3:hasModel <https://cir4fun.eu/data#information_model_50654c67> .
+    ns2:hasModel <https://cir4fun.eu/data#information_model_50654c67> .
 
-<https://cir4fun.eu/data#info_05cU5o> a dppo:ProductQuality ;
-    rdfs:label "info_Color_05cU5o" ;
+<https://cir4fun.eu/data#info_0vkP0r> a dppo:ProductQuality ;
+    rdfs:label "info_Color_0vkP0r" ;
     dppo:value "Woodland beech" ;
-    rdfs:comment "Information of Color with ID 05cU5o" ;
+    rdfs:comment "Information of Color with ID 0vkP0r" ;
     pdto:clarifiedProperty dpp4fun:Color ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
-<https://cir4fun.eu/data#info_1mDDHi> a dppo:ProductQuality ;
-    rdfs:label "info_CARB2/EPA_1mDDHi" ;
-    dppo:value true ;
-    rdfs:comment "Information of CARB2/EPA with ID 1mDDHi" ;
-    pdto:clarifiedProperty <https://www.cir4fun.eu/ontology/dpp4fun#CARB2/EPA> ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_8IswXn> a dppo:ProductQuality ;
-    rdfs:label "info_Weight_8IswXn" ;
-    dppo:value 315 ;
-    rdfs:comment "Information of Weight with ID 8IswXn" ;
-    pdto:clarifiedProperty dpp4fun:Weight ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_Ao4E6M> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Height_Ao4E6M" ;
-    dppo:unit qudt:MilliM ;
-    dppo:value 10.0 ;
-    rdfs:comment "Information of Height with ID Ao4E6M" ;
-    pdto:clarifiedProperty dpp4fun:Height ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_HIqMZO> a dppo:ProductQuality ;
-    rdfs:label "info_Diameter_HIqMZO" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Diameter with ID HIqMZO" ;
-    pdto:clarifiedProperty dpp4fun:Diameter ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_PTZWaG> a dppo:ProductQuality ;
-    rdfs:label "info_Material_PTZWaG" ;
-    dppo:value "100% Particleboard" ;
-    rdfs:comment "Information of Material with ID PTZWaG" ;
-    pdto:clarifiedProperty dpp4fun:Material ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_RcpTUD> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_RcpTUD" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID RcpTUD" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_W3sv1l> a dppo:ProductQuality ;
-    rdfs:label "info_StainResistant_W3sv1l" ;
-    dppo:value false ;
-    rdfs:comment "Information of StainResistant with ID W3sv1l" ;
-    pdto:clarifiedProperty dpp4fun:StainResistant ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_WpBr9N> a dppo:ProductQuality ;
-    rdfs:label "info_Texture_WpBr9N" ;
-    dppo:value "Linear Pearl (LP)" ;
-    rdfs:comment "Information of Texture with ID WpBr9N" ;
-    pdto:clarifiedProperty dpp4fun:Texture ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_YB8xhU> a dppo:ProductQuality ;
-    rdfs:label "info_Surface_YB8xhU" ;
+<https://cir4fun.eu/data#info_1SdNYg> a dppo:ProductQuality ;
+    rdfs:label "info_Surface_1SdNYg" ;
     dppo:value "Impregnated decor paper" ;
-    rdfs:comment "Information of Surface with ID YB8xhU" ;
+    rdfs:comment "Information of Surface with ID 1SdNYg" ;
     pdto:clarifiedProperty dpp4fun:Surface ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
-<https://cir4fun.eu/data#info_Yd4dXD> a dppo:ProductQuality ;
-    rdfs:label "info_Length_Yd4dXD" ;
-    dppo:value 2800 ;
-    rdfs:comment "Information of Length with ID Yd4dXD" ;
-    pdto:clarifiedProperty dpp4fun:Length ;
+<https://cir4fun.eu/data#info_6PXxLy> a dppo:ProductQuality ;
+    rdfs:label "info_StainResistant_6PXxLy" ;
+    dppo:value false ;
+    rdfs:comment "Information of StainResistant with ID 6PXxLy" ;
+    pdto:clarifiedProperty dpp4fun:StainResistant ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
-<https://cir4fun.eu/data#info_Zt3Xqe> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Width_Zt3Xqe" ;
-    dppo:unit qudt:MilliM ;
-    dppo:value 2070.0 ;
-    rdfs:comment "Information of Width with ID Zt3Xqe" ;
-    pdto:clarifiedProperty dpp4fun:Width ;
+<https://cir4fun.eu/data#info_6p2qMD> a dppo:ProductQuality ;
+    rdfs:label "info_Texture_6p2qMD" ;
+    dppo:value "Linear Pearl (LP)" ;
+    rdfs:comment "Information of Texture with ID 6p2qMD" ;
+    pdto:clarifiedProperty dpp4fun:Texture ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
-<https://cir4fun.eu/data#info_gMIW72> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductFamily_gMIW72" ;
-    dppo:value "Woodland Beech" ;
-    rdfs:comment "Information of ManufacturerProductFamily with ID gMIW72" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_hwXjQd> a dppo:ProductQuality ;
-    rdfs:label "info_EasyToClean_hwXjQd" ;
+<https://cir4fun.eu/data#info_6qBm03> a dppo:ProductQuality ;
+    rdfs:label "info_CARB2/EPA_6qBm03" ;
     dppo:value true ;
-    rdfs:comment "Information of EasyToClean with ID hwXjQd" ;
-    pdto:clarifiedProperty dpp4fun:EasyToClean ;
+    rdfs:comment "Information of CARB2/EPA with ID 6qBm03" ;
+    pdto:clarifiedProperty <https://www.cir4fun.eu/ontology/dpp4fun#CARB2/EPA> ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
-<https://cir4fun.eu/data#info_iq6IrZ> a dppo:ProductQuality ;
-    rdfs:label "info_ScratchResistant_iq6IrZ" ;
-    dppo:value false ;
-    rdfs:comment "Information of ScratchResistant with ID iq6IrZ" ;
-    pdto:clarifiedProperty dpp4fun:ScratchResistant ;
+<https://cir4fun.eu/data#info_BCNXTt> a dppo:ProductQuality ;
+    rdfs:label "info_Volumn_BCNXTt" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Volumn with ID BCNXTt" ;
+    pdto:clarifiedProperty dpp4fun:Volumn ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
-<https://cir4fun.eu/data#info_mBZeCq> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerName_mBZeCq" ;
-    dppo:value "Sonea Arauco S.A." ;
-    rdfs:comment "Information of ManufacturerName with ID mBZeCq" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerName ;
+<https://cir4fun.eu/data#info_BGLuxe> a dppo:ProductQuality ;
+    rdfs:label "info_EasyToMill_BGLuxe" ;
+    dppo:value true ;
+    rdfs:comment "Information of EasyToMill with ID BGLuxe" ;
+    pdto:clarifiedProperty dpp4fun:EasyToMill ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
-<https://cir4fun.eu/data#info_mquYJo> a dppo:ProductQuality ;
-    rdfs:label "info_Antibacterial_mquYJo" ;
-    dppo:value false ;
-    rdfs:comment "Information of Antibacterial with ID mquYJo" ;
-    pdto:clarifiedProperty dpp4fun:Antibacterial ;
-    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
-
-<https://cir4fun.eu/data#info_pkWolk> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductDesignation_pkWolk" ;
+<https://cir4fun.eu/data#info_Ba8GNn> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductDesignation_Ba8GNn" ;
     dppo:value "Innovus DP" ;
-    rdfs:comment "Information of ManufacturerProductDesignation with ID pkWolk" ;
+    rdfs:comment "Information of ManufacturerProductDesignation with ID Ba8GNn" ;
     pdto:clarifiedProperty dpp4fun:ManufacturerProductDesignation ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
-<https://cir4fun.eu/data#info_ydPynY> a dppo:ProductQuality ;
-    rdfs:label "info_EasyToMill_ydPynY" ;
+<https://cir4fun.eu/data#info_ErMqnx> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Width_ErMqnx" ;
+    dppo:unit qudt:MilliM ;
+    dppo:value 2070.0 ;
+    rdfs:comment "Information of Width with ID ErMqnx" ;
+    pdto:clarifiedProperty dpp4fun:Width ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_GlPU8t> a dppo:ProductQuality ;
+    rdfs:label "info_Antibacterial_GlPU8t" ;
+    dppo:value false ;
+    rdfs:comment "Information of Antibacterial with ID GlPU8t" ;
+    pdto:clarifiedProperty dpp4fun:Antibacterial ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_MNjmnU> a dppo:ProductQuality ;
+    rdfs:label "info_Material_MNjmnU" ;
+    dppo:value "100% Particleboard" ;
+    rdfs:comment "Information of Material with ID MNjmnU" ;
+    pdto:clarifiedProperty dpp4fun:Material ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_SNrtbO> a dppo:ProductQuality ;
+    rdfs:label "info_Diameter_SNrtbO" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Diameter with ID SNrtbO" ;
+    pdto:clarifiedProperty dpp4fun:Diameter ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_gAd9wy> a dppo:ProductQuality ;
+    rdfs:label "info_Weight_gAd9wy" ;
+    dppo:value 315 ;
+    rdfs:comment "Information of Weight with ID gAd9wy" ;
+    pdto:clarifiedProperty dpp4fun:Weight ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_jOmJOT> a dppo:ProductQuality ;
+    rdfs:label "info_EasyToClean_jOmJOT" ;
     dppo:value true ;
-    rdfs:comment "Information of EasyToMill with ID ydPynY" ;
-    pdto:clarifiedProperty dpp4fun:EasyToMill ;
+    rdfs:comment "Information of EasyToClean with ID jOmJOT" ;
+    pdto:clarifiedProperty dpp4fun:EasyToClean ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_kC664W> a dppo:ProductQuality ;
+    rdfs:label "info_Length_kC664W" ;
+    dppo:value 2800 ;
+    rdfs:comment "Information of Length with ID kC664W" ;
+    pdto:clarifiedProperty dpp4fun:Length ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_mt8bxv> a dppo:ProductQuality ;
+    rdfs:label "info_ScratchResistant_mt8bxv" ;
+    dppo:value false ;
+    rdfs:comment "Information of ScratchResistant with ID mt8bxv" ;
+    pdto:clarifiedProperty dpp4fun:ScratchResistant ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_nJzp66> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductFamily_nJzp66" ;
+    dppo:value "Woodland Beech" ;
+    rdfs:comment "Information of ManufacturerProductFamily with ID nJzp66" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_npAzCu> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Height_npAzCu" ;
+    dppo:unit qudt:MilliM ;
+    dppo:value 10.0 ;
+    rdfs:comment "Information of Height with ID npAzCu" ;
+    pdto:clarifiedProperty dpp4fun:Height ;
+    pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
+
+<https://cir4fun.eu/data#info_zze4yc> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerName_zze4yc" ;
+    dppo:value "Sonea Arauco S.A." ;
+    rdfs:comment "Information of ManufacturerName with ID zze4yc" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerName ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
 <https://cir4fun.eu/data#information_model_50654c67> a pdto:InformationModel ;
@@ -262,13 +262,13 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     rdfs:label "spherePhysical_50654c67" ;
     ns4:description "http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 50654c67" ;
     ns4:name "50654c67" ;
-    ns2:productID "50654c67" ;
+    ns1:productID "50654c67" ;
     rdfs:comment "Product instance of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID 50654c67" ;
-    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_HRTwml> .
+    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_jqdwWw> .
 
-<https://cir4fun.eu/data#thumbnail_HRTwml> a ns2:ImageObject ;
-    rdfs:label "thumbnail_50654c67_HRTwml" ;
-    rdfs:comment "Reduced image of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID HRTwml" ;
+<https://cir4fun.eu/data#thumbnail_jqdwWw> a ns1:ImageObject ;
+    rdfs:label "thumbnail_50654c67_jqdwWw" ;
+    rdfs:comment "Reduced image of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID jqdwWw" ;
     pdto:hasIRI "https://www.sonaearauco.com/media/w0kk3i0o/m3247_woodland_beech.jpg"^^xsd:anyURI .
 
 dpp4fun:Antibacterial rdfs:label "Antibacterial" .

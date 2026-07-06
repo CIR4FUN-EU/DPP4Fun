@@ -2,8 +2,8 @@
 @prefix dppo: <http://w3id.org/dppo/ontology/dpp-info/> .
 @prefix ns1: <http://schema.org/> .
 @prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns3: <https://w3id.org/def/dtw#> .
-@prefix ns4: <http://purl.org/goodrelations/v1#> .
+@prefix ns3: <http://purl.org/goodrelations/v1#> .
+@prefix ns4: <https://w3id.org/def/dtw#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pdto: <http://www.w3id.org/pdto#> .
 @prefix qudt: <http://qudt.org/vocab/unit/> .
@@ -30,64 +30,64 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
 <https://cir4fun.eu/data#dpp_61f46bcd> a dpp4fun:DigitalProductPassport ;
     rdfs:label "digitalProductPassport_61f46bcd" ;
     rdfs:comment "Digital Product Passport instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd" ;
-    ns3:hasDigitalEntity <https://cir4fun.eu/data#digital_product_61f46bcd> ;
-    ns3:hasPhysicalEntity <https://cir4fun.eu/data#product_61f46bcd> .
+    ns4:hasDigitalEntity <https://cir4fun.eu/data#digital_product_61f46bcd> ;
+    ns4:hasPhysicalEntity <https://cir4fun.eu/data#product_61f46bcd> .
 
-<Address_Contact_FmiSq7> a ns2:Address ;
-    rdfs:label "address__FmiSq7" ;
-    rdfs:comment "Address information with ID FmiSq7" ;
+<Address_Contact_VTMFRB> a ns2:Address ;
+    rdfs:label "address__VTMFRB" ;
+    rdfs:comment "Address information with ID VTMFRB" ;
     ns2:country-name "IT"^^xsd:string ;
     ns2:locality "Barzago"^^xsd:string ;
     ns2:postal-code "23890"^^xsd:string ;
     ns2:region "Province de Lecco"^^xsd:string ;
     ns2:street-address "Via Giuseppe Parini, 3/5"^^xsd:string .
 
-<Email_contact_Jz391O> a ns2:Email ;
-    rdfs:label "email__Jz391O" ;
-    rdfs:comment "Email information with ID Jz391O" ;
+<Email_contact_1EmGxq> a ns2:Email ;
+    rdfs:label "email__1EmGxq" ;
+    rdfs:comment "Email information with ID 1EmGxq" ;
     pdto:emailAddress "info@pozziarturo.it"^^xsd:string ;
     pdto:typeOfEmail "Corporate"^^xsd:string .
 
-<Phone_Contact_Zsdnex> a ns2:Phone ;
-    rdfs:label "phone__Zsdnex" ;
-    rdfs:comment "Phone information with ID Zsdnex" ;
+<Phone_Contact_LVIoub> a ns2:Phone ;
+    rdfs:label "phone__LVIoub" ;
+    rdfs:comment "Phone information with ID LVIoub" ;
     pdto:telephoneNumber "+39 031 86231"^^xsd:string ;
     pdto:typeOfTelephone "Customer Service"^^xsd:string .
 
 <https://cir4fun.eu/data#CTUe> a dppo:Unit .
 
-<https://cir4fun.eu/data#Contact_boU5kJ> a pdto:ContactInformation ;
-    rdfs:label "contactInformation__boU5kJ" ;
-    rdfs:comment "Contact information with ID boU5kJ" ;
-    ns2:hasAddress <Address_Contact_FmiSq7> ;
-    ns2:hasEmail <Email_contact_Jz391O> ;
-    ns2:hasTelephone <Phone_Contact_Zsdnex> ;
+<https://cir4fun.eu/data#Contact_WP9elx> a pdto:ContactInformation ;
+    rdfs:label "contactInformation__WP9elx" ;
+    rdfs:comment "Contact information with ID WP9elx" ;
+    ns2:hasAddress <Address_Contact_VTMFRB> ;
+    ns2:hasEmail <Email_contact_1EmGxq> ;
+    ns2:hasTelephone <Phone_Contact_LVIoub> ;
     ns2:organization-name "Pozzi Headquarters"^^xsd:string .
 
 <https://cir4fun.eu/data#MJ> a dppo:Unit .
 
-<https://cir4fun.eu/data#ManufacturingStateRecord_JbOvH2> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-SEW-02_JbOvH2" ;
-    ns1:description "Sew for the final version"^^xsd:string ;
-    ns1:name "OP-SEW-02"^^xsd:string ;
-    dppo:endTime "2024-11-29T12:00:00+00:00"^^xsd:dateTime ;
-    dppo:startTime "2024-11-29T09:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-SEW-02 with ID JbOvH2" ;
-    pdto:hasOperator "Operator B"^^xsd:string ;
-    pdto:hasPositionInProcessRouting "REF-PRPOS-02"^^xsd:string ;
-    pdto:hasSimpleStation "ST-SEW-02"^^xsd:string ;
-    pdto:hasStatus "Completed"^^xsd:string .
-
-<https://cir4fun.eu/data#ManufacturingStateRecord_uUaAsn> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-CUT-01_uUaAsn" ;
+<https://cir4fun.eu/data#ManufacturingStateRecord_QxbpCc> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-CUT-01_QxbpCc" ;
     ns1:description "Cut and scale to standardized size"^^xsd:string ;
     ns1:name "OP-CUT-01"^^xsd:string ;
     dppo:endTime "2024-11-28T10:00:00+00:00"^^xsd:dateTime ;
     dppo:startTime "2024-11-28T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-CUT-01 with ID uUaAsn" ;
+    rdfs:comment "Manufacturing recordOP-CUT-01 with ID QxbpCc" ;
     pdto:hasOperator "Operator A"^^xsd:string ;
     pdto:hasPositionInProcessRouting "REF-PRPOS-01"^^xsd:string ;
     pdto:hasSimpleStation "ST-CUT-01"^^xsd:string ;
+    pdto:hasStatus "Completed"^^xsd:string .
+
+<https://cir4fun.eu/data#ManufacturingStateRecord_YkpHL1> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-SEW-02_YkpHL1" ;
+    ns1:description "Sew for the final version"^^xsd:string ;
+    ns1:name "OP-SEW-02"^^xsd:string ;
+    dppo:endTime "2024-11-29T12:00:00+00:00"^^xsd:dateTime ;
+    dppo:startTime "2024-11-29T09:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Manufacturing recordOP-SEW-02 with ID YkpHL1" ;
+    pdto:hasOperator "Operator B"^^xsd:string ;
+    pdto:hasPositionInProcessRouting "REF-PRPOS-02"^^xsd:string ;
+    pdto:hasSimpleStation "ST-SEW-02"^^xsd:string ;
     pdto:hasStatus "Completed"^^xsd:string .
 
 <https://cir4fun.eu/data#Soilqualityindex> a dppo:Unit .
@@ -96,821 +96,821 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     rdfs:label "submodel_Safety_09f738745991" ;
     ns1:name "Safety"^^xsd:string ;
     rdfs:comment "Submodel instance of Safety with ID 09f738745991" ;
-    pdto:hasInformation <https://cir4fun.eu/data#certificate_Ap3YDl>,
-        <https://cir4fun.eu/data#certificate_yIRUAQ> .
+    pdto:hasInformation <https://cir4fun.eu/data#certificate_7ujhYJ>,
+        <https://cir4fun.eu/data#certificate_JEukkK> .
 
 <https://cir4fun.eu/data#aspect_239fd57bf264> a pdto:Nameplate ;
     rdfs:label "submodel_Nameplate_239fd57bf264" ;
     ns1:name "Nameplate"^^xsd:string ;
     rdfs:comment "Submodel instance of Nameplate with ID 239fd57bf264" ;
-    pdto:hasInformation <https://cir4fun.eu/data#Contact_boU5kJ>,
-        <https://cir4fun.eu/data#info_3KdQnv>,
-        <https://cir4fun.eu/data#info_MKh9s2>,
-        <https://cir4fun.eu/data#info_rCmx9z> .
+    pdto:hasInformation <https://cir4fun.eu/data#Contact_WP9elx>,
+        <https://cir4fun.eu/data#info_LOznlb>,
+        <https://cir4fun.eu/data#info_NGGZpJ>,
+        <https://cir4fun.eu/data#info_wFtHvs> .
 
 <https://cir4fun.eu/data#aspect_2fe37a50f2d4> a pdto:Traceability ;
     rdfs:label "submodel_Traceability_2fe37a50f2d4" ;
     ns1:name "Traceability"^^xsd:string ;
     rdfs:comment "Submodel instance of Traceability with ID 2fe37a50f2d4" ;
-    pdto:hasInformation <https://cir4fun.eu/data#ManufacturingStateRecord_JbOvH2>,
-        <https://cir4fun.eu/data#ManufacturingStateRecord_uUaAsn>,
-        <https://cir4fun.eu/data#designrecord_6yYe86>,
-        <https://cir4fun.eu/data#designrecord_HDCMW9>,
-        <https://cir4fun.eu/data#designrecord_UUU9TN>,
-        <https://cir4fun.eu/data#trackingrecord_GUaHr4>,
-        <https://cir4fun.eu/data#trackingrecord_ulBses> .
+    pdto:hasInformation <https://cir4fun.eu/data#ManufacturingStateRecord_QxbpCc>,
+        <https://cir4fun.eu/data#ManufacturingStateRecord_YkpHL1>,
+        <https://cir4fun.eu/data#designrecord_5VE1t6>,
+        <https://cir4fun.eu/data#designrecord_FhN6op>,
+        <https://cir4fun.eu/data#designrecord_t9tAqo>,
+        <https://cir4fun.eu/data#trackingrecord_ehCtmk>,
+        <https://cir4fun.eu/data#trackingrecord_o1lA9a> .
 
 <https://cir4fun.eu/data#aspect_39e2e496a42b> a dpp4fun:Durability ;
     rdfs:label "submodel_Durability_39e2e496a42b" ;
     ns1:name "Durability"^^xsd:string ;
     rdfs:comment "Submodel instance of Durability with ID 39e2e496a42b" ;
-    pdto:hasInformation <https://cir4fun.eu/data#certificate_Gkxlb6>,
-        <https://cir4fun.eu/data#certificate_mFm7D2>,
-        <https://cir4fun.eu/data#certificate_nQfSTS> .
+    pdto:hasInformation <https://cir4fun.eu/data#certificate_NDC3zn>,
+        <https://cir4fun.eu/data#certificate_frjGAw>,
+        <https://cir4fun.eu/data#certificate_mW9KlE> .
 
 <https://cir4fun.eu/data#aspect_72b7d8ee934b> a dpp4fun:BillOfMaterials ;
     rdfs:label "submodel_BillOfMaterials_72b7d8ee934b" ;
     ns1:name "BillOfMaterials"^^xsd:string ;
     rdfs:comment "Submodel instance of BillOfMaterials with ID 72b7d8ee934b" ;
-    pdto:hasInformation <https://cir4fun.eu/data#material_meLEmj> .
+    pdto:hasInformation <https://cir4fun.eu/data#material_ShCjD5> .
 
 <https://cir4fun.eu/data#aspect_a08f08dfb459> a dpp4fun:EnvironmentalImpact ;
     rdfs:label "submodel_EnvironmentalImpact_a08f08dfb459" ;
     ns1:name "EnvironmentalImpact"^^xsd:string ;
     rdfs:comment "Submodel instance of EnvironmentalImpact with ID a08f08dfb459" ;
-    pdto:hasInformation <https://cir4fun.eu/data#indicator_0DI7pr>,
-        <https://cir4fun.eu/data#indicator_4AVT2f>,
-        <https://cir4fun.eu/data#indicator_6ngFXO>,
-        <https://cir4fun.eu/data#indicator_AVEskZ>,
-        <https://cir4fun.eu/data#indicator_H4sWW7>,
-        <https://cir4fun.eu/data#indicator_H6uSW5>,
-        <https://cir4fun.eu/data#indicator_Hs3IDQ>,
-        <https://cir4fun.eu/data#indicator_JPy0bT>,
-        <https://cir4fun.eu/data#indicator_aIEaYG>,
-        <https://cir4fun.eu/data#indicator_hCiRnH>,
-        <https://cir4fun.eu/data#indicator_iMzUnE>,
-        <https://cir4fun.eu/data#indicator_kZ8YPR>,
-        <https://cir4fun.eu/data#indicator_l4DojK>,
-        <https://cir4fun.eu/data#indicator_tw0Amh>,
-        <https://cir4fun.eu/data#indicator_wprOTi> .
+    pdto:hasInformation <https://cir4fun.eu/data#indicator_1TnvCE>,
+        <https://cir4fun.eu/data#indicator_3P9HzV>,
+        <https://cir4fun.eu/data#indicator_7TA8cV>,
+        <https://cir4fun.eu/data#indicator_AktAJd>,
+        <https://cir4fun.eu/data#indicator_Eobx3z>,
+        <https://cir4fun.eu/data#indicator_FDbVCI>,
+        <https://cir4fun.eu/data#indicator_FEinOb>,
+        <https://cir4fun.eu/data#indicator_LnYCqu>,
+        <https://cir4fun.eu/data#indicator_RrKGU3>,
+        <https://cir4fun.eu/data#indicator_bNWyfn>,
+        <https://cir4fun.eu/data#indicator_bnuwKR>,
+        <https://cir4fun.eu/data#indicator_gEwbIu>,
+        <https://cir4fun.eu/data#indicator_ga7CvI>,
+        <https://cir4fun.eu/data#indicator_pAOZuC>,
+        <https://cir4fun.eu/data#indicator_rsnQoH> .
 
 <https://cir4fun.eu/data#aspect_c645b712c118> a dpp4fun:HealthImpact ;
     rdfs:label "submodel_HealthImpact_c645b712c118" ;
     ns1:name "HealthImpact"^^xsd:string ;
     rdfs:comment "Submodel instance of HealthImpact with ID c645b712c118" ;
-    pdto:hasInformation <https://cir4fun.eu/data#indicator_EQtOkt>,
-        <https://cir4fun.eu/data#indicator_KzJT6k>,
-        <https://cir4fun.eu/data#indicator_NtjT5z>,
-        <https://cir4fun.eu/data#indicator_fEN5fM>,
-        <https://cir4fun.eu/data#indicator_o8Fkmz>,
-        <https://cir4fun.eu/data#indicator_x6UXku>,
-        <https://cir4fun.eu/data#indicator_xE1GAS> .
+    pdto:hasInformation <https://cir4fun.eu/data#indicator_0hXOxG>,
+        <https://cir4fun.eu/data#indicator_47lOaF>,
+        <https://cir4fun.eu/data#indicator_QUxJT6>,
+        <https://cir4fun.eu/data#indicator_V5FFvW>,
+        <https://cir4fun.eu/data#indicator_pPhrR3>,
+        <https://cir4fun.eu/data#indicator_t1JfqC>,
+        <https://cir4fun.eu/data#indicator_tXfHzi> .
 
 <https://cir4fun.eu/data#aspect_e470ba3bdd9f> a dpp4fun:Durability ;
     rdfs:label "submodel_Durability_e470ba3bdd9f" ;
     ns1:name "Durability"^^xsd:string ;
     rdfs:comment "Submodel instance of Durability with ID e470ba3bdd9f" ;
-    pdto:hasInformation <https://cir4fun.eu/data#certificate_5qj5jg>,
-        <https://cir4fun.eu/data#certificate_BIYEgh>,
-        <https://cir4fun.eu/data#certificate_ElKoi8>,
-        <https://cir4fun.eu/data#certificate_FIM087>,
-        <https://cir4fun.eu/data#certificate_V65UTx>,
-        <https://cir4fun.eu/data#certificate_ZQnT0I>,
-        <https://cir4fun.eu/data#certificate_aRJNj1>,
-        <https://cir4fun.eu/data#certificate_ap14F1> .
+    pdto:hasInformation <https://cir4fun.eu/data#certificate_1GAl19>,
+        <https://cir4fun.eu/data#certificate_589eMR>,
+        <https://cir4fun.eu/data#certificate_QsiYbC>,
+        <https://cir4fun.eu/data#certificate_V8aXlU>,
+        <https://cir4fun.eu/data#certificate_kDTCFE>,
+        <https://cir4fun.eu/data#certificate_kLtm6c>,
+        <https://cir4fun.eu/data#certificate_nv6aAQ>,
+        <https://cir4fun.eu/data#certificate_z64QYm> .
 
 <https://cir4fun.eu/data#aspect_f823edb8fe84> a dpp4fun:Recyclability ;
     rdfs:label "submodel_Recyclability_f823edb8fe84" ;
     ns1:name "Recyclability"^^xsd:string ;
     rdfs:comment "Submodel instance of Recyclability with ID f823edb8fe84" ;
-    pdto:hasInformation <https://cir4fun.eu/data#certificate_geqBbC>,
-        <https://cir4fun.eu/data#info_B602TK>,
-        <https://cir4fun.eu/data#info_hmTVPa>,
-        <https://cir4fun.eu/data#info_q48zUJ> .
+    pdto:hasInformation <https://cir4fun.eu/data#certificate_9jqvlu>,
+        <https://cir4fun.eu/data#info_JgOO0G>,
+        <https://cir4fun.eu/data#info_YhcKFD>,
+        <https://cir4fun.eu/data#info_aFtR4Q> .
 
 <https://cir4fun.eu/data#aspect_fbcacb6a3a34> a dpp4fun:Characteristics ;
     rdfs:label "submodel_Characteristics_fbcacb6a3a34" ;
     ns1:name "Characteristics"^^xsd:string ;
     rdfs:comment "Submodel instance of Characteristics with ID fbcacb6a3a34" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_31LnGs>,
-        <https://cir4fun.eu/data#info_EfpAUn>,
-        <https://cir4fun.eu/data#info_PAuksv>,
-        <https://cir4fun.eu/data#info_SrkHFr>,
-        <https://cir4fun.eu/data#info_TBGGCw>,
-        <https://cir4fun.eu/data#info_XpOZPw>,
-        <https://cir4fun.eu/data#info_XsXvU3>,
-        <https://cir4fun.eu/data#info_ZLEmoR>,
-        <https://cir4fun.eu/data#info_c7duT6>,
-        <https://cir4fun.eu/data#info_dS2ykH>,
-        <https://cir4fun.eu/data#info_ntPPbz>,
-        <https://cir4fun.eu/data#info_pPoYVT>,
-        <https://cir4fun.eu/data#info_s7rZHY>,
-        <https://cir4fun.eu/data#info_wHGLqQ> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_0sziCy>,
+        <https://cir4fun.eu/data#info_11KuPn>,
+        <https://cir4fun.eu/data#info_2exPQg>,
+        <https://cir4fun.eu/data#info_3xEK13>,
+        <https://cir4fun.eu/data#info_E9TEFy>,
+        <https://cir4fun.eu/data#info_HEZ5Ch>,
+        <https://cir4fun.eu/data#info_JGlQiB>,
+        <https://cir4fun.eu/data#info_OZTElh>,
+        <https://cir4fun.eu/data#info_Sr5aA9>,
+        <https://cir4fun.eu/data#info_cc5jvx>,
+        <https://cir4fun.eu/data#info_kAejjC>,
+        <https://cir4fun.eu/data#info_kL8mSJ>,
+        <https://cir4fun.eu/data#info_oZZZzK>,
+        <https://cir4fun.eu/data#info_qas7MP> .
 
-<https://cir4fun.eu/data#certificate_5qj5jg> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_NFPA260_5qj5jg" ;
-    ns1:description "Standard methods of fire tests"^^xsd:string ;
-    ns1:name "NFPA260"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_tifbX7> ;
-    rdfs:comment "Certificate information of NFPA260 with ID 5qj5jg" ;
-    pdto:hasIssuedDate "2021-05-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per NFPA 260"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_Ap3YDl> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_OEKO-TEX-STD100-CIV_Ap3YDl" ;
-    ns1:description "Textile safety for productnot in direct contact with skin (e.g., furniture, home textiles)"^^xsd:string ;
-    ns1:name "OEKO-TEX-STD100-CIV"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_5XrWQZ> ;
-    rdfs:comment "Certificate information of OEKO-TEX-STD100-CIV with ID Ap3YDl" ;
-    pdto:hasIssuedDate "2023-03-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as long as OEKO-TEX® STANDARD 100 Class IV certification is maintained"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_BIYEgh> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_EN1021-1&2_BIYEgh" ;
-    ns1:description "Furniture flammability test"^^xsd:string ;
-    ns1:name "EN1021-1&2"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_ZSeAz5> ;
-    rdfs:comment "Certificate information of EN1021-1&2 with ID BIYEgh" ;
-    pdto:hasIssuedDate "2019-03-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per EN 1021"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_ElKoi8> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_EN13773_Class_1_ElKoi8" ;
-    ns1:description "Seating fire resistance"^^xsd:string ;
-    ns1:name "EN13773 Class 1"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_pzC239> ;
-    rdfs:comment "Certificate information of EN13773 Class 1 with ID ElKoi8" ;
-    pdto:hasIssuedDate "2017-08-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per EN 13773"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_FIM087> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_NFPA701_FIM087" ;
-    ns1:description "Fire tests for textiles and films"^^xsd:string ;
-    ns1:name "NFPA701"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_Ff0Ost> ;
-    rdfs:comment "Certificate information of NFPA701 with ID FIM087" ;
-    pdto:hasIssuedDate "2021-05-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per NFPA 701"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_Gkxlb6> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_ISO14001-EMS_Gkxlb6" ;
-    ns1:description "Environmental management system certification for sustainable operations"^^xsd:string ;
-    ns1:name "ISO14001-EMS"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_Ro2KaY> ;
-    rdfs:comment "Certificate information of ISO14001-EMS with ID Gkxlb6" ;
-    pdto:hasIssuedDate "2022-06-15T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as long as ISO 14001 compliance is maintained"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_V65UTx> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_UNI8456_Class_1_V65UTx" ;
-    ns1:description "Furniture testing standard"^^xsd:string ;
-    ns1:name "UNI8456 Class 1"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_x1dV1b> ;
-    rdfs:comment "Certificate information of UNI8456 Class 1 with ID V65UTx" ;
-    pdto:hasIssuedDate "2018-06-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per UNI 8456"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_ZQnT0I> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_IMO-Part8_ZQnT0I" ;
-    ns1:description "Marine furniture fire safety"^^xsd:string ;
-    ns1:name "IMO-Part8"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_SDWU8G> ;
-    rdfs:comment "Certificate information of IMO-Part8 with ID ZQnT0I" ;
-    pdto:hasIssuedDate "2018-12-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per IMO Part 8"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_aRJNj1> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_DIN4102-B1_aRJNj1" ;
-    ns1:description "Fire behavior of building materials"^^xsd:string ;
-    ns1:name "DIN4102-B1"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_mbiVhR> ;
-    rdfs:comment "Certificate information of DIN4102-B1 with ID aRJNj1" ;
-    pdto:hasIssuedDate "2019-10-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per DIN 4102"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_ap14F1> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_TB117-CA_ap14F1" ;
+<https://cir4fun.eu/data#certificate_1GAl19> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_TB117-CA_1GAl19" ;
     ns1:description "Furniture fire resistance standard"^^xsd:string ;
     ns1:name "TB117-CA"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_Uwqm6o> ;
-    rdfs:comment "Certificate information of TB117-CA with ID ap14F1" ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_T5aSb9> ;
+    rdfs:comment "Certificate information of TB117-CA with ID 1GAl19" ;
     pdto:hasIssuedDate "2020-01-01T00:00:00"^^xsd:dateTime ;
     pdto:hasValidityPolicy "Valid as per TB117"^^xsd:string .
 
-<https://cir4fun.eu/data#certificate_geqBbC> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_FSC-C123456_geqBbC" ;
-    ns1:description "Ensures responsible forest sourcing and recyclability"^^xsd:string ;
-    ns1:name "FSC-C123456"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_NP898O> ;
-    rdfs:comment "Certificate information of FSC-C123456 with ID geqBbC" ;
-    pdto:hasIssuedDate "2022-05-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as long as FSC certification is maintained"^^xsd:string .
+<https://cir4fun.eu/data#certificate_589eMR> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_EN13773_Class_1_589eMR" ;
+    ns1:description "Seating fire resistance"^^xsd:string ;
+    ns1:name "EN13773 Class 1"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_rh40fd> ;
+    rdfs:comment "Certificate information of EN13773 Class 1 with ID 589eMR" ;
+    pdto:hasIssuedDate "2017-08-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per EN 13773"^^xsd:string .
 
-<https://cir4fun.eu/data#certificate_mFm7D2> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_ISO9001-QMS_mFm7D2" ;
-    ns1:description "Quality management system certification"^^xsd:string ;
-    ns1:name "ISO9001-QMS"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_UtXfJU> ;
-    rdfs:comment "Certificate information of ISO9001-QMS with ID mFm7D2" ;
-    pdto:hasIssuedDate "2022-05-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as long as ISO 9001 compliance is maintained"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_nQfSTS> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_OEKO-TEX-STeP_nQfSTS" ;
-    ns1:description "Sustainable textile production and eco-friendly processes"^^xsd:string ;
-    ns1:name "OEKO-TEX-STeP"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_NO09gq> ;
-    rdfs:comment "Certificate information of OEKO-TEX-STeP with ID nQfSTS" ;
-    pdto:hasIssuedDate "2023-01-10T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as long as STeP certification is maintained"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_yIRUAQ> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_OEKO-TEX-STD100-CII_yIRUAQ" ;
+<https://cir4fun.eu/data#certificate_7ujhYJ> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_OEKO-TEX-STD100-CII_7ujhYJ" ;
     ns1:description "Textile safety for products in direct contact with skin"^^xsd:string ;
     ns1:name "OEKO-TEX-STD100-CII"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_gHkyGZ> ;
-    rdfs:comment "Certificate information of OEKO-TEX-STD100-CII with ID yIRUAQ" ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_Ds0eTN> ;
+    rdfs:comment "Certificate information of OEKO-TEX-STD100-CII with ID 7ujhYJ" ;
     pdto:hasIssuedDate "2023-03-01T00:00:00"^^xsd:dateTime ;
     pdto:hasValidityPolicy "Valid as long as OEKO-TEX® STANDARD 100 Class II certification is maintained"^^xsd:string .
 
-<https://cir4fun.eu/data#designrecord_6yYe86> a pdto:DesignRecord ;
-    rdfs:label "designRecord_Design-02_6yYe86" ;
+<https://cir4fun.eu/data#certificate_9jqvlu> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_FSC-C123456_9jqvlu" ;
+    ns1:description "Ensures responsible forest sourcing and recyclability"^^xsd:string ;
+    ns1:name "FSC-C123456"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_TXUfTx> ;
+    rdfs:comment "Certificate information of FSC-C123456 with ID 9jqvlu" ;
+    pdto:hasIssuedDate "2022-05-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as long as FSC certification is maintained"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_JEukkK> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_OEKO-TEX-STD100-CIV_JEukkK" ;
+    ns1:description "Textile safety for productnot in direct contact with skin (e.g., furniture, home textiles)"^^xsd:string ;
+    ns1:name "OEKO-TEX-STD100-CIV"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_jfYac8> ;
+    rdfs:comment "Certificate information of OEKO-TEX-STD100-CIV with ID JEukkK" ;
+    pdto:hasIssuedDate "2023-03-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as long as OEKO-TEX® STANDARD 100 Class IV certification is maintained"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_NDC3zn> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_ISO9001-QMS_NDC3zn" ;
+    ns1:description "Quality management system certification"^^xsd:string ;
+    ns1:name "ISO9001-QMS"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_8QKm8c> ;
+    rdfs:comment "Certificate information of ISO9001-QMS with ID NDC3zn" ;
+    pdto:hasIssuedDate "2022-05-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as long as ISO 9001 compliance is maintained"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_QsiYbC> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_IMO-Part8_QsiYbC" ;
+    ns1:description "Marine furniture fire safety"^^xsd:string ;
+    ns1:name "IMO-Part8"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_1IQg5s> ;
+    rdfs:comment "Certificate information of IMO-Part8 with ID QsiYbC" ;
+    pdto:hasIssuedDate "2018-12-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per IMO Part 8"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_V8aXlU> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_EN1021-1&2_V8aXlU" ;
+    ns1:description "Furniture flammability test"^^xsd:string ;
+    ns1:name "EN1021-1&2"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_R0amUg> ;
+    rdfs:comment "Certificate information of EN1021-1&2 with ID V8aXlU" ;
+    pdto:hasIssuedDate "2019-03-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per EN 1021"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_frjGAw> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_OEKO-TEX-STeP_frjGAw" ;
+    ns1:description "Sustainable textile production and eco-friendly processes"^^xsd:string ;
+    ns1:name "OEKO-TEX-STeP"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_Hi6eD7> ;
+    rdfs:comment "Certificate information of OEKO-TEX-STeP with ID frjGAw" ;
+    pdto:hasIssuedDate "2023-01-10T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as long as STeP certification is maintained"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_kDTCFE> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_NFPA260_kDTCFE" ;
+    ns1:description "Standard methods of fire tests"^^xsd:string ;
+    ns1:name "NFPA260"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_VQ9N8t> ;
+    rdfs:comment "Certificate information of NFPA260 with ID kDTCFE" ;
+    pdto:hasIssuedDate "2021-05-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per NFPA 260"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_kLtm6c> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_UNI8456_Class_1_kLtm6c" ;
+    ns1:description "Furniture testing standard"^^xsd:string ;
+    ns1:name "UNI8456 Class 1"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_HGLFzf> ;
+    rdfs:comment "Certificate information of UNI8456 Class 1 with ID kLtm6c" ;
+    pdto:hasIssuedDate "2018-06-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per UNI 8456"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_mW9KlE> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_ISO14001-EMS_mW9KlE" ;
+    ns1:description "Environmental management system certification for sustainable operations"^^xsd:string ;
+    ns1:name "ISO14001-EMS"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_CkvyUa> ;
+    rdfs:comment "Certificate information of ISO14001-EMS with ID mW9KlE" ;
+    pdto:hasIssuedDate "2022-06-15T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as long as ISO 14001 compliance is maintained"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_nv6aAQ> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_DIN4102-B1_nv6aAQ" ;
+    ns1:description "Fire behavior of building materials"^^xsd:string ;
+    ns1:name "DIN4102-B1"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_4MqeJW> ;
+    rdfs:comment "Certificate information of DIN4102-B1 with ID nv6aAQ" ;
+    pdto:hasIssuedDate "2019-10-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per DIN 4102"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_z64QYm> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_NFPA701_z64QYm" ;
+    ns1:description "Fire tests for textiles and films"^^xsd:string ;
+    ns1:name "NFPA701"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_hJ2Z4O> ;
+    rdfs:comment "Certificate information of NFPA701 with ID z64QYm" ;
+    pdto:hasIssuedDate "2021-05-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per NFPA 701"^^xsd:string .
+
+<https://cir4fun.eu/data#designrecord_5VE1t6> a pdto:DesignRecord ;
+    rdfs:label "designRecord_Design-02_5VE1t6" ;
     ns1:description "Detailed design sent to client for evaluation"^^xsd:string ;
     ns1:name "Design-02"^^xsd:string ;
     dppo:endTime "2024-09-20T11:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Design recordDesign-02 with ID 6yYe86" ;
-    pdto:designFile <https://cir4fun.eu/data#digitaldocument_QAXWn7> ;
+    rdfs:comment "Design recordDesign-02 with ID 5VE1t6" ;
+    pdto:designFile <https://cir4fun.eu/data#digitaldocument_HU5KqR> ;
     pdto:hasOperator "Engineering Team B"^^xsd:string ;
     pdto:hasStatus "Beta"^^xsd:string ;
     pdto:hasVersion "2.0"^^xsd:string .
 
-<https://cir4fun.eu/data#designrecord_HDCMW9> a pdto:DesignRecord ;
-    rdfs:label "designRecord_Design-01_HDCMW9" ;
+<https://cir4fun.eu/data#designrecord_FhN6op> a pdto:DesignRecord ;
+    rdfs:label "designRecord_Design-01_FhN6op" ;
     ns1:description "Raw design and select material"^^xsd:string ;
     ns1:name "Design-01"^^xsd:string ;
     dppo:endTime "2024-06-15T09:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Design recordDesign-01 with ID HDCMW9" ;
-    pdto:designFile <https://cir4fun.eu/data#digitaldocument_GEweIY> ;
+    rdfs:comment "Design recordDesign-01 with ID FhN6op" ;
+    pdto:designFile <https://cir4fun.eu/data#digitaldocument_4bhnUt> ;
     pdto:hasOperator "Engineering Team A"^^xsd:string ;
     pdto:hasStatus "Alpha"^^xsd:string ;
     pdto:hasVersion "1.0"^^xsd:string .
 
-<https://cir4fun.eu/data#designrecord_UUU9TN> a pdto:DesignRecord ;
-    rdfs:label "designRecord_Design-02b_UUU9TN" ;
+<https://cir4fun.eu/data#designrecord_t9tAqo> a pdto:DesignRecord ;
+    rdfs:label "designRecord_Design-02b_t9tAqo" ;
     ns1:description "Update from version 2.0"^^xsd:string ;
     ns1:name "Design-02b"^^xsd:string ;
     dppo:endTime "2024-11-20T15:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Design recordDesign-02b with ID UUU9TN" ;
-    pdto:designFile <https://cir4fun.eu/data#digitaldocument_GGrjt5> ;
+    rdfs:comment "Design recordDesign-02b with ID t9tAqo" ;
+    pdto:designFile <https://cir4fun.eu/data#digitaldocument_QOZKft> ;
     pdto:hasOperator "Engineering Team C"^^xsd:string ;
     pdto:hasStatus "Released"^^xsd:string ;
     pdto:hasVersion "2.3"^^xsd:string .
 
-<https://cir4fun.eu/data#digitalDocument_5XrWQZ> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_5XrWQZ" ;
-    rdfs:comment "Certificate document with ID 5XrWQZ" ;
+<https://cir4fun.eu/data#digitalDocument_1IQg5s> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_1IQg5s" ;
+    rdfs:comment "Certificate document with ID 1IQg5s" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_8DLwtv> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_8DLwtv" ;
-    rdfs:comment "Calculation method with ID 8DLwtv" ;
+<https://cir4fun.eu/data#digitalDocument_34OOGg> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_34OOGg" ;
+    rdfs:comment "Calculation method with ID 34OOGg" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_Bpd8m7> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Bpd8m7" ;
-    rdfs:comment "Calculation method with ID Bpd8m7" ;
+<https://cir4fun.eu/data#digitalDocument_3z6qCR> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_3z6qCR" ;
+    rdfs:comment "Calculation method with ID 3z6qCR" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_4MqeJW> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_4MqeJW" ;
+    rdfs:comment "Certificate document with ID 4MqeJW" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_4vnWd6> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_4vnWd6" ;
+    rdfs:comment "Calculation method with ID 4vnWd6" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_7jiMJZ> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_7jiMJZ" ;
+    rdfs:comment "Calculation method with ID 7jiMJZ" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_8QKm8c> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_8QKm8c" ;
+    rdfs:comment "Certificate document with ID 8QKm8c" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_9mJ908> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_9mJ908" ;
+    rdfs:comment "Calculation method with ID 9mJ908" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_CkvyUa> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_CkvyUa" ;
+    rdfs:comment "Certificate document with ID CkvyUa" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_Ds0eTN> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_Ds0eTN" ;
+    rdfs:comment "Certificate document with ID Ds0eTN" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_E56rzB> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_E56rzB" ;
+    rdfs:comment "Calculation method with ID E56rzB" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_DRn0h3> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_DRn0h3" ;
-    rdfs:comment "Calculation method with ID DRn0h3" ;
+<https://cir4fun.eu/data#digitalDocument_HGLFzf> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_HGLFzf" ;
+    rdfs:comment "Certificate document with ID HGLFzf" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_Hi6eD7> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_Hi6eD7" ;
+    rdfs:comment "Certificate document with ID Hi6eD7" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_LboIJO> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_LboIJO" ;
+    rdfs:comment "Calculation method with ID LboIJO" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_DcqnU5> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_DcqnU5" ;
-    rdfs:comment "Calculation method with ID DcqnU5" ;
+<https://cir4fun.eu/data#digitalDocument_QroX3v> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_QroX3v" ;
+    rdfs:comment "Calculation method with ID QroX3v" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_R0amUg> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_R0amUg" ;
+    rdfs:comment "Certificate document with ID R0amUg" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_SAlJj6> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_SAlJj6" ;
+    rdfs:comment "Calculation method with ID SAlJj6" ;
     pdto:hasIRI "https://www.example-lab.com/toxicity-testing-protocol" .
 
-<https://cir4fun.eu/data#digitalDocument_Ff0Ost> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Ff0Ost" ;
-    rdfs:comment "Certificate document with ID Ff0Ost" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_IpOUun> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_IpOUun" ;
-    rdfs:comment "Calculation method with ID IpOUun" ;
+<https://cir4fun.eu/data#digitalDocument_SSJ0Wi> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_SSJ0Wi" ;
+    rdfs:comment "Calculation method with ID SSJ0Wi" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_Kkrmm5> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Kkrmm5" ;
-    rdfs:comment "Calculation method with ID Kkrmm5" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_LxDpmp> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_LxDpmp" ;
-    rdfs:comment "Calculation method with ID LxDpmp" ;
+<https://cir4fun.eu/data#digitalDocument_SXAXyR> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_SXAXyR" ;
+    rdfs:comment "Calculation method with ID SXAXyR" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_MTyzO9> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_MTyzO9" ;
-    rdfs:comment "Calculation method with ID MTyzO9" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_NO09gq> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_NO09gq" ;
-    rdfs:comment "Certificate document with ID NO09gq" ;
+<https://cir4fun.eu/data#digitalDocument_T5aSb9> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_T5aSb9" ;
+    rdfs:comment "Certificate document with ID T5aSb9" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_NP898O> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_NP898O" ;
-    rdfs:comment "Certificate document with ID NP898O" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_Qzw2po> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Qzw2po" ;
-    rdfs:comment "Calculation method with ID Qzw2po" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_Ro2KaY> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Ro2KaY" ;
-    rdfs:comment "Certificate document with ID Ro2KaY" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_SDWU8G> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_SDWU8G" ;
-    rdfs:comment "Certificate document with ID SDWU8G" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_T1IAe8> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_T1IAe8" ;
-    rdfs:comment "Calculation method with ID T1IAe8" ;
+<https://cir4fun.eu/data#digitalDocument_TVtbtQ> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_TVtbtQ" ;
+    rdfs:comment "Calculation method with ID TVtbtQ" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_UtXfJU> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_UtXfJU" ;
-    rdfs:comment "Certificate document with ID UtXfJU" ;
+<https://cir4fun.eu/data#digitalDocument_TXUfTx> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_TXUfTx" ;
+    rdfs:comment "Certificate document with ID TXUfTx" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_Uwqm6o> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Uwqm6o" ;
-    rdfs:comment "Certificate document with ID Uwqm6o" ;
+<https://cir4fun.eu/data#digitalDocument_VQ9N8t> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_VQ9N8t" ;
+    rdfs:comment "Certificate document with ID VQ9N8t" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_Yc2uLu> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Yc2uLu" ;
-    rdfs:comment "Calculation method with ID Yc2uLu" ;
+<https://cir4fun.eu/data#digitalDocument_fBWwmH> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_fBWwmH" ;
+    rdfs:comment "Calculation method with ID fBWwmH" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_ZSeAz5> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_ZSeAz5" ;
-    rdfs:comment "Certificate document with ID ZSeAz5" ;
+<https://cir4fun.eu/data#digitalDocument_hJ2Z4O> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_hJ2Z4O" ;
+    rdfs:comment "Certificate document with ID hJ2Z4O" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_ak8bpr> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_ak8bpr" ;
-    rdfs:comment "Calculation method with ID ak8bpr" ;
+<https://cir4fun.eu/data#digitalDocument_hYJ74d> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_hYJ74d" ;
+    rdfs:comment "Calculation method with ID hYJ74d" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_b9skhW> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_b9skhW" ;
-    rdfs:comment "Calculation method with ID b9skhW" ;
+<https://cir4fun.eu/data#digitalDocument_jZ31XC> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_jZ31XC" ;
+    rdfs:comment "Calculation method with ID jZ31XC" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_ceO6Ye> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_ceO6Ye" ;
-    rdfs:comment "Calculation method with ID ceO6Ye" ;
+<https://cir4fun.eu/data#digitalDocument_jfYac8> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_jfYac8" ;
+    rdfs:comment "Certificate document with ID jfYac8" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_luT1ZE> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_luT1ZE" ;
+    rdfs:comment "Calculation method with ID luT1ZE" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_dDCu0T> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_dDCu0T" ;
-    rdfs:comment "Calculation method with ID dDCu0T" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_f8XF5H> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_f8XF5H" ;
-    rdfs:comment "Calculation method with ID f8XF5H" ;
+<https://cir4fun.eu/data#digitalDocument_pnDk18> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_pnDk18" ;
+    rdfs:comment "Calculation method with ID pnDk18" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_fxGNun> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_fxGNun" ;
-    rdfs:comment "Calculation method with ID fxGNun" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_gHkyGZ> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_gHkyGZ" ;
-    rdfs:comment "Certificate document with ID gHkyGZ" ;
+<https://cir4fun.eu/data#digitalDocument_rh40fd> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_rh40fd" ;
+    rdfs:comment "Certificate document with ID rh40fd" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_grIK6f> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_grIK6f" ;
-    rdfs:comment "Calculation method with ID grIK6f" ;
+<https://cir4fun.eu/data#digitalDocument_sPu08c> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_sPu08c" ;
+    rdfs:comment "Calculation method with ID sPu08c" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_kv8rNN> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_kv8rNN" ;
-    rdfs:comment "Calculation method with ID kv8rNN" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_m5CLzA> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_m5CLzA" ;
-    rdfs:comment "Calculation method with ID m5CLzA" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_mbiVhR> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_mbiVhR" ;
-    rdfs:comment "Certificate document with ID mbiVhR" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_oyc0tY> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_oyc0tY" ;
-    rdfs:comment "Calculation method with ID oyc0tY" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_pzC239> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_pzC239" ;
-    rdfs:comment "Certificate document with ID pzC239" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_sk9OnD> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_sk9OnD" ;
-    rdfs:comment "Calculation method with ID sk9OnD" ;
+<https://cir4fun.eu/data#digitalDocument_tyOJdY> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_tyOJdY" ;
+    rdfs:comment "Calculation method with ID tyOJdY" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_tifbX7> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_tifbX7" ;
-    rdfs:comment "Certificate document with ID tifbX7" ;
-    pdto:hasIRI "N.A" .
+<https://cir4fun.eu/data#digitalDocument_u3QGS4> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_u3QGS4" ;
+    rdfs:comment "Calculation method with ID u3QGS4" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_x1dV1b> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_x1dV1b" ;
-    rdfs:comment "Certificate document with ID x1dV1b" ;
-    pdto:hasIRI "N.A" .
+<https://cir4fun.eu/data#digitalDocument_uVsYKP> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_uVsYKP" ;
+    rdfs:comment "Calculation method with ID uVsYKP" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_v1a7tG> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_v1a7tG" ;
+    rdfs:comment "Calculation method with ID v1a7tG" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
 <https://cir4fun.eu/data#digital_product_61f46bcd> rdfs:label "sphereDigital_61f46bcd" ;
     rdfs:comment "Digital Product instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd" ;
-    ns3:hasModel <https://cir4fun.eu/data#information_model_61f46bcd> .
+    ns4:hasModel <https://cir4fun.eu/data#information_model_61f46bcd> .
 
-<https://cir4fun.eu/data#digitaldocument_GEweIY> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_GEweIY" ;
-    rdfs:comment "Design file with ID GEweIY" ;
+<https://cir4fun.eu/data#digitaldocument_4bhnUt> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_4bhnUt" ;
+    rdfs:comment "Design file with ID 4bhnUt" ;
     pdto:hasIRI "Fortezza_9041_CAD_v1.0.dwg" .
 
-<https://cir4fun.eu/data#digitaldocument_GGrjt5> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_GGrjt5" ;
-    rdfs:comment "Design file with ID GGrjt5" ;
-    pdto:hasIRI "Fortezza_9041_CAD_v2.3.dwg" .
-
-<https://cir4fun.eu/data#digitaldocument_QAXWn7> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_QAXWn7" ;
-    rdfs:comment "Design file with ID QAXWn7" ;
+<https://cir4fun.eu/data#digitaldocument_HU5KqR> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_HU5KqR" ;
+    rdfs:comment "Design file with ID HU5KqR" ;
     pdto:hasIRI "Fortezza_9041_CAD_v2.0.dwg" .
 
-<https://cir4fun.eu/data#indicator_0DI7pr> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_ClimateChange_0DI7pr" ;
-    ns1:description "Climate Change"^^xsd:string ;
-    ns1:name "PEF_ClimateChange"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgCO2-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_ClimateChange with ID 0DI7pr" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_ak8bpr> .
+<https://cir4fun.eu/data#digitaldocument_QOZKft> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_QOZKft" ;
+    rdfs:comment "Design file with ID QOZKft" ;
+    pdto:hasIRI "Fortezza_9041_CAD_v2.3.dwg" .
 
-<https://cir4fun.eu/data#indicator_4AVT2f> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Eutrophication_Marine_4AVT2f" ;
-    ns1:description "Eutrophication (marine)"^^xsd:string ;
-    ns1:name "PEF_Eutrophication_Marine"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgN-eq> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Eutrophication_Marine with ID 4AVT2f" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_kv8rNN> .
-
-<https://cir4fun.eu/data#indicator_6ngFXO> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_HumanToxicity_Cancer_6ngFXO" ;
-    ns1:description "Human Toxicity (cancer)"^^xsd:string ;
-    ns1:name "PEF_HumanToxicity_Cancer"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_HumanToxicity_Cancer with ID 6ngFXO" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_grIK6f> .
-
-<https://cir4fun.eu/data#indicator_AVEskZ> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_WaterScarcity_AVEskZ" ;
-    ns1:description "Water Scarcity"^^xsd:string ;
-    ns1:name "PEF_WaterScarcity"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#m³water-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_WaterScarcity with ID AVEskZ" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_fxGNun> .
-
-<https://cir4fun.eu/data#indicator_EQtOkt> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Reproductive_EQtOkt" ;
-    ns1:description "Reproductive toxicity"^^xsd:string ;
-    ns1:name "HIA_Reproductive"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Reproductive with ID EQtOkt" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_ceO6Ye> ;
-    pdto:hasSimpleType "Reproductive"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_H4sWW7> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_ResourceUse_Fossils_H4sWW7" ;
-    ns1:description "Resource Use – Fossils"^^xsd:string ;
-    ns1:name "PEF_ResourceUse_Fossils"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#MJ> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_ResourceUse_Fossils with ID H4sWW7" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_8DLwtv> .
-
-<https://cir4fun.eu/data#indicator_H6uSW5> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_ParticulateMatter_H6uSW5" ;
-    ns1:description "Particulate Matter"^^xsd:string ;
-    ns1:name "PEF_ParticulateMatter"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgPM2.5-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_ParticulateMatter with ID H6uSW5" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_MTyzO9> .
-
-<https://cir4fun.eu/data#indicator_Hs3IDQ> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Ecotoxicity_Freshwater_Hs3IDQ" ;
-    ns1:description "Ecotoxicity (freshwater)"^^xsd:string ;
-    ns1:name "PEF_Ecotoxicity_Freshwater"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUe> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Ecotoxicity_Freshwater with ID Hs3IDQ" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_DRn0h3> .
-
-<https://cir4fun.eu/data#indicator_JPy0bT> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Acidification_JPy0bT" ;
-    ns1:description "Acidification"^^xsd:string ;
-    ns1:name "PEF_Acidification"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#molH⁺-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Acidification with ID JPy0bT" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_Qzw2po> .
-
-<https://cir4fun.eu/data#indicator_KzJT6k> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Neurotoxicity_KzJT6k" ;
-    ns1:description "Neurotoxicity"^^xsd:string ;
-    ns1:name "HIA_Neurotoxicity"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Neurotoxicity with ID KzJT6k" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_T1IAe8> ;
-    pdto:hasSimpleType "Neurological"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_NtjT5z> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Carcinogenic_NtjT5z" ;
-    ns1:description "Carcinogenic effects"^^xsd:string ;
-    ns1:name "HIA_Carcinogenic"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Carcinogenic with ID NtjT5z" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_Bpd8m7> ;
-    pdto:hasSimpleType "Cancer"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_aIEaYG> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Eutrophication_Terrestrial_aIEaYG" ;
-    ns1:description "Eutrophication (terrestrial)"^^xsd:string ;
-    ns1:name "PEF_Eutrophication_Terrestrial"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#molN-eq> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Eutrophication_Terrestrial with ID aIEaYG" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_oyc0tY> .
-
-<https://cir4fun.eu/data#indicator_fEN5fM> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Endocrine_fEN5fM" ;
-    ns1:description "Endocrine disruption"^^xsd:string ;
-    ns1:name "HIA_Endocrine"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Endocrine with ID fEN5fM" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_f8XF5H> ;
-    pdto:hasSimpleType "Endocrine"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_hCiRnH> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Eutrophication_Freshwater_hCiRnH" ;
-    ns1:description "Eutrophication (freshwater)"^^xsd:string ;
-    ns1:name "PEF_Eutrophication_Freshwater"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgPO4³⁻-eq> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Eutrophication_Freshwater with ID hCiRnH" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_dDCu0T> .
-
-<https://cir4fun.eu/data#indicator_iMzUnE> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_OzoneDepletion_iMzUnE" ;
-    ns1:description "Ozone Depletion"^^xsd:string ;
-    ns1:name "PEF_OzoneDepletion"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgCFC-11-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_OzoneDepletion with ID iMzUnE" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_Yc2uLu> .
-
-<https://cir4fun.eu/data#indicator_kZ8YPR> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_ResourceUse_MineralsMetals_kZ8YPR" ;
-    ns1:description "Resource Use – Minerals/Metals"^^xsd:string ;
-    ns1:name "PEF_ResourceUse_MineralsMetals"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgSb-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_ResourceUse_MineralsMetals with ID kZ8YPR" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_Kkrmm5> .
-
-<https://cir4fun.eu/data#indicator_l4DojK> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_HumanToxicity_NonCancer_l4DojK" ;
-    ns1:description "Human Toxicity (non-cancer)"^^xsd:string ;
-    ns1:name "PEF_HumanToxicity_NonCancer"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_HumanToxicity_NonCancer with ID l4DojK" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_b9skhW> .
-
-<https://cir4fun.eu/data#indicator_o8Fkmz> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_ToxicAdditiveLevel_o8Fkmz" ;
-    ns1:description "Toxic additive content"^^xsd:string ;
-    ns1:name "ToxicAdditiveLevel"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#mg/kg> ;
-    dppo:value 0 ;
-    rdfs:comment "Indicator information of ToxicAdditiveLevel with ID o8Fkmz" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_DcqnU5> ;
-    pdto:hasSimpleType "Chemical Hazard"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_tw0Amh> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_LandUse_tw0Amh" ;
-    ns1:description "Land Use"^^xsd:string ;
-    ns1:name "PEF_LandUse"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#Soilqualityindex> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_LandUse with ID tw0Amh" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_IpOUun> .
-
-<https://cir4fun.eu/data#indicator_wprOTi> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_PhotochemicalOzoneFormation_wprOTi" ;
-    ns1:description "Photochemical Ozone Formation"^^xsd:string ;
-    ns1:name "PEF_PhotochemicalOzoneFormation"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgNMVOC-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_PhotochemicalOzoneFormation with ID wprOTi" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_m5CLzA> .
-
-<https://cir4fun.eu/data#indicator_x6UXku> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Respiratory_x6UXku" ;
+<https://cir4fun.eu/data#indicator_0hXOxG> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Respiratory_0hXOxG" ;
     ns1:description "Respiratory effects"^^xsd:string ;
     ns1:name "HIA_Respiratory"^^xsd:string ;
     dppo:unit <https://cir4fun.eu/data#CTUh> ;
     dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Respiratory with ID x6UXku" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_sk9OnD> ;
+    rdfs:comment "Indicator information of HIA_Respiratory with ID 0hXOxG" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_TVtbtQ> ;
     pdto:hasSimpleType "Respiratory"^^xsd:string .
 
-<https://cir4fun.eu/data#indicator_xE1GAS> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_NonCarcinogenic_xE1GAS" ;
+<https://cir4fun.eu/data#indicator_1TnvCE> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_ParticulateMatter_1TnvCE" ;
+    ns1:description "Particulate Matter"^^xsd:string ;
+    ns1:name "PEF_ParticulateMatter"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgPM2.5-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_ParticulateMatter with ID 1TnvCE" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_34OOGg> .
+
+<https://cir4fun.eu/data#indicator_3P9HzV> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_ClimateChange_3P9HzV" ;
+    ns1:description "Climate Change"^^xsd:string ;
+    ns1:name "PEF_ClimateChange"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgCO2-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_ClimateChange with ID 3P9HzV" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_LboIJO> .
+
+<https://cir4fun.eu/data#indicator_47lOaF> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Neurotoxicity_47lOaF" ;
+    ns1:description "Neurotoxicity"^^xsd:string ;
+    ns1:name "HIA_Neurotoxicity"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_Neurotoxicity with ID 47lOaF" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_pnDk18> ;
+    pdto:hasSimpleType "Neurological"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_7TA8cV> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_ResourceUse_Fossils_7TA8cV" ;
+    ns1:description "Resource Use – Fossils"^^xsd:string ;
+    ns1:name "PEF_ResourceUse_Fossils"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#MJ> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_ResourceUse_Fossils with ID 7TA8cV" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_SSJ0Wi> .
+
+<https://cir4fun.eu/data#indicator_AktAJd> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_PhotochemicalOzoneFormation_AktAJd" ;
+    ns1:description "Photochemical Ozone Formation"^^xsd:string ;
+    ns1:name "PEF_PhotochemicalOzoneFormation"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgNMVOC-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_PhotochemicalOzoneFormation with ID AktAJd" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_4vnWd6> .
+
+<https://cir4fun.eu/data#indicator_Eobx3z> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_WaterScarcity_Eobx3z" ;
+    ns1:description "Water Scarcity"^^xsd:string ;
+    ns1:name "PEF_WaterScarcity"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#m³water-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_WaterScarcity with ID Eobx3z" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_fBWwmH> .
+
+<https://cir4fun.eu/data#indicator_FDbVCI> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_ResourceUse_MineralsMetals_FDbVCI" ;
+    ns1:description "Resource Use – Minerals/Metals"^^xsd:string ;
+    ns1:name "PEF_ResourceUse_MineralsMetals"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgSb-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_ResourceUse_MineralsMetals with ID FDbVCI" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_uVsYKP> .
+
+<https://cir4fun.eu/data#indicator_FEinOb> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Eutrophication_Terrestrial_FEinOb" ;
+    ns1:description "Eutrophication (terrestrial)"^^xsd:string ;
+    ns1:name "PEF_Eutrophication_Terrestrial"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#molN-eq> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_Eutrophication_Terrestrial with ID FEinOb" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_3z6qCR> .
+
+<https://cir4fun.eu/data#indicator_LnYCqu> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_HumanToxicity_Cancer_LnYCqu" ;
+    ns1:description "Human Toxicity (cancer)"^^xsd:string ;
+    ns1:name "PEF_HumanToxicity_Cancer"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_HumanToxicity_Cancer with ID LnYCqu" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_7jiMJZ> .
+
+<https://cir4fun.eu/data#indicator_QUxJT6> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Carcinogenic_QUxJT6" ;
+    ns1:description "Carcinogenic effects"^^xsd:string ;
+    ns1:name "HIA_Carcinogenic"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_Carcinogenic with ID QUxJT6" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_SXAXyR> ;
+    pdto:hasSimpleType "Cancer"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_RrKGU3> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Eutrophication_Marine_RrKGU3" ;
+    ns1:description "Eutrophication (marine)"^^xsd:string ;
+    ns1:name "PEF_Eutrophication_Marine"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgN-eq> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_Eutrophication_Marine with ID RrKGU3" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_v1a7tG> .
+
+<https://cir4fun.eu/data#indicator_V5FFvW> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_NonCarcinogenic_V5FFvW" ;
     ns1:description "Non-carcinogenic effects"^^xsd:string ;
     ns1:name "HIA_NonCarcinogenic"^^xsd:string ;
     dppo:unit <https://cir4fun.eu/data#CTUh> ;
     dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_NonCarcinogenic with ID xE1GAS" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_LxDpmp> ;
+    rdfs:comment "Indicator information of HIA_NonCarcinogenic with ID V5FFvW" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_E56rzB> ;
     pdto:hasSimpleType "Non-Cancer"^^xsd:string .
 
-<https://cir4fun.eu/data#info_31LnGs> a dppo:ProductQuality ;
-    rdfs:label "info_Texture_31LnGs" ;
-    dppo:value "Plain" ;
-    rdfs:comment "Information of Texture with ID 31LnGs" ;
-    pdto:clarifiedProperty dpp4fun:Texture ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_3KdQnv> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductDesignation_3KdQnv" ;
-    dppo:value "Fortezza 9041" ;
-    rdfs:comment "Information of ManufacturerProductDesignation with ID 3KdQnv" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerProductDesignation ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_B602TK> a dppo:ProductQuality ;
-    rdfs:label "info_RecyclableFraction_B602TK" ;
-    dppo:value 1e+00 ;
-    rdfs:comment "Information of RecyclableFraction with ID B602TK" ;
-    pdto:clarifiedProperty dpp4fun:RecyclableFraction ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_EfpAUn> a dppo:ProductQuality ;
-    rdfs:label "info_AbrasionResistance_EfpAUn" ;
-    dppo:value "30000 Martindale cycles" ;
-    rdfs:comment "Information of AbrasionResistance with ID EfpAUn" ;
-    pdto:clarifiedProperty dpp4fun:AbrasionResistance ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_MKh9s2> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductFamily_MKh9s2" ;
-    dppo:value "Upholstery Fabrics" ;
-    rdfs:comment "Information of ManufacturerProductFamily with ID MKh9s2" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_PAuksv> a dppo:ProductQuality ;
-    rdfs:label "info_Color_PAuksv" ;
-    dppo:value "Blue" ;
-    rdfs:comment "Information of Color with ID PAuksv" ;
-    pdto:clarifiedProperty dpp4fun:Color ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_SrkHFr> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Weight_SrkHFr" ;
-    dppo:unit "g/m2" ;
-    dppo:value 315.0 ;
-    rdfs:comment "Information of Weight with ID SrkHFr" ;
-    pdto:clarifiedProperty dpp4fun:Weight ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_TBGGCw> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Height_TBGGCw" ;
-    dppo:unit qudt:CentiM ;
+<https://cir4fun.eu/data#indicator_bNWyfn> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Eutrophication_Freshwater_bNWyfn" ;
+    ns1:description "Eutrophication (freshwater)"^^xsd:string ;
+    ns1:name "PEF_Eutrophication_Freshwater"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgPO4³⁻-eq> ;
     dppo:value "None" ;
-    rdfs:comment "Information of Height with ID TBGGCw" ;
-    pdto:clarifiedProperty dpp4fun:Height ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+    rdfs:comment "Indicator information of PEF_Eutrophication_Freshwater with ID bNWyfn" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_QroX3v> .
 
-<https://cir4fun.eu/data#info_XpOZPw> a dppo:ProductQuality ;
-    rdfs:label "info_Surface_XpOZPw" ;
-    dppo:value "Woven matte" ;
-    rdfs:comment "Information of Surface with ID XpOZPw" ;
-    pdto:clarifiedProperty dpp4fun:Surface ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_XsXvU3> a dppo:ProductQuality ;
-    rdfs:label "info_SeamSlippage_XsXvU3" ;
-    dppo:value "Warp/Weft 3mm" ;
-    rdfs:comment "Information of SeamSlippage with ID XsXvU3" ;
-    pdto:clarifiedProperty dpp4fun:SeamSlippage ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_ZLEmoR> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Width_ZLEmoR" ;
-    dppo:unit qudt:CentiM ;
-    dppo:value 140.0 ;
-    rdfs:comment "Information of Width with ID ZLEmoR" ;
-    pdto:clarifiedProperty dpp4fun:Width ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_c7duT6> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_c7duT6" ;
+<https://cir4fun.eu/data#indicator_bnuwKR> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Acidification_bnuwKR" ;
+    ns1:description "Acidification"^^xsd:string ;
+    ns1:name "PEF_Acidification"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#molH⁺-equivalent> ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID c7duT6" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+    rdfs:comment "Indicator information of PEF_Acidification with ID bnuwKR" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_hYJ74d> .
 
-<https://cir4fun.eu/data#info_dS2ykH> a dppo:ProductQuality ;
-    rdfs:label "info_LightFastness_dS2ykH" ;
-    dppo:value "6-7 (Blue Scale)" ;
-    rdfs:comment "Information of LightFastness with ID dS2ykH" ;
-    pdto:clarifiedProperty dpp4fun:LightFastness ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_hmTVPa> a dppo:ProductQuality ;
-    rdfs:label "info_Recyclable_hmTVPa" ;
-    dppo:value true ;
-    rdfs:comment "Information of Recyclable with ID hmTVPa" ;
-    pdto:clarifiedProperty dpp4fun:Recyclable ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_ntPPbz> a dppo:ProductQuality ;
-    rdfs:label "info_ColorFastness_ntPPbz" ;
+<https://cir4fun.eu/data#indicator_gEwbIu> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_HumanToxicity_NonCancer_gEwbIu" ;
+    ns1:description "Human Toxicity (non-cancer)"^^xsd:string ;
+    ns1:name "PEF_HumanToxicity_NonCancer"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
     dppo:value "None" ;
-    rdfs:comment "Information of ColorFastness with ID ntPPbz" ;
+    rdfs:comment "Indicator information of PEF_HumanToxicity_NonCancer with ID gEwbIu" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_jZ31XC> .
+
+<https://cir4fun.eu/data#indicator_ga7CvI> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Ecotoxicity_Freshwater_ga7CvI" ;
+    ns1:description "Ecotoxicity (freshwater)"^^xsd:string ;
+    ns1:name "PEF_Ecotoxicity_Freshwater"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUe> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_Ecotoxicity_Freshwater with ID ga7CvI" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_9mJ908> .
+
+<https://cir4fun.eu/data#indicator_pAOZuC> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_OzoneDepletion_pAOZuC" ;
+    ns1:description "Ozone Depletion"^^xsd:string ;
+    ns1:name "PEF_OzoneDepletion"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgCFC-11-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_OzoneDepletion with ID pAOZuC" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_sPu08c> .
+
+<https://cir4fun.eu/data#indicator_pPhrR3> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Endocrine_pPhrR3" ;
+    ns1:description "Endocrine disruption"^^xsd:string ;
+    ns1:name "HIA_Endocrine"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_Endocrine with ID pPhrR3" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_luT1ZE> ;
+    pdto:hasSimpleType "Endocrine"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_rsnQoH> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_LandUse_rsnQoH" ;
+    ns1:description "Land Use"^^xsd:string ;
+    ns1:name "PEF_LandUse"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#Soilqualityindex> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_LandUse with ID rsnQoH" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_u3QGS4> .
+
+<https://cir4fun.eu/data#indicator_t1JfqC> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_ToxicAdditiveLevel_t1JfqC" ;
+    ns1:description "Toxic additive content"^^xsd:string ;
+    ns1:name "ToxicAdditiveLevel"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#mg/kg> ;
+    dppo:value 0 ;
+    rdfs:comment "Indicator information of ToxicAdditiveLevel with ID t1JfqC" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_SAlJj6> ;
+    pdto:hasSimpleType "Chemical Hazard"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_tXfHzi> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Reproductive_tXfHzi" ;
+    ns1:description "Reproductive toxicity"^^xsd:string ;
+    ns1:name "HIA_Reproductive"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_Reproductive with ID tXfHzi" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_tyOJdY> ;
+    pdto:hasSimpleType "Reproductive"^^xsd:string .
+
+<https://cir4fun.eu/data#info_0sziCy> a dppo:ProductQuality ;
+    rdfs:label "info_ColorFastness_0sziCy" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of ColorFastness with ID 0sziCy" ;
     pdto:clarifiedProperty dpp4fun:ColorFastness ;
     pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
 
-<https://cir4fun.eu/data#info_pPoYVT> a dppo:ProductQuality ;
-    rdfs:label "info_Pilling_pPoYVT" ;
-    dppo:value "4/5" ;
-    rdfs:comment "Information of Pilling with ID pPoYVT" ;
-    pdto:clarifiedProperty dpp4fun:Pilling ;
+<https://cir4fun.eu/data#info_11KuPn> a dppo:ProductQuality ;
+    rdfs:label "info_LightFastness_11KuPn" ;
+    dppo:value "6-7 (Blue Scale)" ;
+    rdfs:comment "Information of LightFastness with ID 11KuPn" ;
+    pdto:clarifiedProperty dpp4fun:LightFastness ;
     pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
 
-<https://cir4fun.eu/data#info_q48zUJ> a dppo:ProductQuality ;
-    rdfs:label "info_RecycledMaterialIncluded_q48zUJ" ;
-    dppo:value true ;
-    rdfs:comment "Information of RecycledMaterialIncluded with ID q48zUJ" ;
-    pdto:clarifiedProperty dpp4fun:RecycledMaterialIncluded ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_rCmx9z> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerName_rCmx9z" ;
-    dppo:value "Pozzi Arturo S.p.A." ;
-    rdfs:comment "Information of ManufacturerName with ID rCmx9z" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerName ;
-    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
-
-<https://cir4fun.eu/data#info_s7rZHY> a dppo:ProductQuality ;
-    rdfs:label "info_Length_s7rZHY" ;
+<https://cir4fun.eu/data#info_2exPQg> a dppo:ProductQuality ;
+    rdfs:label "info_Length_2exPQg" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Length with ID s7rZHY" ;
+    rdfs:comment "Information of Length with ID 2exPQg" ;
     pdto:clarifiedProperty dpp4fun:Length ;
     pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
 
-<https://cir4fun.eu/data#info_wHGLqQ> a dppo:ProductQuality ;
-    rdfs:label "info_Diameter_wHGLqQ" ;
+<https://cir4fun.eu/data#info_3xEK13> a dppo:ProductQuality ;
+    rdfs:label "info_Surface_3xEK13" ;
+    dppo:value "Woven matte" ;
+    rdfs:comment "Information of Surface with ID 3xEK13" ;
+    pdto:clarifiedProperty dpp4fun:Surface ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_E9TEFy> a dppo:ProductQuality ;
+    rdfs:label "info_Pilling_E9TEFy" ;
+    dppo:value "4/5" ;
+    rdfs:comment "Information of Pilling with ID E9TEFy" ;
+    pdto:clarifiedProperty dpp4fun:Pilling ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_HEZ5Ch> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Weight_HEZ5Ch" ;
+    dppo:unit "g/m2" ;
+    dppo:value 315.0 ;
+    rdfs:comment "Information of Weight with ID HEZ5Ch" ;
+    pdto:clarifiedProperty dpp4fun:Weight ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_JGlQiB> a dppo:ProductQuality ;
+    rdfs:label "info_AbrasionResistance_JGlQiB" ;
+    dppo:value "30000 Martindale cycles" ;
+    rdfs:comment "Information of AbrasionResistance with ID JGlQiB" ;
+    pdto:clarifiedProperty dpp4fun:AbrasionResistance ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_JgOO0G> a dppo:ProductQuality ;
+    rdfs:label "info_RecyclableFraction_JgOO0G" ;
+    dppo:value 1e+00 ;
+    rdfs:comment "Information of RecyclableFraction with ID JgOO0G" ;
+    pdto:clarifiedProperty dpp4fun:RecyclableFraction ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_LOznlb> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductFamily_LOznlb" ;
+    dppo:value "Upholstery Fabrics" ;
+    rdfs:comment "Information of ManufacturerProductFamily with ID LOznlb" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_NGGZpJ> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerName_NGGZpJ" ;
+    dppo:value "Pozzi Arturo S.p.A." ;
+    rdfs:comment "Information of ManufacturerName with ID NGGZpJ" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerName ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_OZTElh> a dppo:ProductQuality ;
+    rdfs:label "info_SeamSlippage_OZTElh" ;
+    dppo:value "Warp/Weft 3mm" ;
+    rdfs:comment "Information of SeamSlippage with ID OZTElh" ;
+    pdto:clarifiedProperty dpp4fun:SeamSlippage ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_Sr5aA9> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Height_Sr5aA9" ;
+    dppo:unit qudt:CentiM ;
     dppo:value "None" ;
-    rdfs:comment "Information of Diameter with ID wHGLqQ" ;
+    rdfs:comment "Information of Height with ID Sr5aA9" ;
+    pdto:clarifiedProperty dpp4fun:Height ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_YhcKFD> a dppo:ProductQuality ;
+    rdfs:label "info_Recyclable_YhcKFD" ;
+    dppo:value true ;
+    rdfs:comment "Information of Recyclable with ID YhcKFD" ;
+    pdto:clarifiedProperty dpp4fun:Recyclable ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_aFtR4Q> a dppo:ProductQuality ;
+    rdfs:label "info_RecycledMaterialIncluded_aFtR4Q" ;
+    dppo:value true ;
+    rdfs:comment "Information of RecycledMaterialIncluded with ID aFtR4Q" ;
+    pdto:clarifiedProperty dpp4fun:RecycledMaterialIncluded ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_cc5jvx> a dppo:ProductQuality ;
+    rdfs:label "info_Texture_cc5jvx" ;
+    dppo:value "Plain" ;
+    rdfs:comment "Information of Texture with ID cc5jvx" ;
+    pdto:clarifiedProperty dpp4fun:Texture ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_kAejjC> a dppo:ProductQuality ;
+    rdfs:label "info_Diameter_kAejjC" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Diameter with ID kAejjC" ;
     pdto:clarifiedProperty dpp4fun:Diameter ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_kL8mSJ> a dppo:ProductQuality ;
+    rdfs:label "info_Volumn_kL8mSJ" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Volumn with ID kL8mSJ" ;
+    pdto:clarifiedProperty dpp4fun:Volumn ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_oZZZzK> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Width_oZZZzK" ;
+    dppo:unit qudt:CentiM ;
+    dppo:value 140.0 ;
+    rdfs:comment "Information of Width with ID oZZZzK" ;
+    pdto:clarifiedProperty dpp4fun:Width ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_qas7MP> a dppo:ProductQuality ;
+    rdfs:label "info_Color_qas7MP" ;
+    dppo:value "Blue" ;
+    rdfs:comment "Information of Color with ID qas7MP" ;
+    pdto:clarifiedProperty dpp4fun:Color ;
+    pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
+
+<https://cir4fun.eu/data#info_wFtHvs> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductDesignation_wFtHvs" ;
+    dppo:value "Fortezza 9041" ;
+    rdfs:comment "Information of ManufacturerProductDesignation with ID wFtHvs" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerProductDesignation ;
     pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
 
 <https://cir4fun.eu/data#information_model_61f46bcd> a pdto:InformationModel ;
@@ -941,10 +941,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
 
 <https://cir4fun.eu/data#kgSb-equivalent> a dppo:Unit .
 
-<https://cir4fun.eu/data#material_meLEmj> a pdto:MaterialInformation ;
-    rdfs:label "materialInformation_Polypropylene_Yarn_013_meLEmj" ;
+<https://cir4fun.eu/data#material_ShCjD5> a pdto:MaterialInformation ;
+    rdfs:label "materialInformation_Polypropylene_Yarn_013_ShCjD5" ;
     ns1:name "Polypropylene Yarn 013"^^xsd:string ;
-    rdfs:comment "Material information of Polypropylene Yarn 013 with ID meLEmj" ;
+    rdfs:comment "Material information of Polypropylene Yarn 013 with ID ShCjD5" ;
     pdto:hasPortion 1e+00 ;
     pdto:hasSimpleReference "https://www.stellinigroup.com/products/polypropylene-cordonnet-yarn"^^xsd:anyURI ;
     pdto:isMandatory true .
@@ -957,36 +957,36 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
 
 <https://cir4fun.eu/data#m³water-equivalent> a dppo:Unit .
 
-<https://cir4fun.eu/data#product_61f46bcd> a ns4:ProductOrServiceModel ;
+<https://cir4fun.eu/data#product_61f46bcd> a ns3:ProductOrServiceModel ;
     rdfs:label "spherePhysical_61f46bcd" ;
-    ns4:description "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX 61f46bcd" ;
-    ns4:name "61f46bcd" ;
+    ns3:description "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX 61f46bcd" ;
+    ns3:name "61f46bcd" ;
     ns1:productID "61f46bcd" ;
     rdfs:comment "Product instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd" ;
-    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_YhoEqj> .
+    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_otU0Bi> .
 
-<https://cir4fun.eu/data#thumbnail_YhoEqj> a ns1:ImageObject ;
-    rdfs:label "thumbnail_61f46bcd_YhoEqj" ;
-    rdfs:comment "Reduced image of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID YhoEqj" ;
+<https://cir4fun.eu/data#thumbnail_otU0Bi> a ns1:ImageObject ;
+    rdfs:label "thumbnail_61f46bcd_otU0Bi" ;
+    rdfs:comment "Reduced image of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID otU0Bi" ;
     pdto:hasIRI "https://www.pozziarturo.it/en/wp-content/uploads/sites/2/2016/07/JK81764.jpg"^^xsd:anyURI .
 
-<https://cir4fun.eu/data#trackingrecord_GUaHr4> a pdto:TrackingRecord ;
-    rdfs:label "trackingRecord_Track-01_GUaHr4" ;
+<https://cir4fun.eu/data#trackingrecord_ehCtmk> a pdto:TrackingRecord ;
+    rdfs:label "trackingRecord_Track-01_ehCtmk" ;
     ns1:description "N.A"^^xsd:string ;
     ns1:name "Track-01"^^xsd:string ;
     dppo:endTime "2024-12-01T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Tracking recordTrack-01 with ID GUaHr4" ;
+    rdfs:comment "Tracking recordTrack-01 with ID ehCtmk" ;
     pdto:hasDestination "Paris, France"^^xsd:string ;
     pdto:hasOperator "Cargo Nord Operator"^^xsd:string ;
     pdto:hasOrigin "Italy"^^xsd:string ;
     pdto:hasStatus "Dispatched"^^xsd:string .
 
-<https://cir4fun.eu/data#trackingrecord_ulBses> a pdto:TrackingRecord ;
-    rdfs:label "trackingRecord_Track-02_ulBses" ;
+<https://cir4fun.eu/data#trackingrecord_o1lA9a> a pdto:TrackingRecord ;
+    rdfs:label "trackingRecord_Track-02_o1lA9a" ;
     ns1:description "N.A"^^xsd:string ;
     ns1:name "Track-02"^^xsd:string ;
     dppo:endTime "2024-12-02T12:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Tracking recordTrack-02 with ID ulBses" ;
+    rdfs:comment "Tracking recordTrack-02 with ID o1lA9a" ;
     pdto:hasDestination "Paris, France"^^xsd:string ;
     pdto:hasOperator "Cargo Nord Operator"^^xsd:string ;
     pdto:hasOrigin "Italy"^^xsd:string ;
