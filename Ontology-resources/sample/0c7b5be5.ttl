@@ -1,9 +1,9 @@
 @prefix dpp4fun: <https://www.cir4fun.eu/ontology/dpp4fun#> .
 @prefix dppo: <http://w3id.org/dppo/ontology/dpp-info/> .
-@prefix ns1: <http://schema.org/> .
-@prefix ns2: <https://w3id.org/def/dtw#> .
-@prefix ns3: <http://purl.org/goodrelations/v1#> .
-@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns2: <http://schema.org/> .
+@prefix ns3: <https://w3id.org/def/dtw#> .
+@prefix ns4: <http://purl.org/goodrelations/v1#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pdto: <http://www.w3id.org/pdto#> .
 @prefix qudt: <http://qudt.org/vocab/unit/> .
@@ -30,157 +30,157 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
 <https://cir4fun.eu/data#dpp_0c7b5be5> a dpp4fun:DigitalProductPassport ;
     rdfs:label "digitalProductPassport_0c7b5be5" ;
     rdfs:comment "Digital Product Passport instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID 0c7b5be5" ;
-    ns2:hasDigitalEntity <https://cir4fun.eu/data#digital_product_0c7b5be5> ;
-    ns2:hasPhysicalEntity <https://cir4fun.eu/data#product_0c7b5be5> .
+    ns3:hasDigitalEntity <https://cir4fun.eu/data#digital_product_0c7b5be5> ;
+    ns3:hasPhysicalEntity <https://cir4fun.eu/data#product_0c7b5be5> .
 
-<Address_Contact_usHZMx> a ns4:Address ;
-    rdfs:label "address__usHZMx" ;
-    rdfs:comment "Address information with ID usHZMx" ;
-    ns4:country-name "ES"^^xsd:string ;
-    ns4:locality "Sollana"^^xsd:string ;
-    ns4:postal-code "46430"^^xsd:string ;
-    ns4:region "Valencia"^^xsd:string ;
-    ns4:street-address "no. 7 Calle Suecia"^^xsd:string .
+<Address_Contact_gvx1wb> a ns1:Address ;
+    rdfs:label "address__gvx1wb" ;
+    rdfs:comment "Address information with ID gvx1wb" ;
+    ns1:country-name "ES"^^xsd:string ;
+    ns1:locality "Sollana"^^xsd:string ;
+    ns1:postal-code "46430"^^xsd:string ;
+    ns1:region "Valencia"^^xsd:string ;
+    ns1:street-address "no. 7 Calle Suecia"^^xsd:string .
 
-<Email_contact_kTTFuC> a ns4:Email ;
-    rdfs:label "email__kTTFuC" ;
-    rdfs:comment "Email information with ID kTTFuC" ;
+<Email_contact_1tsoHD> a ns1:Email ;
+    rdfs:label "email__1tsoHD" ;
+    rdfs:comment "Email information with ID 1tsoHD" ;
     pdto:emailAddress "export@mincuna.com"^^xsd:string ;
     pdto:typeOfEmail "Customer Service"^^xsd:string .
 
-<Phone_Contact_h8Uqor> a ns4:Phone ;
-    rdfs:label "phone__h8Uqor" ;
-    rdfs:comment "Phone information with ID h8Uqor" ;
+<Phone_Contact_njiI60> a ns1:Phone ;
+    rdfs:label "phone__njiI60" ;
+    rdfs:comment "Phone information with ID njiI60" ;
     pdto:telephoneNumber "+34 961 740 946"^^xsd:string ;
     pdto:typeOfTelephone "Customer Service"^^xsd:string .
 
-<https://cir4fun.eu/data#Contact_hy8Ul8> a pdto:ContactInformation ;
-    rdfs:label "contactInformation__hy8Ul8" ;
-    rdfs:comment "Contact information with ID hy8Ul8" ;
-    ns4:hasAddress <Address_Contact_usHZMx> ;
-    ns4:hasEmail <Email_contact_kTTFuC> ;
-    ns4:hasTelephone <Phone_Contact_h8Uqor> ;
-    ns4:organization-name "Micuna S.A."^^xsd:string .
+<https://cir4fun.eu/data#Contact_83O5Np> a pdto:ContactInformation ;
+    rdfs:label "contactInformation__83O5Np" ;
+    rdfs:comment "Contact information with ID 83O5Np" ;
+    ns1:hasAddress <Address_Contact_gvx1wb> ;
+    ns1:hasEmail <Email_contact_1tsoHD> ;
+    ns1:hasTelephone <Phone_Contact_njiI60> ;
+    ns1:organization-name "Micuna S.A."^^xsd:string .
 
 <https://cir4fun.eu/data#aspect_sm-44612994e6a7> a pdto:Nameplate ;
     rdfs:label "submodel_Nameplate_sm-44612994e6a7" ;
-    ns1:name "Nameplate"^^xsd:string ;
+    ns2:name "Nameplate"^^xsd:string ;
     rdfs:comment "Submodel instance of Nameplate with ID sm-44612994e6a7" ;
-    pdto:hasInformation <https://cir4fun.eu/data#Contact_hy8Ul8>,
-        <https://cir4fun.eu/data#info_E9rw5Y>,
-        <https://cir4fun.eu/data#info_qeVKOE>,
-        <https://cir4fun.eu/data#info_uADrhp> .
+    pdto:hasInformation <https://cir4fun.eu/data#Contact_83O5Np>,
+        <https://cir4fun.eu/data#info_1FBH7k>,
+        <https://cir4fun.eu/data#info_1kWR6c>,
+        <https://cir4fun.eu/data#info_Rjmazq> .
 
 <https://cir4fun.eu/data#aspect_sm-fa6492f04735> a dpp4fun:Characteristics ;
     rdfs:label "submodel_Characteristics_sm-fa6492f04735" ;
-    ns1:name "Characteristics"^^xsd:string ;
+    ns2:name "Characteristics"^^xsd:string ;
     rdfs:comment "Submodel instance of Characteristics with ID sm-fa6492f04735" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_0CgdJ1>,
-        <https://cir4fun.eu/data#info_AwWP1c>,
-        <https://cir4fun.eu/data#info_ItVFUJ>,
-        <https://cir4fun.eu/data#info_ZQTqxG>,
-        <https://cir4fun.eu/data#info_dU7vt7>,
-        <https://cir4fun.eu/data#info_hB6iTk>,
-        <https://cir4fun.eu/data#info_kNFfwT>,
-        <https://cir4fun.eu/data#info_tMjWyJ>,
-        <https://cir4fun.eu/data#info_ukF2T7>,
-        <https://cir4fun.eu/data#info_zGfIdX> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_1WxlxG>,
+        <https://cir4fun.eu/data#info_56w6U2>,
+        <https://cir4fun.eu/data#info_CesCeO>,
+        <https://cir4fun.eu/data#info_FVOAJJ>,
+        <https://cir4fun.eu/data#info_Ia8dTx>,
+        <https://cir4fun.eu/data#info_VSeP2F>,
+        <https://cir4fun.eu/data#info_cPL1fd>,
+        <https://cir4fun.eu/data#info_ek0tEi>,
+        <https://cir4fun.eu/data#info_qWyiP7>,
+        <https://cir4fun.eu/data#info_qkTkQ6> .
 
 <https://cir4fun.eu/data#digital_product_0c7b5be5> rdfs:label "sphereDigital_0c7b5be5" ;
     rdfs:comment "Digital Product instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID 0c7b5be5" ;
-    ns2:hasModel <https://cir4fun.eu/data#information_model_0c7b5be5> .
+    ns3:hasModel <https://cir4fun.eu/data#information_model_0c7b5be5> .
 
-<https://cir4fun.eu/data#info_0CgdJ1> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_0CgdJ1" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID 0CgdJ1" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
-
-<https://cir4fun.eu/data#info_AwWP1c> a dppo:ProductQuality ;
-    rdfs:label "info_Surface_AwWP1c" ;
-    dppo:value "Smooth" ;
-    rdfs:comment "Information of Surface with ID AwWP1c" ;
-    pdto:clarifiedProperty dpp4fun:Surface ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
-
-<https://cir4fun.eu/data#info_E9rw5Y> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductDesignation_E9rw5Y" ;
+<https://cir4fun.eu/data#info_1FBH7k> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductDesignation_1FBH7k" ;
     dppo:value "OVO Legs Kit" ;
-    rdfs:comment "Information of ManufacturerProductDesignation with ID E9rw5Y" ;
+    rdfs:comment "Information of ManufacturerProductDesignation with ID 1FBH7k" ;
     pdto:clarifiedProperty dpp4fun:ManufacturerProductDesignation ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
 
-<https://cir4fun.eu/data#info_ItVFUJ> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Height_ItVFUJ" ;
+<https://cir4fun.eu/data#info_1WxlxG> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Height_1WxlxG" ;
     dppo:unit qudt:CentiM ;
     dppo:value "None" ;
-    rdfs:comment "Information of Height with ID ItVFUJ" ;
+    rdfs:comment "Information of Height with ID 1WxlxG" ;
     pdto:clarifiedProperty dpp4fun:Height ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
 
-<https://cir4fun.eu/data#info_ZQTqxG> a dppo:ProductQuality ;
-    rdfs:label "info_Weight_ZQTqxG" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Weight with ID ZQTqxG" ;
-    pdto:clarifiedProperty dpp4fun:Weight ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
-
-<https://cir4fun.eu/data#info_dU7vt7> a dppo:ProductQuality ;
-    rdfs:label "info_Length_dU7vt7" ;
-    dppo:value 32 ;
-    rdfs:comment "Information of Length with ID dU7vt7" ;
-    pdto:clarifiedProperty dpp4fun:Length ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
-
-<https://cir4fun.eu/data#info_hB6iTk> a dppo:ProductQuality ;
-    rdfs:label "info_Composition_hB6iTk" ;
-    dppo:value "Beech, 4 feet" ;
-    rdfs:comment "Information of Composition with ID hB6iTk" ;
-    pdto:clarifiedProperty dpp4fun:Composition ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
-
-<https://cir4fun.eu/data#info_kNFfwT> a dppo:ProductQuality ;
-    rdfs:label "info_Color_kNFfwT" ;
-    dppo:value "Anthracite grey" ;
-    rdfs:comment "Information of Color with ID kNFfwT" ;
-    pdto:clarifiedProperty dpp4fun:Color ;
-    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
-
-<https://cir4fun.eu/data#info_qeVKOE> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductFamily_qeVKOE" ;
+<https://cir4fun.eu/data#info_1kWR6c> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductFamily_1kWR6c" ;
     dppo:value "OVO Original City" ;
-    rdfs:comment "Information of ManufacturerProductFamily with ID qeVKOE" ;
+    rdfs:comment "Information of ManufacturerProductFamily with ID 1kWR6c" ;
     pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
 
-<https://cir4fun.eu/data#info_tMjWyJ> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Width_tMjWyJ" ;
+<https://cir4fun.eu/data#info_56w6U2> a dppo:ProductQuality ;
+    rdfs:label "info_Surface_56w6U2" ;
+    dppo:value "Smooth" ;
+    rdfs:comment "Information of Surface with ID 56w6U2" ;
+    pdto:clarifiedProperty dpp4fun:Surface ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
+
+<https://cir4fun.eu/data#info_CesCeO> a dppo:ProductQuality ;
+    rdfs:label "info_Length_CesCeO" ;
+    dppo:value 32 ;
+    rdfs:comment "Information of Length with ID CesCeO" ;
+    pdto:clarifiedProperty dpp4fun:Length ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
+
+<https://cir4fun.eu/data#info_FVOAJJ> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Width_FVOAJJ" ;
     dppo:unit qudt:CentiM ;
     dppo:value "None" ;
-    rdfs:comment "Information of Width with ID tMjWyJ" ;
+    rdfs:comment "Information of Width with ID FVOAJJ" ;
     pdto:clarifiedProperty dpp4fun:Width ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
 
-<https://cir4fun.eu/data#info_uADrhp> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerName_uADrhp" ;
+<https://cir4fun.eu/data#info_Ia8dTx> a dppo:ProductQuality ;
+    rdfs:label "info_Volumn_Ia8dTx" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Volumn with ID Ia8dTx" ;
+    pdto:clarifiedProperty dpp4fun:Volumn ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
+
+<https://cir4fun.eu/data#info_Rjmazq> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerName_Rjmazq" ;
     dppo:value "Micuna S.A." ;
-    rdfs:comment "Information of ManufacturerName with ID uADrhp" ;
+    rdfs:comment "Information of ManufacturerName with ID Rjmazq" ;
     pdto:clarifiedProperty dpp4fun:ManufacturerName ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
 
-<https://cir4fun.eu/data#info_ukF2T7> a dppo:ProductQuality ;
-    rdfs:label "info_Diameter_ukF2T7" ;
+<https://cir4fun.eu/data#info_VSeP2F> a dppo:ProductQuality ;
+    rdfs:label "info_Payload_VSeP2F" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Diameter with ID ukF2T7" ;
+    rdfs:comment "Information of Payload with ID VSeP2F" ;
+    pdto:clarifiedProperty dpp4fun:Payload ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
+
+<https://cir4fun.eu/data#info_cPL1fd> a dppo:ProductQuality ;
+    rdfs:label "info_Diameter_cPL1fd" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Diameter with ID cPL1fd" ;
     pdto:clarifiedProperty dpp4fun:Diameter ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
 
-<https://cir4fun.eu/data#info_zGfIdX> a dppo:ProductQuality ;
-    rdfs:label "info_Payload_zGfIdX" ;
+<https://cir4fun.eu/data#info_ek0tEi> a dppo:ProductQuality ;
+    rdfs:label "info_Color_ek0tEi" ;
+    dppo:value "Anthracite grey" ;
+    rdfs:comment "Information of Color with ID ek0tEi" ;
+    pdto:clarifiedProperty dpp4fun:Color ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
+
+<https://cir4fun.eu/data#info_qWyiP7> a dppo:ProductQuality ;
+    rdfs:label "info_Composition_qWyiP7" ;
+    dppo:value "Beech, 4 feet" ;
+    rdfs:comment "Information of Composition with ID qWyiP7" ;
+    pdto:clarifiedProperty dpp4fun:Composition ;
+    pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
+
+<https://cir4fun.eu/data#info_qkTkQ6> a dppo:ProductQuality ;
+    rdfs:label "info_Weight_qkTkQ6" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Payload with ID zGfIdX" ;
-    pdto:clarifiedProperty dpp4fun:Payload ;
+    rdfs:comment "Information of Weight with ID qkTkQ6" ;
+    pdto:clarifiedProperty dpp4fun:Weight ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01> .
 
 <https://cir4fun.eu/data#information_model_0c7b5be5> a pdto:InformationModel ;
@@ -189,17 +189,17 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:modelAggregatedFrom <https://cir4fun.eu/data#aspect_sm-44612994e6a7>,
         <https://cir4fun.eu/data#aspect_sm-fa6492f04735> .
 
-<https://cir4fun.eu/data#product_0c7b5be5> a ns3:ProductOrServiceModel ;
+<https://cir4fun.eu/data#product_0c7b5be5> a ns4:ProductOrServiceModel ;
     rdfs:label "spherePhysical_0c7b5be5" ;
-    ns3:description "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 0c7b5be5" ;
-    ns3:name "0c7b5be5" ;
-    ns1:productID "0c7b5be5" ;
+    ns4:description "http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 0c7b5be5" ;
+    ns4:name "0c7b5be5" ;
+    ns2:productID "0c7b5be5" ;
     rdfs:comment "Product instance of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID 0c7b5be5" ;
-    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_UqqLRA> .
+    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_fjVS4D> .
 
-<https://cir4fun.eu/data#thumbnail_UqqLRA> a ns1:ImageObject ;
-    rdfs:label "thumbnail_0c7b5be5_UqqLRA" ;
-    rdfs:comment "Reduced image of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID UqqLRA" ;
+<https://cir4fun.eu/data#thumbnail_fjVS4D> a ns2:ImageObject ;
+    rdfs:label "thumbnail_0c7b5be5_fjVS4D" ;
+    rdfs:comment "Reduced image of http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01 with ID fjVS4D" ;
     pdto:hasIRI "https://www.lesenfantsdudesign.com/media/cache/photos/Visuels/Micuna/s/e/set-pieds-chaise-ovo-city-micuna-4_1264x1234.jpg"^^xsd:anyURI .
 
 dpp4fun:Color rdfs:label "Color" .

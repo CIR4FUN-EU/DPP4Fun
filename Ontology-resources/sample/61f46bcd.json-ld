@@ -5,1574 +5,39 @@
   },
   "@graph": [
     {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Diameter"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#MJ",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#ManufacturingStateRecord_nINrAA",
-      "@type": "http://www.w3id.org/pdto#ManufacturingRecord",
-      "http://schema.org/description": "Sew for the final version",
-      "http://schema.org/name": "OP-SEW-02",
+      "@id": "https://cir4fun.eu/data#designrecord_hc2XPT",
+      "@type": "http://www.w3id.org/pdto#DesignRecord",
+      "http://schema.org/description": "Raw design and select material",
+      "http://schema.org/name": "Design-01",
       "http://w3id.org/dppo/ontology/dpp-info/endTime": {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-11-29T12:00:00+00:00"
+        "@value": "2024-06-15T09:00:00+00:00"
       },
-      "http://w3id.org/dppo/ontology/dpp-info/startTime": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-11-29T09:00:00+00:00"
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Design recordDesign-01 with ID hc2XPT",
+      "http://www.w3.org/2000/01/rdf-schema#label": "designRecord_Design-01_hc2XPT",
+      "http://www.w3id.org/pdto#designFile": {
+        "@id": "https://cir4fun.eu/data#digitaldocument_R1jRBJ"
       },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Manufacturing recordOP-SEW-02 with ID nINrAA",
-      "http://www.w3.org/2000/01/rdf-schema#label": "manufacturingRecord_OP-SEW-02_nINrAA",
-      "http://www.w3id.org/pdto#hasOperator": "Operator B",
-      "http://www.w3id.org/pdto#hasPositionInProcessRouting": "REF-PRPOS-02",
-      "http://www.w3id.org/pdto#hasSimpleStation": "ST-SEW-02",
-      "http://www.w3id.org/pdto#hasStatus": "Completed"
+      "http://www.w3id.org/pdto#hasOperator": "Engineering Team A",
+      "http://www.w3id.org/pdto#hasStatus": "Alpha",
+      "http://www.w3id.org/pdto#hasVersion": 1.0
     },
     {
-      "@id": "https://cir4fun.eu/data#digitalDocument_oOE9bh",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID oOE9bh",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_oOE9bh",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "http://www.w3id.org/pdto#hasInformation",
+      "@id": "http://www.w3id.org/pdto#modelAggregatedFrom",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
     },
     {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation",
-      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductDesignation"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_aDKC93",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID aDKC93",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_aDKC93",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_JkG5PO",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID JkG5PO",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_JkG5PO",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_5591Ay",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Environmental management system certification for sustainable operations",
-      "http://schema.org/name": "ISO14001-EMS",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_4NnHJT"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of ISO14001-EMS with ID 5591Ay",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_ISO14001-EMS_5591Ay",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2022-06-15T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as ISO 14001 compliance is maintained"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_yxlwbW",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Photochemical Ozone Formation",
-      "http://schema.org/name": "PEF_PhotochemicalOzoneFormation",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#kgNMVOC-equivalent"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_PhotochemicalOzoneFormation with ID yxlwbW",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_PhotochemicalOzoneFormation_yxlwbW",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_WtIUtN"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_UNTA0D",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Particulate Matter",
-      "http://schema.org/name": "PEF_ParticulateMatter",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#kgPM2.5-equivalent"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_ParticulateMatter with ID UNTA0D",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_ParticulateMatter_UNTA0D",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_HyTmGF"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitaldocument_Aaz3w4",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Design file with ID Aaz3w4",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_Aaz3w4",
-      "http://www.w3id.org/pdto#hasIRI": "Fortezza_9041_CAD_v2.3.dwg"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_Cb8RHT",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID Cb8RHT",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_Cb8RHT",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#SeamSlippage",
-      "http://www.w3.org/2000/01/rdf-schema#label": "SeamSlippage"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_gXNBGu",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Furniture flammability test",
-      "http://schema.org/name": "EN1021-1&2",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_LLoW9M"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of EN1021-1&2 with ID gXNBGu",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_EN1021-1&2_gXNBGu",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2019-03-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per EN 1021"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#kgSb-equivalent",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#LightFastness",
-      "http://www.w3.org/2000/01/rdf-schema#label": "LightFastness"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_d6tXTE",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Length with ID d6tXTE",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Length_d6tXTE",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#thumbnail_F6w4yM",
-      "@type": "http://schema.org/ImageObject",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Reduced image of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID F6w4yM",
-      "http://www.w3.org/2000/01/rdf-schema#label": "thumbnail_61f46bcd_F6w4yM",
-      "http://www.w3id.org/pdto#hasIRI": {
-        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "https://www.pozziarturo.it/en/wp-content/uploads/sites/2/2016/07/JK81764.jpg"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_WtIUtN",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID WtIUtN",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_WtIUtN",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_z1kn0N",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID z1kn0N",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_z1kn0N",
-      "http://www.w3id.org/pdto#hasIRI": "https://www.example-lab.com/toxicity-testing-protocol"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#kgN-eq",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "http://w3id.org/dppo/ontology/dpp-info/value",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName",
-      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerName"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_aMGVDa",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Non-carcinogenic effects",
-      "http://schema.org/name": "HIA_NonCarcinogenic",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUh"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_NonCarcinogenic with ID aMGVDa",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_NonCarcinogenic_aMGVDa",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_NfyBex"
-      },
-      "http://www.w3id.org/pdto#hasSimpleType": "Non-Cancer"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_YYnLKO",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Blue",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Color with ID YYnLKO",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Color_YYnLKO",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_EY8DQ1",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID EY8DQ1",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_EY8DQ1",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#kgPM2.5-equivalent",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_dh87Fr",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Toxic additive content",
-      "http://schema.org/name": "ToxicAdditiveLevel",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#mg/kg"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": 0,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of ToxicAdditiveLevel with ID dh87Fr",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_ToxicAdditiveLevel_dh87Fr",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_z1kn0N"
-      },
-      "http://www.w3id.org/pdto#hasSimpleType": "Chemical Hazard"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_GcVjAS",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": true,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of RecycledMaterialIncluded with ID GcVjAS",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_RecycledMaterialIncluded_GcVjAS",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#RecycledMaterialIncluded"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_dGDWrh",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID dGDWrh",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_dGDWrh",
-      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_RW47C1",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID RW47C1",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_RW47C1",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Surface"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_MpGqg3",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Climate Change",
-      "http://schema.org/name": "PEF_ClimateChange",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#kgCO2-equivalent"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_ClimateChange with ID MpGqg3",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_ClimateChange_MpGqg3",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_5ghia6"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_Lm1owJ",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Neurotoxicity",
-      "http://schema.org/name": "HIA_Neurotoxicity",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUh"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Neurotoxicity with ID Lm1owJ",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Neurotoxicity_Lm1owJ",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_rSu6wu"
-      },
-      "http://www.w3id.org/pdto#hasSimpleType": "Neurological"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_rSu6wu",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID rSu6wu",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_rSu6wu",
-      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_dhHgi8",
+      "@id": "https://cir4fun.eu/data#info_nwbF10",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
       "http://w3id.org/dppo/ontology/dpp-info/value": "30000 Martindale cycles",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of AbrasionResistance with ID dhHgi8",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_AbrasionResistance_dhHgi8",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of AbrasionResistance with ID nwbF10",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_AbrasionResistance_nwbF10",
       "http://www.w3id.org/pdto#clarifiedProperty": {
         "@id": "https://www.cir4fun.eu/ontology/dpp4fun#AbrasionResistance"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
       }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#trackingrecord_PWL7Lb",
-      "@type": "http://www.w3id.org/pdto#TrackingRecord",
-      "http://schema.org/description": "N.A",
-      "http://schema.org/name": "Track-02",
-      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-12-02T12:00:00+00:00"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Tracking recordTrack-02 with ID PWL7Lb",
-      "http://www.w3.org/2000/01/rdf-schema#label": "trackingRecord_Track-02_PWL7Lb",
-      "http://www.w3id.org/pdto#hasDestination": "Paris, France",
-      "http://www.w3id.org/pdto#hasOperator": "Cargo Nord Operator",
-      "http://www.w3id.org/pdto#hasOrigin": "Italy",
-      "http://www.w3id.org/pdto#hasStatus": "In Transit"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#RecycledMaterialIncluded",
-      "http://www.w3.org/2000/01/rdf-schema#label": "RecycledMaterialIncluded"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_td4rhr",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Eutrophication (terrestrial)",
-      "http://schema.org/name": "PEF_Eutrophication_Terrestrial",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#molN-eq"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Eutrophication_Terrestrial with ID td4rhr",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Eutrophication_Terrestrial_td4rhr",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_L694ak"
-      }
-    },
-    {
-      "@id": "http://www.w3id.org/pdto#clarifiedProperty",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#AbrasionResistance",
-      "http://www.w3.org/2000/01/rdf-schema#label": "AbrasionResistance"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_59UqvV",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID 59UqvV",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_59UqvV",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#CTUh",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_XmzuS7",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Resource Use – Minerals/Metals",
-      "http://schema.org/name": "PEF_ResourceUse_MineralsMetals",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#kgSb-equivalent"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_ResourceUse_MineralsMetals with ID XmzuS7",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_ResourceUse_MineralsMetals_XmzuS7",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_oVF3eA"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_Rf4WXj",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID Rf4WXj",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_Rf4WXj",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_oVF3eA",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID oVF3eA",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_oVF3eA",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_w0ECIE",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Upholstery Fabrics",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductFamily with ID w0ECIE",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductFamily_w0ECIE",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_iQyGBq",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Carcinogenic effects",
-      "http://schema.org/name": "HIA_Carcinogenic",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUh"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Carcinogenic with ID iQyGBq",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Carcinogenic_iQyGBq",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_dGDWrh"
-      },
-      "http://www.w3id.org/pdto#hasSimpleType": "Cancer"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_oYWhpE",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": true,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Recyclable with ID oYWhpE",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Recyclable_oYWhpE",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Recyclable"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_Fr5qlj",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Pozzi Arturo S.p.A.",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerName with ID Fr5qlj",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerName_Fr5qlj",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_n0uhJs",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Human Toxicity (non-cancer)",
-      "http://schema.org/name": "PEF_HumanToxicity_NonCancer",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUh"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_HumanToxicity_NonCancer with ID n0uhJs",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_HumanToxicity_NonCancer_n0uhJs",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_GyydVL"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_kEkSEb",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Textile safety for products in direct contact with skin",
-      "http://schema.org/name": "OEKO-TEX-STD100-CII",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_Rf4WXj"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of OEKO-TEX-STD100-CII with ID kEkSEb",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_OEKO-TEX-STD100-CII_kEkSEb",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-03-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as OEKO-TEX® STANDARD 100 Class II certification is maintained"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_5zRzy6",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID 5zRzy6",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_5zRzy6",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#molN-eq",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_L694ak",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID L694ak",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_L694ak",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#kgNMVOC-equivalent",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_WKiEwj",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID WKiEwj",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_WKiEwj",
-      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
-    },
-    {
-      "@id": "http://www.w3id.org/pdto#hasFeatureHaha",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_STi1Qs",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Reproductive toxicity",
-      "http://schema.org/name": "HIA_Reproductive",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUh"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Reproductive with ID STi1Qs",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Reproductive_STi1Qs",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_aH2T49"
-      },
-      "http://www.w3id.org/pdto#hasSimpleType": "Reproductive"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_9zOrw3",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID 9zOrw3",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_9zOrw3",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_UdoiXt",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID UdoiXt",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_UdoiXt",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_NrV2KD",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volumn with ID NrV2KD",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volumn_NrV2KD",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#",
-      "@type": "http://www.w3.org/2002/07/owl#Ontology",
-      "http://www.w3.org/2002/07/owl#imports": {
-        "@id": "https://dpp4fun.pkgi40.codelib.re/dpp4fun.owl"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Pilling",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Pilling"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_4GGCyN",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Quality management system certification",
-      "http://schema.org/name": "ISO9001-QMS",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_4wNUKz"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of ISO9001-QMS with ID 4GGCyN",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_ISO9001-QMS_4GGCyN",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2022-05-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as ISO 9001 compliance is maintained"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#kgCFC-11-equivalent",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_RazCHm",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID RazCHm",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_RazCHm",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_0aWc8r",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID 0aWc8r",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_0aWc8r",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#trackingrecord_NJycy0",
-      "@type": "http://www.w3id.org/pdto#TrackingRecord",
-      "http://schema.org/description": "N.A",
-      "http://schema.org/name": "Track-01",
-      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-12-01T08:00:00+00:00"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Tracking recordTrack-01 with ID NJycy0",
-      "http://www.w3.org/2000/01/rdf-schema#label": "trackingRecord_Track-01_NJycy0",
-      "http://www.w3id.org/pdto#hasDestination": "Paris, France",
-      "http://www.w3id.org/pdto#hasOperator": "Cargo Nord Operator",
-      "http://www.w3id.org/pdto#hasOrigin": "Italy",
-      "http://www.w3id.org/pdto#hasStatus": "Dispatched"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_OyGwhT",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "6-7 (Blue Scale)",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of LightFastness with ID OyGwhT",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_LightFastness_OyGwhT",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#LightFastness"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_PdDE3b",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ColorFastness with ID PdDE3b",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_ColorFastness_PdDE3b",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ColorFastness"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_jB7teL",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Ecotoxicity (freshwater)",
-      "http://schema.org/name": "PEF_Ecotoxicity_Freshwater",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUe"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Ecotoxicity_Freshwater with ID jB7teL",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Ecotoxicity_Freshwater_jB7teL",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_oOE9bh"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_GyydVL",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID GyydVL",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_GyydVL",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_D8MgJt",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Fortezza 9041",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductDesignation with ID D8MgJt",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductDesignation_D8MgJt",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#m³water-equivalent",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_NfyBex",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID NfyBex",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_NfyBex",
-      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digital_product_61f46bcd",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd",
-      "http://www.w3.org/2000/01/rdf-schema#label": "sphereDigital_61f46bcd",
-      "https://w3id.org/def/dtw#hasModel": {
-        "@id": "https://cir4fun.eu/data#information_model_61f46bcd"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#aspect_239fd57bf264",
-      "@type": "http://www.w3id.org/pdto#Nameplate",
-      "http://schema.org/name": "Nameplate",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Nameplate with ID 239fd57bf264",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Nameplate_239fd57bf264",
-      "http://www.w3id.org/pdto#hasInformation": [
-        {
-          "@id": "https://cir4fun.eu/data#info_Fr5qlj"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_w0ECIE"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_D8MgJt"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#Contact_yzLvE5"
-        }
-      ]
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Recyclable",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Recyclable"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Color"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_TPg5X0",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Woven matte",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Surface with ID TPg5X0",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Surface_TPg5X0",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_vY7Qcw",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID vY7Qcw",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_vY7Qcw",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_yo5rKz",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Fire behavior of building materials",
-      "http://schema.org/name": "DIN4102-B1",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_UdoiXt"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of DIN4102-B1 with ID yo5rKz",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_DIN4102-B1_yo5rKz",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2019-10-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per DIN 4102"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_ugGedz",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Water Scarcity",
-      "http://schema.org/name": "PEF_WaterScarcity",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#m³water-equivalent"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_WaterScarcity with ID ugGedz",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_WaterScarcity_ugGedz",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_pUusuD"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_pUusuD",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID pUusuD",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_pUusuD",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_kFXuRF",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "http://qudt.org/vocab/unit/CentiM"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Height with ID kFXuRF",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Height_kFXuRF",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Width"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#molH⁺-equivalent",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "http://w3id.org/dppo/ontology/dpp-info/unit",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#Soilqualityindex",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_TPZ5rl",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Sustainable textile production and eco-friendly processes",
-      "http://schema.org/name": "OEKO-TEX-STeP",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_59UqvV"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of OEKO-TEX-STeP with ID TPZ5rl",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_OEKO-TEX-STeP_TPZ5rl",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-01-10T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as STeP certification is maintained"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#CTUe",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_HyTmGF",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID HyTmGF",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_HyTmGF",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_zB4M8D",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Ensures responsible forest sourcing and recyclability",
-      "http://schema.org/name": "FSC-C123456",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_5zRzy6"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of FSC-C123456 with ID zB4M8D",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_FSC-C123456_zB4M8D",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2022-05-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as FSC certification is maintained"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#aspect_e470ba3bdd9f",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Durability",
-      "http://schema.org/name": "Durability",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Durability with ID e470ba3bdd9f",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Durability_e470ba3bdd9f",
-      "http://www.w3id.org/pdto#hasInformation": [
-        {
-          "@id": "https://cir4fun.eu/data#certificate_gxlGmJ"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_gXNBGu"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_TD9nsh"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_zncjq5"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_cGW461"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_yo5rKz"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_SxatWX"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_TG5dNT"
-        }
-      ]
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_KG6Q52",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "4/5",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Pilling with ID KG6Q52",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Pilling_KG6Q52",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Pilling"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitaldocument_r8fKRy",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Design file with ID r8fKRy",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_r8fKRy",
-      "http://www.w3id.org/pdto#hasIRI": "Fortezza_9041_CAD_v1.0.dwg"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#aspect_72b7d8ee934b",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#BillOfMaterials",
-      "http://schema.org/name": "BillOfMaterials",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of BillOfMaterials with ID 72b7d8ee934b",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_BillOfMaterials_72b7d8ee934b",
-      "http://www.w3id.org/pdto#hasInformation": {
-        "@id": "https://cir4fun.eu/data#material_3JCWYN"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_zncjq5",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Standard methods of fire tests",
-      "http://schema.org/name": "NFPA260",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_dBxNhA"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of NFPA260 with ID zncjq5",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_NFPA260_zncjq5",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2021-05-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per NFPA 260"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Length"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_4wNUKz",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID 4wNUKz",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_4wNUKz",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Weight"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#RecyclableFraction",
-      "http://www.w3.org/2000/01/rdf-schema#label": "RecyclableFraction"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_OFdX0b",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Endocrine disruption",
-      "http://schema.org/name": "HIA_Endocrine",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUh"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Endocrine with ID OFdX0b",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Endocrine_OFdX0b",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_WKiEwj"
-      },
-      "http://www.w3id.org/pdto#hasSimpleType": "Endocrine"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#kgPO4³⁻-eq",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_4NnHJT",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID 4NnHJT",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_4NnHJT",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Texture",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Texture"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_e3aDec",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Human Toxicity (cancer)",
-      "http://schema.org/name": "PEF_HumanToxicity_Cancer",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUh"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_HumanToxicity_Cancer with ID e3aDec",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_HumanToxicity_Cancer_e3aDec",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_0aWc8r"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_5ghia6",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID 5ghia6",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_5ghia6",
-      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#aspect_39e2e496a42b",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Durability",
-      "http://schema.org/name": "Durability",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Durability with ID 39e2e496a42b",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Durability_39e2e496a42b",
-      "http://www.w3id.org/pdto#hasInformation": [
-        {
-          "@id": "https://cir4fun.eu/data#certificate_4GGCyN"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_5591Ay"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_TPZ5rl"
-        }
-      ]
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Volumn"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#material_3JCWYN",
-      "@type": "http://www.w3id.org/pdto#MaterialInformation",
-      "http://schema.org/name": "Polypropylene Yarn 013",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Material information of Polypropylene Yarn 013 with ID 3JCWYN",
-      "http://www.w3.org/2000/01/rdf-schema#label": "materialInformation_Polypropylene_Yarn_013_3JCWYN",
-      "http://www.w3id.org/pdto#hasPortion": 1.0,
-      "http://www.w3id.org/pdto#hasSimpleReference": {
-        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "@value": "https://www.stellinigroup.com/products/polypropylene-cordonnet-yarn"
-      },
-      "http://www.w3id.org/pdto#isMandatory": true
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_eAIi9d",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID eAIi9d",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_eAIi9d",
-      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_LLoW9M",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID LLoW9M",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_LLoW9M",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#mg/kg",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_SxatWX",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Seating fire resistance",
-      "http://schema.org/name": "EN13773 Class 1",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_vY7Qcw"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of EN13773 Class 1 with ID SxatWX",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_EN13773_Class_1_SxatWX",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2017-08-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per EN 13773"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ColorFastness",
-      "http://www.w3.org/2000/01/rdf-schema#label": "ColorFastness"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_dBxNhA",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID dBxNhA",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_dBxNhA",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_t6wpG1",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Eutrophication (marine)",
-      "http://schema.org/name": "PEF_Eutrophication_Marine",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#kgN-eq"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Eutrophication_Marine with ID t6wpG1",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Eutrophication_Marine_t6wpG1",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_EY8DQ1"
-      }
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily",
-      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductFamily"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#ManufacturingStateRecord_DzGfKs",
-      "@type": "http://www.w3id.org/pdto#ManufacturingRecord",
-      "http://schema.org/description": "Cut and scale to standardized size",
-      "http://schema.org/name": "OP-CUT-01",
-      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-11-28T10:00:00+00:00"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/startTime": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-11-28T08:00:00+00:00"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Manufacturing recordOP-CUT-01 with ID DzGfKs",
-      "http://www.w3.org/2000/01/rdf-schema#label": "manufacturingRecord_OP-CUT-01_DzGfKs",
-      "http://www.w3id.org/pdto#hasOperator": "Operator A",
-      "http://www.w3id.org/pdto#hasPositionInProcessRouting": "REF-PRPOS-01",
-      "http://www.w3id.org/pdto#hasSimpleStation": "ST-CUT-01",
-      "http://www.w3id.org/pdto#hasStatus": "Completed"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_YDOpPm",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Textile safety for productnot in direct contact with skin (e.g., furniture, home textiles)",
-      "http://schema.org/name": "OEKO-TEX-STD100-CIV",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_RW47C1"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of OEKO-TEX-STD100-CIV with ID YDOpPm",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_OEKO-TEX-STD100-CIV_YDOpPm",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-03-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as OEKO-TEX® STANDARD 100 Class IV certification is maintained"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_PwaHCJ",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Ozone Depletion",
-      "http://schema.org/name": "PEF_OzoneDepletion",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#kgCFC-11-equivalent"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_OzoneDepletion with ID PwaHCJ",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_OzoneDepletion_PwaHCJ",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_Cb8RHT"
-      }
-    },
-    {
-      "@id": "http://www.w3id.org/pdto#hasSimpleValue",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_MxBQTE",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID MxBQTE",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_MxBQTE",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_aH2T49",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID aH2T49",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_aH2T49",
-      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_TD9nsh",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Furniture fire resistance standard",
-      "http://schema.org/name": "TB117-CA",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_CSXBOG"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of TB117-CA with ID TD9nsh",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_TB117-CA_TD9nsh",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2020-01-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per TB117"
-    },
-    {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Height"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#aspect_09f738745991",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Safety",
-      "http://schema.org/name": "Safety",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Safety with ID 09f738745991",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Safety_09f738745991",
-      "http://www.w3id.org/pdto#hasInformation": [
-        {
-          "@id": "https://cir4fun.eu/data#certificate_kEkSEb"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_YDOpPm"
-        }
-      ]
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_CSXBOG",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID CSXBOG",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_CSXBOG",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_uvEYf1",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "http://qudt.org/vocab/unit/CentiM"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": {
-        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-        "@value": "140"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Width with ID uvEYf1",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Width_uvEYf1",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#designrecord_Vf1Opf",
-      "@type": "http://www.w3id.org/pdto#DesignRecord",
-      "http://schema.org/description": "Update from version 2.0",
-      "http://schema.org/name": "Design-02b",
-      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-11-20T15:00:00+00:00"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Design recordDesign-02b with ID Vf1Opf",
-      "http://www.w3.org/2000/01/rdf-schema#label": "designRecord_Design-02b_Vf1Opf",
-      "http://www.w3id.org/pdto#designFile": {
-        "@id": "https://cir4fun.eu/data#digitaldocument_Aaz3w4"
-      },
-      "http://www.w3id.org/pdto#hasOperator": "Engineering Team C",
-      "http://www.w3id.org/pdto#hasStatus": "Released",
-      "http://www.w3id.org/pdto#hasVersion": 2.3
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_qpLByl",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Eutrophication (freshwater)",
-      "http://schema.org/name": "PEF_Eutrophication_Freshwater",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#kgPO4³⁻-eq"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Eutrophication_Freshwater with ID qpLByl",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Eutrophication_Freshwater_qpLByl",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_aDKC93"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_3yFZdJ",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Acidification",
-      "http://schema.org/name": "PEF_Acidification",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#molH⁺-equivalent"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Acidification with ID 3yFZdJ",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Acidification_3yFZdJ",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_9zOrw3"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#dpp_61f46bcd",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#DigitalProductPassport",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product Passport instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalProductPassport_61f46bcd",
-      "https://w3id.org/def/dtw#hasDigitalEntity": {
-        "@id": "https://cir4fun.eu/data#digital_product_61f46bcd"
-      },
-      "https://w3id.org/def/dtw#hasPhysicalEntity": {
-        "@id": "https://cir4fun.eu/data#product_61f46bcd"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_cGW461",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Fire tests for textiles and films",
-      "http://schema.org/name": "NFPA701",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_Do1fEu"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of NFPA701 with ID cGW461",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_NFPA701_cGW461",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2021-05-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per NFPA 701"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_Do1fEu",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID Do1fEu",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_Do1fEu",
-      "http://www.w3id.org/pdto#hasIRI": "N.A"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_oWKLEV",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": "g/m2",
-      "http://w3id.org/dppo/ontology/dpp-info/value": {
-        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-        "@value": "315"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Weight with ID oWKLEV",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Weight_oWKLEV",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_gxlGmJ",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Furniture testing standard",
-      "http://schema.org/name": "UNI8456 Class 1",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_RazCHm"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of UNI8456 Class 1 with ID gxlGmJ",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_UNI8456_Class_1_gxlGmJ",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2018-06-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per UNI 8456"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#product_61f46bcd",
-      "@type": "http://purl.org/goodrelations/v1#ProductOrServiceModel",
-      "http://purl.org/goodrelations/v1#description": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX 61f46bcd",
-      "http://purl.org/goodrelations/v1#name": "61f46bcd",
-      "http://schema.org/productID": "61f46bcd",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Product instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd",
-      "http://www.w3.org/2000/01/rdf-schema#label": "spherePhysical_61f46bcd",
-      "http://www.w3id.org/pdto#hasThumbnail": {
-        "@id": "https://cir4fun.eu/data#thumbnail_F6w4yM"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_W6IMlZ",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Diameter with ID W6IMlZ",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Diameter_W6IMlZ",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_6baT43",
-      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Land Use",
-      "http://schema.org/name": "PEF_LandUse",
-      "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#Soilqualityindex"
-      },
-      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_LandUse with ID 6baT43",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_LandUse_6baT43",
-      "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_JkG5PO"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#aspect_a08f08dfb459",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#EnvironmentalImpact",
-      "http://schema.org/name": "EnvironmentalImpact",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of EnvironmentalImpact with ID a08f08dfb459",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_EnvironmentalImpact_a08f08dfb459",
-      "http://www.w3id.org/pdto#hasInformation": [
-        {
-          "@id": "https://cir4fun.eu/data#indicator_MpGqg3"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_PwaHCJ"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_e3aDec"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_n0uhJs"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_yxlwbW"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_UNTA0D"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_3yFZdJ"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_qpLByl"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_t6wpG1"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_td4rhr"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_jB7teL"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_ocC2US"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_XmzuS7"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_6baT43"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#indicator_ugGedz"
-        }
-      ]
-    },
-    {
-      "@id": "https://cir4fun.eu/data#kgCO2-equivalent",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_5TuerR",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": 1.0,
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of RecyclableFraction with ID 5TuerR",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_RecyclableFraction_5TuerR",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#RecyclableFraction"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "Address_Contact_4qgrnp",
-      "@type": "http://www.w3.org/2006/vcard/ns#Address",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Address information with ID 4qgrnp",
-      "http://www.w3.org/2000/01/rdf-schema#label": "address__4qgrnp",
-      "http://www.w3.org/2006/vcard/ns#country-name": "IT",
-      "http://www.w3.org/2006/vcard/ns#locality": "Barzago",
-      "http://www.w3.org/2006/vcard/ns#postal-code": 23890,
-      "http://www.w3.org/2006/vcard/ns#region": "Province de Lecco",
-      "http://www.w3.org/2006/vcard/ns#street-address": "Via Giuseppe Parini, 3/5"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#info_virCHZ",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Warp/Weft 3mm",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of SeamSlippage with ID virCHZ",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_SeamSlippage_virCHZ",
-      "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#SeamSlippage"
-      },
-      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
-      }
-    },
-    {
-      "@id": "https://cir4fun.eu/data#aspect_fbcacb6a3a34",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Characteristics",
-      "http://schema.org/name": "Characteristics",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Characteristics with ID fbcacb6a3a34",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Characteristics_fbcacb6a3a34",
-      "http://www.w3id.org/pdto#hasInformation": [
-        {
-          "@id": "https://cir4fun.eu/data#info_d6tXTE"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_uvEYf1"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_kFXuRF"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_W6IMlZ"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_oWKLEV"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_NrV2KD"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_TPg5X0"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_YYnLKO"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_OyGwhT"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_dhHgi8"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_KG6Q52"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_virCHZ"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_PdDE3b"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_L8SaN0"
-        }
-      ]
-    },
-    {
-      "@id": "Phone_Contact_Y3MzfM",
-      "@type": "http://www.w3.org/2006/vcard/ns#Phone",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Phone information with ID Y3MzfM",
-      "http://www.w3.org/2000/01/rdf-schema#label": "phone__Y3MzfM",
-      "http://www.w3id.org/pdto#telephoneNumber": "+39 031 86231",
-      "http://www.w3id.org/pdto#typeOfTelephone": "Customer Service"
     },
     {
       "@id": "https://cir4fun.eu/data#information_model_61f46bcd",
@@ -1613,50 +78,29 @@
       ]
     },
     {
-      "@id": "https://cir4fun.eu/data#designrecord_Dc6DUE",
-      "@type": "http://www.w3id.org/pdto#DesignRecord",
-      "http://schema.org/description": "Raw design and select material",
-      "http://schema.org/name": "Design-01",
-      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2024-06-15T09:00:00+00:00"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Design recordDesign-01 with ID Dc6DUE",
-      "http://www.w3.org/2000/01/rdf-schema#label": "designRecord_Design-01_Dc6DUE",
-      "http://www.w3id.org/pdto#designFile": {
-        "@id": "https://cir4fun.eu/data#digitaldocument_r8fKRy"
-      },
-      "http://www.w3id.org/pdto#hasOperator": "Engineering Team A",
-      "http://www.w3id.org/pdto#hasStatus": "Alpha",
-      "http://www.w3id.org/pdto#hasVersion": 1.0
-    },
-    {
-      "@id": "https://cir4fun.eu/data#digitalDocument_EDR1XR",
+      "@id": "https://cir4fun.eu/data#digitalDocument_a59p3s",
       "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID EDR1XR",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_EDR1XR",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID a59p3s",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_a59p3s",
       "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
     },
     {
-      "@id": "https://cir4fun.eu/data#aspect_f823edb8fe84",
-      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Recyclability",
-      "http://schema.org/name": "Recyclability",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Recyclability with ID f823edb8fe84",
-      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Recyclability_f823edb8fe84",
-      "http://www.w3id.org/pdto#hasInformation": [
-        {
-          "@id": "https://cir4fun.eu/data#info_5TuerR"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_oYWhpE"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#info_GcVjAS"
-        },
-        {
-          "@id": "https://cir4fun.eu/data#certificate_zB4M8D"
-        }
-      ]
+      "@id": "https://cir4fun.eu/data#MJ",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_RZaZxA",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID RZaZxA",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_RZaZxA",
+      "http://www.w3id.org/pdto#hasIRI": "https://www.example-lab.com/toxicity-testing-protocol"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_auVptT",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID auVptT",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_auVptT",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
     },
     {
       "@id": "https://cir4fun.eu/data#aspect_2fe37a50f2d4",
@@ -1666,73 +110,185 @@
       "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Traceability_2fe37a50f2d4",
       "http://www.w3id.org/pdto#hasInformation": [
         {
-          "@id": "https://cir4fun.eu/data#designrecord_Dc6DUE"
+          "@id": "https://cir4fun.eu/data#designrecord_hc2XPT"
         },
         {
-          "@id": "https://cir4fun.eu/data#designrecord_smieQ5"
+          "@id": "https://cir4fun.eu/data#designrecord_wMWyAV"
         },
         {
-          "@id": "https://cir4fun.eu/data#designrecord_Vf1Opf"
+          "@id": "https://cir4fun.eu/data#designrecord_r9zFfu"
         },
         {
-          "@id": "https://cir4fun.eu/data#ManufacturingStateRecord_DzGfKs"
+          "@id": "https://cir4fun.eu/data#ManufacturingStateRecord_RPel6s"
         },
         {
-          "@id": "https://cir4fun.eu/data#ManufacturingStateRecord_nINrAA"
+          "@id": "https://cir4fun.eu/data#ManufacturingStateRecord_kfuKXW"
         },
         {
-          "@id": "https://cir4fun.eu/data#trackingrecord_NJycy0"
+          "@id": "https://cir4fun.eu/data#trackingrecord_a94JtP"
         },
         {
-          "@id": "https://cir4fun.eu/data#trackingrecord_PWL7Lb"
+          "@id": "https://cir4fun.eu/data#trackingrecord_UrB5yJ"
         }
       ]
     },
     {
-      "@id": "https://cir4fun.eu/data#digitaldocument_9v0E8a",
-      "@type": "http://schema.org/DigitalDocument",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Design file with ID 9v0E8a",
-      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_9v0E8a",
-      "http://www.w3id.org/pdto#hasIRI": "Fortezza_9041_CAD_v2.0.dwg"
+      "@id": "https://cir4fun.eu/data#info_jjH7Uc",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ColorFastness with ID jjH7Uc",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ColorFastness_jjH7Uc",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ColorFastness"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
     },
     {
-      "@id": "https://cir4fun.eu/data#indicator_hvJgFu",
+      "@id": "https://cir4fun.eu/data#ManufacturingStateRecord_kfuKXW",
+      "@type": "http://www.w3id.org/pdto#ManufacturingRecord",
+      "http://schema.org/description": "Sew for the final version",
+      "http://schema.org/name": "OP-SEW-02",
+      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-11-29T12:00:00+00:00"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/startTime": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-11-29T09:00:00+00:00"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Manufacturing recordOP-SEW-02 with ID kfuKXW",
+      "http://www.w3.org/2000/01/rdf-schema#label": "manufacturingRecord_OP-SEW-02_kfuKXW",
+      "http://www.w3id.org/pdto#hasOperator": "Operator B",
+      "http://www.w3id.org/pdto#hasPositionInProcessRouting": "REF-PRPOS-02",
+      "http://www.w3id.org/pdto#hasSimpleStation": "ST-SEW-02",
+      "http://www.w3id.org/pdto#hasStatus": "Completed"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#product_61f46bcd",
+      "@type": "http://purl.org/goodrelations/v1#ProductOrServiceModel",
+      "http://purl.org/goodrelations/v1#description": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX 61f46bcd",
+      "http://purl.org/goodrelations/v1#name": "61f46bcd",
+      "http://schema.org/productID": "61f46bcd",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Product instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd",
+      "http://www.w3.org/2000/01/rdf-schema#label": "spherePhysical_61f46bcd",
+      "http://www.w3id.org/pdto#hasThumbnail": {
+        "@id": "https://cir4fun.eu/data#thumbnail_7fuC4P"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#LightFastness",
+      "http://www.w3.org/2000/01/rdf-schema#label": "LightFastness"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#designrecord_r9zFfu",
+      "@type": "http://www.w3id.org/pdto#DesignRecord",
+      "http://schema.org/description": "Update from version 2.0",
+      "http://schema.org/name": "Design-02b",
+      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-11-20T15:00:00+00:00"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Design recordDesign-02b with ID r9zFfu",
+      "http://www.w3.org/2000/01/rdf-schema#label": "designRecord_Design-02b_r9zFfu",
+      "http://www.w3id.org/pdto#designFile": {
+        "@id": "https://cir4fun.eu/data#digitaldocument_77ObUM"
+      },
+      "http://www.w3id.org/pdto#hasOperator": "Engineering Team C",
+      "http://www.w3id.org/pdto#hasStatus": "Released",
+      "http://www.w3id.org/pdto#hasVersion": 2.3
+    },
+    {
+      "@id": "https://cir4fun.eu/data#Soilqualityindex",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_38wL2I",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volumn with ID 38wL2I",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volumn_38wL2I",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Height"
+    },
+    {
+      "@id": "Email_contact_It4LSM",
+      "@type": "http://www.w3.org/2006/vcard/ns#Email",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Email information with ID It4LSM",
+      "http://www.w3.org/2000/01/rdf-schema#label": "email__It4LSM",
+      "http://www.w3id.org/pdto#emailAddress": "info@pozziarturo.it",
+      "http://www.w3id.org/pdto#typeOfEmail": "Corporate"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_tjH9GH",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Plain",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Texture with ID tjH9GH",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Texture_tjH9GH",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Texture"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_Tizd5U",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID Tizd5U",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_Tizd5U",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#ManufacturingStateRecord_RPel6s",
+      "@type": "http://www.w3id.org/pdto#ManufacturingRecord",
+      "http://schema.org/description": "Cut and scale to standardized size",
+      "http://schema.org/name": "OP-CUT-01",
+      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-11-28T10:00:00+00:00"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/startTime": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-11-28T08:00:00+00:00"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Manufacturing recordOP-CUT-01 with ID RPel6s",
+      "http://www.w3.org/2000/01/rdf-schema#label": "manufacturingRecord_OP-CUT-01_RPel6s",
+      "http://www.w3id.org/pdto#hasOperator": "Operator A",
+      "http://www.w3id.org/pdto#hasPositionInProcessRouting": "REF-PRPOS-01",
+      "http://www.w3id.org/pdto#hasSimpleStation": "ST-CUT-01",
+      "http://www.w3id.org/pdto#hasStatus": "Completed"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#kgPO4³⁻-eq",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_yE7M7t",
       "@type": "http://www.w3id.org/pdto#IndicatorInformation",
-      "http://schema.org/description": "Respiratory effects",
-      "http://schema.org/name": "HIA_Respiratory",
+      "http://schema.org/description": "Particulate Matter",
+      "http://schema.org/name": "PEF_ParticulateMatter",
       "http://w3id.org/dppo/ontology/dpp-info/unit": {
-        "@id": "https://cir4fun.eu/data#CTUh"
+        "@id": "https://cir4fun.eu/data#kgPM2.5-equivalent"
       },
       "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Respiratory with ID hvJgFu",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Respiratory_hvJgFu",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_ParticulateMatter with ID yE7M7t",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_ParticulateMatter_yE7M7t",
       "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_eAIi9d"
-      },
-      "http://www.w3id.org/pdto#hasSimpleType": "Respiratory"
+        "@id": "https://cir4fun.eu/data#digitalDocument_cRc1P6"
+      }
     },
     {
-      "@id": "http://www.w3id.org/pdto#modelAggregatedFrom",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#certificate_TG5dNT",
-      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
-      "http://schema.org/description": "Marine furniture fire safety",
-      "http://schema.org/name": "IMO-Part8",
-      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_MxBQTE"
-      },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of IMO-Part8 with ID TG5dNT",
-      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_IMO-Part8_TG5dNT",
-      "http://www.w3id.org/pdto#hasIssuedDate": {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2018-12-01T00:00:00"
-      },
-      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per IMO Part 8"
-    },
-    {
-      "@id": "https://cir4fun.eu/data#indicator_ocC2US",
+      "@id": "https://cir4fun.eu/data#indicator_Y9nUoa",
       "@type": "http://www.w3id.org/pdto#IndicatorInformation",
       "http://schema.org/description": "Resource Use – Fossils",
       "http://schema.org/name": "PEF_ResourceUse_Fossils",
@@ -1740,11 +296,1086 @@
         "@id": "https://cir4fun.eu/data#MJ"
       },
       "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_ResourceUse_Fossils with ID ocC2US",
-      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_ResourceUse_Fossils_ocC2US",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_ResourceUse_Fossils with ID Y9nUoa",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_ResourceUse_Fossils_Y9nUoa",
       "http://www.w3id.org/pdto#calculationMethod": {
-        "@id": "https://cir4fun.eu/data#digitalDocument_EDR1XR"
+        "@id": "https://cir4fun.eu/data#digitalDocument_kMnHSZ"
       }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_Zmopay",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Acidification",
+      "http://schema.org/name": "PEF_Acidification",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#molH⁺-equivalent"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Acidification with ID Zmopay",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Acidification_Zmopay",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_K9oZyf"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_7Cei2R",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Climate Change",
+      "http://schema.org/name": "PEF_ClimateChange",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#kgCO2-equivalent"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_ClimateChange with ID 7Cei2R",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_ClimateChange_7Cei2R",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_tcrERa"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_yz4Uu2",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Non-carcinogenic effects",
+      "http://schema.org/name": "HIA_NonCarcinogenic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUh"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_NonCarcinogenic with ID yz4Uu2",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_NonCarcinogenic_yz4Uu2",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_4GsQPF"
+      },
+      "http://www.w3id.org/pdto#hasSimpleType": "Non-Cancer"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_239fd57bf264",
+      "@type": "http://www.w3id.org/pdto#Nameplate",
+      "http://schema.org/name": "Nameplate",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Nameplate with ID 239fd57bf264",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Nameplate_239fd57bf264",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#info_OulxDB"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_KkUpjP"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_hYL9SS"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#Contact_IVEwwJ"
+        }
+      ]
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_A4Iupd",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Ozone Depletion",
+      "http://schema.org/name": "PEF_OzoneDepletion",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#kgCFC-11-equivalent"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_OzoneDepletion with ID A4Iupd",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_OzoneDepletion_A4Iupd",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_4plauV"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_4jrH29",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID 4jrH29",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_4jrH29",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_hYjjtQ",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Length with ID hYjjtQ",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Length_hYjjtQ",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_UuVlLj",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Water Scarcity",
+      "http://schema.org/name": "PEF_WaterScarcity",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#m³water-equivalent"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_WaterScarcity with ID UuVlLj",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_WaterScarcity_UuVlLj",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_GS6IKo"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#trackingrecord_UrB5yJ",
+      "@type": "http://www.w3id.org/pdto#TrackingRecord",
+      "http://schema.org/description": "N.A",
+      "http://schema.org/name": "Track-02",
+      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-12-02T12:00:00+00:00"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Tracking recordTrack-02 with ID UrB5yJ",
+      "http://www.w3.org/2000/01/rdf-schema#label": "trackingRecord_Track-02_UrB5yJ",
+      "http://www.w3id.org/pdto#hasDestination": "Paris, France",
+      "http://www.w3id.org/pdto#hasOperator": "Cargo Nord Operator",
+      "http://www.w3id.org/pdto#hasOrigin": "Italy",
+      "http://www.w3id.org/pdto#hasStatus": "In Transit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_4uF0eh",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID 4uF0eh",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_4uF0eh",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#Contact_IVEwwJ",
+      "@type": "http://www.w3id.org/pdto#ContactInformation",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Contact information with ID IVEwwJ",
+      "http://www.w3.org/2000/01/rdf-schema#label": "contactInformation__IVEwwJ",
+      "http://www.w3.org/2006/vcard/ns#hasAddress": {
+        "@id": "Address_Contact_jwNkAv"
+      },
+      "http://www.w3.org/2006/vcard/ns#hasEmail": {
+        "@id": "Email_contact_It4LSM"
+      },
+      "http://www.w3.org/2006/vcard/ns#hasTelephone": {
+        "@id": "Phone_Contact_a2yHWS"
+      },
+      "http://www.w3.org/2006/vcard/ns#organization-name": "Pozzi Headquarters"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_Fw43aa",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID Fw43aa",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_Fw43aa",
+      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#m³water-equivalent",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_O1kUsj",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID O1kUsj",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_O1kUsj",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#kgPM2.5-equivalent",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Volumn"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerName"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#kgCFC-11-equivalent",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "http://w3id.org/dppo/ontology/dpp-info/unit",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_lc51EX",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Textile safety for productnot in direct contact with skin (e.g., furniture, home textiles)",
+      "http://schema.org/name": "OEKO-TEX-STD100-CIV",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_khZRYD"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of OEKO-TEX-STD100-CIV with ID lc51EX",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_OEKO-TEX-STD100-CIV_lc51EX",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-03-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as OEKO-TEX® STANDARD 100 Class IV certification is maintained"
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#hasFeatureHaha",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_GkFX9N",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID GkFX9N",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_GkFX9N",
+      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductFamily"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_I5ULSW",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Textile safety for products in direct contact with skin",
+      "http://schema.org/name": "OEKO-TEX-STD100-CII",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_vAc1gh"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of OEKO-TEX-STD100-CII with ID I5ULSW",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_OEKO-TEX-STD100-CII_I5ULSW",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-03-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as OEKO-TEX® STANDARD 100 Class II certification is maintained"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_E8unRV",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "4/5",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Pilling with ID E8unRV",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Pilling_E8unRV",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Pilling"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_dC5Qtq",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Eutrophication (marine)",
+      "http://schema.org/name": "PEF_Eutrophication_Marine",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#kgN-eq"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Eutrophication_Marine with ID dC5Qtq",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Eutrophication_Marine_dC5Qtq",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_4uF0eh"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ColorFastness",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ColorFastness"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_fbcacb6a3a34",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Characteristics",
+      "http://schema.org/name": "Characteristics",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Characteristics with ID fbcacb6a3a34",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Characteristics_fbcacb6a3a34",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#info_hYjjtQ"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_bkrEa7"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_ml7omd"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_v0YGCA"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_ya4LB2"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_38wL2I"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_bdPect"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_x7np7k"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_yunQjM"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_nwbF10"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_E8unRV"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_9xCTSY"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_jjH7Uc"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_tjH9GH"
+        }
+      ]
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_wJDpjr",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID wJDpjr",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_wJDpjr",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_bdPect",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Woven matte",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Surface with ID bdPect",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Surface_bdPect",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Width"
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#hasSimpleValue",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_LPytbu",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Seating fire resistance",
+      "http://schema.org/name": "EN13773 Class 1",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_ObiX1r"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of EN13773 Class 1 with ID LPytbu",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_EN13773_Class_1_LPytbu",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2017-08-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per EN 13773"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_ChKSiP",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Quality management system certification",
+      "http://schema.org/name": "ISO9001-QMS",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_uPMGp3"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of ISO9001-QMS with ID ChKSiP",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_ISO9001-QMS_ChKSiP",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2022-05-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as ISO 9001 compliance is maintained"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_ml7omd",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "http://qudt.org/vocab/unit/CentiM"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Height with ID ml7omd",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Height_ml7omd",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Height"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_obKQCE",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID obKQCE",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_obKQCE",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "Address_Contact_jwNkAv",
+      "@type": "http://www.w3.org/2006/vcard/ns#Address",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Address information with ID jwNkAv",
+      "http://www.w3.org/2000/01/rdf-schema#label": "address__jwNkAv",
+      "http://www.w3.org/2006/vcard/ns#country-name": "IT",
+      "http://www.w3.org/2006/vcard/ns#locality": "Barzago",
+      "http://www.w3.org/2006/vcard/ns#postal-code": 23890,
+      "http://www.w3.org/2006/vcard/ns#region": "Province de Lecco",
+      "http://www.w3.org/2006/vcard/ns#street-address": "Via Giuseppe Parini, 3/5"
+    },
+    {
+      "@id": "Phone_Contact_a2yHWS",
+      "@type": "http://www.w3.org/2006/vcard/ns#Phone",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Phone information with ID a2yHWS",
+      "http://www.w3.org/2000/01/rdf-schema#label": "phone__a2yHWS",
+      "http://www.w3id.org/pdto#telephoneNumber": "+39 031 86231",
+      "http://www.w3id.org/pdto#typeOfTelephone": "Customer Service"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_oGFO6q",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Standard methods of fire tests",
+      "http://schema.org/name": "NFPA260",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_wJDpjr"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of NFPA260 with ID oGFO6q",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_NFPA260_oGFO6q",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-05-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per NFPA 260"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_Rm6E1w",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Furniture testing standard",
+      "http://schema.org/name": "UNI8456 Class 1",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_myEFdu"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of UNI8456 Class 1 with ID Rm6E1w",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_UNI8456_Class_1_Rm6E1w",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-06-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per UNI 8456"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#mg/kg",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_72b7d8ee934b",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#BillOfMaterials",
+      "http://schema.org/name": "BillOfMaterials",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of BillOfMaterials with ID 72b7d8ee934b",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_BillOfMaterials_72b7d8ee934b",
+      "http://www.w3id.org/pdto#hasInformation": {
+        "@id": "https://cir4fun.eu/data#material_jTaFM0"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Recyclable",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Recyclable"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_3GC8yA",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID 3GC8yA",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_3GC8yA",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_lhyiOd",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Human Toxicity (cancer)",
+      "http://schema.org/name": "PEF_HumanToxicity_Cancer",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUh"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_HumanToxicity_Cancer with ID lhyiOd",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_HumanToxicity_Cancer_lhyiOd",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_Lr5ZYX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_khZRYD",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID khZRYD",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_khZRYD",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#SeamSlippage",
+      "http://www.w3.org/2000/01/rdf-schema#label": "SeamSlippage"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_efeALD",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Photochemical Ozone Formation",
+      "http://schema.org/name": "PEF_PhotochemicalOzoneFormation",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#kgNMVOC-equivalent"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_PhotochemicalOzoneFormation with ID efeALD",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_PhotochemicalOzoneFormation_efeALD",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_auVptT"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#material_jTaFM0",
+      "@type": "http://www.w3id.org/pdto#MaterialInformation",
+      "http://schema.org/name": "Polypropylene Yarn 013",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Material information of Polypropylene Yarn 013 with ID jTaFM0",
+      "http://www.w3.org/2000/01/rdf-schema#label": "materialInformation_Polypropylene_Yarn_013_jTaFM0",
+      "http://www.w3id.org/pdto#hasPortion": 1.0,
+      "http://www.w3id.org/pdto#hasSimpleReference": {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://www.stellinigroup.com/products/polypropylene-cordonnet-yarn"
+      },
+      "http://www.w3id.org/pdto#isMandatory": true
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_Z28U7r",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Furniture fire resistance standard",
+      "http://schema.org/name": "TB117-CA",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_O1kUsj"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of TB117-CA with ID Z28U7r",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_TB117-CA_Z28U7r",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-01-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per TB117"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_myEFdu",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID myEFdu",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_myEFdu",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_bkrEa7",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "http://qudt.org/vocab/unit/CentiM"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "140"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Width with ID bkrEa7",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Width_bkrEa7",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Width"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Weight"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_2kX2H9",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Resource Use – Minerals/Metals",
+      "http://schema.org/name": "PEF_ResourceUse_MineralsMetals",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#kgSb-equivalent"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_ResourceUse_MineralsMetals with ID 2kX2H9",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_ResourceUse_MineralsMetals_2kX2H9",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_7nrYIm"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_ObiX1r",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID ObiX1r",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_ObiX1r",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_GS6IKo",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID GS6IKo",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_GS6IKo",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_8t532O",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Ensures responsible forest sourcing and recyclability",
+      "http://schema.org/name": "FSC-C123456",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_EoYKkr"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of FSC-C123456 with ID 8t532O",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_FSC-C123456_8t532O",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2022-05-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as FSC certification is maintained"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#kgSb-equivalent",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitaldocument_77ObUM",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Design file with ID 77ObUM",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_77ObUM",
+      "http://www.w3id.org/pdto#hasIRI": "Fortezza_9041_CAD_v2.3.dwg"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_cRcaVs",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": true,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of RecycledMaterialIncluded with ID cRcaVs",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_RecycledMaterialIncluded_cRcaVs",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#RecycledMaterialIncluded"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#kgNMVOC-equivalent",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitaldocument_R1jRBJ",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Design file with ID R1jRBJ",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_R1jRBJ",
+      "http://www.w3id.org/pdto#hasIRI": "Fortezza_9041_CAD_v1.0.dwg"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#AbrasionResistance",
+      "http://www.w3.org/2000/01/rdf-schema#label": "AbrasionResistance"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_hYL9SS",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Fortezza 9041",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductDesignation with ID hYL9SS",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductDesignation_hYL9SS",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_0pZLYg",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Human Toxicity (non-cancer)",
+      "http://schema.org/name": "PEF_HumanToxicity_NonCancer",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUh"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_HumanToxicity_NonCancer with ID 0pZLYg",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_HumanToxicity_NonCancer_0pZLYg",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_fZnGKr"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Color"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_P9LTvp",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Marine furniture fire safety",
+      "http://schema.org/name": "IMO-Part8",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_wVgIQr"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of IMO-Part8 with ID P9LTvp",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_IMO-Part8_P9LTvp",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-12-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per IMO Part 8"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_dk6ucP",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Endocrine disruption",
+      "http://schema.org/name": "HIA_Endocrine",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUh"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Endocrine with ID dk6ucP",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Endocrine_dk6ucP",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_Fw43aa"
+      },
+      "http://www.w3id.org/pdto#hasSimpleType": "Endocrine"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_KkUpjP",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Upholstery Fabrics",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerProductFamily with ID KkUpjP",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerProductFamily_KkUpjP",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductFamily"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_a08f08dfb459",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#EnvironmentalImpact",
+      "http://schema.org/name": "EnvironmentalImpact",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of EnvironmentalImpact with ID a08f08dfb459",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_EnvironmentalImpact_a08f08dfb459",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#indicator_7Cei2R"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_A4Iupd"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_lhyiOd"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_0pZLYg"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_efeALD"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_yE7M7t"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_Zmopay"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_XjI44u"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_dC5Qtq"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_4HENED"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_KASmUj"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_Y9nUoa"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_2kX2H9"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_8cnfpI"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#indicator_UuVlLj"
+        }
+      ]
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_mJjZ4u",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID mJjZ4u",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_mJjZ4u",
+      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_QzZnzp",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID QzZnzp",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_QzZnzp",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#molN-eq",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_7nrYIm",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID 7nrYIm",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_7nrYIm",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_S487yP",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Reproductive toxicity",
+      "http://schema.org/name": "HIA_Reproductive",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUh"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Reproductive with ID S487yP",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Reproductive_S487yP",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_LiOs4m"
+      },
+      "http://www.w3id.org/pdto#hasSimpleType": "Reproductive"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#kgN-eq",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#CTUe",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_vAc1gh",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID vAc1gh",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_vAc1gh",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_v0YGCA",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Diameter with ID v0YGCA",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Diameter_v0YGCA",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Diameter",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Diameter"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_ya4LB2",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductCharacteristic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": "g/m2",
+      "http://w3id.org/dppo/ontology/dpp-info/value": {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "315"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Weight with ID ya4LB2",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Weight_ya4LB2",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Weight"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#trackingrecord_a94JtP",
+      "@type": "http://www.w3id.org/pdto#TrackingRecord",
+      "http://schema.org/description": "N.A",
+      "http://schema.org/name": "Track-01",
+      "http://w3id.org/dppo/ontology/dpp-info/endTime": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-12-01T08:00:00+00:00"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Tracking recordTrack-01 with ID a94JtP",
+      "http://www.w3.org/2000/01/rdf-schema#label": "trackingRecord_Track-01_a94JtP",
+      "http://www.w3id.org/pdto#hasDestination": "Paris, France",
+      "http://www.w3id.org/pdto#hasOperator": "Cargo Nord Operator",
+      "http://www.w3id.org/pdto#hasOrigin": "Italy",
+      "http://www.w3id.org/pdto#hasStatus": "Dispatched"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_VcXLVv",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID VcXLVv",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_VcXLVv",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#molH⁺-equivalent",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Texture",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Texture"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_0uv1F8",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID 0uv1F8",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_0uv1F8",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_e470ba3bdd9f",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Durability",
+      "http://schema.org/name": "Durability",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Durability with ID e470ba3bdd9f",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Durability_e470ba3bdd9f",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#certificate_Rm6E1w"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_00gI2T"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_Z28U7r"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_oGFO6q"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_vCaXHV"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_Gtt6Tz"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_LPytbu"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_P9LTvp"
+        }
+      ]
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_wVgIQr",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID wVgIQr",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_wVgIQr",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_Lr5ZYX",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID Lr5ZYX",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_Lr5ZYX",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_bRIvCB",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Carcinogenic effects",
+      "http://schema.org/name": "HIA_Carcinogenic",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUh"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Carcinogenic with ID bRIvCB",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Carcinogenic_bRIvCB",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_abwGG3"
+      },
+      "http://www.w3id.org/pdto#hasSimpleType": "Cancer"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_yunQjM",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "6-7 (Blue Scale)",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of LightFastness with ID yunQjM",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_LightFastness_yunQjM",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#LightFastness"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_OulxDB",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Pozzi Arturo S.p.A.",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of ManufacturerName with ID OulxDB",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_ManufacturerName_OulxDB",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerName"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Surface",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Surface"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#CTUh",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_4HENED",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Eutrophication (terrestrial)",
+      "http://schema.org/name": "PEF_Eutrophication_Terrestrial",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#molN-eq"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Eutrophication_Terrestrial with ID 4HENED",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Eutrophication_Terrestrial_4HENED",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_VcXLVv"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_uPMGp3",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID uPMGp3",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_uPMGp3",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_vCaXHV",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Fire tests for textiles and films",
+      "http://schema.org/name": "NFPA701",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_WB8zPJ"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of NFPA701 with ID vCaXHV",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_NFPA701_vCaXHV",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-05-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per NFPA 701"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_tcrERa",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID tcrERa",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_tcrERa",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitaldocument_AC3GSs",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Design file with ID AC3GSs",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_AC3GSs",
+      "http://www.w3id.org/pdto#hasIRI": "Fortezza_9041_CAD_v2.0.dwg"
     },
     {
       "@id": "https://cir4fun.eu/data#aspect_c645b712c118",
@@ -1754,30 +1385,264 @@
       "http://www.w3.org/2000/01/rdf-schema#label": "submodel_HealthImpact_c645b712c118",
       "http://www.w3id.org/pdto#hasInformation": [
         {
-          "@id": "https://cir4fun.eu/data#indicator_iQyGBq"
+          "@id": "https://cir4fun.eu/data#indicator_bRIvCB"
         },
         {
-          "@id": "https://cir4fun.eu/data#indicator_aMGVDa"
+          "@id": "https://cir4fun.eu/data#indicator_yz4Uu2"
         },
         {
-          "@id": "https://cir4fun.eu/data#indicator_hvJgFu"
+          "@id": "https://cir4fun.eu/data#indicator_Nktohh"
         },
         {
-          "@id": "https://cir4fun.eu/data#indicator_Lm1owJ"
+          "@id": "https://cir4fun.eu/data#indicator_XE0r6P"
         },
         {
-          "@id": "https://cir4fun.eu/data#indicator_STi1Qs"
+          "@id": "https://cir4fun.eu/data#indicator_S487yP"
         },
         {
-          "@id": "https://cir4fun.eu/data#indicator_OFdX0b"
+          "@id": "https://cir4fun.eu/data#indicator_dk6ucP"
         },
         {
-          "@id": "https://cir4fun.eu/data#indicator_dh87Fr"
+          "@id": "https://cir4fun.eu/data#indicator_XlF1zc"
         }
       ]
     },
     {
-      "@id": "https://cir4fun.eu/data#designrecord_smieQ5",
+      "@id": "https://cir4fun.eu/data#digitalDocument_LiOs4m",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID LiOs4m",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_LiOs4m",
+      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Length",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Length"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_f823edb8fe84",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Recyclability",
+      "http://schema.org/name": "Recyclability",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Recyclability with ID f823edb8fe84",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Recyclability_f823edb8fe84",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#info_xoBP7M"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_sh6yBy"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#info_cRcaVs"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_8t532O"
+        }
+      ]
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_cRc1P6",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID cRc1P6",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_cRc1P6",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#dpp_61f46bcd",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#DigitalProductPassport",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product Passport instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalProductPassport_61f46bcd",
+      "https://w3id.org/def/dtw#hasDigitalEntity": {
+        "@id": "https://cir4fun.eu/data#digital_product_61f46bcd"
+      },
+      "https://w3id.org/def/dtw#hasPhysicalEntity": {
+        "@id": "https://cir4fun.eu/data#product_61f46bcd"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_XlF1zc",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Toxic additive content",
+      "http://schema.org/name": "ToxicAdditiveLevel",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#mg/kg"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": 0,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of ToxicAdditiveLevel with ID XlF1zc",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_ToxicAdditiveLevel_XlF1zc",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_RZaZxA"
+      },
+      "http://www.w3id.org/pdto#hasSimpleType": "Chemical Hazard"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_Gtt6Tz",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Fire behavior of building materials",
+      "http://schema.org/name": "DIN4102-B1",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_0uv1F8"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of DIN4102-B1 with ID Gtt6Tz",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_DIN4102-B1_Gtt6Tz",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-10-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per DIN 4102"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_K9oZyf",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID K9oZyf",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_K9oZyf",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_4plauV",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID 4plauV",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_4plauV",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_KASmUj",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Ecotoxicity (freshwater)",
+      "http://schema.org/name": "PEF_Ecotoxicity_Freshwater",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUe"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Ecotoxicity_Freshwater with ID KASmUj",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Ecotoxicity_Freshwater_KASmUj",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_QzZnzp"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digital_product_61f46bcd",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Digital Product instance of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 61f46bcd",
+      "http://www.w3.org/2000/01/rdf-schema#label": "sphereDigital_61f46bcd",
+      "https://w3id.org/def/dtw#hasModel": {
+        "@id": "https://cir4fun.eu/data#information_model_61f46bcd"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_4GsQPF",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID 4GsQPF",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_4GsQPF",
+      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_8cnfpI",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Land Use",
+      "http://schema.org/name": "PEF_LandUse",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#Soilqualityindex"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_LandUse with ID 8cnfpI",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_LandUse_8cnfpI",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_a59p3s"
+      }
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#clarifiedProperty",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_Nktohh",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Respiratory effects",
+      "http://schema.org/name": "HIA_Respiratory",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUh"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Respiratory with ID Nktohh",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Respiratory_Nktohh",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_mJjZ4u"
+      },
+      "http://www.w3id.org/pdto#hasSimpleType": "Respiratory"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_9xCTSY",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Warp/Weft 3mm",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of SeamSlippage with ID 9xCTSY",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_SeamSlippage_9xCTSY",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#SeamSlippage"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_WB8zPJ",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID WB8zPJ",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_WB8zPJ",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#aspect_09f738745991",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Safety",
+      "http://schema.org/name": "Safety",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Safety with ID 09f738745991",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Safety_09f738745991",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#certificate_I5ULSW"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_lc51EX"
+        }
+      ]
+    },
+    {
+      "@id": "https://cir4fun.eu/data#kgCO2-equivalent",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/Unit"
+    },
+    {
+      "@id": "http://w3id.org/dppo/ontology/dpp-info/value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_EoYKkr",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate document with ID EoYKkr",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_EoYKkr",
+      "http://www.w3id.org/pdto#hasIRI": "N.A"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_abwGG3",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID abwGG3",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_abwGG3",
+      "http://www.w3id.org/pdto#hasIRI": "https://www.lcacommons.org/hia"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#RecycledMaterialIncluded",
+      "http://www.w3.org/2000/01/rdf-schema#label": "RecycledMaterialIncluded"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_fZnGKr",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID fZnGKr",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_fZnGKr",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Pilling",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Pilling"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#designrecord_wMWyAV",
       "@type": "http://www.w3id.org/pdto#DesignRecord",
       "http://schema.org/description": "Detailed design sent to client for evaluation",
       "http://schema.org/name": "Design-02",
@@ -1785,51 +1650,186 @@
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
         "@value": "2024-09-20T11:00:00+00:00"
       },
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Design recordDesign-02 with ID smieQ5",
-      "http://www.w3.org/2000/01/rdf-schema#label": "designRecord_Design-02_smieQ5",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Design recordDesign-02 with ID wMWyAV",
+      "http://www.w3.org/2000/01/rdf-schema#label": "designRecord_Design-02_wMWyAV",
       "http://www.w3id.org/pdto#designFile": {
-        "@id": "https://cir4fun.eu/data#digitaldocument_9v0E8a"
+        "@id": "https://cir4fun.eu/data#digitaldocument_AC3GSs"
       },
       "http://www.w3id.org/pdto#hasOperator": "Engineering Team B",
       "http://www.w3id.org/pdto#hasStatus": "Beta",
       "http://www.w3id.org/pdto#hasVersion": 2.0
     },
     {
-      "@id": "https://cir4fun.eu/data#Contact_yzLvE5",
-      "@type": "http://www.w3id.org/pdto#ContactInformation",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Contact information with ID yzLvE5",
-      "http://www.w3.org/2000/01/rdf-schema#label": "contactInformation__yzLvE5",
-      "http://www.w3.org/2006/vcard/ns#hasAddress": {
-        "@id": "Address_Contact_4qgrnp"
-      },
-      "http://www.w3.org/2006/vcard/ns#hasEmail": {
-        "@id": "Email_contact_RV9zl4"
-      },
-      "http://www.w3.org/2006/vcard/ns#hasTelephone": {
-        "@id": "Phone_Contact_Y3MzfM"
-      },
-      "http://www.w3.org/2006/vcard/ns#organization-name": "Pozzi Headquarters"
+      "@id": "https://cir4fun.eu/data#aspect_39e2e496a42b",
+      "@type": "https://www.cir4fun.eu/ontology/dpp4fun#Durability",
+      "http://schema.org/name": "Durability",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Submodel instance of Durability with ID 39e2e496a42b",
+      "http://www.w3.org/2000/01/rdf-schema#label": "submodel_Durability_39e2e496a42b",
+      "http://www.w3id.org/pdto#hasInformation": [
+        {
+          "@id": "https://cir4fun.eu/data#certificate_ChKSiP"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_gjDfXT"
+        },
+        {
+          "@id": "https://cir4fun.eu/data#certificate_DFlkm3"
+        }
+      ]
     },
     {
-      "@id": "Email_contact_RV9zl4",
-      "@type": "http://www.w3.org/2006/vcard/ns#Email",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Email information with ID RV9zl4",
-      "http://www.w3.org/2000/01/rdf-schema#label": "email__RV9zl4",
-      "http://www.w3id.org/pdto#emailAddress": "info@pozziarturo.it",
-      "http://www.w3id.org/pdto#typeOfEmail": "Corporate"
+      "@id": "https://cir4fun.eu/data#thumbnail_7fuC4P",
+      "@type": "http://schema.org/ImageObject",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Reduced image of https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX with ID 7fuC4P",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thumbnail_61f46bcd_7fuC4P",
+      "http://www.w3id.org/pdto#hasIRI": {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://www.pozziarturo.it/en/wp-content/uploads/sites/2/2016/07/JK81764.jpg"
+      }
     },
     {
-      "@id": "https://cir4fun.eu/data#info_L8SaN0",
+      "@id": "https://cir4fun.eu/data#certificate_00gI2T",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Furniture flammability test",
+      "http://schema.org/name": "EN1021-1&2",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_Tizd5U"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of EN1021-1&2 with ID 00gI2T",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_EN1021-1&2_00gI2T",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2019-03-01T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as per EN 1021"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_XE0r6P",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Neurotoxicity",
+      "http://schema.org/name": "HIA_Neurotoxicity",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#CTUh"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of HIA_Neurotoxicity with ID XE0r6P",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_HIA_Neurotoxicity_XE0r6P",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_GkFX9N"
+      },
+      "http://www.w3id.org/pdto#hasSimpleType": "Neurological"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#indicator_XjI44u",
+      "@type": "http://www.w3id.org/pdto#IndicatorInformation",
+      "http://schema.org/description": "Eutrophication (freshwater)",
+      "http://schema.org/name": "PEF_Eutrophication_Freshwater",
+      "http://w3id.org/dppo/ontology/dpp-info/unit": {
+        "@id": "https://cir4fun.eu/data#kgPO4³⁻-eq"
+      },
+      "http://w3id.org/dppo/ontology/dpp-info/value": "None",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Indicator information of PEF_Eutrophication_Freshwater with ID XjI44u",
+      "http://www.w3.org/2000/01/rdf-schema#label": "indicatorInformation_PEF_Eutrophication_Freshwater_XjI44u",
+      "http://www.w3id.org/pdto#calculationMethod": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_3GC8yA"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_xoBP7M",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
-      "http://w3id.org/dppo/ontology/dpp-info/value": "Plain",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Texture with ID L8SaN0",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Texture_L8SaN0",
+      "http://w3id.org/dppo/ontology/dpp-info/value": 1.0,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of RecyclableFraction with ID xoBP7M",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_RecyclableFraction_xoBP7M",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Texture"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#RecyclableFraction"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
       }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#",
+      "@type": "http://www.w3.org/2002/07/owl#Ontology",
+      "http://www.w3.org/2002/07/owl#imports": {
+        "@id": "https://dpp4fun.pkgi40.codelib.re/dpp4fun.owl"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#digitalDocument_kMnHSZ",
+      "@type": "http://schema.org/DigitalDocument",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Calculation method with ID kMnHSZ",
+      "http://www.w3.org/2000/01/rdf-schema#label": "digitalDocument_kMnHSZ",
+      "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_gjDfXT",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Environmental management system certification for sustainable operations",
+      "http://schema.org/name": "ISO14001-EMS",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_4jrH29"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of ISO14001-EMS with ID gjDfXT",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_ISO14001-EMS_gjDfXT",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2022-06-15T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as ISO 14001 compliance is maintained"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#RecyclableFraction",
+      "http://www.w3.org/2000/01/rdf-schema#label": "RecyclableFraction"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_sh6yBy",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": true,
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Recyclable with ID sh6yBy",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Recyclable_sh6yBy",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Recyclable"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "http://www.w3id.org/pdto#hasInformation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty"
+    },
+    {
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#ManufacturerProductDesignation",
+      "http://www.w3.org/2000/01/rdf-schema#label": "ManufacturerProductDesignation"
+    },
+    {
+      "@id": "https://cir4fun.eu/data#info_x7np7k",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
+      "http://w3id.org/dppo/ontology/dpp-info/value": "Blue",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Color with ID x7np7k",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Color_x7np7k",
+      "http://www.w3id.org/pdto#clarifiedProperty": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Color"
+      },
+      "http://www.w3id.org/pdto#hasFeatureOfInterest": {
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"
+      }
+    },
+    {
+      "@id": "https://cir4fun.eu/data#certificate_DFlkm3",
+      "@type": "http://w3id.org/dppo/ontology/dpp-info/CertificateInformation",
+      "http://schema.org/description": "Sustainable textile production and eco-friendly processes",
+      "http://schema.org/name": "OEKO-TEX-STeP",
+      "http://w3id.org/dppo/ontology/dpp-info/certificateDocument": {
+        "@id": "https://cir4fun.eu/data#digitalDocument_obKQCE"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Certificate information of OEKO-TEX-STeP with ID DFlkm3",
+      "http://www.w3.org/2000/01/rdf-schema#label": "certificateInformation_OEKO-TEX-STeP_DFlkm3",
+      "http://www.w3id.org/pdto#hasIssuedDate": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-01-10T00:00:00"
+      },
+      "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as STeP certification is maintained"
     }
   ]
 }

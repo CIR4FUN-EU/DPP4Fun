@@ -1,9 +1,9 @@
 @prefix dpp4fun: <https://www.cir4fun.eu/ontology/dpp4fun#> .
 @prefix dppo: <http://w3id.org/dppo/ontology/dpp-info/> .
 @prefix ns1: <http://schema.org/> .
-@prefix ns2: <http://purl.org/goodrelations/v1#> .
+@prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns3: <https://w3id.org/def/dtw#> .
-@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns4: <http://purl.org/goodrelations/v1#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pdto: <http://www.w3id.org/pdto#> .
 @prefix qudt: <http://qudt.org/vocab/unit/> .
@@ -33,153 +33,153 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     ns3:hasDigitalEntity <https://cir4fun.eu/data#digital_product_e9230c88> ;
     ns3:hasPhysicalEntity <https://cir4fun.eu/data#product_e9230c88> .
 
-<Address_Contact_Fh3pcu> a ns4:Address ;
-    rdfs:label "address__Fh3pcu" ;
-    rdfs:comment "Address information with ID Fh3pcu" ;
-    ns4:country-name "ES"^^xsd:string ;
-    ns4:locality "Sils"^^xsd:string ;
-    ns4:postal-code "17410"^^xsd:string ;
-    ns4:region "Girona"^^xsd:string ;
-    ns4:street-address "Tallers 14, Pol. Ind. Bosc d’en Cuca"^^xsd:string .
+<Address_Contact_FQhTnc> a ns2:Address ;
+    rdfs:label "address__FQhTnc" ;
+    rdfs:comment "Address information with ID FQhTnc" ;
+    ns2:country-name "ES"^^xsd:string ;
+    ns2:locality "Sils"^^xsd:string ;
+    ns2:postal-code "17410"^^xsd:string ;
+    ns2:region "Girona"^^xsd:string ;
+    ns2:street-address "Tallers 14, Pol. Ind. Bosc d’en Cuca"^^xsd:string .
 
-<Email_contact_gRV8Bo> a ns4:Email ;
-    rdfs:label "email__gRV8Bo" ;
-    rdfs:comment "Email information with ID gRV8Bo" ;
+<Email_contact_vUJ1rr> a ns2:Email ;
+    rdfs:label "email__vUJ1rr" ;
+    rdfs:comment "Email information with ID vUJ1rr" ;
     pdto:emailAddress "cliente@kavehome.com"^^xsd:string ;
     pdto:typeOfEmail "Customer Service"^^xsd:string .
 
-<Phone_Contact_Ru8fMm> a ns4:Phone ;
-    rdfs:label "phone__Ru8fMm" ;
-    rdfs:comment "Phone information with ID Ru8fMm" ;
+<Phone_Contact_pEeYQh> a ns2:Phone ;
+    rdfs:label "phone__pEeYQh" ;
+    rdfs:comment "Phone information with ID pEeYQh" ;
     pdto:telephoneNumber "+34 900 897 980"^^xsd:string ;
     pdto:typeOfTelephone "Customer Service"^^xsd:string .
 
 <https://cir4fun.eu/data#CTUe> a dppo:Unit .
 
-<https://cir4fun.eu/data#Contact_EdSYeF> a pdto:ContactInformation ;
-    rdfs:label "contactInformation__EdSYeF" ;
-    rdfs:comment "Contact information with ID EdSYeF" ;
-    ns4:hasAddress <Address_Contact_Fh3pcu> ;
-    ns4:hasEmail <Email_contact_gRV8Bo> ;
-    ns4:hasTelephone <Phone_Contact_Ru8fMm> ;
-    ns4:organization-name "Kave Home S.L.U."^^xsd:string .
+<https://cir4fun.eu/data#Contact_30nZxN> a pdto:ContactInformation ;
+    rdfs:label "contactInformation__30nZxN" ;
+    rdfs:comment "Contact information with ID 30nZxN" ;
+    ns2:hasAddress <Address_Contact_FQhTnc> ;
+    ns2:hasEmail <Email_contact_vUJ1rr> ;
+    ns2:hasTelephone <Phone_Contact_pEeYQh> ;
+    ns2:organization-name "Kave Home S.L.U."^^xsd:string .
 
 <https://cir4fun.eu/data#MJ> a dppo:Unit .
 
-<https://cir4fun.eu/data#ManufacturingRecord_27LmM7> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-SAND-02_27LmM7" ;
-    ns1:description "Operation to sand wooden surfaces"^^xsd:string ;
-    ns1:name "OP-SAND-02"^^xsd:string ;
-    dppo:endTime "2024-11-01T13:00:00+00:00"^^xsd:dateTime ;
-    dppo:startTime "2024-11-01T11:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-SAND-02 with ID 27LmM7" ;
-    pdto:hasOperator "Surface Finishing Supplier"^^xsd:string ;
-    pdto:hasPositionInProcessRouting "REF-PRPOS-02"^^xsd:string ;
-    pdto:hasSimpleStation "ST-SAND-02"^^xsd:string ;
-    pdto:hasStatus "Completed"^^xsd:string .
-
-<https://cir4fun.eu/data#ManufacturingRecord_3mSzYb> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-CUT-WOOD-01_3mSzYb" ;
-    ns1:description "Operation to cut wooden chair components"^^xsd:string ;
-    ns1:name "OP-CUT-WOOD-01"^^xsd:string ;
-    dppo:endTime "2024-11-01T10:30:00+00:00"^^xsd:dateTime ;
-    dppo:startTime "2024-11-01T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-CUT-WOOD-01 with ID 3mSzYb" ;
-    pdto:hasOperator "Wood Processing Supplier"^^xsd:string ;
-    pdto:hasPositionInProcessRouting "REF-PRPOS-01"^^xsd:string ;
-    pdto:hasSimpleStation "ST-CUT-01"^^xsd:string ;
-    pdto:hasStatus "Completed"^^xsd:string .
-
-<https://cir4fun.eu/data#ManufacturingRecord_CUtacz> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-SEW-05_CUtacz" ;
-    ns1:description "Operation to sew fabric cover"^^xsd:string ;
-    ns1:name "OP-SEW-05"^^xsd:string ;
-    dppo:endTime "2024-11-04T12:00:00+00:00"^^xsd:dateTime ;
-    dppo:startTime "2024-11-04T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-SEW-05 with ID CUtacz" ;
-    pdto:hasOperator "Textile Supplier"^^xsd:string ;
-    pdto:hasPositionInProcessRouting "REF-PRPOS-05"^^xsd:string ;
-    pdto:hasSimpleStation "ST-SEW-05"^^xsd:string ;
-    pdto:hasStatus "Completed"^^xsd:string .
-
-<https://cir4fun.eu/data#ManufacturingRecord_LGyau4> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-QUALITY-08_LGyau4" ;
-    ns1:description "Operation to inspect final chair quality"^^xsd:string ;
-    ns1:name "OP-QUALITY-08"^^xsd:string ;
-    dppo:endTime "2024-11-06T15:00:00+00:00"^^xsd:dateTime ;
-    dppo:startTime "2024-11-06T13:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-QUALITY-08 with ID LGyau4" ;
-    pdto:hasOperator "Quality Control Supplier"^^xsd:string ;
-    pdto:hasPositionInProcessRouting "REF-PRPOS-08"^^xsd:string ;
-    pdto:hasSimpleStation "ST-QC-08"^^xsd:string ;
-    pdto:hasStatus "Completed"^^xsd:string .
-
-<https://cir4fun.eu/data#ManufacturingRecord_T2JZI6> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-UPHOLSTER-06_T2JZI6" ;
+<https://cir4fun.eu/data#ManufacturingRecord_3rTUah> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-UPHOLSTER-06_3rTUah" ;
     ns1:description "Operation to assemble upholstery on seat"^^xsd:string ;
     ns1:name "OP-UPHOLSTER-06"^^xsd:string ;
     dppo:endTime "2024-11-05T14:00:00+00:00"^^xsd:dateTime ;
     dppo:startTime "2024-11-05T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-UPHOLSTER-06 with ID T2JZI6" ;
+    rdfs:comment "Manufacturing recordOP-UPHOLSTER-06 with ID 3rTUah" ;
     pdto:hasOperator "Upholstery Supplier"^^xsd:string ;
     pdto:hasPositionInProcessRouting "REF-PRPOS-06"^^xsd:string ;
     pdto:hasSimpleStation "ST-UPHOLSTER-06"^^xsd:string ;
     pdto:hasStatus "Completed"^^xsd:string .
 
-<https://cir4fun.eu/data#ManufacturingRecord_UKNiex> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-ASSEMBLE-07_UKNiex" ;
-    ns1:description "Operation to assemble chair components"^^xsd:string ;
-    ns1:name "OP-ASSEMBLE-07"^^xsd:string ;
-    dppo:endTime "2024-11-06T11:30:00+00:00"^^xsd:dateTime ;
-    dppo:startTime "2024-11-06T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-ASSEMBLE-07 with ID UKNiex" ;
-    pdto:hasOperator "Assembly Supplier"^^xsd:string ;
-    pdto:hasPositionInProcessRouting "REF-PRPOS-07"^^xsd:string ;
-    pdto:hasSimpleStation "ST-ASSEMBLY-07"^^xsd:string ;
-    pdto:hasStatus "Completed"^^xsd:string .
-
-<https://cir4fun.eu/data#ManufacturingRecord_bI63Zi> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-PAINT-03_bI63Zi" ;
-    ns1:description "Operation to paint chair frame"^^xsd:string ;
-    ns1:name "OP-PAINT-03"^^xsd:string ;
-    dppo:endTime "2024-11-02T12:00:00+00:00"^^xsd:dateTime ;
-    dppo:startTime "2024-11-02T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-PAINT-03 with ID bI63Zi" ;
-    pdto:hasOperator "Paint Supplier"^^xsd:string ;
-    pdto:hasPositionInProcessRouting "REF-PRPOS-03"^^xsd:string ;
-    pdto:hasSimpleStation "ST-PAINT-03"^^xsd:string ;
-    pdto:hasStatus "Completed"^^xsd:string .
-
-<https://cir4fun.eu/data#ManufacturingRecord_bYUraH> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-PACK-09_bYUraH" ;
+<https://cir4fun.eu/data#ManufacturingRecord_7h1GFJ> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-PACK-09_7h1GFJ" ;
     ns1:description "Operation to package finished chair"^^xsd:string ;
     ns1:name "OP-PACK-09"^^xsd:string ;
     dppo:endTime "2024-11-07T10:00:00+00:00"^^xsd:dateTime ;
     dppo:startTime "2024-11-07T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-PACK-09 with ID bYUraH" ;
+    rdfs:comment "Manufacturing recordOP-PACK-09 with ID 7h1GFJ" ;
     pdto:hasOperator "Packaging Supplier"^^xsd:string ;
     pdto:hasPositionInProcessRouting "REF-PRPOS-09"^^xsd:string ;
     pdto:hasSimpleStation "ST-PACK-09"^^xsd:string ;
     pdto:hasStatus "Completed"^^xsd:string .
 
-<https://cir4fun.eu/data#ManufacturingRecord_jWNXwN> a pdto:ManufacturingRecord ;
-    rdfs:label "manufacturingRecord_OP-FOAM-04_jWNXwN" ;
+<https://cir4fun.eu/data#ManufacturingRecord_7nFuhw> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-FOAM-04_7nFuhw" ;
     ns1:description "Operation to cut and shape seat foam"^^xsd:string ;
     ns1:name "OP-FOAM-04"^^xsd:string ;
     dppo:endTime "2024-11-03T11:00:00+00:00"^^xsd:dateTime ;
     dppo:startTime "2024-11-03T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Manufacturing recordOP-FOAM-04 with ID jWNXwN" ;
+    rdfs:comment "Manufacturing recordOP-FOAM-04 with ID 7nFuhw" ;
     pdto:hasOperator "Foam Supplier"^^xsd:string ;
     pdto:hasPositionInProcessRouting "REF-PRPOS-04"^^xsd:string ;
     pdto:hasSimpleStation "ST-FOAM-04"^^xsd:string ;
     pdto:hasStatus "Completed"^^xsd:string .
 
-<https://cir4fun.eu/data#RepairRecord_p8FQOS> a pdto:RepairRecord ;
-    rdfs:label "repairRecord_Repair-01_p8FQOS" ;
+<https://cir4fun.eu/data#ManufacturingRecord_BC5ZRs> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-SEW-05_BC5ZRs" ;
+    ns1:description "Operation to sew fabric cover"^^xsd:string ;
+    ns1:name "OP-SEW-05"^^xsd:string ;
+    dppo:endTime "2024-11-04T12:00:00+00:00"^^xsd:dateTime ;
+    dppo:startTime "2024-11-04T08:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Manufacturing recordOP-SEW-05 with ID BC5ZRs" ;
+    pdto:hasOperator "Textile Supplier"^^xsd:string ;
+    pdto:hasPositionInProcessRouting "REF-PRPOS-05"^^xsd:string ;
+    pdto:hasSimpleStation "ST-SEW-05"^^xsd:string ;
+    pdto:hasStatus "Completed"^^xsd:string .
+
+<https://cir4fun.eu/data#ManufacturingRecord_Taubax> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-PAINT-03_Taubax" ;
+    ns1:description "Operation to paint chair frame"^^xsd:string ;
+    ns1:name "OP-PAINT-03"^^xsd:string ;
+    dppo:endTime "2024-11-02T12:00:00+00:00"^^xsd:dateTime ;
+    dppo:startTime "2024-11-02T08:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Manufacturing recordOP-PAINT-03 with ID Taubax" ;
+    pdto:hasOperator "Paint Supplier"^^xsd:string ;
+    pdto:hasPositionInProcessRouting "REF-PRPOS-03"^^xsd:string ;
+    pdto:hasSimpleStation "ST-PAINT-03"^^xsd:string ;
+    pdto:hasStatus "Completed"^^xsd:string .
+
+<https://cir4fun.eu/data#ManufacturingRecord_Yw9kRh> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-SAND-02_Yw9kRh" ;
+    ns1:description "Operation to sand wooden surfaces"^^xsd:string ;
+    ns1:name "OP-SAND-02"^^xsd:string ;
+    dppo:endTime "2024-11-01T13:00:00+00:00"^^xsd:dateTime ;
+    dppo:startTime "2024-11-01T11:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Manufacturing recordOP-SAND-02 with ID Yw9kRh" ;
+    pdto:hasOperator "Surface Finishing Supplier"^^xsd:string ;
+    pdto:hasPositionInProcessRouting "REF-PRPOS-02"^^xsd:string ;
+    pdto:hasSimpleStation "ST-SAND-02"^^xsd:string ;
+    pdto:hasStatus "Completed"^^xsd:string .
+
+<https://cir4fun.eu/data#ManufacturingRecord_ZReowi> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-CUT-WOOD-01_ZReowi" ;
+    ns1:description "Operation to cut wooden chair components"^^xsd:string ;
+    ns1:name "OP-CUT-WOOD-01"^^xsd:string ;
+    dppo:endTime "2024-11-01T10:30:00+00:00"^^xsd:dateTime ;
+    dppo:startTime "2024-11-01T08:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Manufacturing recordOP-CUT-WOOD-01 with ID ZReowi" ;
+    pdto:hasOperator "Wood Processing Supplier"^^xsd:string ;
+    pdto:hasPositionInProcessRouting "REF-PRPOS-01"^^xsd:string ;
+    pdto:hasSimpleStation "ST-CUT-01"^^xsd:string ;
+    pdto:hasStatus "Completed"^^xsd:string .
+
+<https://cir4fun.eu/data#ManufacturingRecord_lnjXHC> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-QUALITY-08_lnjXHC" ;
+    ns1:description "Operation to inspect final chair quality"^^xsd:string ;
+    ns1:name "OP-QUALITY-08"^^xsd:string ;
+    dppo:endTime "2024-11-06T15:00:00+00:00"^^xsd:dateTime ;
+    dppo:startTime "2024-11-06T13:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Manufacturing recordOP-QUALITY-08 with ID lnjXHC" ;
+    pdto:hasOperator "Quality Control Supplier"^^xsd:string ;
+    pdto:hasPositionInProcessRouting "REF-PRPOS-08"^^xsd:string ;
+    pdto:hasSimpleStation "ST-QC-08"^^xsd:string ;
+    pdto:hasStatus "Completed"^^xsd:string .
+
+<https://cir4fun.eu/data#ManufacturingRecord_semwP5> a pdto:ManufacturingRecord ;
+    rdfs:label "manufacturingRecord_OP-ASSEMBLE-07_semwP5" ;
+    ns1:description "Operation to assemble chair components"^^xsd:string ;
+    ns1:name "OP-ASSEMBLE-07"^^xsd:string ;
+    dppo:endTime "2024-11-06T11:30:00+00:00"^^xsd:dateTime ;
+    dppo:startTime "2024-11-06T08:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Manufacturing recordOP-ASSEMBLE-07 with ID semwP5" ;
+    pdto:hasOperator "Assembly Supplier"^^xsd:string ;
+    pdto:hasPositionInProcessRouting "REF-PRPOS-07"^^xsd:string ;
+    pdto:hasSimpleStation "ST-ASSEMBLY-07"^^xsd:string ;
+    pdto:hasStatus "Completed"^^xsd:string .
+
+<https://cir4fun.eu/data#RepairRecord_aiRF36> a pdto:RepairRecord ;
+    rdfs:label "repairRecord_Repair-01_aiRF36" ;
     ns1:description "Leg is broken"^^xsd:string ;
     ns1:name "Repair-01"^^xsd:string ;
     dppo:endTime "2025-06-06T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Repair recordRepair-01 with ID p8FQOS" ;
+    rdfs:comment "Repair recordRepair-01 with ID aiRF36" ;
     pdto:hasFixingType "Component fixing"^^xsd:string ;
     pdto:hasLocation "Saitama"^^xsd:string ;
     pdto:hasOperator "Ruka Kawaii"^^xsd:string ;
@@ -191,1312 +191,1312 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     rdfs:label "submodel_Recyclability_159e871d88d1" ;
     ns1:name "Recyclability"^^xsd:string ;
     rdfs:comment "Submodel instance of Recyclability with ID 159e871d88d1" ;
-    pdto:hasInformation <https://cir4fun.eu/data#certificate_f1AVZ1>,
-        <https://cir4fun.eu/data#info_FAv5v1> .
+    pdto:hasInformation <https://cir4fun.eu/data#certificate_YwBt8f>,
+        <https://cir4fun.eu/data#info_eaIUSl> .
 
 <https://cir4fun.eu/data#aspect_546603f8e882> a dpp4fun:Durability ;
     rdfs:label "submodel_Durability_546603f8e882" ;
     ns1:name "Durability"^^xsd:string ;
     rdfs:comment "Submodel instance of Durability with ID 546603f8e882" ;
-    pdto:hasInformation <https://cir4fun.eu/data#certificate_GDqK9o>,
-        <https://cir4fun.eu/data#certificate_Kzsxpc>,
-        <https://cir4fun.eu/data#certificate_Q4erYN>,
-        <https://cir4fun.eu/data#certificate_USC8Jj>,
-        <https://cir4fun.eu/data#certificate_kX9ayt>,
-        <https://cir4fun.eu/data#certificate_na0j63>,
-        <https://cir4fun.eu/data#certificate_pVtaP2>,
-        <https://cir4fun.eu/data#certificate_sVKDW1>,
-        <https://cir4fun.eu/data#certificate_xsvc85> .
+    pdto:hasInformation <https://cir4fun.eu/data#certificate_32Mp2w>,
+        <https://cir4fun.eu/data#certificate_9MKhlO>,
+        <https://cir4fun.eu/data#certificate_BoeqCd>,
+        <https://cir4fun.eu/data#certificate_JrgcJb>,
+        <https://cir4fun.eu/data#certificate_UKD9GE>,
+        <https://cir4fun.eu/data#certificate_VFqe7G>,
+        <https://cir4fun.eu/data#certificate_Yd9XI0>,
+        <https://cir4fun.eu/data#certificate_rpYcRw>,
+        <https://cir4fun.eu/data#certificate_uOOrAs> .
 
 <https://cir4fun.eu/data#aspect_5560ad38247b> a dpp4fun:Safety ;
     rdfs:label "submodel_Safety_5560ad38247b" ;
     ns1:name "Safety"^^xsd:string ;
     rdfs:comment "Submodel instance of Safety with ID 5560ad38247b" ;
-    pdto:hasInformation <https://cir4fun.eu/data#certificate_WVXuKa>,
-        <https://cir4fun.eu/data#certificate_n61DDt> .
+    pdto:hasInformation <https://cir4fun.eu/data#certificate_CTuEeW>,
+        <https://cir4fun.eu/data#certificate_oAJynw> .
 
 <https://cir4fun.eu/data#aspect_646ccfc78885> a dpp4fun:Usage ;
     rdfs:label "submodel_Usage_646ccfc78885" ;
     ns1:name "Usage"^^xsd:string ;
     rdfs:comment "Submodel instance of Usage with ID 646ccfc78885" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_0oFhV1>,
-        <https://cir4fun.eu/data#instruction_wd79r8>,
-        <https://cir4fun.eu/data#primaryfunction_k3NGV9>,
-        <https://cir4fun.eu/data#secondaryfunction_AhA3wZ> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_EldN09>,
+        <https://cir4fun.eu/data#instruction_OhrK5r>,
+        <https://cir4fun.eu/data#primaryfunction_ZTSxov>,
+        <https://cir4fun.eu/data#secondaryfunction_1YGQPe> .
 
 <https://cir4fun.eu/data#aspect_c3f6845d88b6> a pdto:Nameplate ;
     rdfs:label "submodel_Nameplate_c3f6845d88b6" ;
     ns1:name "Nameplate"^^xsd:string ;
     rdfs:comment "Submodel instance of Nameplate with ID c3f6845d88b6" ;
-    pdto:hasInformation <https://cir4fun.eu/data#Contact_EdSYeF>,
-        <https://cir4fun.eu/data#info_0pMrxF>,
-        <https://cir4fun.eu/data#info_5ZB6qM>,
-        <https://cir4fun.eu/data#info_J41wYC>,
-        <https://cir4fun.eu/data#info_Jfej62>,
-        <https://cir4fun.eu/data#info_NHU4dk>,
-        <https://cir4fun.eu/data#info_NjtJ4r>,
-        <https://cir4fun.eu/data#info_PggnRl>,
-        <https://cir4fun.eu/data#info_RwHmiG>,
-        <https://cir4fun.eu/data#info_SR71ab>,
-        <https://cir4fun.eu/data#info_XAQ5Il>,
-        <https://cir4fun.eu/data#info_Z97sq8>,
-        <https://cir4fun.eu/data#info_f7gbY3>,
-        <https://cir4fun.eu/data#info_grVJGH>,
-        <https://cir4fun.eu/data#info_h80QPs>,
-        <https://cir4fun.eu/data#info_iHs4R3>,
-        <https://cir4fun.eu/data#info_jEbTBU>,
-        <https://cir4fun.eu/data#info_k6d1j8>,
-        <https://cir4fun.eu/data#info_l6Dl3j>,
-        <https://cir4fun.eu/data#info_mIEaB1>,
-        <https://cir4fun.eu/data#info_mtuKsw>,
-        <https://cir4fun.eu/data#info_okvANS>,
-        <https://cir4fun.eu/data#info_oywLuf>,
-        <https://cir4fun.eu/data#info_ql7HWg>,
-        <https://cir4fun.eu/data#info_uKQXWH>,
-        <https://cir4fun.eu/data#info_yErjSe>,
-        <https://cir4fun.eu/data#info_yZlahE> .
+    pdto:hasInformation <https://cir4fun.eu/data#Contact_30nZxN>,
+        <https://cir4fun.eu/data#info_7hdxq5>,
+        <https://cir4fun.eu/data#info_9mCnwz>,
+        <https://cir4fun.eu/data#info_BAw3hy>,
+        <https://cir4fun.eu/data#info_BAwpgS>,
+        <https://cir4fun.eu/data#info_CKmoSw>,
+        <https://cir4fun.eu/data#info_CdmcHr>,
+        <https://cir4fun.eu/data#info_Etkzgh>,
+        <https://cir4fun.eu/data#info_SA8242>,
+        <https://cir4fun.eu/data#info_TUJslT>,
+        <https://cir4fun.eu/data#info_UbgU94>,
+        <https://cir4fun.eu/data#info_WkH6iq>,
+        <https://cir4fun.eu/data#info_YM8S7N>,
+        <https://cir4fun.eu/data#info_bOkzKE>,
+        <https://cir4fun.eu/data#info_ePdDd2>,
+        <https://cir4fun.eu/data#info_gOd3rz>,
+        <https://cir4fun.eu/data#info_gklrZ5>,
+        <https://cir4fun.eu/data#info_iTdeIu>,
+        <https://cir4fun.eu/data#info_iTibuV>,
+        <https://cir4fun.eu/data#info_k0RKzb>,
+        <https://cir4fun.eu/data#info_o7cHFc>,
+        <https://cir4fun.eu/data#info_qWoIqj>,
+        <https://cir4fun.eu/data#info_sExxWc>,
+        <https://cir4fun.eu/data#info_vffZIA>,
+        <https://cir4fun.eu/data#info_z8OZ2j>,
+        <https://cir4fun.eu/data#info_zDXjuJ>,
+        <https://cir4fun.eu/data#info_ztiFfm> .
 
 <https://cir4fun.eu/data#aspect_cd05248d388a> a dpp4fun:EnvironmentalImpact ;
     rdfs:label "submodel_EnvironmentalImpact_cd05248d388a" ;
     ns1:name "EnvironmentalImpact"^^xsd:string ;
     rdfs:comment "Submodel instance of EnvironmentalImpact with ID cd05248d388a" ;
-    pdto:hasInformation <https://cir4fun.eu/data#indicator_7TFasl>,
-        <https://cir4fun.eu/data#indicator_9EmVBE>,
-        <https://cir4fun.eu/data#indicator_HbfhnE>,
-        <https://cir4fun.eu/data#indicator_JUrqDS>,
-        <https://cir4fun.eu/data#indicator_UNGSKr>,
-        <https://cir4fun.eu/data#indicator_VG5erT>,
-        <https://cir4fun.eu/data#indicator_ctvei3>,
-        <https://cir4fun.eu/data#indicator_naAgRk>,
-        <https://cir4fun.eu/data#indicator_p3aX61>,
-        <https://cir4fun.eu/data#indicator_qFobCZ>,
-        <https://cir4fun.eu/data#indicator_r2cQyt>,
-        <https://cir4fun.eu/data#indicator_rh9peU>,
-        <https://cir4fun.eu/data#indicator_vDGxl8>,
-        <https://cir4fun.eu/data#indicator_wi0N5V>,
-        <https://cir4fun.eu/data#indicator_xkTZkO> .
+    pdto:hasInformation <https://cir4fun.eu/data#indicator_2t7c47>,
+        <https://cir4fun.eu/data#indicator_4xWVe8>,
+        <https://cir4fun.eu/data#indicator_8OsLsF>,
+        <https://cir4fun.eu/data#indicator_ISDNFd>,
+        <https://cir4fun.eu/data#indicator_JVTqPq>,
+        <https://cir4fun.eu/data#indicator_K1E2uc>,
+        <https://cir4fun.eu/data#indicator_RqRjsZ>,
+        <https://cir4fun.eu/data#indicator_aQIPbg>,
+        <https://cir4fun.eu/data#indicator_lc2kqn>,
+        <https://cir4fun.eu/data#indicator_qW9rbo>,
+        <https://cir4fun.eu/data#indicator_vVoC3X>,
+        <https://cir4fun.eu/data#indicator_w8Dg7n>,
+        <https://cir4fun.eu/data#indicator_wbCz6B>,
+        <https://cir4fun.eu/data#indicator_yo3moC>,
+        <https://cir4fun.eu/data#indicator_zv1peS> .
 
 <https://cir4fun.eu/data#aspect_da2f321f00aa> a dpp4fun:BillOfMaterials ;
     rdfs:label "submodel_BillOfMaterials_da2f321f00aa" ;
     ns1:name "BillOfMaterials"^^xsd:string ;
     rdfs:comment "Submodel instance of BillOfMaterials with ID da2f321f00aa" ;
-    pdto:hasInformation <https://cir4fun.eu/data#material_1vJbB4>,
-        <https://cir4fun.eu/data#material_68DThX>,
-        <https://cir4fun.eu/data#material_ITntbl>,
-        <https://cir4fun.eu/data#material_tDijd4> .
+    pdto:hasInformation <https://cir4fun.eu/data#material_27dNaJ>,
+        <https://cir4fun.eu/data#material_3t1Owx>,
+        <https://cir4fun.eu/data#material_TisFwX>,
+        <https://cir4fun.eu/data#material_uC6ezP> .
 
 <https://cir4fun.eu/data#aspect_e6e1b177fd23> a dpp4fun:Characteristics ;
     rdfs:label "submodel_Characteristics_e6e1b177fd23" ;
     ns1:name "Characteristics"^^xsd:string ;
     rdfs:comment "Submodel instance of Characteristics with ID e6e1b177fd23" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_20f5Ax>,
-        <https://cir4fun.eu/data#info_5kgpyC>,
-        <https://cir4fun.eu/data#info_6eyQ7Q>,
-        <https://cir4fun.eu/data#info_70GVnQ>,
-        <https://cir4fun.eu/data#info_8TnVW4>,
-        <https://cir4fun.eu/data#info_AM7QpG>,
-        <https://cir4fun.eu/data#info_B90hgq>,
-        <https://cir4fun.eu/data#info_C4TpIs>,
-        <https://cir4fun.eu/data#info_EWGZcH>,
-        <https://cir4fun.eu/data#info_FHM1zr>,
-        <https://cir4fun.eu/data#info_FNRCrN>,
-        <https://cir4fun.eu/data#info_IQWr67>,
-        <https://cir4fun.eu/data#info_IgA26r>,
-        <https://cir4fun.eu/data#info_J8ihVA>,
-        <https://cir4fun.eu/data#info_MdtSpp>,
-        <https://cir4fun.eu/data#info_MhcsSG>,
-        <https://cir4fun.eu/data#info_MmW2cQ>,
-        <https://cir4fun.eu/data#info_PTghcR>,
-        <https://cir4fun.eu/data#info_QQLCHp>,
-        <https://cir4fun.eu/data#info_UkQtEe>,
-        <https://cir4fun.eu/data#info_WbYEfw>,
-        <https://cir4fun.eu/data#info_X8SLZo>,
-        <https://cir4fun.eu/data#info_Yf4DAH>,
-        <https://cir4fun.eu/data#info_ZKw5sZ>,
-        <https://cir4fun.eu/data#info_aZhfXz>,
-        <https://cir4fun.eu/data#info_chcKRX>,
-        <https://cir4fun.eu/data#info_eNm1TE>,
-        <https://cir4fun.eu/data#info_gPPP4X>,
-        <https://cir4fun.eu/data#info_h9prSZ>,
-        <https://cir4fun.eu/data#info_iw1jG3>,
-        <https://cir4fun.eu/data#info_jRoKsK>,
-        <https://cir4fun.eu/data#info_k1DU7l>,
-        <https://cir4fun.eu/data#info_lEF97n>,
-        <https://cir4fun.eu/data#info_nUiyjr>,
-        <https://cir4fun.eu/data#info_qPeUzV>,
-        <https://cir4fun.eu/data#info_rm4oTo>,
-        <https://cir4fun.eu/data#info_xe9Twb> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_0JMYy1>,
+        <https://cir4fun.eu/data#info_0yryZ3>,
+        <https://cir4fun.eu/data#info_1wqiQw>,
+        <https://cir4fun.eu/data#info_5AHzzi>,
+        <https://cir4fun.eu/data#info_5IaOGR>,
+        <https://cir4fun.eu/data#info_5vkc4q>,
+        <https://cir4fun.eu/data#info_7fkg76>,
+        <https://cir4fun.eu/data#info_8TSo7z>,
+        <https://cir4fun.eu/data#info_CYRCox>,
+        <https://cir4fun.eu/data#info_CvPf6F>,
+        <https://cir4fun.eu/data#info_EDI33v>,
+        <https://cir4fun.eu/data#info_EmmXng>,
+        <https://cir4fun.eu/data#info_HdygGx>,
+        <https://cir4fun.eu/data#info_HfMcn9>,
+        <https://cir4fun.eu/data#info_IR5oxR>,
+        <https://cir4fun.eu/data#info_IWSo1q>,
+        <https://cir4fun.eu/data#info_L1LnTg>,
+        <https://cir4fun.eu/data#info_MhMxik>,
+        <https://cir4fun.eu/data#info_O2Cg1S>,
+        <https://cir4fun.eu/data#info_Q2tc7I>,
+        <https://cir4fun.eu/data#info_QhRI3G>,
+        <https://cir4fun.eu/data#info_SDTop7>,
+        <https://cir4fun.eu/data#info_SpHuZo>,
+        <https://cir4fun.eu/data#info_UKQCZx>,
+        <https://cir4fun.eu/data#info_WzuUf9>,
+        <https://cir4fun.eu/data#info_Xl1A9P>,
+        <https://cir4fun.eu/data#info_ZczLv6>,
+        <https://cir4fun.eu/data#info_cSrB5X>,
+        <https://cir4fun.eu/data#info_cX61jj>,
+        <https://cir4fun.eu/data#info_do3z0s>,
+        <https://cir4fun.eu/data#info_eBks9o>,
+        <https://cir4fun.eu/data#info_nByXY2>,
+        <https://cir4fun.eu/data#info_pdQIoj>,
+        <https://cir4fun.eu/data#info_qfof7b>,
+        <https://cir4fun.eu/data#info_rWcCgy>,
+        <https://cir4fun.eu/data#info_uFFff2>,
+        <https://cir4fun.eu/data#info_w0LLaD> .
 
 <https://cir4fun.eu/data#aspect_f43bacb788a7> a dpp4fun:HealthImpact ;
     rdfs:label "submodel_HealthImpact_f43bacb788a7" ;
     ns1:name "HealthImpact"^^xsd:string ;
     rdfs:comment "Submodel instance of HealthImpact with ID f43bacb788a7" ;
-    pdto:hasInformation <https://cir4fun.eu/data#indicator_BbsWIP>,
-        <https://cir4fun.eu/data#indicator_CzFOhk>,
-        <https://cir4fun.eu/data#indicator_Jd1R5u>,
-        <https://cir4fun.eu/data#indicator_f3qbkG>,
-        <https://cir4fun.eu/data#indicator_fdTn4P>,
-        <https://cir4fun.eu/data#indicator_oPfAZ3> .
+    pdto:hasInformation <https://cir4fun.eu/data#indicator_4RoMpp>,
+        <https://cir4fun.eu/data#indicator_Mtsmj9>,
+        <https://cir4fun.eu/data#indicator_aDmhLR>,
+        <https://cir4fun.eu/data#indicator_cDmSif>,
+        <https://cir4fun.eu/data#indicator_nUvmKI>,
+        <https://cir4fun.eu/data#indicator_sNro73> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001001> a dpp4fun:ProductRelationship ;
     rdfs:label "submodel_ProductRelationship_sm-040000001001" ;
     ns1:name "ProductRelationship"^^xsd:string ;
     rdfs:comment "Submodel instance of ProductRelationship with ID sm-040000001001" ;
-    pdto:hasInformation <https://cir4fun.eu/data#collectionmember_U8UWJ4> .
+    pdto:hasInformation <https://cir4fun.eu/data#collectionmember_7A2W2v> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001002> a dpp4fun:Reliability ;
     rdfs:label "submodel_Reliability_sm-040000001002" ;
     ns1:name "Reliability"^^xsd:string ;
     rdfs:comment "Submodel instance of Reliability with ID sm-040000001002" ;
-    pdto:hasInformation <https://cir4fun.eu/data#standard_f9FCX3> .
+    pdto:hasInformation <https://cir4fun.eu/data#standard_ft0lb9> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001003> a dpp4fun:Repairability ;
     rdfs:label "submodel_Repairability_sm-040000001003" ;
     ns1:name "Repairability"^^xsd:string ;
     rdfs:comment "Submodel instance of Repairability with ID sm-040000001003" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_B3sORh>,
-        <https://cir4fun.eu/data#repairinstruction_9ygZXL>,
-        <https://cir4fun.eu/data#repairinstruction_DLRPR7> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_tdlcSL>,
+        <https://cir4fun.eu/data#repairinstruction_TbtwJS>,
+        <https://cir4fun.eu/data#repairinstruction_wdJ6N0> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001004> a dpp4fun:Upgradability ;
     rdfs:label "submodel_Upgradability_sm-040000001004" ;
     ns1:name "Upgradability"^^xsd:string ;
     rdfs:comment "Submodel instance of Upgradability with ID sm-040000001004" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_uPXJUa>,
-        <https://cir4fun.eu/data#instruction_H0x044> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_XKXqmI>,
+        <https://cir4fun.eu/data#instruction_SKI3H0> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001005> a dpp4fun:Refurbishment ;
     rdfs:label "submodel_Refurbishment_sm-040000001005" ;
     ns1:name "Refurbishment"^^xsd:string ;
     rdfs:comment "Submodel instance of Refurbishment with ID sm-040000001005" ;
-    pdto:hasInformation <https://cir4fun.eu/data#refurbishmentinstruction_dvMyxz> .
+    pdto:hasInformation <https://cir4fun.eu/data#refurbishmentinstruction_pWOFXf> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001006> a dpp4fun:Reusability ;
     rdfs:label "submodel_Reusability_sm-040000001006" ;
     ns1:name "Reusability"^^xsd:string ;
     rdfs:comment "Submodel instance of Reusability with ID sm-040000001006" ;
-    pdto:hasInformation <https://cir4fun.eu/data#info_XnQDGK>,
-        <https://cir4fun.eu/data#scoringinstruction_bB4k9C> .
+    pdto:hasInformation <https://cir4fun.eu/data#info_JrKN7U>,
+        <https://cir4fun.eu/data#scoringinstruction_CPttl0> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001007> a dpp4fun:Remanufacturing ;
     rdfs:label "submodel_Remanufacturing_sm-040000001007" ;
     ns1:name "Remanufacturing"^^xsd:string ;
     rdfs:comment "Submodel instance of Remanufacturing with ID sm-040000001007" ;
-    pdto:hasInformation <https://cir4fun.eu/data#assemblyinstruction_mdppKD>,
-        <https://cir4fun.eu/data#disassemblyinstruction_75yGiZ> .
+    pdto:hasInformation <https://cir4fun.eu/data#assemblyinstruction_42ZLWr>,
+        <https://cir4fun.eu/data#disassemblyinstruction_ZsCA3z> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001008> a dpp4fun:WasteManagement ;
     rdfs:label "submodel_WasteManagement_sm-040000001008" ;
     ns1:name "WasteManagement"^^xsd:string ;
     rdfs:comment "Submodel instance of WasteManagement with ID sm-040000001008" ;
-    pdto:hasInformation <https://cir4fun.eu/data#disposalinstruction_KRRmcj>,
-        <https://cir4fun.eu/data#info_2VKskj>,
-        <https://cir4fun.eu/data#info_EtUVoV>,
-        <https://cir4fun.eu/data#info_H6gIop> .
+    pdto:hasInformation <https://cir4fun.eu/data#disposalinstruction_kQecAQ>,
+        <https://cir4fun.eu/data#info_8MwgbW>,
+        <https://cir4fun.eu/data#info_D6tf1Q>,
+        <https://cir4fun.eu/data#info_RX2yQi> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001009> a dpp4fun:CarbonFootprint ;
     rdfs:label "submodel_CarbonFootprint_sm-040000001009" ;
     ns1:name "CarbonFootprint"^^xsd:string ;
     rdfs:comment "Submodel instance of CarbonFootprint with ID sm-040000001009" ;
-    pdto:hasInformation <https://cir4fun.eu/data#carbonfootprintcalculation_7LknHq>,
-        <https://cir4fun.eu/data#carbonfootprintcalculation_Ywl6o5> .
+    pdto:hasInformation <https://cir4fun.eu/data#carbonfootprintcalculation_pDog9l>,
+        <https://cir4fun.eu/data#carbonfootprintcalculation_wgULMj> .
 
 <https://cir4fun.eu/data#aspect_sm-040000001010> a pdto:Traceability ;
     rdfs:label "submodel_Traceability_sm-040000001010" ;
     ns1:name "Traceability"^^xsd:string ;
     rdfs:comment "Submodel instance of Traceability with ID sm-040000001010" ;
-    pdto:hasInformation <https://cir4fun.eu/data#ManufacturingRecord_27LmM7>,
-        <https://cir4fun.eu/data#ManufacturingRecord_3mSzYb>,
-        <https://cir4fun.eu/data#ManufacturingRecord_CUtacz>,
-        <https://cir4fun.eu/data#ManufacturingRecord_LGyau4>,
-        <https://cir4fun.eu/data#ManufacturingRecord_T2JZI6>,
-        <https://cir4fun.eu/data#ManufacturingRecord_UKNiex>,
-        <https://cir4fun.eu/data#ManufacturingRecord_bI63Zi>,
-        <https://cir4fun.eu/data#ManufacturingRecord_bYUraH>,
-        <https://cir4fun.eu/data#ManufacturingRecord_jWNXwN>,
-        <https://cir4fun.eu/data#RepairRecord_p8FQOS>,
-        <https://cir4fun.eu/data#designrecord_8rGgbv>,
-        <https://cir4fun.eu/data#designrecord_brCeFQ>,
-        <https://cir4fun.eu/data#info_eFPguc>,
-        <https://cir4fun.eu/data#info_uGvusp>,
-        <https://cir4fun.eu/data#trackingrecord_6fM6bd>,
-        <https://cir4fun.eu/data#trackingrecord_8iHSyk> .
+    pdto:hasInformation <https://cir4fun.eu/data#ManufacturingRecord_3rTUah>,
+        <https://cir4fun.eu/data#ManufacturingRecord_7h1GFJ>,
+        <https://cir4fun.eu/data#ManufacturingRecord_7nFuhw>,
+        <https://cir4fun.eu/data#ManufacturingRecord_BC5ZRs>,
+        <https://cir4fun.eu/data#ManufacturingRecord_Taubax>,
+        <https://cir4fun.eu/data#ManufacturingRecord_Yw9kRh>,
+        <https://cir4fun.eu/data#ManufacturingRecord_ZReowi>,
+        <https://cir4fun.eu/data#ManufacturingRecord_lnjXHC>,
+        <https://cir4fun.eu/data#ManufacturingRecord_semwP5>,
+        <https://cir4fun.eu/data#RepairRecord_aiRF36>,
+        <https://cir4fun.eu/data#designrecord_bCofgt>,
+        <https://cir4fun.eu/data#designrecord_cGT0hV>,
+        <https://cir4fun.eu/data#info_FS8xVK>,
+        <https://cir4fun.eu/data#info_SAzU6U>,
+        <https://cir4fun.eu/data#trackingrecord_KqHc8z>,
+        <https://cir4fun.eu/data#trackingrecord_YcCqsj> .
 
 <https://cir4fun.eu/data#aspect_sm-159e87as8812> a dpp4fun:RightOfEndUsers ;
     rdfs:label "submodel_RightOfEndUsers_sm-159e87as8812" ;
     ns1:name "RightOfEndUsers"^^xsd:string ;
     rdfs:comment "Submodel instance of RightOfEndUsers with ID sm-159e87as8812" ;
-    pdto:hasInformation <https://cir4fun.eu/data#policies_teKfgL>,
-        <https://cir4fun.eu/data#postsaleservice_DHKs59>,
-        <https://cir4fun.eu/data#postsaleservice_QDetUR> .
+    pdto:hasInformation <https://cir4fun.eu/data#policies_AcgQdk>,
+        <https://cir4fun.eu/data#postsaleservice_9ohFi4>,
+        <https://cir4fun.eu/data#postsaleservice_uXsCJt> .
 
-<https://cir4fun.eu/data#assemblyinstruction_mdppKD> a pdto:AssemblyInstruction ;
-    rdfs:label "assemblyInstruction_Chair_Assembly_For_Manufacturing_mdppKD" ;
+<https://cir4fun.eu/data#assemblyinstruction_42ZLWr> a pdto:AssemblyInstruction ;
+    rdfs:label "assemblyInstruction_Chair_Assembly_For_Manufacturing_42ZLWr" ;
     ns1:description "To assemble the chair, place the seat upside down on a soft surface and attach the four legs by aligning them with the corner holes and tightening the screws lightly using the provided Allen key. Next, position the backrest at the rear of the seat, align the holes, and insert and tighten the remaining screws securely. Once all parts are connected, check that the chair is level, fully tighten all screws, and turn the chair upright. Assemble the chair on a flat surface and avoid overtightening the screws."^^xsd:string ;
     ns1:name "Chair Assembly For Manufacturing"^^xsd:string ;
-    rdfs:comment "Assembly instruction of Chair Assembly For Manufacturing with ID mdppKD" ;
+    rdfs:comment "Assembly instruction of Chair Assembly For Manufacturing with ID 42ZLWr" ;
     pdto:hasTargetAudience "Professional"^^xsd:string .
 
-<https://cir4fun.eu/data#carbonfootprintcalculation_7LknHq> a pdto:CarbonFootprintCalculation ;
-    rdfs:label "carbonFootprintCalculation_CF_Calculation_during_Transportation_7LknHq",
-        "carbonfootprintCalculation__7LknHq" ;
-    ns1:name "CF Calculation during Transportation"^^xsd:string ;
-    rdfs:comment "Carbon Footprint calculation of CF Calculation during Transportation with ID 7LknHq",
-        "CarbonFootprint calculation with ID 7LknHq" ;
-    pdto:hasPcfCO2eq 6.03e+00 ;
-    pdto:hasPcfImpactUnitForCalculation <https://cir4fun.eu/data#kgCO2e> ;
-    pdto:hasPcfQuantityOfMeasurementForCalculation "100 km"^^xsd:string ;
-    pdto:hasPhase "Transport"^^xsd:string ;
-    pdto:hasSimpleReference "GLEC Framework v3.0"^^xsd:anyURI .
-
-<https://cir4fun.eu/data#carbonfootprintcalculation_Ywl6o5> a pdto:CarbonFootprintCalculation ;
-    rdfs:label "carbonFootprintCalculation_CF_Calculation_during_Production_Ywl6o5",
-        "carbonfootprintCalculation__Ywl6o5" ;
+<https://cir4fun.eu/data#carbonfootprintcalculation_pDog9l> a pdto:CarbonFootprintCalculation ;
+    rdfs:label "carbonFootprintCalculation_CF_Calculation_during_Production_pDog9l",
+        "carbonfootprintCalculation__pDog9l" ;
     ns1:name "CF Calculation during Production"^^xsd:string ;
-    rdfs:comment "Carbon Footprint calculation of CF Calculation during Production with ID Ywl6o5",
-        "CarbonFootprint calculation with ID Ywl6o5" ;
+    rdfs:comment "Carbon Footprint calculation of CF Calculation during Production with ID pDog9l",
+        "CarbonFootprint calculation with ID pDog9l" ;
     pdto:hasPcfCO2eq 1.045e+01 ;
     pdto:hasPcfImpactUnitForCalculation <https://cir4fun.eu/data#kgCO2e> ;
     pdto:hasPcfQuantityOfMeasurementForCalculation "1.0 kg"^^xsd:string ;
     pdto:hasPhase "Production"^^xsd:string ;
     pdto:hasSimpleReference "ISO 14067:2018"^^xsd:anyURI .
 
-<https://cir4fun.eu/data#certificate_GDqK9o> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_IMO-Part8_GDqK9o" ;
-    ns1:description "Marine furniture fire safety"^^xsd:string ;
-    ns1:name "IMO-Part8"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_SFVP3j> ;
-    rdfs:comment "Certificate information of IMO-Part8 with ID GDqK9o" ;
-    pdto:hasIssuedDate "2018-12-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per IMO Part 8"^^xsd:string .
+<https://cir4fun.eu/data#carbonfootprintcalculation_wgULMj> a pdto:CarbonFootprintCalculation ;
+    rdfs:label "carbonFootprintCalculation_CF_Calculation_during_Transportation_wgULMj",
+        "carbonfootprintCalculation__wgULMj" ;
+    ns1:name "CF Calculation during Transportation"^^xsd:string ;
+    rdfs:comment "Carbon Footprint calculation of CF Calculation during Transportation with ID wgULMj",
+        "CarbonFootprint calculation with ID wgULMj" ;
+    pdto:hasPcfCO2eq 6.03e+00 ;
+    pdto:hasPcfImpactUnitForCalculation <https://cir4fun.eu/data#kgCO2e> ;
+    pdto:hasPcfQuantityOfMeasurementForCalculation "100 km"^^xsd:string ;
+    pdto:hasPhase "Transport"^^xsd:string ;
+    pdto:hasSimpleReference "GLEC Framework v3.0"^^xsd:anyURI .
 
-<https://cir4fun.eu/data#certificate_Kzsxpc> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_NFPA260_Kzsxpc" ;
-    ns1:description "Standard methods of fire tests"^^xsd:string ;
-    ns1:name "NFPA260"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_UbEzK1> ;
-    rdfs:comment "Certificate information of NFPA260 with ID Kzsxpc" ;
-    pdto:hasIssuedDate "2021-05-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per NFPA 260"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_Q4erYN> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_EN13773_Class_1_Q4erYN" ;
-    ns1:description "Seating fire resistance"^^xsd:string ;
-    ns1:name "EN13773 Class 1"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_p0NxIH> ;
-    rdfs:comment "Certificate information of EN13773 Class 1 with ID Q4erYN" ;
-    pdto:hasIssuedDate "2017-08-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per EN 13773"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_USC8Jj> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_EN12520-2015_USC8Jj" ;
+<https://cir4fun.eu/data#certificate_32Mp2w> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_EN12520-2015_32Mp2w" ;
     ns1:description "Strength, durability, and safety requirements for seating"^^xsd:string ;
     ns1:name "EN12520-2015"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_VwS6W1> ;
-    rdfs:comment "Certificate information of EN12520-2015 with ID USC8Jj" ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_xLjeHY> ;
+    rdfs:comment "Certificate information of EN12520-2015 with ID 32Mp2w" ;
     pdto:hasIssuedDate "2015-01-01T00:00:00"^^xsd:dateTime ;
     pdto:hasValidityPolicy "Valid as per EN 12520:2015"^^xsd:string .
 
-<https://cir4fun.eu/data#certificate_WVXuKa> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_OEKO-TEX-STD100-CIV_WVXuKa" ;
-    ns1:description "Textile safety for products not in direct contact with skin (e.g., furniture, home textiles)"^^xsd:string ;
-    ns1:name "OEKO-TEX-STD100-CIV"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_OfmSlF> ;
-    rdfs:comment "Certificate information of OEKO-TEX-STD100-CIV with ID WVXuKa" ;
-    pdto:hasIssuedDate "2023-03-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as long as OEKO-TEX STANDARD 100 Class IV certification is maintained"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_f1AVZ1> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_FSC-C123456_f1AVZ1" ;
-    ns1:description "Ensures responsible forest sourcing and recyclability"^^xsd:string ;
-    ns1:name "FSC-C123456"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_pua91A> ;
-    rdfs:comment "Certificate information of FSC-C123456 with ID f1AVZ1" ;
-    pdto:hasIssuedDate "2022-05-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as long as FSC certification is maintained"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_kX9ayt> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_NFPA701_kX9ayt" ;
+<https://cir4fun.eu/data#certificate_9MKhlO> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_NFPA701_9MKhlO" ;
     ns1:description "Fire tests for textiles and films"^^xsd:string ;
     ns1:name "NFPA701"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_c9DYLo> ;
-    rdfs:comment "Certificate information of NFPA701 with ID kX9ayt" ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_fIPY7u> ;
+    rdfs:comment "Certificate information of NFPA701 with ID 9MKhlO" ;
     pdto:hasIssuedDate "2021-05-01T00:00:00"^^xsd:dateTime ;
     pdto:hasValidityPolicy "Valid as per NFPA 701"^^xsd:string .
 
-<https://cir4fun.eu/data#certificate_n61DDt> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_OEKO-TEX-STD100-CII_n61DDt" ;
-    ns1:description "Textile safety for products in direct contact with skin"^^xsd:string ;
-    ns1:name "OEKO-TEX-STD100-CII"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_13Jszs> ;
-    rdfs:comment "Certificate information of OEKO-TEX-STD100-CII with ID n61DDt" ;
-    pdto:hasIssuedDate "2023-03-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as long as OEKO-TEX STANDARD 100 Class II certification is maintained"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_na0j63> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_DIN4102-B1_na0j63" ;
-    ns1:description "Fire behavior of building materials"^^xsd:string ;
-    ns1:name "DIN4102-B1"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_VLjpWS> ;
-    rdfs:comment "Certificate information of DIN4102-B1 with ID na0j63" ;
-    pdto:hasIssuedDate "2019-10-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per DIN 4102"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_pVtaP2> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_TB117-CA_pVtaP2" ;
-    ns1:description "Furniture fire resistance standard"^^xsd:string ;
-    ns1:name "TB117-CA"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_t3TI0g> ;
-    rdfs:comment "Certificate information of TB117-CA with ID pVtaP2" ;
-    pdto:hasIssuedDate "2020-01-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per TB117"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_sVKDW1> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_EN1021-1&2_sVKDW1" ;
-    ns1:description "Furniture flammability test"^^xsd:string ;
-    ns1:name "EN1021-1&2"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_xIQChC> ;
-    rdfs:comment "Certificate information of EN1021-1&2 with ID sVKDW1" ;
-    pdto:hasIssuedDate "2019-03-01T00:00:00"^^xsd:dateTime ;
-    pdto:hasValidityPolicy "Valid as per EN 1021"^^xsd:string .
-
-<https://cir4fun.eu/data#certificate_xsvc85> a dppo:CertificateInformation ;
-    rdfs:label "certificateInformation_UNI8456_Class_1_xsvc85" ;
+<https://cir4fun.eu/data#certificate_BoeqCd> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_UNI8456_Class_1_BoeqCd" ;
     ns1:description "Furniture testing standard"^^xsd:string ;
     ns1:name "UNI8456 Class 1"^^xsd:string ;
-    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_q8rTmS> ;
-    rdfs:comment "Certificate information of UNI8456 Class 1 with ID xsvc85" ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_wkgMfR> ;
+    rdfs:comment "Certificate information of UNI8456 Class 1 with ID BoeqCd" ;
     pdto:hasIssuedDate "2018-06-01T00:00:00"^^xsd:dateTime ;
     pdto:hasValidityPolicy "Valid as per UNI 8456"^^xsd:string .
 
-<https://cir4fun.eu/data#collectionmember_U8UWJ4> a dpp4fun:CollectionMember ;
-    rdfs:label "collectionMember_Meli_Brown_U8UWJ4" ;
+<https://cir4fun.eu/data#certificate_CTuEeW> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_OEKO-TEX-STD100-CIV_CTuEeW" ;
+    ns1:description "Textile safety for products not in direct contact with skin (e.g., furniture, home textiles)"^^xsd:string ;
+    ns1:name "OEKO-TEX-STD100-CIV"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_tZHJF7> ;
+    rdfs:comment "Certificate information of OEKO-TEX-STD100-CIV with ID CTuEeW" ;
+    pdto:hasIssuedDate "2023-03-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as long as OEKO-TEX STANDARD 100 Class IV certification is maintained"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_JrgcJb> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_DIN4102-B1_JrgcJb" ;
+    ns1:description "Fire behavior of building materials"^^xsd:string ;
+    ns1:name "DIN4102-B1"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_WHpFQx> ;
+    rdfs:comment "Certificate information of DIN4102-B1 with ID JrgcJb" ;
+    pdto:hasIssuedDate "2019-10-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per DIN 4102"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_UKD9GE> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_TB117-CA_UKD9GE" ;
+    ns1:description "Furniture fire resistance standard"^^xsd:string ;
+    ns1:name "TB117-CA"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_LQdCAz> ;
+    rdfs:comment "Certificate information of TB117-CA with ID UKD9GE" ;
+    pdto:hasIssuedDate "2020-01-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per TB117"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_VFqe7G> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_NFPA260_VFqe7G" ;
+    ns1:description "Standard methods of fire tests"^^xsd:string ;
+    ns1:name "NFPA260"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_X2l36L> ;
+    rdfs:comment "Certificate information of NFPA260 with ID VFqe7G" ;
+    pdto:hasIssuedDate "2021-05-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per NFPA 260"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_Yd9XI0> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_EN1021-1&2_Yd9XI0" ;
+    ns1:description "Furniture flammability test"^^xsd:string ;
+    ns1:name "EN1021-1&2"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_AoVPTa> ;
+    rdfs:comment "Certificate information of EN1021-1&2 with ID Yd9XI0" ;
+    pdto:hasIssuedDate "2019-03-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per EN 1021"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_YwBt8f> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_FSC-C123456_YwBt8f" ;
+    ns1:description "Ensures responsible forest sourcing and recyclability"^^xsd:string ;
+    ns1:name "FSC-C123456"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_DzphO8> ;
+    rdfs:comment "Certificate information of FSC-C123456 with ID YwBt8f" ;
+    pdto:hasIssuedDate "2022-05-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as long as FSC certification is maintained"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_oAJynw> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_OEKO-TEX-STD100-CII_oAJynw" ;
+    ns1:description "Textile safety for products in direct contact with skin"^^xsd:string ;
+    ns1:name "OEKO-TEX-STD100-CII"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_7fMFQP> ;
+    rdfs:comment "Certificate information of OEKO-TEX-STD100-CII with ID oAJynw" ;
+    pdto:hasIssuedDate "2023-03-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as long as OEKO-TEX STANDARD 100 Class II certification is maintained"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_rpYcRw> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_EN13773_Class_1_rpYcRw" ;
+    ns1:description "Seating fire resistance"^^xsd:string ;
+    ns1:name "EN13773 Class 1"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_zb9i5I> ;
+    rdfs:comment "Certificate information of EN13773 Class 1 with ID rpYcRw" ;
+    pdto:hasIssuedDate "2017-08-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per EN 13773"^^xsd:string .
+
+<https://cir4fun.eu/data#certificate_uOOrAs> a dppo:CertificateInformation ;
+    rdfs:label "certificateInformation_IMO-Part8_uOOrAs" ;
+    ns1:description "Marine furniture fire safety"^^xsd:string ;
+    ns1:name "IMO-Part8"^^xsd:string ;
+    dppo:certificateDocument <https://cir4fun.eu/data#digitalDocument_8Tjsqu> ;
+    rdfs:comment "Certificate information of IMO-Part8 with ID uOOrAs" ;
+    pdto:hasIssuedDate "2018-12-01T00:00:00"^^xsd:dateTime ;
+    pdto:hasValidityPolicy "Valid as per IMO Part 8"^^xsd:string .
+
+<https://cir4fun.eu/data#collectionmember_7A2W2v> a dpp4fun:CollectionMember ;
+    rdfs:label "collectionMember_Meli_Brown_7A2W2v" ;
     ns1:description "Meli Chair with white color"^^xsd:string ;
     ns1:name "Meli Brown"^^xsd:string ;
-    rdfs:comment "Collection member of Meli Brown with ID U8UWJ4" ;
+    rdfs:comment "Collection member of Meli Brown with ID 7A2W2v" ;
     pdto:hasSimpleReference "https://cir4fun.pkgi40.codelib.re/dpp/e9230c87"^^xsd:anyURI .
 
-<https://cir4fun.eu/data#designrecord_8rGgbv> a pdto:DesignRecord ;
-    rdfs:label "designRecord_Design_Meli_3-Seater_8rGgbv" ;
-    ns1:description "Design the Meli Series"^^xsd:string ;
-    ns1:name "Design Meli 3-Seater"^^xsd:string ;
-    dppo:endTime "2020-01-01T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Design recordDesign_Meli_3-Seater with ID 8rGgbv" ;
-    pdto:designFile <https://cir4fun.eu/data#digitaldocument_oIfTs3> ;
-    pdto:hasOperator "Kave Home Design Team"^^xsd:string ;
-    pdto:hasStatus "Verified"^^xsd:string ;
-    pdto:hasVersion "1.0"^^xsd:string .
-
-<https://cir4fun.eu/data#designrecord_brCeFQ> a pdto:DesignRecord ;
-    rdfs:label "designRecord_Design_Meli_3-Seater_brCeFQ" ;
+<https://cir4fun.eu/data#designrecord_bCofgt> a pdto:DesignRecord ;
+    rdfs:label "designRecord_Design_Meli_3-Seater_bCofgt" ;
     ns1:description "Design the Meli Series"^^xsd:string ;
     ns1:name "Design Meli 3-Seater"^^xsd:string ;
     dppo:endTime "2021-01-01T15:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Design recordDesign_Meli_3-Seater with ID brCeFQ" ;
-    pdto:designFile <https://cir4fun.eu/data#digitaldocument_DcowBC> ;
+    rdfs:comment "Design recordDesign_Meli_3-Seater with ID bCofgt" ;
+    pdto:designFile <https://cir4fun.eu/data#digitaldocument_DSaYFU> ;
     pdto:hasOperator "Kave Home Design Team"^^xsd:string ;
     pdto:hasStatus "Approved"^^xsd:string ;
     pdto:hasVersion "2.0"^^xsd:string .
 
-<https://cir4fun.eu/data#digitalDocument_13Jszs> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_13Jszs" ;
-    rdfs:comment "Certificate document with ID 13Jszs" ;
+<https://cir4fun.eu/data#designrecord_cGT0hV> a pdto:DesignRecord ;
+    rdfs:label "designRecord_Design_Meli_3-Seater_cGT0hV" ;
+    ns1:description "Design the Meli Series"^^xsd:string ;
+    ns1:name "Design Meli 3-Seater"^^xsd:string ;
+    dppo:endTime "2020-01-01T08:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Design recordDesign_Meli_3-Seater with ID cGT0hV" ;
+    pdto:designFile <https://cir4fun.eu/data#digitaldocument_ZmuiLq> ;
+    pdto:hasOperator "Kave Home Design Team"^^xsd:string ;
+    pdto:hasStatus "Verified"^^xsd:string ;
+    pdto:hasVersion "1.0"^^xsd:string .
+
+<https://cir4fun.eu/data#digitalDocument_4gAujC> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_4gAujC" ;
+    rdfs:comment "Calculation method with ID 4gAujC" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_7fMFQP> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_7fMFQP" ;
+    rdfs:comment "Certificate document with ID 7fMFQP" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_1xOIt8> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_1xOIt8" ;
-    rdfs:comment "Calculation method with ID 1xOIt8" ;
+<https://cir4fun.eu/data#digitalDocument_8Tjsqu> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_8Tjsqu" ;
+    rdfs:comment "Certificate document with ID 8Tjsqu" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_AoVPTa> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_AoVPTa" ;
+    rdfs:comment "Certificate document with ID AoVPTa" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_DzphO8> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_DzphO8" ;
+    rdfs:comment "Certificate document with ID DzphO8" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_EcIQIC> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_EcIQIC" ;
+    rdfs:comment "Calculation method with ID EcIQIC" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_87BFn9> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_87BFn9" ;
-    rdfs:comment "Calculation method with ID 87BFn9" ;
+<https://cir4fun.eu/data#digitalDocument_FsltIj> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_FsltIj" ;
+    rdfs:comment "Calculation method with ID FsltIj" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_AH4ynf> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_AH4ynf" ;
-    rdfs:comment "Calculation method with ID AH4ynf" ;
+<https://cir4fun.eu/data#digitalDocument_H4ijCc> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_H4ijCc" ;
+    rdfs:comment "Calculation method with ID H4ijCc" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_BN2Oos> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_BN2Oos" ;
-    rdfs:comment "Calculation method with ID BN2Oos" ;
+<https://cir4fun.eu/data#digitalDocument_HI6rsC> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_HI6rsC" ;
+    rdfs:comment "Calculation method with ID HI6rsC" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_DJepq3> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_DJepq3" ;
-    rdfs:comment "Calculation method with ID DJepq3" ;
+<https://cir4fun.eu/data#digitalDocument_LQdCAz> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_LQdCAz" ;
+    rdfs:comment "Certificate document with ID LQdCAz" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_MQby9c> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_MQby9c" ;
+    rdfs:comment "Calculation method with ID MQby9c" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_FbV62s> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_FbV62s" ;
-    rdfs:comment "Calculation method with ID FbV62s" ;
+<https://cir4fun.eu/data#digitalDocument_SHeAri> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_SHeAri" ;
+    rdfs:comment "Calculation method with ID SHeAri" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_JpMYdC> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_JpMYdC" ;
-    rdfs:comment "Calculation method with ID JpMYdC" ;
+<https://cir4fun.eu/data#digitalDocument_SMm8NH> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_SMm8NH" ;
+    rdfs:comment "Calculation method with ID SMm8NH" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_WHpFQx> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_WHpFQx" ;
+    rdfs:comment "Certificate document with ID WHpFQx" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_X2l36L> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_X2l36L" ;
+    rdfs:comment "Certificate document with ID X2l36L" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_XXxXEQ> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_XXxXEQ" ;
+    rdfs:comment "Calculation method with ID XXxXEQ" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_YwYCVb> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_YwYCVb" ;
+    rdfs:comment "Calculation method with ID YwYCVb" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_a5zrQh> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_a5zrQh" ;
+    rdfs:comment "Calculation method with ID a5zrQh" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_LCHPnw> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_LCHPnw" ;
-    rdfs:comment "Calculation method with ID LCHPnw" ;
+<https://cir4fun.eu/data#digitalDocument_aZbsWJ> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_aZbsWJ" ;
+    rdfs:comment "Calculation method with ID aZbsWJ" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_afejbE> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_afejbE" ;
+    rdfs:comment "Calculation method with ID afejbE" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_bCuTUI> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_bCuTUI" ;
+    rdfs:comment "Calculation method with ID bCuTUI" ;
+    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+
+<https://cir4fun.eu/data#digitalDocument_eJIDI7> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_eJIDI7" ;
+    rdfs:comment "Calculation method with ID eJIDI7" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_NBflLd> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_NBflLd" ;
-    rdfs:comment "Calculation method with ID NBflLd" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_OfmSlF> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_OfmSlF" ;
-    rdfs:comment "Certificate document with ID OfmSlF" ;
+<https://cir4fun.eu/data#digitalDocument_fIPY7u> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_fIPY7u" ;
+    rdfs:comment "Certificate document with ID fIPY7u" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_POXyMW> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_POXyMW" ;
-    rdfs:comment "Calculation method with ID POXyMW" ;
+<https://cir4fun.eu/data#digitalDocument_gNDR0x> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_gNDR0x" ;
+    rdfs:comment "Calculation method with ID gNDR0x" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_Ruw8th> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Ruw8th" ;
-    rdfs:comment "Calculation method with ID Ruw8th" ;
+<https://cir4fun.eu/data#digitalDocument_kpgcb3> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_kpgcb3" ;
+    rdfs:comment "Calculation method with ID kpgcb3" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_SFVP3j> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_SFVP3j" ;
-    rdfs:comment "Certificate document with ID SFVP3j" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_U61fyk> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_U61fyk" ;
-    rdfs:comment "Calculation method with ID U61fyk" ;
+<https://cir4fun.eu/data#digitalDocument_lj4HlL> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_lj4HlL" ;
+    rdfs:comment "Calculation method with ID lj4HlL" ;
     pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
 
-<https://cir4fun.eu/data#digitalDocument_UTdypK> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_UTdypK" ;
-    rdfs:comment "Calculation method with ID UTdypK" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_Ua2IvK> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_Ua2IvK" ;
-    rdfs:comment "Calculation method with ID Ua2IvK" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_UbEzK1> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_UbEzK1" ;
-    rdfs:comment "Certificate document with ID UbEzK1" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_VIXtCv> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_VIXtCv" ;
-    rdfs:comment "Calculation method with ID VIXtCv" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_VLjpWS> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_VLjpWS" ;
-    rdfs:comment "Certificate document with ID VLjpWS" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_VpP4hD> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_VpP4hD" ;
-    rdfs:comment "Calculation method with ID VpP4hD" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_VwS6W1> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_VwS6W1" ;
-    rdfs:comment "Certificate document with ID VwS6W1" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_c9DYLo> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_c9DYLo" ;
-    rdfs:comment "Certificate document with ID c9DYLo" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_ehVdtG> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_ehVdtG" ;
-    rdfs:comment "Calculation method with ID ehVdtG" ;
+<https://cir4fun.eu/data#digitalDocument_pMHTNx> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_pMHTNx" ;
+    rdfs:comment "Calculation method with ID pMHTNx" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_nGZB0g> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_nGZB0g" ;
-    rdfs:comment "Calculation method with ID nGZB0g" ;
+<https://cir4fun.eu/data#digitalDocument_qIoyfw> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_qIoyfw" ;
+    rdfs:comment "Calculation method with ID qIoyfw" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_p0NxIH> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_p0NxIH" ;
-    rdfs:comment "Certificate document with ID p0NxIH" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_pua91A> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_pua91A" ;
-    rdfs:comment "Certificate document with ID pua91A" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_q8rTmS> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_q8rTmS" ;
-    rdfs:comment "Certificate document with ID q8rTmS" ;
-    pdto:hasIRI "N.A" .
-
-<https://cir4fun.eu/data#digitalDocument_qJ6Iiy> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_qJ6Iiy" ;
-    rdfs:comment "Calculation method with ID qJ6Iiy" ;
+<https://cir4fun.eu/data#digitalDocument_qNaVO1> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_qNaVO1" ;
+    rdfs:comment "Calculation method with ID qNaVO1" ;
     pdto:hasIRI "https://www.lcacommons.org/hia" .
 
-<https://cir4fun.eu/data#digitalDocument_t3TI0g> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_t3TI0g" ;
-    rdfs:comment "Certificate document with ID t3TI0g" ;
+<https://cir4fun.eu/data#digitalDocument_tZHJF7> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_tZHJF7" ;
+    rdfs:comment "Certificate document with ID tZHJF7" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_x2eq6c> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_x2eq6c" ;
-    rdfs:comment "Calculation method with ID x2eq6c" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
-
-<https://cir4fun.eu/data#digitalDocument_xIQChC> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_xIQChC" ;
-    rdfs:comment "Certificate document with ID xIQChC" ;
+<https://cir4fun.eu/data#digitalDocument_wkgMfR> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_wkgMfR" ;
+    rdfs:comment "Certificate document with ID wkgMfR" ;
     pdto:hasIRI "N.A" .
 
-<https://cir4fun.eu/data#digitalDocument_zG4olL> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_zG4olL" ;
-    rdfs:comment "Calculation method with ID zG4olL" ;
-    pdto:hasIRI "https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html" .
+<https://cir4fun.eu/data#digitalDocument_xLjeHY> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_xLjeHY" ;
+    rdfs:comment "Certificate document with ID xLjeHY" ;
+    pdto:hasIRI "N.A" .
+
+<https://cir4fun.eu/data#digitalDocument_zb9i5I> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_zb9i5I" ;
+    rdfs:comment "Certificate document with ID zb9i5I" ;
+    pdto:hasIRI "N.A" .
 
 <https://cir4fun.eu/data#digital_product_e9230c88> rdfs:label "sphereDigital_Kave-Meli" ;
     rdfs:comment "Digital Product instance of https://www.cir4fun.eu/ontology/dpp4fun#C06061BF12 with ID Kave-Meli" ;
     ns3:hasModel <https://cir4fun.eu/data#information_model_e9230c88> .
 
-<https://cir4fun.eu/data#digitaldocument_DcowBC> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_DcowBC" ;
-    rdfs:comment "Design file with ID DcowBC" ;
+<https://cir4fun.eu/data#digitaldocument_DSaYFU> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_DSaYFU" ;
+    rdfs:comment "Design file with ID DSaYFU" ;
     pdto:hasIRI "Meli_CAD_vFinal.dwg" .
 
-<https://cir4fun.eu/data#digitaldocument_oIfTs3> a ns1:DigitalDocument ;
-    rdfs:label "digitalDocument_oIfTs3" ;
-    rdfs:comment "Design file with ID oIfTs3" ;
+<https://cir4fun.eu/data#digitaldocument_ZmuiLq> a ns1:DigitalDocument ;
+    rdfs:label "digitalDocument_ZmuiLq" ;
+    rdfs:comment "Design file with ID ZmuiLq" ;
     pdto:hasIRI "Meli_CAD_v1.0.dwg" .
 
-<https://cir4fun.eu/data#disassemblyinstruction_75yGiZ> a pdto:AssemblyInstruction ;
-    rdfs:label "assemblyInstruction_Chair_Disassembly_For_Manufacturing_75yGiZ" ;
+<https://cir4fun.eu/data#disassemblyinstruction_ZsCA3z> a pdto:AssemblyInstruction ;
+    rdfs:label "assemblyInstruction_Chair_Disassembly_For_Manufacturing_ZsCA3z" ;
     ns1:description "To disassemble the chair, place it upside down on a soft and flat surface, then use the Allen key to loosen and remove all screws securing the backrest to the seat before carefully separating the backrest. Next, remove the screws attaching each leg to the seat and detach the legs one by one. Keep all screws and small parts together to avoid loss during storage or transport, and store the chair components in a dry and safe place to prevent damage."^^xsd:string ;
     ns1:name "Chair Disassembly For Manufacturing"^^xsd:string ;
-    rdfs:comment "Assembly instruction of Chair Disassembly For Manufacturing with ID 75yGiZ" ;
+    rdfs:comment "Assembly instruction of Chair Disassembly For Manufacturing with ID ZsCA3z" ;
     pdto:hasTargetAudience "Professional"^^xsd:string .
 
-<https://cir4fun.eu/data#disposalinstruction_KRRmcj> a pdto:DisposalInstruction ;
-    rdfs:label "disposalInstruction_End-of-Life_Disposal_KRRmcj" ;
+<https://cir4fun.eu/data#disposalinstruction_kQecAQ> a pdto:DisposalInstruction ;
+    rdfs:label "disposalInstruction_End-of-Life_Disposal_kQecAQ" ;
     ns1:description "At the end of the chair’s service life, disassemble all components and separate the materials such as metal, plastic, wood, and fabric where applicable. Dispose of each material according to local recycling and waste management regulations. Reusable parts should be recovered whenever possible, and damaged or non-recyclable components must be disposed of through an authorized waste collection facility. Do not dispose of the chair in natural environments or with uncontrolled household waste."^^xsd:string ;
     ns1:name "End-of-Life Disposal"^^xsd:string ;
-    rdfs:comment "Disposal instruction of End-of-Life Disposal with ID KRRmcj" .
+    rdfs:comment "Disposal instruction of End-of-Life Disposal with ID kQecAQ" .
 
-<https://cir4fun.eu/data#indicator_7TFasl> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Eutrophication_Terrestrial_7TFasl" ;
+<https://cir4fun.eu/data#indicator_2t7c47> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Eutrophication_Terrestrial_2t7c47" ;
     ns1:description "Eutrophication (terrestrial)"^^xsd:string ;
     ns1:name "PEF_Eutrophication_Terrestrial"^^xsd:string ;
     dppo:unit <https://cir4fun.eu/data#molN-eq> ;
     dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Eutrophication_Terrestrial with ID 7TFasl" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_87BFn9> .
+    rdfs:comment "Indicator information of PEF_Eutrophication_Terrestrial with ID 2t7c47" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_afejbE> .
 
-<https://cir4fun.eu/data#indicator_9EmVBE> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_ResourceUse_Fossils_9EmVBE" ;
-    ns1:description "Resource Use – Fossils"^^xsd:string ;
-    ns1:name "PEF_ResourceUse_Fossils"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#MJ> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_ResourceUse_Fossils with ID 9EmVBE" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_x2eq6c> .
-
-<https://cir4fun.eu/data#indicator_BbsWIP> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Reproductive_BbsWIP" ;
+<https://cir4fun.eu/data#indicator_4RoMpp> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Reproductive_4RoMpp" ;
     ns1:description "Reproductive toxicity"^^xsd:string ;
     ns1:name "HIA_Reproductive"^^xsd:string ;
     dppo:unit <https://cir4fun.eu/data#CTUh> ;
     dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Reproductive with ID BbsWIP" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_JpMYdC> ;
+    rdfs:comment "Indicator information of HIA_Reproductive with ID 4RoMpp" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_a5zrQh> ;
     pdto:hasSimpleType "Reproductive"^^xsd:string .
 
-<https://cir4fun.eu/data#indicator_CzFOhk> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Neurotoxicity_CzFOhk" ;
-    ns1:description "Neurotoxicity"^^xsd:string ;
-    ns1:name "HIA_Neurotoxicity"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Neurotoxicity with ID CzFOhk" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_LCHPnw> ;
-    pdto:hasSimpleType "Neurological"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_HbfhnE> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_WaterScarcity_HbfhnE" ;
-    ns1:description "Water Scarcity"^^xsd:string ;
-    ns1:name "PEF_WaterScarcity"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#m³water-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_WaterScarcity with ID HbfhnE" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_Ua2IvK> .
-
-<https://cir4fun.eu/data#indicator_JUrqDS> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_OzoneDepletion_JUrqDS" ;
-    ns1:description "Ozone Depletion"^^xsd:string ;
-    ns1:name "PEF_OzoneDepletion"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgCFC-11-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_OzoneDepletion with ID JUrqDS" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_DJepq3> .
-
-<https://cir4fun.eu/data#indicator_Jd1R5u> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_NonCarcinogenic_Jd1R5u" ;
-    ns1:description "Non-carcinogenic effects"^^xsd:string ;
-    ns1:name "HIA_NonCarcinogenic"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_NonCarcinogenic with ID Jd1R5u" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_ehVdtG> ;
-    pdto:hasSimpleType "Non-Cancer"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_UNGSKr> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_LandUse_UNGSKr" ;
-    ns1:description "Land Use"^^xsd:string ;
-    ns1:name "PEF_LandUse"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#Soilqualityindex> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_LandUse with ID UNGSKr" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_UTdypK> .
-
-<https://cir4fun.eu/data#indicator_VG5erT> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_PhotochemicalOzoneFormation_VG5erT" ;
-    ns1:description "Photochemical Ozone Formation"^^xsd:string ;
-    ns1:name "PEF_PhotochemicalOzoneFormation"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgNMVOC-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_PhotochemicalOzoneFormation with ID VG5erT" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_NBflLd> .
-
-<https://cir4fun.eu/data#indicator_ctvei3> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Eutrophication_Freshwater_ctvei3" ;
-    ns1:description "Eutrophication (freshwater)"^^xsd:string ;
-    ns1:name "PEF_Eutrophication_Freshwater"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgPO4³⁻-eq> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Eutrophication_Freshwater with ID ctvei3" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_VIXtCv> .
-
-<https://cir4fun.eu/data#indicator_f3qbkG> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Carcinogenic_f3qbkG" ;
-    ns1:description "Carcinogenic effects"^^xsd:string ;
-    ns1:name "HIA_Carcinogenic"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Carcinogenic with ID f3qbkG" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_AH4ynf> ;
-    pdto:hasSimpleType "Cancer"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_fdTn4P> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Endocrine_fdTn4P" ;
-    ns1:description "Endocrine disruption"^^xsd:string ;
-    ns1:name "HIA_Endocrine"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Endocrine with ID fdTn4P" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_nGZB0g> ;
-    pdto:hasSimpleType "Endocrine"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_naAgRk> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_ResourceUse_MineralsMetals_naAgRk" ;
-    ns1:description "Resource Use – Minerals/Metals"^^xsd:string ;
-    ns1:name "PEF_ResourceUse_MineralsMetals"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgSb-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_ResourceUse_MineralsMetals with ID naAgRk" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_BN2Oos> .
-
-<https://cir4fun.eu/data#indicator_oPfAZ3> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_HIA_Respiratory_oPfAZ3" ;
-    ns1:description "Respiratory effects"^^xsd:string ;
-    ns1:name "HIA_Respiratory"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of HIA_Respiratory with ID oPfAZ3" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_qJ6Iiy> ;
-    pdto:hasSimpleType "Respiratory"^^xsd:string .
-
-<https://cir4fun.eu/data#indicator_p3aX61> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Ecotoxicity_Freshwater_p3aX61" ;
-    ns1:description "Ecotoxicity (freshwater)"^^xsd:string ;
-    ns1:name "PEF_Ecotoxicity_Freshwater"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUe> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Ecotoxicity_Freshwater with ID p3aX61" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_1xOIt8> .
-
-<https://cir4fun.eu/data#indicator_qFobCZ> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Acidification_qFobCZ" ;
-    ns1:description "Acidification"^^xsd:string ;
-    ns1:name "PEF_Acidification"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#molH⁺-equivalent> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Acidification with ID qFobCZ" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_Ruw8th> .
-
-<https://cir4fun.eu/data#indicator_r2cQyt> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_HumanToxicity_Cancer_r2cQyt" ;
-    ns1:description "Human Toxicity (cancer)"^^xsd:string ;
-    ns1:name "PEF_HumanToxicity_Cancer"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#CTUh> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_HumanToxicity_Cancer with ID r2cQyt" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_VpP4hD> .
-
-<https://cir4fun.eu/data#indicator_rh9peU> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_Eutrophication_Marine_rh9peU" ;
-    ns1:description "Eutrophication (marine)"^^xsd:string ;
-    ns1:name "PEF_Eutrophication_Marine"^^xsd:string ;
-    dppo:unit <https://cir4fun.eu/data#kgN-eq> ;
-    dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_Eutrophication_Marine with ID rh9peU" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_U61fyk> .
-
-<https://cir4fun.eu/data#indicator_vDGxl8> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_ParticulateMatter_vDGxl8" ;
+<https://cir4fun.eu/data#indicator_4xWVe8> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_ParticulateMatter_4xWVe8" ;
     ns1:description "Particulate Matter"^^xsd:string ;
     ns1:name "PEF_ParticulateMatter"^^xsd:string ;
     dppo:unit <https://cir4fun.eu/data#kgPM2.5-equivalent> ;
     dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_ParticulateMatter with ID vDGxl8" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_zG4olL> .
+    rdfs:comment "Indicator information of PEF_ParticulateMatter with ID 4xWVe8" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_XXxXEQ> .
 
-<https://cir4fun.eu/data#indicator_wi0N5V> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_ClimateChange_wi0N5V" ;
+<https://cir4fun.eu/data#indicator_8OsLsF> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_OzoneDepletion_8OsLsF" ;
+    ns1:description "Ozone Depletion"^^xsd:string ;
+    ns1:name "PEF_OzoneDepletion"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgCFC-11-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_OzoneDepletion with ID 8OsLsF" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_bCuTUI> .
+
+<https://cir4fun.eu/data#indicator_ISDNFd> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_ResourceUse_Fossils_ISDNFd" ;
+    ns1:description "Resource Use – Fossils"^^xsd:string ;
+    ns1:name "PEF_ResourceUse_Fossils"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#MJ> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_ResourceUse_Fossils with ID ISDNFd" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_kpgcb3> .
+
+<https://cir4fun.eu/data#indicator_JVTqPq> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Acidification_JVTqPq" ;
+    ns1:description "Acidification"^^xsd:string ;
+    ns1:name "PEF_Acidification"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#molH⁺-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_Acidification with ID JVTqPq" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_aZbsWJ> .
+
+<https://cir4fun.eu/data#indicator_K1E2uc> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_ResourceUse_MineralsMetals_K1E2uc" ;
+    ns1:description "Resource Use – Minerals/Metals"^^xsd:string ;
+    ns1:name "PEF_ResourceUse_MineralsMetals"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgSb-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_ResourceUse_MineralsMetals with ID K1E2uc" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_HI6rsC> .
+
+<https://cir4fun.eu/data#indicator_Mtsmj9> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Endocrine_Mtsmj9" ;
+    ns1:description "Endocrine disruption"^^xsd:string ;
+    ns1:name "HIA_Endocrine"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_Endocrine with ID Mtsmj9" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_qIoyfw> ;
+    pdto:hasSimpleType "Endocrine"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_RqRjsZ> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_LandUse_RqRjsZ" ;
+    ns1:description "Land Use"^^xsd:string ;
+    ns1:name "PEF_LandUse"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#Soilqualityindex> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_LandUse with ID RqRjsZ" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_FsltIj> .
+
+<https://cir4fun.eu/data#indicator_aDmhLR> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Neurotoxicity_aDmhLR" ;
+    ns1:description "Neurotoxicity"^^xsd:string ;
+    ns1:name "HIA_Neurotoxicity"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_Neurotoxicity with ID aDmhLR" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_pMHTNx> ;
+    pdto:hasSimpleType "Neurological"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_aQIPbg> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_PhotochemicalOzoneFormation_aQIPbg" ;
+    ns1:description "Photochemical Ozone Formation"^^xsd:string ;
+    ns1:name "PEF_PhotochemicalOzoneFormation"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgNMVOC-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_PhotochemicalOzoneFormation with ID aQIPbg" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_SHeAri> .
+
+<https://cir4fun.eu/data#indicator_cDmSif> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_NonCarcinogenic_cDmSif" ;
+    ns1:description "Non-carcinogenic effects"^^xsd:string ;
+    ns1:name "HIA_NonCarcinogenic"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_NonCarcinogenic with ID cDmSif" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_eJIDI7> ;
+    pdto:hasSimpleType "Non-Cancer"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_lc2kqn> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Ecotoxicity_Freshwater_lc2kqn" ;
+    ns1:description "Ecotoxicity (freshwater)"^^xsd:string ;
+    ns1:name "PEF_Ecotoxicity_Freshwater"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUe> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_Ecotoxicity_Freshwater with ID lc2kqn" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_4gAujC> .
+
+<https://cir4fun.eu/data#indicator_nUvmKI> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Respiratory_nUvmKI" ;
+    ns1:description "Respiratory effects"^^xsd:string ;
+    ns1:name "HIA_Respiratory"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_Respiratory with ID nUvmKI" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_qNaVO1> ;
+    pdto:hasSimpleType "Respiratory"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_qW9rbo> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_WaterScarcity_qW9rbo" ;
+    ns1:description "Water Scarcity"^^xsd:string ;
+    ns1:name "PEF_WaterScarcity"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#m³water-equivalent> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_WaterScarcity with ID qW9rbo" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_EcIQIC> .
+
+<https://cir4fun.eu/data#indicator_sNro73> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_HIA_Carcinogenic_sNro73" ;
+    ns1:description "Carcinogenic effects"^^xsd:string ;
+    ns1:name "HIA_Carcinogenic"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of HIA_Carcinogenic with ID sNro73" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_H4ijCc> ;
+    pdto:hasSimpleType "Cancer"^^xsd:string .
+
+<https://cir4fun.eu/data#indicator_vVoC3X> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Eutrophication_Freshwater_vVoC3X" ;
+    ns1:description "Eutrophication (freshwater)"^^xsd:string ;
+    ns1:name "PEF_Eutrophication_Freshwater"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgPO4³⁻-eq> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_Eutrophication_Freshwater with ID vVoC3X" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_SMm8NH> .
+
+<https://cir4fun.eu/data#indicator_w8Dg7n> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_HumanToxicity_Cancer_w8Dg7n" ;
+    ns1:description "Human Toxicity (cancer)"^^xsd:string ;
+    ns1:name "PEF_HumanToxicity_Cancer"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#CTUh> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_HumanToxicity_Cancer with ID w8Dg7n" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_MQby9c> .
+
+<https://cir4fun.eu/data#indicator_wbCz6B> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_ClimateChange_wbCz6B" ;
     ns1:description "Climate Change"^^xsd:string ;
     ns1:name "PEF_ClimateChange"^^xsd:string ;
     dppo:unit <https://cir4fun.eu/data#kgCO2-equivalent> ;
     dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_ClimateChange with ID wi0N5V" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_POXyMW> .
+    rdfs:comment "Indicator information of PEF_ClimateChange with ID wbCz6B" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_YwYCVb> .
 
-<https://cir4fun.eu/data#indicator_xkTZkO> a pdto:IndicatorInformation ;
-    rdfs:label "indicatorInformation_PEF_HumanToxicity_NonCancer_xkTZkO" ;
+<https://cir4fun.eu/data#indicator_yo3moC> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_Eutrophication_Marine_yo3moC" ;
+    ns1:description "Eutrophication (marine)"^^xsd:string ;
+    ns1:name "PEF_Eutrophication_Marine"^^xsd:string ;
+    dppo:unit <https://cir4fun.eu/data#kgN-eq> ;
+    dppo:value "None" ;
+    rdfs:comment "Indicator information of PEF_Eutrophication_Marine with ID yo3moC" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_lj4HlL> .
+
+<https://cir4fun.eu/data#indicator_zv1peS> a pdto:IndicatorInformation ;
+    rdfs:label "indicatorInformation_PEF_HumanToxicity_NonCancer_zv1peS" ;
     ns1:description "Human Toxicity (non-cancer)"^^xsd:string ;
     ns1:name "PEF_HumanToxicity_NonCancer"^^xsd:string ;
     dppo:unit <https://cir4fun.eu/data#CTUh> ;
     dppo:value "None" ;
-    rdfs:comment "Indicator information of PEF_HumanToxicity_NonCancer with ID xkTZkO" ;
-    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_FbV62s> .
+    rdfs:comment "Indicator information of PEF_HumanToxicity_NonCancer with ID zv1peS" ;
+    pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_gNDR0x> .
 
-<https://cir4fun.eu/data#info_0oFhV1> a dppo:ProductQuality ;
-    rdfs:label "info_OperatingHours_0oFhV1" ;
-    dppo:value 2000 ;
-    rdfs:comment "Information of OperatingHours with ID 0oFhV1" ;
-    pdto:clarifiedProperty dpp4fun:OperatingHours ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_0pMrxF> a dppo:ProductQuality ;
-    rdfs:label "info_BatchNumber_0pMrxF" ;
-    dppo:value 1024 ;
-    rdfs:comment "Information of BatchNumber with ID 0pMrxF" ;
-    pdto:clarifiedProperty dpp4fun:BatchNumber ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_20f5Ax> a dppo:ProductQuality ;
-    rdfs:label "info_Seatingcapacity_20f5Ax" ;
-    dppo:value 1 ;
-    rdfs:comment "Information of Seatingcapacity with ID 20f5Ax" ;
-    pdto:clarifiedProperty dpp4fun:Seatingcapacity ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_2VKskj> a dppo:ProductQuality ;
-    rdfs:label "info_FireRisk_2VKskj" ;
+<https://cir4fun.eu/data#info_0JMYy1> a dppo:ProductQuality ;
+    rdfs:label "info_Waterrepellent_0JMYy1" ;
     dppo:value false ;
-    rdfs:comment "Information of FireRisk with ID 2VKskj" ;
-    pdto:clarifiedProperty dpp4fun:FireRisk ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_5ZB6qM> a dppo:ProductQuality ;
-    rdfs:label "info_GTINCode_5ZB6qM" ;
-    dppo:value "012345678903" ;
-    rdfs:comment "Information of GTINCode with ID 5ZB6qM" ;
-    pdto:clarifiedProperty dpp4fun:GTINCode ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_5kgpyC> a dppo:ProductQuality ;
-    rdfs:label "info_Easyclean_5kgpyC" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Easyclean with ID 5kgpyC" ;
-    pdto:clarifiedProperty dpp4fun:Easyclean ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_6eyQ7Q> a dppo:ProductQuality ;
-    rdfs:label "info_Waterrepellent_6eyQ7Q" ;
-    dppo:value false ;
-    rdfs:comment "Information of Waterrepellent with ID 6eyQ7Q" ;
+    rdfs:comment "Information of Waterrepellent with ID 0JMYy1" ;
     pdto:clarifiedProperty dpp4fun:Waterrepellent ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_70GVnQ> a dppo:ProductQuality ;
-    rdfs:label "info_Backrestheight_70GVnQ" ;
-    dppo:value 35 ;
-    rdfs:comment "Information of Backrestheight with ID 70GVnQ" ;
-    pdto:clarifiedProperty dpp4fun:Backrestheight ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_8TnVW4> a dppo:ProductQuality ;
-    rdfs:label "info_Seatremovablecover_8TnVW4" ;
-    dppo:value false ;
-    rdfs:comment "Information of Seatremovablecover with ID 8TnVW4" ;
-    pdto:clarifiedProperty dpp4fun:Seatremovablecover ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_AM7QpG> a dppo:ProductQuality ;
-    rdfs:label "info_Armrestremovablecover_AM7QpG" ;
-    dppo:value false ;
-    rdfs:comment "Information of Armrestremovablecover with ID AM7QpG" ;
-    pdto:clarifiedProperty dpp4fun:Armrestremovablecover ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_B3sORh> a dppo:ProductQuality ;
-    rdfs:label "info_SparePartsAvailability_B3sORh" ;
+<https://cir4fun.eu/data#info_0yryZ3> a dppo:ProductQuality ;
+    rdfs:label "info_Backrestremovablecover_0yryZ3" ;
     dppo:value true ;
-    rdfs:comment "Information of SparePartsAvailability with ID B3sORh" ;
-    pdto:clarifiedProperty dpp4fun:SparePartsAvailability ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_B90hgq> a dppo:ProductQuality ;
-    rdfs:label "info_Armrestheight_B90hgq" ;
-    dppo:value 66 ;
-    rdfs:comment "Information of Armrestheight with ID B90hgq" ;
-    pdto:clarifiedProperty dpp4fun:Armrestheight ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_C4TpIs> a dppo:ProductQuality ;
-    rdfs:label "info_Indooruse_C4TpIs" ;
-    dppo:value true ;
-    rdfs:comment "Information of Indooruse with ID C4TpIs" ;
-    pdto:clarifiedProperty dpp4fun:Indooruse ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_EWGZcH> a dppo:ProductQuality ;
-    rdfs:label "info_Seatwidth_EWGZcH" ;
-    dppo:value 44 ;
-    rdfs:comment "Information of Seatwidth with ID EWGZcH" ;
-    pdto:clarifiedProperty dpp4fun:Seatwidth ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_EtUVoV> a dppo:ProductQuality ;
-    rdfs:label "info_ElectricityRisk_EtUVoV" ;
-    dppo:value false ;
-    rdfs:comment "Information of ElectricityRisk with ID EtUVoV" ;
-    pdto:clarifiedProperty dpp4fun:ElectricityRisk ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_FAv5v1> a dppo:ProductQuality ;
-    rdfs:label "info_RecyclableFraction_FAv5v1" ;
-    dppo:value 8.5e-01 ;
-    rdfs:comment "Information of RecyclableFraction with ID FAv5v1" ;
-    pdto:clarifiedProperty dpp4fun:RecyclableFraction ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_FHM1zr> a dppo:ProductQuality ;
-    rdfs:label "info_Padded_FHM1zr" ;
-    dppo:value true ;
-    rdfs:comment "Information of Padded with ID FHM1zr" ;
-    pdto:clarifiedProperty dpp4fun:Padded ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_FNRCrN> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Height_FNRCrN" ;
-    dppo:unit qudt:CentiM ;
-    dppo:value 80.0 ;
-    rdfs:comment "Information of Height with ID FNRCrN" ;
-    pdto:clarifiedProperty dpp4fun:Height ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_H6gIop> a dppo:ProductQuality ;
-    rdfs:label "info_ToxicityRisk_H6gIop" ;
-    dppo:value false ;
-    rdfs:comment "Information of ToxicityRisk with ID H6gIop" ;
-    pdto:clarifiedProperty dpp4fun:ToxicityRisk ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_IQWr67> a dppo:ProductQuality ;
-    rdfs:label "info_Stainresistant_IQWr67" ;
-    dppo:value false ;
-    rdfs:comment "Information of Stainresistant with ID IQWr67" ;
-    pdto:clarifiedProperty dpp4fun:Stainresistant ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_IgA26r> a dppo:ProductQuality ;
-    rdfs:label "info_Additionalcushionincluded_IgA26r" ;
-    dppo:value false ;
-    rdfs:comment "Information of Additionalcushionincluded with ID IgA26r" ;
-    pdto:clarifiedProperty dpp4fun:Additionalcushionincluded ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_J41wYC> a dppo:ProductQuality ;
-    rdfs:label "info_GLNOfSupplier_J41wYC" ;
-    dppo:value "N.A" ;
-    rdfs:comment "Information of GLNOfSupplier with ID J41wYC" ;
-    pdto:clarifiedProperty dpp4fun:GLNOfSupplier ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_J8ihVA> a dppo:ProductQuality ;
-    rdfs:label "info_Headrestincluded_J8ihVA" ;
-    dppo:value false ;
-    rdfs:comment "Information of Headrestincluded with ID J8ihVA" ;
-    pdto:clarifiedProperty dpp4fun:Headrestincluded ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_Jfej62> a dppo:ProductQuality ;
-    rdfs:label "info_SupplierProductRoot_Jfej62" ;
-    dppo:value "Chair" ;
-    rdfs:comment "Information of SupplierProductRoot with ID Jfej62" ;
-    pdto:clarifiedProperty dpp4fun:SupplierProductRoot ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_MdtSpp> a dppo:ProductQuality ;
-    rdfs:label "info_Backrestremovablecover_MdtSpp" ;
-    dppo:value true ;
-    rdfs:comment "Information of Backrestremovablecover with ID MdtSpp" ;
+    rdfs:comment "Information of Backrestremovablecover with ID 0yryZ3" ;
     pdto:clarifiedProperty dpp4fun:Backrestremovablecover ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_MhcsSG> a dppo:ProductQuality ;
-    rdfs:label "info_Heightadjustable_MhcsSG" ;
+<https://cir4fun.eu/data#info_1wqiQw> a dppo:ProductQuality ;
+    rdfs:label "info_Seatremovablecover_1wqiQw" ;
     dppo:value false ;
-    rdfs:comment "Information of Heightadjustable with ID MhcsSG" ;
-    pdto:clarifiedProperty dpp4fun:Heightadjustable ;
+    rdfs:comment "Information of Seatremovablecover with ID 1wqiQw" ;
+    pdto:clarifiedProperty dpp4fun:Seatremovablecover ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_MmW2cQ> a dppo:ProductQuality ;
-    rdfs:label "info_Seatlength_MmW2cQ" ;
-    dppo:value 45 ;
-    rdfs:comment "Information of Seatlength with ID MmW2cQ" ;
-    pdto:clarifiedProperty dpp4fun:Seatlength ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_NHU4dk> a dppo:ProductQuality ;
-    rdfs:label "info_SupplierProductOrderSuffix_NHU4dk" ;
-    dppo:value "C06" ;
-    rdfs:comment "Information of SupplierProductOrderSuffix with ID NHU4dk" ;
-    pdto:clarifiedProperty dpp4fun:SupplierProductOrderSuffix ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_NjtJ4r> a dppo:ProductQuality ;
-    rdfs:label "info_SupplierProductFamily_NjtJ4r" ;
-    dppo:value "Meli" ;
-    rdfs:comment "Information of SupplierProductFamily with ID NjtJ4r" ;
-    pdto:clarifiedProperty dpp4fun:SupplierProductFamily ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_PTghcR> a dppo:ProductQuality ;
-    rdfs:label "info_Length_PTghcR" ;
-    dppo:value 56 ;
-    rdfs:comment "Information of Length with ID PTghcR" ;
-    pdto:clarifiedProperty dpp4fun:Length ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_PggnRl> a dppo:ProductQuality ;
-    rdfs:label "info_Brand_PggnRl" ;
-    dppo:value "Kave Home" ;
-    rdfs:comment "Information of Brand with ID PggnRl" ;
-    pdto:clarifiedProperty dpp4fun:Brand ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_QQLCHp> a dppo:ProductQuality ;
-    rdfs:label "info_Adjustablefeet_QQLCHp" ;
-    dppo:value false ;
-    rdfs:comment "Information of Adjustablefeet with ID QQLCHp" ;
-    pdto:clarifiedProperty dpp4fun:Adjustablefeet ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_RwHmiG> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductDesignation_RwHmiG" ;
-    dppo:value "Meli Series" ;
-    rdfs:comment "Information of ManufacturerProductDesignation with ID RwHmiG" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerProductDesignation ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_SR71ab> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerName_SR71ab" ;
-    dppo:value "Kave Home" ;
-    rdfs:comment "Information of ManufacturerName with ID SR71ab" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerName ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_UkQtEe> a dppo:ProductQuality ;
-    rdfs:label "info_Armrestincluded_UkQtEe" ;
-    dppo:value true ;
-    rdfs:comment "Information of Armrestincluded with ID UkQtEe" ;
-    pdto:clarifiedProperty dpp4fun:Armrestincluded ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_WbYEfw> a dppo:ProductQuality ;
-    rdfs:label "info_Fireresistant_WbYEfw" ;
-    dppo:value false ;
-    rdfs:comment "Information of Fireresistant with ID WbYEfw" ;
-    pdto:clarifiedProperty dpp4fun:Fireresistant ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_X8SLZo> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Weight_X8SLZo" ;
-    dppo:unit qudt:KiloGM ;
-    dppo:value 6.1 ;
-    rdfs:comment "Information of Weight with ID X8SLZo" ;
-    pdto:clarifiedProperty dpp4fun:Weight ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_XAQ5Il> a dppo:ProductQuality ;
-    rdfs:label "info_CustomsTariffNumber_XAQ5Il" ;
-    dppo:value 94016100 ;
-    rdfs:comment "Information of CustomsTariffNumber with ID XAQ5Il" ;
-    pdto:clarifiedProperty dpp4fun:CustomsTariffNumber ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_XnQDGK> a dppo:ProductQuality ;
-    rdfs:label "info_SecondHand_XnQDGK" ;
-    dppo:value false ;
-    rdfs:comment "Information of SecondHand with ID XnQDGK" ;
-    pdto:clarifiedProperty dpp4fun:SecondHand ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_Yf4DAH> a dppo:ProductQuality ;
-    rdfs:label "info_Reclining_Yf4DAH" ;
-    dppo:value false ;
-    rdfs:comment "Information of Reclining with ID Yf4DAH" ;
-    pdto:clarifiedProperty dpp4fun:Reclining ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_Z97sq8> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductFamily_Z97sq8" ;
-    dppo:value "Meli" ;
-    rdfs:comment "Information of ManufacturerProductFamily with ID Z97sq8" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_ZKw5sZ> a dppo:ProductQuality ;
-    rdfs:label "info_Outdooruse_ZKw5sZ" ;
-    dppo:value false ;
-    rdfs:comment "Information of Outdooruse with ID ZKw5sZ" ;
-    pdto:clarifiedProperty dpp4fun:Outdooruse ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_aZhfXz> a dppo:ProductQuality ;
-    rdfs:label "info_Stackable_aZhfXz" ;
-    dppo:value false ;
-    rdfs:comment "Information of Stackable with ID aZhfXz" ;
-    pdto:clarifiedProperty dpp4fun:Stackable ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_chcKRX> a dppo:ProductCharacteristic ;
-    rdfs:label "info_Width_chcKRX" ;
-    dppo:unit qudt:CentiM ;
-    dppo:value 54.0 ;
-    rdfs:comment "Information of Width with ID chcKRX" ;
-    pdto:clarifiedProperty dpp4fun:Width ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_eFPguc> a dppo:ProductQuality ;
-    rdfs:label "info_Location_eFPguc" ;
-    dppo:value "Tokyo, Japan" ;
-    rdfs:comment "Information of Location with ID eFPguc" ;
-    pdto:clarifiedProperty dpp4fun:Location ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_eNm1TE> a dppo:ProductQuality ;
-    rdfs:label "info_Diameter_eNm1TE" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Diameter with ID eNm1TE" ;
-    pdto:clarifiedProperty dpp4fun:Diameter ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_f7gbY3> a dppo:ProductQuality ;
-    rdfs:label "info_SupplierProductDesignation_f7gbY3" ;
-    dppo:value "Meli Series" ;
-    rdfs:comment "Information of SupplierProductDesignation with ID f7gbY3" ;
-    pdto:clarifiedProperty dpp4fun:SupplierProductDesignation ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_gPPP4X> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_gPPP4X" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID gPPP4X" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_grVJGH> a dppo:ProductQuality ;
-    rdfs:label "info_URIOfTheProduct_grVJGH" ;
-    dppo:value "https://kavehome.com/fr/fr/p/chaise-empilable-meli-en-chenille-beige-et-pieds-en-metal-beige-fsc-mix-credit" ;
-    rdfs:comment "Information of URIOfTheProduct with ID grVJGH" ;
-    pdto:clarifiedProperty dpp4fun:URIOfTheProduct ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_h80QPs> a dppo:ProductQuality ;
-    rdfs:label "info_SupplierProductType_h80QPs" ;
-    dppo:value "Furniture" ;
-    rdfs:comment "Information of SupplierProductType with ID h80QPs" ;
-    pdto:clarifiedProperty dpp4fun:SupplierProductType ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_h9prSZ> a dppo:ProductQuality ;
-    rdfs:label "info_Foamhardnesslevel_h9prSZ" ;
-    dppo:value "Firm" ;
-    rdfs:comment "Information of Foamhardnesslevel with ID h9prSZ" ;
-    pdto:clarifiedProperty dpp4fun:Foamhardnesslevel ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_iHs4R3> a dppo:ProductQuality ;
-    rdfs:label "info_AddressOfAdditionalLink_iHs4R3" ;
-    dppo:value "https://kavehome.com/en/en/e/legal-notice" ;
-    rdfs:comment "Information of AddressOfAdditionalLink with ID iHs4R3" ;
-    pdto:clarifiedProperty dpp4fun:AddressOfAdditionalLink ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_iw1jG3> a dppo:ProductQuality ;
-    rdfs:label "info_Armrestwidth_iw1jG3" ;
-    dppo:value 1.6e+00 ;
-    rdfs:comment "Information of Armrestwidth with ID iw1jG3" ;
-    pdto:clarifiedProperty dpp4fun:Armrestwidth ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_jEbTBU> a dppo:ProductQuality ;
-    rdfs:label "info_ProductType_jEbTBU" ;
-    dppo:value "Chair" ;
-    rdfs:comment "Information of ProductType with ID jEbTBU" ;
-    pdto:clarifiedProperty dpp4fun:ProductType ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_jRoKsK> a dppo:ProductQuality ;
-    rdfs:label "info_Color_jRoKsK" ;
+<https://cir4fun.eu/data#info_5AHzzi> a dppo:ProductQuality ;
+    rdfs:label "info_Color_5AHzzi" ;
     dppo:value "While" ;
-    rdfs:comment "Information of Color with ID jRoKsK" ;
+    rdfs:comment "Information of Color with ID 5AHzzi" ;
     pdto:clarifiedProperty dpp4fun:Color ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_k1DU7l> a dppo:ProductQuality ;
-    rdfs:label "info_Surface_k1DU7l" ;
-    dppo:value "Small-structured chenille fabric, micro-textured metal" ;
-    rdfs:comment "Information of Surface with ID k1DU7l" ;
-    pdto:clarifiedProperty dpp4fun:Surface ;
+<https://cir4fun.eu/data#info_5IaOGR> a dppo:ProductQuality ;
+    rdfs:label "info_Armrestincluded_5IaOGR" ;
+    dppo:value true ;
+    rdfs:comment "Information of Armrestincluded with ID 5IaOGR" ;
+    pdto:clarifiedProperty dpp4fun:Armrestincluded ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_k6d1j8> a dppo:ProductQuality ;
-    rdfs:label "info_SupplierProductDescription_k6d1j8" ;
-    dppo:value "Basic chair" ;
-    rdfs:comment "Information of SupplierProductDescription with ID k6d1j8" ;
-    pdto:clarifiedProperty dpp4fun:SupplierProductDescription ;
+<https://cir4fun.eu/data#info_5vkc4q> a dppo:ProductQuality ;
+    rdfs:label "info_Adjustablefeet_5vkc4q" ;
+    dppo:value false ;
+    rdfs:comment "Information of Adjustablefeet with ID 5vkc4q" ;
+    pdto:clarifiedProperty dpp4fun:Adjustablefeet ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_l6Dl3j> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductDescription_l6Dl3j" ;
+<https://cir4fun.eu/data#info_7fkg76> a dppo:ProductQuality ;
+    rdfs:label "info_Indooruse_7fkg76" ;
+    dppo:value true ;
+    rdfs:comment "Information of Indooruse with ID 7fkg76" ;
+    pdto:clarifiedProperty dpp4fun:Indooruse ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_7hdxq5> a dppo:ProductQuality ;
+    rdfs:label "info_SupplierProductRoot_7hdxq5" ;
+    dppo:value "Chair" ;
+    rdfs:comment "Information of SupplierProductRoot with ID 7hdxq5" ;
+    pdto:clarifiedProperty dpp4fun:SupplierProductRoot ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_8MwgbW> a dppo:ProductQuality ;
+    rdfs:label "info_ToxicityRisk_8MwgbW" ;
+    dppo:value false ;
+    rdfs:comment "Information of ToxicityRisk with ID 8MwgbW" ;
+    pdto:clarifiedProperty dpp4fun:ToxicityRisk ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_8TSo7z> a dppo:ProductQuality ;
+    rdfs:label "info_Length_8TSo7z" ;
+    dppo:value 56 ;
+    rdfs:comment "Information of Length with ID 8TSo7z" ;
+    pdto:clarifiedProperty dpp4fun:Length ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_9mCnwz> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductDescription_9mCnwz" ;
     dppo:value "Basic chair" ;
-    rdfs:comment "Information of ManufacturerProductDescription with ID l6Dl3j" ;
+    rdfs:comment "Information of ManufacturerProductDescription with ID 9mCnwz" ;
     pdto:clarifiedProperty dpp4fun:ManufacturerProductDescription ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_lEF97n> a dppo:ProductQuality ;
-    rdfs:label "info_Armresttype_lEF97n" ;
-    dppo:value "None" ;
-    rdfs:comment "Information of Armresttype with ID lEF97n" ;
-    pdto:clarifiedProperty dpp4fun:Armresttype ;
+<https://cir4fun.eu/data#info_BAw3hy> a dppo:ProductQuality ;
+    rdfs:label "info_SupplierProductDescription_BAw3hy" ;
+    dppo:value "Basic chair" ;
+    rdfs:comment "Information of SupplierProductDescription with ID BAw3hy" ;
+    pdto:clarifiedProperty dpp4fun:SupplierProductDescription ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_mIEaB1> a dppo:ProductQuality ;
-    rdfs:label "info_NameOfSupplier_mIEaB1" ;
-    dppo:value "Kave Home" ;
-    rdfs:comment "Information of NameOfSupplier with ID mIEaB1" ;
-    pdto:clarifiedProperty dpp4fun:NameOfSupplier ;
+<https://cir4fun.eu/data#info_BAwpgS> a dppo:ProductQuality ;
+    rdfs:label "info_BatchNumber_BAwpgS" ;
+    dppo:value 1024 ;
+    rdfs:comment "Information of BatchNumber with ID BAwpgS" ;
+    pdto:clarifiedProperty dpp4fun:BatchNumber ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_mtuKsw> a dppo:ProductQuality ;
-    rdfs:label "info_HSCodeOfTheWCO_mtuKsw" ;
-    dppo:value 940161 ;
-    rdfs:comment "Information of HSCodeOfTheWCO with ID mtuKsw" ;
-    pdto:clarifiedProperty dpp4fun:HSCodeOfTheWCO ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_nUiyjr> a dppo:ProductQuality ;
-    rdfs:label "info_Payload_nUiyjr" ;
-    dppo:value 130 ;
-    rdfs:comment "Information of Payload with ID nUiyjr" ;
-    pdto:clarifiedProperty dpp4fun:Payload ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_okvANS> a dppo:ProductQuality ;
-    rdfs:label "info_InternalArticleNumber_okvANS" ;
+<https://cir4fun.eu/data#info_CKmoSw> a dppo:ProductQuality ;
+    rdfs:label "info_ProductArticleNumberOfSupplier_CKmoSw" ;
     dppo:value "C06061BF12" ;
-    rdfs:comment "Information of InternalArticleNumber with ID okvANS" ;
-    pdto:clarifiedProperty dpp4fun:InternalArticleNumber ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_oywLuf> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductOrderSuffix_oywLuf" ;
-    dppo:value "C06" ;
-    rdfs:comment "Information of ManufacturerProductOrderSuffix with ID oywLuf" ;
-    pdto:clarifiedProperty dpp4fun:ManufacturerProductOrderSuffix ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_qPeUzV> a dppo:ProductQuality ;
-    rdfs:label "info_Seatheight_qPeUzV" ;
-    dppo:value 48 ;
-    rdfs:comment "Information of Seatheight with ID qPeUzV" ;
-    pdto:clarifiedProperty dpp4fun:Seatheight ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_ql7HWg> a dppo:ProductQuality ;
-    rdfs:label "info_URIOfManufacturer_ql7HWg" ;
-    dppo:value "https://kavehome.com" ;
-    rdfs:comment "Information of URIOfManufacturer with ID ql7HWg" ;
-    pdto:clarifiedProperty dpp4fun:URIOfManufacturer ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_rm4oTo> a dppo:ProductQuality ;
-    rdfs:label "info_Footrestincluded_rm4oTo" ;
-    dppo:value false ;
-    rdfs:comment "Information of Footrestincluded with ID rm4oTo" ;
-    pdto:clarifiedProperty dpp4fun:Footrestincluded ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_uGvusp> a dppo:ProductQuality ;
-    rdfs:label "info_CurrentPhase_uGvusp" ;
-    dppo:value "Repair Store" ;
-    rdfs:comment "Information of CurrentPhase with ID uGvusp" ;
-    pdto:clarifiedProperty dpp4fun:CurrentPhase ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_uKQXWH> a dppo:ProductQuality ;
-    rdfs:label "info_GLNOfManufacturer_uKQXWH" ;
-    dppo:value "N.A" ;
-    rdfs:comment "Information of GLNOfManufacturer with ID uKQXWH" ;
-    pdto:clarifiedProperty dpp4fun:GLNOfManufacturer ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_uPXJUa> a dppo:ProductQuality ;
-    rdfs:label "info_UpgradeOptionsAvailable_uPXJUa" ;
-    dppo:value true ;
-    rdfs:comment "Information of UpgradeOptionsAvailable with ID uPXJUa" ;
-    pdto:clarifiedProperty dpp4fun:UpgradeOptionsAvailable ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_xe9Twb> a dppo:ProductQuality ;
-    rdfs:label "info_Legheight_xe9Twb" ;
-    dppo:value 44 ;
-    rdfs:comment "Information of Legheight with ID xe9Twb" ;
-    pdto:clarifiedProperty dpp4fun:Legheight ;
-    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
-
-<https://cir4fun.eu/data#info_yErjSe> a dppo:ProductQuality ;
-    rdfs:label "info_ProductArticleNumberOfSupplier_yErjSe" ;
-    dppo:value "C06061BF12" ;
-    rdfs:comment "Information of ProductArticleNumberOfSupplier with ID yErjSe" ;
+    rdfs:comment "Information of ProductArticleNumberOfSupplier with ID CKmoSw" ;
     pdto:clarifiedProperty dpp4fun:ProductArticleNumberOfSupplier ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
-<https://cir4fun.eu/data#info_yZlahE> a dppo:ProductQuality ;
-    rdfs:label "info_ManufacturerProductRoot_yZlahE" ;
+<https://cir4fun.eu/data#info_CYRCox> a dppo:ProductQuality ;
+    rdfs:label "info_Legheight_CYRCox" ;
+    dppo:value 44 ;
+    rdfs:comment "Information of Legheight with ID CYRCox" ;
+    pdto:clarifiedProperty dpp4fun:Legheight ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_CdmcHr> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductDesignation_CdmcHr" ;
+    dppo:value "Meli Series" ;
+    rdfs:comment "Information of ManufacturerProductDesignation with ID CdmcHr" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerProductDesignation ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_CvPf6F> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Weight_CvPf6F" ;
+    dppo:unit qudt:KiloGM ;
+    dppo:value 6.1 ;
+    rdfs:comment "Information of Weight with ID CvPf6F" ;
+    pdto:clarifiedProperty dpp4fun:Weight ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_D6tf1Q> a dppo:ProductQuality ;
+    rdfs:label "info_FireRisk_D6tf1Q" ;
+    dppo:value false ;
+    rdfs:comment "Information of FireRisk with ID D6tf1Q" ;
+    pdto:clarifiedProperty dpp4fun:FireRisk ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_EDI33v> a dppo:ProductQuality ;
+    rdfs:label "info_Headrestincluded_EDI33v" ;
+    dppo:value false ;
+    rdfs:comment "Information of Headrestincluded with ID EDI33v" ;
+    pdto:clarifiedProperty dpp4fun:Headrestincluded ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_EldN09> a dppo:ProductQuality ;
+    rdfs:label "info_OperatingHours_EldN09" ;
+    dppo:value 2000 ;
+    rdfs:comment "Information of OperatingHours with ID EldN09" ;
+    pdto:clarifiedProperty dpp4fun:OperatingHours ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_EmmXng> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Height_EmmXng" ;
+    dppo:unit qudt:CentiM ;
+    dppo:value 80.0 ;
+    rdfs:comment "Information of Height with ID EmmXng" ;
+    pdto:clarifiedProperty dpp4fun:Height ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_Etkzgh> a dppo:ProductQuality ;
+    rdfs:label "info_HSCodeOfTheWCO_Etkzgh" ;
+    dppo:value 940161 ;
+    rdfs:comment "Information of HSCodeOfTheWCO with ID Etkzgh" ;
+    pdto:clarifiedProperty dpp4fun:HSCodeOfTheWCO ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_FS8xVK> a dppo:ProductQuality ;
+    rdfs:label "info_CurrentPhase_FS8xVK" ;
+    dppo:value "Repair Store" ;
+    rdfs:comment "Information of CurrentPhase with ID FS8xVK" ;
+    pdto:clarifiedProperty dpp4fun:CurrentPhase ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_HdygGx> a dppo:ProductQuality ;
+    rdfs:label "info_Armresttype_HdygGx" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Armresttype with ID HdygGx" ;
+    pdto:clarifiedProperty dpp4fun:Armresttype ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_HfMcn9> a dppo:ProductQuality ;
+    rdfs:label "info_Seatingcapacity_HfMcn9" ;
+    dppo:value 1 ;
+    rdfs:comment "Information of Seatingcapacity with ID HfMcn9" ;
+    pdto:clarifiedProperty dpp4fun:Seatingcapacity ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_IR5oxR> a dppo:ProductQuality ;
+    rdfs:label "info_Easyclean_IR5oxR" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Easyclean with ID IR5oxR" ;
+    pdto:clarifiedProperty dpp4fun:Easyclean ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_IWSo1q> a dppo:ProductQuality ;
+    rdfs:label "info_Outdooruse_IWSo1q" ;
+    dppo:value false ;
+    rdfs:comment "Information of Outdooruse with ID IWSo1q" ;
+    pdto:clarifiedProperty dpp4fun:Outdooruse ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_JrKN7U> a dppo:ProductQuality ;
+    rdfs:label "info_SecondHand_JrKN7U" ;
+    dppo:value false ;
+    rdfs:comment "Information of SecondHand with ID JrKN7U" ;
+    pdto:clarifiedProperty dpp4fun:SecondHand ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_L1LnTg> a dppo:ProductQuality ;
+    rdfs:label "info_Seatwidth_L1LnTg" ;
+    dppo:value 44 ;
+    rdfs:comment "Information of Seatwidth with ID L1LnTg" ;
+    pdto:clarifiedProperty dpp4fun:Seatwidth ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_MhMxik> a dppo:ProductQuality ;
+    rdfs:label "info_Fireresistant_MhMxik" ;
+    dppo:value false ;
+    rdfs:comment "Information of Fireresistant with ID MhMxik" ;
+    pdto:clarifiedProperty dpp4fun:Fireresistant ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_O2Cg1S> a dppo:ProductQuality ;
+    rdfs:label "info_Footrestincluded_O2Cg1S" ;
+    dppo:value false ;
+    rdfs:comment "Information of Footrestincluded with ID O2Cg1S" ;
+    pdto:clarifiedProperty dpp4fun:Footrestincluded ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_Q2tc7I> a dppo:ProductQuality ;
+    rdfs:label "info_Seatlength_Q2tc7I" ;
+    dppo:value 45 ;
+    rdfs:comment "Information of Seatlength with ID Q2tc7I" ;
+    pdto:clarifiedProperty dpp4fun:Seatlength ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_QhRI3G> a dppo:ProductQuality ;
+    rdfs:label "info_Foamhardnesslevel_QhRI3G" ;
+    dppo:value "Firm" ;
+    rdfs:comment "Information of Foamhardnesslevel with ID QhRI3G" ;
+    pdto:clarifiedProperty dpp4fun:Foamhardnesslevel ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_RX2yQi> a dppo:ProductQuality ;
+    rdfs:label "info_ElectricityRisk_RX2yQi" ;
+    dppo:value false ;
+    rdfs:comment "Information of ElectricityRisk with ID RX2yQi" ;
+    pdto:clarifiedProperty dpp4fun:ElectricityRisk ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_SA8242> a dppo:ProductQuality ;
+    rdfs:label "info_URIOfManufacturer_SA8242" ;
+    dppo:value "https://kavehome.com" ;
+    rdfs:comment "Information of URIOfManufacturer with ID SA8242" ;
+    pdto:clarifiedProperty dpp4fun:URIOfManufacturer ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_SAzU6U> a dppo:ProductQuality ;
+    rdfs:label "info_Location_SAzU6U" ;
+    dppo:value "Tokyo, Japan" ;
+    rdfs:comment "Information of Location with ID SAzU6U" ;
+    pdto:clarifiedProperty dpp4fun:Location ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_SDTop7> a dppo:ProductQuality ;
+    rdfs:label "info_Payload_SDTop7" ;
+    dppo:value 130 ;
+    rdfs:comment "Information of Payload with ID SDTop7" ;
+    pdto:clarifiedProperty dpp4fun:Payload ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_SpHuZo> a dppo:ProductQuality ;
+    rdfs:label "info_Seatheight_SpHuZo" ;
+    dppo:value 48 ;
+    rdfs:comment "Information of Seatheight with ID SpHuZo" ;
+    pdto:clarifiedProperty dpp4fun:Seatheight ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_TUJslT> a dppo:ProductQuality ;
+    rdfs:label "info_SupplierProductDesignation_TUJslT" ;
+    dppo:value "Meli Series" ;
+    rdfs:comment "Information of SupplierProductDesignation with ID TUJslT" ;
+    pdto:clarifiedProperty dpp4fun:SupplierProductDesignation ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_UKQCZx> a dppo:ProductQuality ;
+    rdfs:label "info_Stackable_UKQCZx" ;
+    dppo:value false ;
+    rdfs:comment "Information of Stackable with ID UKQCZx" ;
+    pdto:clarifiedProperty dpp4fun:Stackable ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_UbgU94> a dppo:ProductQuality ;
+    rdfs:label "info_NameOfSupplier_UbgU94" ;
+    dppo:value "Kave Home" ;
+    rdfs:comment "Information of NameOfSupplier with ID UbgU94" ;
+    pdto:clarifiedProperty dpp4fun:NameOfSupplier ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_WkH6iq> a dppo:ProductQuality ;
+    rdfs:label "info_AddressOfAdditionalLink_WkH6iq" ;
+    dppo:value "https://kavehome.com/en/en/e/legal-notice" ;
+    rdfs:comment "Information of AddressOfAdditionalLink with ID WkH6iq" ;
+    pdto:clarifiedProperty dpp4fun:AddressOfAdditionalLink ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_WzuUf9> a dppo:ProductQuality ;
+    rdfs:label "info_Surface_WzuUf9" ;
+    dppo:value "Small-structured chenille fabric, micro-textured metal" ;
+    rdfs:comment "Information of Surface with ID WzuUf9" ;
+    pdto:clarifiedProperty dpp4fun:Surface ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_XKXqmI> a dppo:ProductQuality ;
+    rdfs:label "info_UpgradeOptionsAvailable_XKXqmI" ;
+    dppo:value true ;
+    rdfs:comment "Information of UpgradeOptionsAvailable with ID XKXqmI" ;
+    pdto:clarifiedProperty dpp4fun:UpgradeOptionsAvailable ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_Xl1A9P> a dppo:ProductQuality ;
+    rdfs:label "info_Armrestheight_Xl1A9P" ;
+    dppo:value 66 ;
+    rdfs:comment "Information of Armrestheight with ID Xl1A9P" ;
+    pdto:clarifiedProperty dpp4fun:Armrestheight ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_YM8S7N> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductOrderSuffix_YM8S7N" ;
+    dppo:value "C06" ;
+    rdfs:comment "Information of ManufacturerProductOrderSuffix with ID YM8S7N" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerProductOrderSuffix ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_ZczLv6> a dppo:ProductQuality ;
+    rdfs:label "info_Additionalcushionincluded_ZczLv6" ;
+    dppo:value false ;
+    rdfs:comment "Information of Additionalcushionincluded with ID ZczLv6" ;
+    pdto:clarifiedProperty dpp4fun:Additionalcushionincluded ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_bOkzKE> a dppo:ProductQuality ;
+    rdfs:label "info_GTINCode_bOkzKE" ;
+    dppo:value "012345678903" ;
+    rdfs:comment "Information of GTINCode with ID bOkzKE" ;
+    pdto:clarifiedProperty dpp4fun:GTINCode ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_cSrB5X> a dppo:ProductQuality ;
+    rdfs:label "info_Armrestremovablecover_cSrB5X" ;
+    dppo:value false ;
+    rdfs:comment "Information of Armrestremovablecover with ID cSrB5X" ;
+    pdto:clarifiedProperty dpp4fun:Armrestremovablecover ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_cX61jj> a dppo:ProductQuality ;
+    rdfs:label "info_Armrestwidth_cX61jj" ;
+    dppo:value 1.6e+00 ;
+    rdfs:comment "Information of Armrestwidth with ID cX61jj" ;
+    pdto:clarifiedProperty dpp4fun:Armrestwidth ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_do3z0s> a dppo:ProductQuality ;
+    rdfs:label "info_Padded_do3z0s" ;
+    dppo:value true ;
+    rdfs:comment "Information of Padded with ID do3z0s" ;
+    pdto:clarifiedProperty dpp4fun:Padded ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_eBks9o> a dppo:ProductQuality ;
+    rdfs:label "info_Diameter_eBks9o" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Diameter with ID eBks9o" ;
+    pdto:clarifiedProperty dpp4fun:Diameter ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_ePdDd2> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductFamily_ePdDd2" ;
+    dppo:value "Meli" ;
+    rdfs:comment "Information of ManufacturerProductFamily with ID ePdDd2" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerProductFamily ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_eaIUSl> a dppo:ProductQuality ;
+    rdfs:label "info_RecyclableFraction_eaIUSl" ;
+    dppo:value 8.5e-01 ;
+    rdfs:comment "Information of RecyclableFraction with ID eaIUSl" ;
+    pdto:clarifiedProperty dpp4fun:RecyclableFraction ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_gOd3rz> a dppo:ProductQuality ;
+    rdfs:label "info_SupplierProductType_gOd3rz" ;
+    dppo:value "Furniture" ;
+    rdfs:comment "Information of SupplierProductType with ID gOd3rz" ;
+    pdto:clarifiedProperty dpp4fun:SupplierProductType ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_gklrZ5> a dppo:ProductQuality ;
+    rdfs:label "info_GLNOfSupplier_gklrZ5" ;
+    dppo:value "N.A" ;
+    rdfs:comment "Information of GLNOfSupplier with ID gklrZ5" ;
+    pdto:clarifiedProperty dpp4fun:GLNOfSupplier ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_iTdeIu> a dppo:ProductQuality ;
+    rdfs:label "info_SupplierProductOrderSuffix_iTdeIu" ;
+    dppo:value "C06" ;
+    rdfs:comment "Information of SupplierProductOrderSuffix with ID iTdeIu" ;
+    pdto:clarifiedProperty dpp4fun:SupplierProductOrderSuffix ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_iTibuV> a dppo:ProductQuality ;
+    rdfs:label "info_URIOfTheProduct_iTibuV" ;
+    dppo:value "https://kavehome.com/fr/fr/p/chaise-empilable-meli-en-chenille-beige-et-pieds-en-metal-beige-fsc-mix-credit" ;
+    rdfs:comment "Information of URIOfTheProduct with ID iTibuV" ;
+    pdto:clarifiedProperty dpp4fun:URIOfTheProduct ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_k0RKzb> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerProductRoot_k0RKzb" ;
     dppo:value "Chair" ;
-    rdfs:comment "Information of ManufacturerProductRoot with ID yZlahE" ;
+    rdfs:comment "Information of ManufacturerProductRoot with ID k0RKzb" ;
     pdto:clarifiedProperty dpp4fun:ManufacturerProductRoot ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_nByXY2> a dppo:ProductQuality ;
+    rdfs:label "info_Heightadjustable_nByXY2" ;
+    dppo:value false ;
+    rdfs:comment "Information of Heightadjustable with ID nByXY2" ;
+    pdto:clarifiedProperty dpp4fun:Heightadjustable ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_o7cHFc> a dppo:ProductQuality ;
+    rdfs:label "info_ProductType_o7cHFc" ;
+    dppo:value "Chair" ;
+    rdfs:comment "Information of ProductType with ID o7cHFc" ;
+    pdto:clarifiedProperty dpp4fun:ProductType ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_pdQIoj> a dppo:ProductCharacteristic ;
+    rdfs:label "info_Width_pdQIoj" ;
+    dppo:unit qudt:CentiM ;
+    dppo:value 54.0 ;
+    rdfs:comment "Information of Width with ID pdQIoj" ;
+    pdto:clarifiedProperty dpp4fun:Width ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_qWoIqj> a dppo:ProductQuality ;
+    rdfs:label "info_Brand_qWoIqj" ;
+    dppo:value "Kave Home" ;
+    rdfs:comment "Information of Brand with ID qWoIqj" ;
+    pdto:clarifiedProperty dpp4fun:Brand ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_qfof7b> a dppo:ProductQuality ;
+    rdfs:label "info_Backrestheight_qfof7b" ;
+    dppo:value 35 ;
+    rdfs:comment "Information of Backrestheight with ID qfof7b" ;
+    pdto:clarifiedProperty dpp4fun:Backrestheight ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_rWcCgy> a dppo:ProductQuality ;
+    rdfs:label "info_Volumn_rWcCgy" ;
+    dppo:value "None" ;
+    rdfs:comment "Information of Volumn with ID rWcCgy" ;
+    pdto:clarifiedProperty dpp4fun:Volumn ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_sExxWc> a dppo:ProductQuality ;
+    rdfs:label "info_SupplierProductFamily_sExxWc" ;
+    dppo:value "Meli" ;
+    rdfs:comment "Information of SupplierProductFamily with ID sExxWc" ;
+    pdto:clarifiedProperty dpp4fun:SupplierProductFamily ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_tdlcSL> a dppo:ProductQuality ;
+    rdfs:label "info_SparePartsAvailability_tdlcSL" ;
+    dppo:value true ;
+    rdfs:comment "Information of SparePartsAvailability with ID tdlcSL" ;
+    pdto:clarifiedProperty dpp4fun:SparePartsAvailability ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_uFFff2> a dppo:ProductQuality ;
+    rdfs:label "info_Stainresistant_uFFff2" ;
+    dppo:value false ;
+    rdfs:comment "Information of Stainresistant with ID uFFff2" ;
+    pdto:clarifiedProperty dpp4fun:Stainresistant ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_vffZIA> a dppo:ProductQuality ;
+    rdfs:label "info_ManufacturerName_vffZIA" ;
+    dppo:value "Kave Home" ;
+    rdfs:comment "Information of ManufacturerName with ID vffZIA" ;
+    pdto:clarifiedProperty dpp4fun:ManufacturerName ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_w0LLaD> a dppo:ProductQuality ;
+    rdfs:label "info_Reclining_w0LLaD" ;
+    dppo:value false ;
+    rdfs:comment "Information of Reclining with ID w0LLaD" ;
+    pdto:clarifiedProperty dpp4fun:Reclining ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_z8OZ2j> a dppo:ProductQuality ;
+    rdfs:label "info_CustomsTariffNumber_z8OZ2j" ;
+    dppo:value 94016100 ;
+    rdfs:comment "Information of CustomsTariffNumber with ID z8OZ2j" ;
+    pdto:clarifiedProperty dpp4fun:CustomsTariffNumber ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_zDXjuJ> a dppo:ProductQuality ;
+    rdfs:label "info_InternalArticleNumber_zDXjuJ" ;
+    dppo:value "C06061BF12" ;
+    rdfs:comment "Information of InternalArticleNumber with ID zDXjuJ" ;
+    pdto:clarifiedProperty dpp4fun:InternalArticleNumber ;
+    pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
+
+<https://cir4fun.eu/data#info_ztiFfm> a dppo:ProductQuality ;
+    rdfs:label "info_GLNOfManufacturer_ztiFfm" ;
+    dppo:value "N.A" ;
+    rdfs:comment "Information of GLNOfManufacturer with ID ztiFfm" ;
+    pdto:clarifiedProperty dpp4fun:GLNOfManufacturer ;
     pdto:hasFeatureOfInterest dpp4fun:C06061BF12 .
 
 <https://cir4fun.eu/data#information_model_e9230c88> a pdto:InformationModel ;
@@ -1523,19 +1523,19 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
         <https://cir4fun.eu/data#aspect_sm-040000001010>,
         <https://cir4fun.eu/data#aspect_sm-159e87as8812> .
 
-<https://cir4fun.eu/data#instruction_H0x044> a pdto:InstructionInformation ;
-    rdfs:label "instruction_Change_color_of_Meli_fabric_H0x044" ;
-    ns1:description "Change the fabric cover of Meli chair to another color"^^xsd:string ;
-    ns1:name "Change color of Meli fabric"^^xsd:string ;
-    rdfs:comment "Instruction of Change color of Meli fabric with ID H0x044" ;
-    pdto:description "Professional"^^xsd:string .
-
-<https://cir4fun.eu/data#instruction_wd79r8> a pdto:InstructionInformation ;
-    rdfs:label "instruction_Assembly_Instruction_wd79r8" ;
+<https://cir4fun.eu/data#instruction_OhrK5r> a pdto:InstructionInformation ;
+    rdfs:label "instruction_Assembly_Instruction_OhrK5r" ;
     ns1:description "Instruction to open the box and install the Meli chair"^^xsd:string ;
     ns1:name "Assembly Instruction"^^xsd:string ;
-    rdfs:comment "Instruction of Assembly Instruction with ID wd79r8" ;
+    rdfs:comment "Instruction of Assembly Instruction with ID OhrK5r" ;
     pdto:description "Normal user"^^xsd:string .
+
+<https://cir4fun.eu/data#instruction_SKI3H0> a pdto:InstructionInformation ;
+    rdfs:label "instruction_Change_color_of_Meli_fabric_SKI3H0" ;
+    ns1:description "Change the fabric cover of Meli chair to another color"^^xsd:string ;
+    ns1:name "Change color of Meli fabric"^^xsd:string ;
+    rdfs:comment "Instruction of Change color of Meli fabric with ID SKI3H0" ;
+    pdto:description "Professional"^^xsd:string .
 
 <https://cir4fun.eu/data#kgCFC-11-equivalent> a dppo:Unit .
 
@@ -1551,36 +1551,36 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
 
 <https://cir4fun.eu/data#kgSb-equivalent> a dppo:Unit .
 
-<https://cir4fun.eu/data#material_1vJbB4> a pdto:MaterialInformation ;
-    rdfs:label "materialInformation_Foam_PU_1vJbB4" ;
-    ns1:name "Foam PU"^^xsd:string ;
-    rdfs:comment "Material information of Foam PU with ID 1vJbB4" ;
-    pdto:hasPortion 1.2e-01 ;
-    pdto:hasSimpleReference "None"^^xsd:anyURI ;
+<https://cir4fun.eu/data#material_27dNaJ> a pdto:MaterialInformation ;
+    rdfs:label "materialInformation_Metal_27dNaJ" ;
+    ns1:name "Metal"^^xsd:string ;
+    rdfs:comment "Material information of Metal with ID 27dNaJ" ;
+    pdto:hasPortion 5.5e-01 ;
+    pdto:hasSimpleReference "N.A"^^xsd:anyURI ;
     pdto:isMandatory true .
 
-<https://cir4fun.eu/data#material_68DThX> a pdto:MaterialInformation ;
-    rdfs:label "materialInformation_Fabric_68DThX" ;
-    ns1:name "Fabric"^^xsd:string ;
-    rdfs:comment "Material information of Fabric with ID 68DThX" ;
-    pdto:hasPortion 1.5e-01 ;
-    pdto:hasSimpleReference "https://cir4fun.pkgi40.codelib.re/dpp/61f46bcd"^^xsd:anyURI ;
-    pdto:isMandatory true .
-
-<https://cir4fun.eu/data#material_ITntbl> a pdto:MaterialInformation ;
-    rdfs:label "materialInformation_Poplar_plywood_ITntbl" ;
+<https://cir4fun.eu/data#material_3t1Owx> a pdto:MaterialInformation ;
+    rdfs:label "materialInformation_Poplar_plywood_3t1Owx" ;
     ns1:name "Poplar plywood"^^xsd:string ;
-    rdfs:comment "Material information of Poplar plywood with ID ITntbl" ;
+    rdfs:comment "Material information of Poplar plywood with ID 3t1Owx" ;
     pdto:hasPortion 1.8e-01 ;
     pdto:hasSimpleReference "N.A"^^xsd:anyURI ;
     pdto:isMandatory true .
 
-<https://cir4fun.eu/data#material_tDijd4> a pdto:MaterialInformation ;
-    rdfs:label "materialInformation_Metal_tDijd4" ;
-    ns1:name "Metal"^^xsd:string ;
-    rdfs:comment "Material information of Metal with ID tDijd4" ;
-    pdto:hasPortion 5.5e-01 ;
-    pdto:hasSimpleReference "N.A"^^xsd:anyURI ;
+<https://cir4fun.eu/data#material_TisFwX> a pdto:MaterialInformation ;
+    rdfs:label "materialInformation_Foam_PU_TisFwX" ;
+    ns1:name "Foam PU"^^xsd:string ;
+    rdfs:comment "Material information of Foam PU with ID TisFwX" ;
+    pdto:hasPortion 1.2e-01 ;
+    pdto:hasSimpleReference "None"^^xsd:anyURI ;
+    pdto:isMandatory true .
+
+<https://cir4fun.eu/data#material_uC6ezP> a pdto:MaterialInformation ;
+    rdfs:label "materialInformation_Fabric_uC6ezP" ;
+    ns1:name "Fabric"^^xsd:string ;
+    rdfs:comment "Material information of Fabric with ID uC6ezP" ;
+    pdto:hasPortion 1.5e-01 ;
+    pdto:hasSimpleReference "https://cir4fun.pkgi40.codelib.re/dpp/61f46bcd"^^xsd:anyURI ;
     pdto:isMandatory true .
 
 <https://cir4fun.eu/data#molH⁺-equivalent> a dppo:Unit .
@@ -1589,108 +1589,108 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
 
 <https://cir4fun.eu/data#m³water-equivalent> a dppo:Unit .
 
-<https://cir4fun.eu/data#policies_teKfgL> a dpp4fun:Policies ;
-    rdfs:label "policies__teKfgL" ;
-    rdfs:comment "Policies with ID teKfgL" ;
+<https://cir4fun.eu/data#policies_AcgQdk> a dpp4fun:Policies ;
+    rdfs:label "policies__AcgQdk" ;
+    rdfs:comment "Policies with ID AcgQdk" ;
     dpp4fun:hasPermission "Right to withdraw from the purchase contract within a period of 14 calendar days"^^xsd:anyURI ;
     dpp4fun:hasProhibition "Right to withdraw from the purchase contract within a period of 14 calendar days"^^xsd:anyURI .
 
-<https://cir4fun.eu/data#postsaleservice_DHKs59> a dpp4fun:Service ;
-    rdfs:label "service_Return_DHKs59" ;
+<https://cir4fun.eu/data#postsaleservice_9ohFi4> a dpp4fun:Service ;
+    rdfs:label "service_Return_9ohFi4" ;
     ns1:description "Service to retake and evaluate a returned product"^^xsd:string ;
     ns1:name "Return"^^xsd:string ;
-    rdfs:comment "Service of Return with ID DHKs59" ;
+    rdfs:comment "Service of Return with ID 9ohFi4" ;
     pdto:hasSimpleReference "https://help.kavehome.com/hc/en-gb/articles/10491613116957-How-to-request-a-return"^^xsd:anyURI .
 
-<https://cir4fun.eu/data#postsaleservice_QDetUR> a dpp4fun:Service ;
-    rdfs:label "service_Maintenance_QDetUR" ;
+<https://cir4fun.eu/data#postsaleservice_uXsCJt> a dpp4fun:Service ;
+    rdfs:label "service_Maintenance_uXsCJt" ;
     ns1:description "Technician from Kave Home can clean and repair furniture"^^xsd:string ;
     ns1:name "Maintenance"^^xsd:string ;
-    rdfs:comment "Service of Maintenance with ID QDetUR" ;
+    rdfs:comment "Service of Maintenance with ID uXsCJt" ;
     pdto:hasSimpleReference "N.A"^^xsd:anyURI .
 
-<https://cir4fun.eu/data#primaryfunction_k3NGV9> a dpp4fun:PrimaryFunction ;
-    rdfs:label "primaryFunction_Seat_k3NGV9" ;
+<https://cir4fun.eu/data#primaryfunction_ZTSxov> a dpp4fun:PrimaryFunction ;
+    rdfs:label "primaryFunction_Seat_ZTSxov" ;
     ns1:description "The main function of the sofa is to seat"^^xsd:string ;
     ns1:name "Seat"^^xsd:string ;
-    rdfs:comment "Primary function of Seat with ID k3NGV9" ;
+    rdfs:comment "Primary function of Seat with ID ZTSxov" ;
     pdto:hasStatus "Good"^^xsd:string .
 
-<https://cir4fun.eu/data#product_e9230c88> a ns2:ProductOrServiceModel ;
+<https://cir4fun.eu/data#product_e9230c88> a ns4:ProductOrServiceModel ;
     rdfs:label "spherePhysical_Kave-Meli" ;
-    ns2:description "https://www.cir4fun.eu/ontology/dpp4fun#C06061BF12 Kave-Meli" ;
-    ns2:name "Kave-Meli" ;
+    ns4:description "https://www.cir4fun.eu/ontology/dpp4fun#C06061BF12 Kave-Meli" ;
+    ns4:name "Kave-Meli" ;
     ns1:productID "e9230c88" ;
     rdfs:comment "Product instance of https://www.cir4fun.eu/ontology/dpp4fun#C06061BF12 with ID e9230c88" ;
-    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_ycqJ1N> .
+    pdto:hasThumbnail <https://cir4fun.eu/data#thumbnail_qYJFxc> .
 
-<https://cir4fun.eu/data#refurbishmentinstruction_dvMyxz> a pdto:RefurbishmentInstruction ;
-    rdfs:label "refurbishmentInstruction_Fabric_reupholsery_dvMyxz" ;
+<https://cir4fun.eu/data#refurbishmentinstruction_pWOFXf> a pdto:RefurbishmentInstruction ;
+    rdfs:label "refurbishmentInstruction_Fabric_reupholsery_pWOFXf" ;
     ns1:description "Cut and attache new upsholdery for fault product"^^xsd:string ;
     ns1:name "Fabric reupholsery"^^xsd:string ;
-    rdfs:comment "Refurbishment instructionFabric reupholsery with ID dvMyxz" .
+    rdfs:comment "Refurbishment instructionFabric reupholsery with ID pWOFXf" .
 
-<https://cir4fun.eu/data#repairinstruction_9ygZXL> a pdto:RepairInstruction ;
-    rdfs:label "repairInstruction_Upholstery_cleaning_9ygZXL" ;
-    ns1:description "Steps to clean upholstery of capane"^^xsd:string ;
-    ns1:name "Upholstery cleaning"^^xsd:string ;
-    rdfs:comment "RepairinstructionUpholstery cleaning with ID 9ygZXL" ;
-    pdto:description "Normal user"^^xsd:string .
-
-<https://cir4fun.eu/data#repairinstruction_DLRPR7> a pdto:RepairInstruction ;
-    rdfs:label "repairInstruction_Frame_repair_DLRPR7" ;
+<https://cir4fun.eu/data#repairinstruction_TbtwJS> a pdto:RepairInstruction ;
+    rdfs:label "repairInstruction_Frame_repair_TbtwJS" ;
     ns1:description "Repair the frame"^^xsd:string ;
     ns1:name "Frame repair"^^xsd:string ;
-    rdfs:comment "RepairinstructionFrame repair with ID DLRPR7" ;
+    rdfs:comment "RepairinstructionFrame repair with ID TbtwJS" ;
     pdto:description "Professional"^^xsd:string .
 
-<https://cir4fun.eu/data#scoringinstruction_bB4k9C> a pdto:ScoringInstruction ;
-    rdfs:label "scoringInstruction_Evaluate_old_Meli_chair_bB4k9C" ;
+<https://cir4fun.eu/data#repairinstruction_wdJ6N0> a pdto:RepairInstruction ;
+    rdfs:label "repairInstruction_Upholstery_cleaning_wdJ6N0" ;
+    ns1:description "Steps to clean upholstery of capane"^^xsd:string ;
+    ns1:name "Upholstery cleaning"^^xsd:string ;
+    rdfs:comment "RepairinstructionUpholstery cleaning with ID wdJ6N0" ;
+    pdto:description "Normal user"^^xsd:string .
+
+<https://cir4fun.eu/data#scoringinstruction_CPttl0> a pdto:ScoringInstruction ;
+    rdfs:label "scoringInstruction_Evaluate_old_Meli_chair_CPttl0" ;
     ns1:description "Steps to evalute and score a sofa from gala"^^xsd:string ;
     ns1:name "Evaluate old Meli chair"^^xsd:string ;
-    rdfs:comment "Scoring instructionEvaluate old Meli chair with ID bB4k9C" .
+    rdfs:comment "Scoring instructionEvaluate old Meli chair with ID CPttl0" .
 
-<https://cir4fun.eu/data#secondaryfunction_AhA3wZ> a dpp4fun:SecondaryFunction ;
-    rdfs:label "secondaryFunction_Decoration_AhA3wZ" ;
+<https://cir4fun.eu/data#secondaryfunction_1YGQPe> a dpp4fun:SecondaryFunction ;
+    rdfs:label "secondaryFunction_Decoration_1YGQPe" ;
     ns1:description "One secondary function of the chair is to decorate"^^xsd:string ;
     ns1:name "Decoration"^^xsd:string ;
-    rdfs:comment "Secondary function of Decoration with ID AhA3wZ" ;
+    rdfs:comment "Secondary function of Decoration with ID 1YGQPe" ;
     pdto:hasStatus "Average"^^xsd:string .
 
-<https://cir4fun.eu/data#standard_f9FCX3> a pdto:StandardInformation ;
-    rdfs:label "standardInformation_EN_1728:2012_f9FCX3" ;
+<https://cir4fun.eu/data#standard_ft0lb9> a pdto:StandardInformation ;
+    rdfs:label "standardInformation_EN_1728:2012_ft0lb9" ;
     ns1:description "Domestic Upholstered Seating Durability"^^xsd:string ;
     ns1:name "EN 1728:2012"^^xsd:string ;
-    rdfs:comment "Standard information of EN 1728:2012 with ID f9FCX3" ;
+    rdfs:comment "Standard information of EN 1728:2012 with ID ft0lb9" ;
     pdto:hasComplianceStatus "Compliant"^^xsd:string ;
     pdto:hasVersion "1.0"^^xsd:string .
 
-<https://cir4fun.eu/data#thumbnail_ycqJ1N> a ns1:ImageObject ;
-    rdfs:label "thumbnail_Kave-Meli_ycqJ1N" ;
-    rdfs:comment "Reduced image of https://www.cir4fun.eu/ontology/dpp4fun#C06061BF12 with ID ycqJ1N" ;
+<https://cir4fun.eu/data#thumbnail_qYJFxc> a ns1:ImageObject ;
+    rdfs:label "thumbnail_Kave-Meli_qYJFxc" ;
+    rdfs:comment "Reduced image of https://www.cir4fun.eu/ontology/dpp4fun#C06061BF12 with ID qYJFxc" ;
     pdto:hasIRI "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8/v1754302985/products/C06061BF12_1V01.jpg"^^xsd:anyURI .
 
-<https://cir4fun.eu/data#trackingrecord_6fM6bd> a pdto:TrackingRecord ;
-    rdfs:label "trackingRecord_International_transport_6fM6bd" ;
-    ns1:description "N.A"^^xsd:string ;
-    ns1:name "International transport"^^xsd:string ;
-    dppo:endTime "2024-12-08T08:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Tracking recordInternational_transport with ID 6fM6bd" ;
-    pdto:hasDestination "Tokyo, Japan"^^xsd:string ;
-    pdto:hasOperator "UPS"^^xsd:string ;
-    pdto:hasOrigin "Spain"^^xsd:string ;
-    pdto:hasStatus "Dispatched"^^xsd:string .
-
-<https://cir4fun.eu/data#trackingrecord_8iHSyk> a pdto:TrackingRecord ;
-    rdfs:label "trackingRecord_Track-02_8iHSyk" ;
+<https://cir4fun.eu/data#trackingrecord_KqHc8z> a pdto:TrackingRecord ;
+    rdfs:label "trackingRecord_Track-02_KqHc8z" ;
     ns1:description "Local transport"^^xsd:string ;
     ns1:name "Track-02"^^xsd:string ;
     dppo:endTime "2025-02-02T12:00:00+00:00"^^xsd:dateTime ;
-    rdfs:comment "Tracking recordTrack-02 with ID 8iHSyk" ;
+    rdfs:comment "Tracking recordTrack-02 with ID KqHc8z" ;
     pdto:hasDestination "Saitama, France"^^xsd:string ;
     pdto:hasOperator "Kave Home Retailer"^^xsd:string ;
     pdto:hasOrigin "Tokyo"^^xsd:string ;
     pdto:hasStatus "Sales"^^xsd:string .
+
+<https://cir4fun.eu/data#trackingrecord_YcCqsj> a pdto:TrackingRecord ;
+    rdfs:label "trackingRecord_International_transport_YcCqsj" ;
+    ns1:description "N.A"^^xsd:string ;
+    ns1:name "International transport"^^xsd:string ;
+    dppo:endTime "2024-12-08T08:00:00+00:00"^^xsd:dateTime ;
+    rdfs:comment "Tracking recordInternational_transport with ID YcCqsj" ;
+    pdto:hasDestination "Tokyo, Japan"^^xsd:string ;
+    pdto:hasOperator "UPS"^^xsd:string ;
+    pdto:hasOrigin "Spain"^^xsd:string ;
+    pdto:hasStatus "Dispatched"^^xsd:string .
 
 dpp4fun:Additionalcushionincluded rdfs:label "Additionalcushionincluded" .
 
