@@ -71,7 +71,7 @@
                   "text": "Portion of a material in a product"
                 }
               ],
-              "valueType": "xs:string"
+              "valueType": "xs:double"
             }
           ]
         }

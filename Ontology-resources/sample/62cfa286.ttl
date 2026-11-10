@@ -139,10 +139,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-CUSH-CT01> .
 
 <https://cir4fun.eu/data#info_S5FP8w> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_S5FP8w" ;
+    rdfs:label "info_Volume_S5FP8w" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID S5FP8w" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
+    rdfs:comment "Information of Volume with ID S5FP8w" ;
+    pdto:clarifiedProperty dpp4fun:Volume ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-CUSH-CT01> .
 
 <https://cir4fun.eu/data#info_UfPCs5> a dppo:ProductQuality ;
@@ -212,7 +212,7 @@ dpp4fun:Material rdfs:label "Material" .
 
 dpp4fun:Surface rdfs:label "Surface" .
 
-dpp4fun:Volumn rdfs:label "Volumn" .
+dpp4fun:Volume rdfs:label "Volume" .
 
 dpp4fun:Weight rdfs:label "Weight" .
 

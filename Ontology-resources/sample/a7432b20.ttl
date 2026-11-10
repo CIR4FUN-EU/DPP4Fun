@@ -105,10 +105,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
 
 <https://cir4fun.eu/data#info_LYbTVL> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_LYbTVL" ;
+    rdfs:label "info_Volume_LYbTVL" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID LYbTVL" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
+    rdfs:comment "Information of Volume with ID LYbTVL" ;
+    pdto:clarifiedProperty dpp4fun:Volume ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01> .
 
 <https://cir4fun.eu/data#info_RC1lqx> a dppo:ProductQuality ;
@@ -222,7 +222,7 @@ dpp4fun:Payload rdfs:label "Payload" .
 
 dpp4fun:Surface rdfs:label "Surface" .
 
-dpp4fun:Volumn rdfs:label "Volumn" .
+dpp4fun:Volume rdfs:label "Volume" .
 
 dpp4fun:Weight rdfs:label "Weight" .
 

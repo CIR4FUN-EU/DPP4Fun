@@ -820,10 +820,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
 
 <https://cir4fun.eu/data#info_W1Cskm> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_W1Cskm" ;
+    rdfs:label "info_Volume_W1Cskm" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID W1Cskm" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
+    rdfs:comment "Information of Volume with ID W1Cskm" ;
+    pdto:clarifiedProperty dpp4fun:Volume ;
     pdto:hasFeatureOfInterest dpp4fun:PF-FTZ-9041-TX .
 
 <https://cir4fun.eu/data#info_a6F5Mo> a dppo:ProductCharacteristic ;
@@ -1026,7 +1026,7 @@ dpp4fun:Surface rdfs:label "Surface" .
 
 dpp4fun:Texture rdfs:label "Texture" .
 
-dpp4fun:Volumn rdfs:label "Volumn" .
+dpp4fun:Volume rdfs:label "Volume" .
 
 dpp4fun:Weight rdfs:label "Weight" .
 

@@ -505,8 +505,8 @@
       "http://www.w3id.org/pdto#hasValidityPolicy": "Valid as long as EN16121 compliance is maintained"
     },
     {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Volumn"
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volume",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Volume"
     },
     {
       "@id": "http://w3id.org/dppo/ontology/dpp-info/unit",
@@ -1168,10 +1168,10 @@
       "@id": "https://cir4fun.eu/data#info_kG6adE",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
       "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volumn with ID kG6adE",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volumn_kG6adE",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volume with ID kG6adE",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volume_kG6adE",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volume"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "https://www.cir4fun.eu/ontology/dpp4fun#SR-LK4-W01"

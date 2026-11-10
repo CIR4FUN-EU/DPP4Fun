@@ -246,11 +246,11 @@
     <pdto:hasThumbnail rdf:resource="https://cir4fun.eu/data#thumbnail_MJsgrz"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_1hopnz">
-    <rdfs:label>info_Volumn_1hopnz</rdfs:label>
-    <rdfs:comment>Information of Volumn with ID 1hopnz</rdfs:comment>
+    <rdfs:label>info_Volume_1hopnz</rdfs:label>
+    <rdfs:comment>Information of Volume with ID 1hopnz</rdfs:comment>
     <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
     <dppo:value>None</dppo:value>
-    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volumn"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volume"/>
     <pdto:hasFeatureOfInterest rdf:resource="http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#StainResistant">
@@ -284,8 +284,8 @@
     <rdfs:label>thumbnail_50654c67_MJsgrz</rdfs:label>
     <rdfs:comment>Reduced image of http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495 with ID MJsgrz</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volumn">
-    <rdfs:label>Volumn</rdfs:label>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volume">
+    <rdfs:label>Volume</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/dppo/ontology/dpp-info/unit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>

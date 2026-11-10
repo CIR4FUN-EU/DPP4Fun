@@ -563,8 +563,8 @@
       "http://www.w3id.org/pdto#hasIRI": "https://eplca.jrc.ec.europa.eu/HealthFootprint.html"
     },
     {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Volumn"
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volume",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Volume"
     },
     {
       "@id": "https://www.cir4fun.eu/ontology/dpp4fun#SupplierProductType",
@@ -1329,10 +1329,10 @@
       "@id": "https://cir4fun.eu/data#info_WVb1Ja",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
       "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volumn with ID WVb1Ja",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volumn_WVb1Ja",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volume with ID WVb1Ja",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volume_WVb1Ja",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volume"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "http://www.aidimme.es/FurnitureSectorOntology.owl#Ovo_Plus_City"

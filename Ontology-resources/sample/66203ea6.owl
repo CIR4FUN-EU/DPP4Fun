@@ -1009,11 +1009,11 @@
     <pdto:calculationMethod rdf:resource="https://cir4fun.eu/data#digitalDocument_d5ANNb"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_SOgJS8">
-    <rdfs:label>info_Volumn_SOgJS8</rdfs:label>
-    <rdfs:comment>Information of Volumn with ID SOgJS8</rdfs:comment>
+    <rdfs:label>info_Volume_SOgJS8</rdfs:label>
+    <rdfs:comment>Information of Volume with ID SOgJS8</rdfs:comment>
     <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
     <dppo:value>None</dppo:value>
-    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volumn"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volume"/>
     <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#SR-LK4-W01"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_wmt2BA">
@@ -1450,8 +1450,8 @@
   <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#ToxicityRisk">
     <rdfs:label>ToxicityRisk</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volumn">
-    <rdfs:label>Volumn</rdfs:label>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volume">
+    <rdfs:label>Volume</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3id.org/pdto#modelAggregatedFrom">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>

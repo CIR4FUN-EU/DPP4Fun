@@ -823,10 +823,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:calculationMethod <https://cir4fun.eu/data#digitalDocument_DgAUxg> .
 
 <https://cir4fun.eu/data#info_39z6MB> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_39z6MB" ;
+    rdfs:label "info_Volume_39z6MB" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID 39z6MB" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
+    rdfs:comment "Information of Volume with ID 39z6MB" ;
+    pdto:clarifiedProperty dpp4fun:Volume ;
     pdto:hasFeatureOfInterest dpp4fun:SR-LK4-W01 .
 
 <https://cir4fun.eu/data#info_5GqSuz> a dppo:ProductCharacteristic ;
@@ -1283,7 +1283,7 @@ dpp4fun:UpgradeOptionsAvailable rdfs:label "UpgradeOptionsAvailable" .
 
 dpp4fun:ValvePayload rdfs:label "ValvePayload" .
 
-dpp4fun:Volumn rdfs:label "Volumn" .
+dpp4fun:Volume rdfs:label "Volume" .
 
 dpp4fun:WallThickness rdfs:label "WallThickness" .
 

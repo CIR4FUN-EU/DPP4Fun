@@ -1098,10 +1098,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-CBY-14070NW> .
 
 <https://cir4fun.eu/data#info_bGyUFd> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_bGyUFd" ;
+    rdfs:label "info_Volume_bGyUFd" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID bGyUFd" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
+    rdfs:comment "Information of Volume with ID bGyUFd" ;
+    pdto:clarifiedProperty dpp4fun:Volume ;
     pdto:hasFeatureOfInterest <http://www.cir4fun.eu/ontology/dpp4fun#MCN-CBY-14070NW> .
 
 <https://cir4fun.eu/data#info_cWotXw> a dppo:ProductQuality ;
@@ -1594,7 +1594,7 @@ dpp4fun:URIOfTheProduct rdfs:label "URIOfTheProduct" .
 
 dpp4fun:UpgradeOptionsAvailable rdfs:label "UpgradeOptionsAvailable" .
 
-dpp4fun:Volumn rdfs:label "Volumn" .
+dpp4fun:Volume rdfs:label "Volume" .
 
 dpp4fun:Weight rdfs:label "Weight" .
 

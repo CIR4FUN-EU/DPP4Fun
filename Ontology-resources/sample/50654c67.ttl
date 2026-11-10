@@ -159,10 +159,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
 <https://cir4fun.eu/data#info_Ku27QR> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_Ku27QR" ;
+    rdfs:label "info_Volume_Ku27QR" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID Ku27QR" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
+    rdfs:comment "Information of Volume with ID Ku27QR" ;
+    pdto:clarifiedProperty dpp4fun:Volume ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#MDF_Board_138495> .
 
 <https://cir4fun.eu/data#info_N3VEfX> a dppo:ProductQuality ;
@@ -303,7 +303,7 @@ dpp4fun:Surface rdfs:label "Surface" .
 
 dpp4fun:Texture rdfs:label "Texture" .
 
-dpp4fun:Volumn rdfs:label "Volumn" .
+dpp4fun:Volume rdfs:label "Volume" .
 
 dpp4fun:Weight rdfs:label "Weight" .
 

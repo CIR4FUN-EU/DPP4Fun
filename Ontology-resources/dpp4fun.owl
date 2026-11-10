@@ -587,7 +587,7 @@
         <NamedIndividual IRI="#Viscosity"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Volumn"/>
+        <NamedIndividual IRI="#Volume"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WallThickness"/>
@@ -1411,7 +1411,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#QuantitativeProperty"/>
-        <NamedIndividual IRI="#Volumn"/>
+        <NamedIndividual IRI="#Volume"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#QuantitativeProperty"/>
@@ -3536,13 +3536,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Volumn</IRI>
-        <Literal>Volumn is an instance of property for the feature of interest related to funiture product and component.</Literal>
+        <IRI>#Volume</IRI>
+        <Literal>Volume is an instance of property for the feature of interest related to funiture product and component.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Volumn</IRI>
-        <Literal>Volumn</Literal>
+        <IRI>#Volume</IRI>
+        <Literal>Volume</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

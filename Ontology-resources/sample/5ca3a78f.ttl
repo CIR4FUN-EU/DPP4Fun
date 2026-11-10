@@ -948,10 +948,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#Ovo_Plus_City> .
 
 <https://cir4fun.eu/data#info_Lk0Z8J> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_Lk0Z8J" ;
+    rdfs:label "info_Volume_Lk0Z8J" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID Lk0Z8J" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
+    rdfs:comment "Information of Volume with ID Lk0Z8J" ;
+    pdto:clarifiedProperty dpp4fun:Volume ;
     pdto:hasFeatureOfInterest <http://www.aidimme.es/FurnitureSectorOntology.owl#Ovo_Plus_City> .
 
 <https://cir4fun.eu/data#info_LopzJ2> a dppo:ProductQuality ;
@@ -1522,7 +1522,7 @@ dpp4fun:URIOfTheProduct rdfs:label "URIOfTheProduct" .
 
 dpp4fun:UpgradeOptionsAvailable rdfs:label "UpgradeOptionsAvailable" .
 
-dpp4fun:Volumn rdfs:label "Volumn" .
+dpp4fun:Volume rdfs:label "Volume" .
 
 dpp4fun:Weight rdfs:label "Weight" .
 

@@ -349,11 +349,11 @@
     <pdto:hasFeatureOfInterest rdf:resource="http://www.aidimme.es/FurnitureSectorOntology.owl#Ovo_Plus_City"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_sHeiOY">
-    <rdfs:label>info_Volumn_sHeiOY</rdfs:label>
-    <rdfs:comment>Information of Volumn with ID sHeiOY</rdfs:comment>
+    <rdfs:label>info_Volume_sHeiOY</rdfs:label>
+    <rdfs:comment>Information of Volume with ID sHeiOY</rdfs:comment>
     <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
     <dppo:value>None</dppo:value>
-    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volumn"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volume"/>
     <pdto:hasFeatureOfInterest rdf:resource="http://www.aidimme.es/FurnitureSectorOntology.owl#Ovo_Plus_City"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#certificate_AZoqE3">
@@ -1710,8 +1710,8 @@
   <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#ToxicityRisk">
     <rdfs:label>ToxicityRisk</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volumn">
-    <rdfs:label>Volumn</rdfs:label>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volume">
+    <rdfs:label>Volume</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#InternalArticleNumber">
     <rdfs:label>InternalArticleNumber</rdfs:label>

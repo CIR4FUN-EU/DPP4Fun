@@ -108,11 +108,11 @@
     <pdto:hasFeatureOfInterest rdf:resource="http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_az2hPO">
-    <rdfs:label>info_Volumn_az2hPO</rdfs:label>
-    <rdfs:comment>Information of Volumn with ID az2hPO</rdfs:comment>
+    <rdfs:label>info_Volume_az2hPO</rdfs:label>
+    <rdfs:comment>Information of Volume with ID az2hPO</rdfs:comment>
     <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
     <dppo:value>None</dppo:value>
-    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volumn"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volume"/>
     <pdto:hasFeatureOfInterest rdf:resource="http://www.cir4fun.eu/ontology/dpp4fun#MCN-LEG-AG01"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_ttW0Hl">
@@ -203,8 +203,8 @@
     <ns1:hasEmail rdf:resource="Email_contact_wOQpZF"/>
     <ns1:organization-name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micuna S.A.</ns1:organization-name>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volumn">
-    <rdfs:label>Volumn</rdfs:label>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volume">
+    <rdfs:label>Volume</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/dppo/ontology/dpp-info/unit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>

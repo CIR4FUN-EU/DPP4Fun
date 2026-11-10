@@ -817,8 +817,8 @@
       "http://www.w3.org/2000/01/rdf-schema#label": "SupplierProductType"
     },
     {
-      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn",
-      "http://www.w3.org/2000/01/rdf-schema#label": "Volumn"
+      "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volume",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Volume"
     },
     {
       "@id": "https://cir4fun.eu/data#digitalDocument_4Ky3oB",
@@ -2914,10 +2914,10 @@
       "@id": "https://cir4fun.eu/data#info_nFT29r",
       "@type": "http://w3id.org/dppo/ontology/dpp-info/ProductQuality",
       "http://w3id.org/dppo/ontology/dpp-info/value": "None",
-      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volumn with ID nFT29r",
-      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volumn_nFT29r",
+      "http://www.w3.org/2000/01/rdf-schema#comment": "Information of Volume with ID nFT29r",
+      "http://www.w3.org/2000/01/rdf-schema#label": "info_Volume_nFT29r",
       "http://www.w3id.org/pdto#clarifiedProperty": {
-        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volumn"
+        "@id": "https://www.cir4fun.eu/ontology/dpp4fun#Volume"
       },
       "http://www.w3id.org/pdto#hasFeatureOfInterest": {
         "@id": "https://www.cir4fun.eu/ontology/dpp4fun#C06044BF59"

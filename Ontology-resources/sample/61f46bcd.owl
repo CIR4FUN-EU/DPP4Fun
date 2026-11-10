@@ -612,11 +612,11 @@
     <pdto:hasIRI>https://eplca.jrc.ec.europa.eu/EnvironmentalFootprint.html</pdto:hasIRI>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_s0xaEf">
-    <rdfs:label>info_Volumn_s0xaEf</rdfs:label>
-    <rdfs:comment>Information of Volumn with ID s0xaEf</rdfs:comment>
+    <rdfs:label>info_Volume_s0xaEf</rdfs:label>
+    <rdfs:comment>Information of Volume with ID s0xaEf</rdfs:comment>
     <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
     <dppo:value>None</dppo:value>
-    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volumn"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volume"/>
     <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#PF-FTZ-9041-TX"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#indicator_Acfd0W">
@@ -1028,8 +1028,8 @@
     <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
     <pdto:hasIRI>Fortezza_9041_CAD_v2.3.dwg</pdto:hasIRI>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volumn">
-    <rdfs:label>Volumn</rdfs:label>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volume">
+    <rdfs:label>Volume</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#digitalDocument_culljG">
     <rdfs:label>digitalDocument_culljG</rdfs:label>

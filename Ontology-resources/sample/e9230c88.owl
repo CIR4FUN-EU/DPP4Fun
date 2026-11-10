@@ -1763,11 +1763,11 @@
     <dppo:certificateDocument rdf:resource="https://cir4fun.eu/data#digitalDocument_uJCgqC"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_kg2q5B">
-    <rdfs:label>info_Volumn_kg2q5B</rdfs:label>
-    <rdfs:comment>Information of Volumn with ID kg2q5B</rdfs:comment>
+    <rdfs:label>info_Volume_kg2q5B</rdfs:label>
+    <rdfs:comment>Information of Volume with ID kg2q5B</rdfs:comment>
     <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
     <dppo:value>None</dppo:value>
-    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volumn"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volume"/>
     <pdto:hasFeatureOfInterest rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#C06061BF12"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_gydYsM">
@@ -2046,8 +2046,8 @@
   <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#ToxicityRisk">
     <rdfs:label>ToxicityRisk</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volumn">
-    <rdfs:label>Volumn</rdfs:label>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volume">
+    <rdfs:label>Volume</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#InternalArticleNumber">
     <rdfs:label>InternalArticleNumber</rdfs:label>

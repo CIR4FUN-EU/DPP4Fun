@@ -1458,10 +1458,10 @@ pdto:modelAggregatedFrom a owl:ObjectProperty .
     pdto:hasFeatureOfInterest dpp4fun:C06044BF59 .
 
 <https://cir4fun.eu/data#info_xZTLmI> a dppo:ProductQuality ;
-    rdfs:label "info_Volumn_xZTLmI" ;
+    rdfs:label "info_Volume_xZTLmI" ;
     dppo:value "None" ;
-    rdfs:comment "Information of Volumn with ID xZTLmI" ;
-    pdto:clarifiedProperty dpp4fun:Volumn ;
+    rdfs:comment "Information of Volume with ID xZTLmI" ;
+    pdto:clarifiedProperty dpp4fun:Volume ;
     pdto:hasFeatureOfInterest dpp4fun:C06044BF59 .
 
 <https://cir4fun.eu/data#info_xozMlu> a dppo:ProductQuality ;
@@ -1794,7 +1794,7 @@ dpp4fun:URIOfTheProduct rdfs:label "URIOfTheProduct" .
 
 dpp4fun:UpgradeOptionsAvailable rdfs:label "UpgradeOptionsAvailable" .
 
-dpp4fun:Volumn rdfs:label "Volumn" .
+dpp4fun:Volume rdfs:label "Volume" .
 
 dpp4fun:WaterRepellent rdfs:label "WaterRepellent" .
 

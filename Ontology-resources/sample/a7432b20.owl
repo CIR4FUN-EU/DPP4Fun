@@ -184,8 +184,8 @@
     <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_sm-0c036a42bea4"/>
     <pdto:modelAggregatedFrom rdf:resource="https://cir4fun.eu/data#aspect_sm-02d75d89e37a"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volumn">
-    <rdfs:label>Volumn</rdfs:label>
+  <rdf:Description rdf:about="https://www.cir4fun.eu/ontology/dpp4fun#Volume">
+    <rdfs:label>Volume</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/dppo/ontology/dpp-info/unit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -210,11 +210,11 @@
     <pdto:hasFeatureOfInterest rdf:resource="http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#info_8zZfGe">
-    <rdfs:label>info_Volumn_8zZfGe</rdfs:label>
-    <rdfs:comment>Information of Volumn with ID 8zZfGe</rdfs:comment>
+    <rdfs:label>info_Volume_8zZfGe</rdfs:label>
+    <rdfs:comment>Information of Volume with ID 8zZfGe</rdfs:comment>
     <rdf:type rdf:resource="http://w3id.org/dppo/ontology/dpp-info/ProductQuality"/>
     <dppo:value>None</dppo:value>
-    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volumn"/>
+    <pdto:clarifiedProperty rdf:resource="https://www.cir4fun.eu/ontology/dpp4fun#Volume"/>
     <pdto:hasFeatureOfInterest rdf:resource="http://www.cir4fun.eu/ontology/dpp4fun#MCN-TRAY-AG01"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cir4fun.eu/data#">
